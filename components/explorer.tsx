@@ -42,7 +42,7 @@ export function Explorer() {
   const selectedData = Array.isArray(data) ? data.find((d) => d.geo_id === selectedId) ?? null : null;
 
   return (
-    <div className="flex flex-col h-[calc(100vh-4rem)]">
+    <div className="flex flex-col min-h-screen">
       {/* Controls Bar */}
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 p-4 border-b border-border bg-card">
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
@@ -81,9 +81,9 @@ export function Explorer() {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 flex flex-col lg:flex-row overflow-hidden min-h-0">
+      <div className="flex flex-col lg:flex-row">
         {/* Map Panel */}
-        <div className="h-[500px] lg:h-full lg:flex-[3] p-4 min-h-[600px]">
+        <div className="lg:h-full lg:flex-[2] p-4">
           {loading ? (
             <Skeleton className="h-full w-full rounded-lg" />
           ) : (
@@ -98,7 +98,7 @@ export function Explorer() {
         </div>
 
         {/* Profile Panel */}
-        <div className="lg:w-72 lg:flex-none border-t lg:border-t-0 lg:border-l border-border overflow-auto">
+        <div className="lg:w-96 lg:flex-none border-t lg:border-t-0 lg:border-l border-border overflow-y-auto max-h-[500px]">
           {loading ? (
             <div className="p-4 space-y-4">
               <Skeleton className="h-8 w-48" />
