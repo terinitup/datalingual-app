@@ -39,7 +39,7 @@ export function Explorer() {
     loadData();
   }, [geographyType]);
 
-  const selectedData = data.find((d) => d.id === selectedId);
+  const selectedData = data?.find((d) => d.id === selectedId) ?? null;
 
   return (
     <div className="flex flex-col h-[calc(100vh-4rem)]">
