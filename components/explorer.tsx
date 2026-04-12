@@ -83,7 +83,7 @@ export function Explorer() {
       {/* Main Content */}
       <div className="flex-1 flex flex-col lg:flex-row overflow-hidden">
         {/* Map Panel */}
-        <div className="h-64 lg:h-full lg:flex-1 p-4">
+        <div className="h-[400px] lg:h-full lg:flex-[2] p-4">
           {loading ? (
             <Skeleton className="h-full w-full rounded-lg" />
           ) : (
@@ -98,7 +98,7 @@ export function Explorer() {
         </div>
 
         {/* Profile Panel */}
-        <div className="flex-1 lg:w-96 lg:flex-none border-t lg:border-t-0 lg:border-l border-border overflow-auto">
+        <div className="lg:w-80 lg:flex-none border-t lg:border-t-0 lg:border-l border-border overflow-auto">
           {loading ? (
             <div className="p-4 space-y-4">
               <Skeleton className="h-8 w-48" />
