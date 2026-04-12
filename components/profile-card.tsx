@@ -13,6 +13,10 @@ interface ProfileCardProps {
 }
 
 export function ProfileCard({ data, onCompare, isComparing }: ProfileCardProps) {
+  if (!data || !data.type) {
+    return null;
+  }
+
   return (
     <Card className="h-full overflow-auto">
       <CardHeader className="pb-3">

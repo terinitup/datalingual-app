@@ -12,7 +12,14 @@ export async function fetchGeographyData(type: GeographyType): Promise<Geography
   if (!response.ok) {
     throw new Error(`Failed to fetch ${type} data`);
   }
-  return response.json();
+  const data = await response.json();
+  
+  // county.json is a single object, others are arrays
+  // Normalize to always return an array
+  if (Array.isArray(data)) {
+    return data;
+  }
+  return [data];
 }
 
 export function formatNumber(value: number): string {

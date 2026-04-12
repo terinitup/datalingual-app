@@ -2,7 +2,7 @@
   {
     "geo_id": "0603745",
     "geo_type": "puma",
-    "name": "Southeast/East Vernon (LA City)",
+    "name": "Central)--LA City (Southeast/East Vernon) PUMA; California",
     "population": 118105,
     "proficiency": {
       "english_only": 17280,
@@ -46,268 +46,7440 @@
       "linguistically_isolated": 8568,
       "linguistically_isolated_pct": 29.6
     },
-    "median_hh_income": 56076,
+    "median_hh_income": 56076.0,
     "top_language": "Spanish",
     "top_language_lep": 56100,
     "languages": [
-      { "name": "Spanish", "total_speakers": 92433, "lep_count": 56100, "lep_pct_of_area": 50.4 },
-      { "name": "Korean", "total_speakers": 483, "lep_count": 426, "lep_pct_of_area": 0.4 },
-      { "name": "Other languages", "total_speakers": 838, "lep_count": 260, "lep_pct_of_area": 0.2 },
-      { "name": "Chinese (Mandarin/Cantonese)", "total_speakers": 150, "lep_count": 80, "lep_pct_of_area": 0.1 },
-      { "name": "Arabic", "total_speakers": 22, "lep_count": 20, "lep_pct_of_area": 0.0 }
+      {
+        "name": "Spanish",
+        "total_speakers": 92433,
+        "lep_count": 56100,
+        "lep_pct_of_area": 50.4
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 483,
+        "lep_count": 426,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 838,
+        "lep_count": 260,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 150,
+        "lep_count": 80,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 43,
+        "lep_count": 29,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 41,
+        "lep_count": 25,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 22,
+        "lep_count": 20,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 36,
+        "lep_count": 17,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 5,
+        "lep_count": 4,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 1,
+        "lep_count": 1,
+        "lep_pct_of_area": 0.0
+      }
     ],
     "lep_total": 56962,
     "lep_pct": 51.2,
     "poverty_pct": 33.3,
     "no_internet_pct": 11.2,
-    "snap_pct": 26.8
+    "snap_pct": 26.8,
+    "puma_code": "03745"
+  },
+  {
+    "geo_id": "0603742",
+    "geo_type": "puma",
+    "name": "Central)--Huntington Park City",
+    "population": 124835,
+    "proficiency": {
+      "english_only": 15665,
+      "english_only_pct": 13.3,
+      "bilingual": 42905,
+      "bilingual_pct": 36.5,
+      "lep": 58925,
+      "lep_pct": 50.2,
+      "total_pop_5plus": 117495
+    },
+    "poverty": {
+      "universe": 124079,
+      "band_1_124": 31823,
+      "band_1_124_pct": 25.6,
+      "band_125_199": 27052,
+      "band_125_199_pct": 21.8,
+      "band_200_399": 4570,
+      "band_200_399_pct": 3.7,
+      "band_400plus": 1599,
+      "band_400plus_pct": 1.3,
+      "below_poverty_pct": 25.6
+    },
+    "education": {
+      "universe": 78515,
+      "under_9th": 25479,
+      "under_9th_pct": 32.5,
+      "incomplete_hs": 12686,
+      "incomplete_hs_pct": 16.2,
+      "hs_some_college": 33919,
+      "hs_some_college_pct": 43.2,
+      "ba_higher": 6431,
+      "ba_higher_pct": 8.2
+    },
+    "access": {
+      "no_internet": 3263,
+      "no_internet_pct": 10.2,
+      "no_computer": 605,
+      "no_computer_pct": 1.9,
+      "snap_households": 7228,
+      "snap_pct": 22.6,
+      "linguistically_isolated": 10135,
+      "linguistically_isolated_pct": 31.7
+    },
+    "median_hh_income": 64335.0,
+    "top_language": "Spanish",
+    "top_language_lep": 58619,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 101224,
+        "lep_count": 58619,
+        "lep_pct_of_area": 49.9
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 91,
+        "lep_count": 83,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 76,
+        "lep_count": 53,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 94,
+        "lep_count": 44,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 54,
+        "lep_count": 40,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 65,
+        "lep_count": 29,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 32,
+        "lep_count": 22,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 22,
+        "lep_count": 21,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 105,
+        "lep_count": 14,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 58925,
+    "lep_pct": 50.2,
+    "poverty_pct": 25.6,
+    "no_internet_pct": 10.2,
+    "snap_pct": 22.6,
+    "puma_code": "03742"
+  },
+  {
+    "geo_id": "0603733",
+    "geo_type": "puma",
+    "name": "Central)--LA City (Central/Koreatown) PUMA; California",
+    "population": 111045,
+    "proficiency": {
+      "english_only": 25785,
+      "english_only_pct": 24.3,
+      "bilingual": 32011,
+      "bilingual_pct": 30.1,
+      "lep": 48510,
+      "lep_pct": 45.6,
+      "total_pop_5plus": 106306
+    },
+    "poverty": {
+      "universe": 110300,
+      "band_1_124": 34553,
+      "band_1_124_pct": 31.3,
+      "band_125_199": 20098,
+      "band_125_199_pct": 18.2,
+      "band_200_399": 3151,
+      "band_200_399_pct": 2.9,
+      "band_400plus": 1175,
+      "band_400plus_pct": 1.1,
+      "below_poverty_pct": 31.3
+    },
+    "education": {
+      "universe": 81987,
+      "under_9th": 14382,
+      "under_9th_pct": 17.5,
+      "incomplete_hs": 5497,
+      "incomplete_hs_pct": 6.7,
+      "hs_some_college": 32412,
+      "hs_some_college_pct": 39.5,
+      "ba_higher": 29696,
+      "ba_higher_pct": 36.2
+    },
+    "access": {
+      "no_internet": 3026,
+      "no_internet_pct": 6.2,
+      "no_computer": 956,
+      "no_computer_pct": 2.0,
+      "snap_households": 8982,
+      "snap_pct": 18.4,
+      "linguistically_isolated": 7606,
+      "linguistically_isolated_pct": 15.6
+    },
+    "median_hh_income": 52388.0,
+    "top_language": "Spanish",
+    "top_language_lep": 28501,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 47077,
+        "lep_count": 28501,
+        "lep_pct_of_area": 26.8
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 18346,
+        "lep_count": 12629,
+        "lep_pct_of_area": 11.9
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 4578,
+        "lep_count": 2040,
+        "lep_pct_of_area": 1.9
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 2839,
+        "lep_count": 1596,
+        "lep_pct_of_area": 1.5
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 3003,
+        "lep_count": 1487,
+        "lep_pct_of_area": 1.4
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1947,
+        "lep_count": 1283,
+        "lep_pct_of_area": 1.2
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 700,
+        "lep_count": 371,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 615,
+        "lep_count": 285,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 565,
+        "lep_count": 154,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 386,
+        "lep_count": 77,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 303,
+        "lep_count": 52,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 162,
+        "lep_count": 35,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 48510,
+    "lep_pct": 45.6,
+    "poverty_pct": 31.3,
+    "no_internet_pct": 6.2,
+    "snap_pct": 18.4,
+    "puma_code": "03733"
+  },
+  {
+    "geo_id": "0603741",
+    "geo_type": "puma",
+    "name": "Central)--Bell Gardens",
+    "population": 129102,
+    "proficiency": {
+      "english_only": 15030,
+      "english_only_pct": 12.4,
+      "bilingual": 52307,
+      "bilingual_pct": 43.1,
+      "lep": 54104,
+      "lep_pct": 44.6,
+      "total_pop_5plus": 121441
+    },
+    "poverty": {
+      "universe": 128249,
+      "band_1_124": 37419,
+      "band_1_124_pct": 29.2,
+      "band_125_199": 26137,
+      "band_125_199_pct": 20.4,
+      "band_200_399": 4045,
+      "band_200_399_pct": 3.2,
+      "band_400plus": 1547,
+      "band_400plus_pct": 1.2,
+      "below_poverty_pct": 29.2
+    },
+    "education": {
+      "universe": 81226,
+      "under_9th": 25439,
+      "under_9th_pct": 31.3,
+      "incomplete_hs": 10987,
+      "incomplete_hs_pct": 13.5,
+      "hs_some_college": 38145,
+      "hs_some_college_pct": 47.0,
+      "ba_higher": 6655,
+      "ba_higher_pct": 8.2
+    },
+    "access": {
+      "no_internet": 2506,
+      "no_internet_pct": 7.3,
+      "no_computer": 570,
+      "no_computer_pct": 1.6,
+      "snap_households": 8477,
+      "snap_pct": 24.5,
+      "linguistically_isolated": 8858,
+      "linguistically_isolated_pct": 25.6
+    },
+    "median_hh_income": 62319.0,
+    "top_language": "Spanish",
+    "top_language_lep": 53190,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 104099,
+        "lep_count": 53190,
+        "lep_pct_of_area": 43.8
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 1342,
+        "lep_count": 382,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 141,
+        "lep_count": 131,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 99,
+        "lep_count": 91,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 169,
+        "lep_count": 90,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 130,
+        "lep_count": 70,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 143,
+        "lep_count": 65,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 152,
+        "lep_count": 58,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 53,
+        "lep_count": 23,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 4,
+        "lep_count": 4,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 54104,
+    "lep_pct": 44.6,
+    "poverty_pct": 29.2,
+    "no_internet_pct": 7.3,
+    "snap_pct": 24.5,
+    "puma_code": "03741"
+  },
+  {
+    "geo_id": "0603737",
+    "geo_type": "puma",
+    "name": "Central)--Monterey Park & Rosemead Cities PUMA; California",
+    "population": 122732,
+    "proficiency": {
+      "english_only": 28705,
+      "english_only_pct": 24.3,
+      "bilingual": 36740,
+      "bilingual_pct": 31.2,
+      "lep": 52496,
+      "lep_pct": 44.5,
+      "total_pop_5plus": 117941
+    },
+    "poverty": {
+      "universe": 121827,
+      "band_1_124": 23668,
+      "band_1_124_pct": 19.4,
+      "band_125_199": 21066,
+      "band_125_199_pct": 17.3,
+      "band_200_399": 3216,
+      "band_200_399_pct": 2.6,
+      "band_400plus": 1595,
+      "band_400plus_pct": 1.3,
+      "below_poverty_pct": 19.4
+    },
+    "education": {
+      "universe": 92997,
+      "under_9th": 16899,
+      "under_9th_pct": 18.2,
+      "incomplete_hs": 8259,
+      "incomplete_hs_pct": 8.9,
+      "hs_some_college": 41327,
+      "hs_some_college_pct": 44.4,
+      "ba_higher": 26512,
+      "ba_higher_pct": 28.5
+    },
+    "access": {
+      "no_internet": 3076,
+      "no_internet_pct": 7.9,
+      "no_computer": 371,
+      "no_computer_pct": 0.9,
+      "snap_households": 5583,
+      "snap_pct": 14.3,
+      "linguistically_isolated": 1030,
+      "linguistically_isolated_pct": 2.6
+    },
+    "median_hh_income": 76736.0,
+    "top_language": "Chinese (Mandarin/Cantonese)",
+    "top_language_lep": 32968,
+    "languages": [
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 46252,
+        "lep_count": 32968,
+        "lep_pct_of_area": 28.0
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 11750,
+        "lep_count": 8628,
+        "lep_pct_of_area": 7.3
+      },
+      {
+        "name": "Spanish",
+        "total_speakers": 23194,
+        "lep_count": 7295,
+        "lep_pct_of_area": 6.2
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 3688,
+        "lep_count": 2390,
+        "lep_pct_of_area": 2.0
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 1656,
+        "lep_count": 533,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 989,
+        "lep_count": 275,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 688,
+        "lep_count": 256,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 455,
+        "lep_count": 54,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 304,
+        "lep_count": 42,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 118,
+        "lep_count": 36,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 135,
+        "lep_count": 14,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 7,
+        "lep_count": 5,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 52496,
+    "lep_pct": 44.5,
+    "poverty_pct": 19.4,
+    "no_internet_pct": 7.9,
+    "snap_pct": 14.3,
+    "puma_code": "03737"
+  },
+  {
+    "geo_id": "0603751",
+    "geo_type": "puma",
+    "name": "South Central)--LA City (South Central/Watts) PUMA; California",
+    "population": 153329,
+    "proficiency": {
+      "english_only": 38744,
+      "english_only_pct": 27.2,
+      "bilingual": 43780,
+      "bilingual_pct": 30.7,
+      "lep": 59922,
+      "lep_pct": 42.1,
+      "total_pop_5plus": 142446
+    },
+    "poverty": {
+      "universe": 152293,
+      "band_1_124": 52192,
+      "band_1_124_pct": 34.3,
+      "band_125_199": 31151,
+      "band_125_199_pct": 20.5,
+      "band_200_399": 4228,
+      "band_200_399_pct": 2.8,
+      "band_400plus": 2142,
+      "band_400plus_pct": 1.4,
+      "below_poverty_pct": 34.3
+    },
+    "education": {
+      "universe": 90113,
+      "under_9th": 24643,
+      "under_9th_pct": 27.3,
+      "incomplete_hs": 15324,
+      "incomplete_hs_pct": 17.0,
+      "hs_some_college": 42990,
+      "hs_some_college_pct": 47.7,
+      "ba_higher": 7156,
+      "ba_higher_pct": 7.9
+    },
+    "access": {
+      "no_internet": 3253,
+      "no_internet_pct": 8.4,
+      "no_computer": 1701,
+      "no_computer_pct": 4.4,
+      "snap_households": 12995,
+      "snap_pct": 33.4,
+      "linguistically_isolated": 8482,
+      "linguistically_isolated_pct": 21.8
+    },
+    "median_hh_income": 55126.0,
+    "top_language": "Spanish",
+    "top_language_lep": 59078,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 102274,
+        "lep_count": 59078,
+        "lep_pct_of_area": 41.5
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 307,
+        "lep_count": 234,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 214,
+        "lep_count": 180,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 225,
+        "lep_count": 126,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 187,
+        "lep_count": 98,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 134,
+        "lep_count": 86,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 92,
+        "lep_count": 61,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 115,
+        "lep_count": 30,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 127,
+        "lep_count": 29,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 59922,
+    "lep_pct": 42.1,
+    "poverty_pct": 34.3,
+    "no_internet_pct": 8.4,
+    "snap_pct": 33.4,
+    "puma_code": "03751"
+  },
+  {
+    "geo_id": "0603738",
+    "geo_type": "puma",
+    "name": "Central)--El Monte & South El Monte Cities PUMA; California",
+    "population": 123480,
+    "proficiency": {
+      "english_only": 21095,
+      "english_only_pct": 18.1,
+      "bilingual": 47492,
+      "bilingual_pct": 40.7,
+      "lep": 48005,
+      "lep_pct": 41.2,
+      "total_pop_5plus": 116592
+    },
+    "poverty": {
+      "universe": 122405,
+      "band_1_124": 29269,
+      "band_1_124_pct": 23.9,
+      "band_125_199": 23389,
+      "band_125_199_pct": 19.1,
+      "band_200_399": 3492,
+      "band_200_399_pct": 2.9,
+      "band_400plus": 1613,
+      "band_400plus_pct": 1.3,
+      "below_poverty_pct": 23.9
+    },
+    "education": {
+      "universe": 83575,
+      "under_9th": 19944,
+      "under_9th_pct": 23.9,
+      "incomplete_hs": 10700,
+      "incomplete_hs_pct": 12.8,
+      "hs_some_college": 40636,
+      "hs_some_college_pct": 48.6,
+      "ba_higher": 12295,
+      "ba_higher_pct": 14.7
+    },
+    "access": {
+      "no_internet": 2859,
+      "no_internet_pct": 8.5,
+      "no_computer": 595,
+      "no_computer_pct": 1.8,
+      "snap_households": 8587,
+      "snap_pct": 25.5,
+      "linguistically_isolated": 3999,
+      "linguistically_isolated_pct": 11.9
+    },
+    "median_hh_income": 68992.0,
+    "top_language": "Spanish",
+    "top_language_lep": 28509,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 66825,
+        "lep_count": 28509,
+        "lep_pct_of_area": 24.5
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 17235,
+        "lep_count": 12615,
+        "lep_pct_of_area": 10.8
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 7992,
+        "lep_count": 5258,
+        "lep_pct_of_area": 4.5
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1125,
+        "lep_count": 764,
+        "lep_pct_of_area": 0.7
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 1178,
+        "lep_count": 339,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 435,
+        "lep_count": 218,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 261,
+        "lep_count": 158,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 297,
+        "lep_count": 113,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 48,
+        "lep_count": 16,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 37,
+        "lep_count": 11,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 24,
+        "lep_count": 4,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 48005,
+    "lep_pct": 41.2,
+    "poverty_pct": 23.9,
+    "no_internet_pct": 8.5,
+    "snap_pct": 25.5,
+    "puma_code": "03738"
+  },
+  {
+    "geo_id": "0603743",
+    "geo_type": "puma",
+    "name": "Central)--East Los Angeles PUMA; California",
+    "population": 108756,
+    "proficiency": {
+      "english_only": 18170,
+      "english_only_pct": 17.5,
+      "bilingual": 46685,
+      "bilingual_pct": 45.1,
+      "lep": 38748,
+      "lep_pct": 37.4,
+      "total_pop_5plus": 103603
+    },
+    "poverty": {
+      "universe": 108204,
+      "band_1_124": 26086,
+      "band_1_124_pct": 24.1,
+      "band_125_199": 22201,
+      "band_125_199_pct": 20.5,
+      "band_200_399": 3011,
+      "band_200_399_pct": 2.8,
+      "band_400plus": 1761,
+      "band_400plus_pct": 1.6,
+      "below_poverty_pct": 24.1
+    },
+    "education": {
+      "universe": 70675,
+      "under_9th": 19574,
+      "under_9th_pct": 27.7,
+      "incomplete_hs": 11648,
+      "incomplete_hs_pct": 16.5,
+      "hs_some_college": 31328,
+      "hs_some_college_pct": 44.3,
+      "ba_higher": 8125,
+      "ba_higher_pct": 11.5
+    },
+    "access": {
+      "no_internet": 3019,
+      "no_internet_pct": 10.2,
+      "no_computer": 317,
+      "no_computer_pct": 1.1,
+      "snap_households": 6620,
+      "snap_pct": 22.4,
+      "linguistically_isolated": 5815,
+      "linguistically_isolated_pct": 19.7
+    },
+    "median_hh_income": 70274.0,
+    "top_language": "Spanish",
+    "top_language_lep": 38062,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 84246,
+        "lep_count": 38062,
+        "lep_pct_of_area": 36.7
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 504,
+        "lep_count": 440,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 188,
+        "lep_count": 66,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 82,
+        "lep_count": 63,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 91,
+        "lep_count": 37,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 97,
+        "lep_count": 37,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 126,
+        "lep_count": 17,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 36,
+        "lep_count": 15,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 23,
+        "lep_count": 11,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 38748,
+    "lep_pct": 37.4,
+    "poverty_pct": 24.1,
+    "no_internet_pct": 10.2,
+    "snap_pct": 22.4,
+    "puma_code": "03743"
+  },
+  {
+    "geo_id": "0603752",
+    "geo_type": "puma",
+    "name": "South)--South Gate & Lynwood Cities PUMA; California",
+    "population": 163236,
+    "proficiency": {
+      "english_only": 30066,
+      "english_only_pct": 19.4,
+      "bilingual": 69606,
+      "bilingual_pct": 45.0,
+      "lep": 55069,
+      "lep_pct": 35.6,
+      "total_pop_5plus": 154741
+    },
+    "poverty": {
+      "universe": 160884,
+      "band_1_124": 33568,
+      "band_1_124_pct": 20.9,
+      "band_125_199": 31591,
+      "band_125_199_pct": 19.6,
+      "band_200_399": 4392,
+      "band_200_399_pct": 2.7,
+      "band_400plus": 2593,
+      "band_400plus_pct": 1.6,
+      "below_poverty_pct": 20.9
+    },
+    "education": {
+      "universe": 107756,
+      "under_9th": 27625,
+      "under_9th_pct": 25.6,
+      "incomplete_hs": 15998,
+      "incomplete_hs_pct": 14.8,
+      "hs_some_college": 52729,
+      "hs_some_college_pct": 48.9,
+      "ba_higher": 11404,
+      "ba_higher_pct": 10.6
+    },
+    "access": {
+      "no_internet": 3018,
+      "no_internet_pct": 7.2,
+      "no_computer": 970,
+      "no_computer_pct": 2.3,
+      "snap_households": 9392,
+      "snap_pct": 22.3,
+      "linguistically_isolated": 7917,
+      "linguistically_isolated_pct": 18.8
+    },
+    "median_hh_income": 74853.0,
+    "top_language": "Spanish",
+    "top_language_lep": 54344,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 123153,
+        "lep_count": 54344,
+        "lep_pct_of_area": 35.1
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 610,
+        "lep_count": 334,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 248,
+        "lep_count": 167,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 99,
+        "lep_count": 70,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 134,
+        "lep_count": 48,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 118,
+        "lep_count": 33,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 74,
+        "lep_count": 29,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 66,
+        "lep_count": 29,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 85,
+        "lep_count": 11,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 24,
+        "lep_count": 4,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 55069,
+    "lep_pct": 35.6,
+    "poverty_pct": 20.9,
+    "no_internet_pct": 7.2,
+    "snap_pct": 22.3,
+    "puma_code": "03752"
   },
   {
     "geo_id": "0603746",
     "geo_type": "puma",
-    "name": "Boyle Heights (LA City)",
-    "population": 95234,
+    "name": "LA City (Central/Univ. of Southern California & Exposition Park) PUMA; California",
+    "population": 106906,
     "proficiency": {
-      "english_only": 14285,
-      "english_only_pct": 16.2,
-      "bilingual": 29520,
-      "bilingual_pct": 33.5,
-      "lep": 44329,
-      "lep_pct": 50.3,
-      "total_pop_5plus": 88134
+      "english_only": 32378,
+      "english_only_pct": 31.6,
+      "bilingual": 33673,
+      "bilingual_pct": 32.9,
+      "lep": 36358,
+      "lep_pct": 35.5,
+      "total_pop_5plus": 102409
     },
     "poverty": {
-      "universe": 94123,
-      "band_1_124": 30119,
-      "band_1_124_pct": 32.0,
-      "band_125_199": 21249,
-      "band_125_199_pct": 22.6,
-      "band_200_399": 28237,
-      "band_200_399_pct": 30.0,
-      "band_400plus": 14518,
-      "band_400plus_pct": 15.4,
-      "below_poverty_pct": 32.0
+      "universe": 96174,
+      "band_1_124": 32791,
+      "band_1_124_pct": 34.1,
+      "band_125_199": 18181,
+      "band_125_199_pct": 18.9,
+      "band_200_399": 2999,
+      "band_200_399_pct": 3.1,
+      "band_400plus": 1064,
+      "band_400plus_pct": 1.1,
+      "below_poverty_pct": 34.1
     },
     "education": {
-      "universe": 58234,
-      "under_9th": 19220,
-      "under_9th_pct": 33.0,
-      "incomplete_hs": 10482,
-      "incomplete_hs_pct": 18.0,
-      "hs_some_college": 23294,
-      "hs_some_college_pct": 40.0,
-      "ba_higher": 5238,
-      "ba_higher_pct": 9.0
+      "universe": 63459,
+      "under_9th": 14369,
+      "under_9th_pct": 22.6,
+      "incomplete_hs": 8295,
+      "incomplete_hs_pct": 13.1,
+      "hs_some_college": 27687,
+      "hs_some_college_pct": 43.6,
+      "ba_higher": 13108,
+      "ba_higher_pct": 20.7
     },
     "access": {
-      "no_internet": 2762,
-      "no_internet_pct": 10.5,
-      "no_computer": 528,
-      "no_computer_pct": 2.0,
-      "snap_households": 6895,
-      "snap_pct": 26.2,
-      "linguistically_isolated": 7543,
-      "linguistically_isolated_pct": 28.6
+      "no_internet": 3017,
+      "no_internet_pct": 9.3,
+      "no_computer": 1187,
+      "no_computer_pct": 3.7,
+      "snap_households": 8682,
+      "snap_pct": 26.8,
+      "linguistically_isolated": 6433,
+      "linguistically_isolated_pct": 19.8
     },
-    "median_hh_income": 48532,
+    "median_hh_income": 48193.0,
     "top_language": "Spanish",
-    "top_language_lep": 43256,
+    "top_language_lep": 31219,
     "languages": [
-      { "name": "Spanish", "total_speakers": 72345, "lep_count": 43256, "lep_pct_of_area": 49.1 },
-      { "name": "Chinese (Mandarin/Cantonese)", "total_speakers": 234, "lep_count": 156, "lep_pct_of_area": 0.2 },
-      { "name": "Other languages", "total_speakers": 567, "lep_count": 234, "lep_pct_of_area": 0.3 }
+      {
+        "name": "Spanish",
+        "total_speakers": 56608,
+        "lep_count": 31219,
+        "lep_pct_of_area": 30.5
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 3618,
+        "lep_count": 2315,
+        "lep_pct_of_area": 2.3
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 3577,
+        "lep_count": 1349,
+        "lep_pct_of_area": 1.3
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 1210,
+        "lep_count": 446,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 2486,
+        "lep_count": 390,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 859,
+        "lep_count": 381,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 665,
+        "lep_count": 118,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 192,
+        "lep_count": 60,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 142,
+        "lep_count": 37,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 219,
+        "lep_count": 33,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 258,
+        "lep_count": 9,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 197,
+        "lep_count": 1,
+        "lep_pct_of_area": 0.0
+      }
     ],
-    "lep_total": 44329,
-    "lep_pct": 50.3,
-    "poverty_pct": 32.0,
-    "no_internet_pct": 10.5,
-    "snap_pct": 26.2
+    "lep_total": 36358,
+    "lep_pct": 35.5,
+    "poverty_pct": 34.1,
+    "no_internet_pct": 9.3,
+    "snap_pct": 26.8,
+    "puma_code": "03746"
+  },
+  {
+    "geo_id": "0603750",
+    "geo_type": "puma",
+    "name": "South Central)--LA City (South Central/Westmont) PUMA; California",
+    "population": 182303,
+    "proficiency": {
+      "english_only": 66137,
+      "english_only_pct": 38.5,
+      "bilingual": 46266,
+      "bilingual_pct": 26.9,
+      "lep": 59409,
+      "lep_pct": 34.6,
+      "total_pop_5plus": 171812
+    },
+    "poverty": {
+      "universe": 180780,
+      "band_1_124": 51916,
+      "band_1_124_pct": 28.7,
+      "band_125_199": 29364,
+      "band_125_199_pct": 16.2,
+      "band_200_399": 4310,
+      "band_200_399_pct": 2.4,
+      "band_400plus": 2081,
+      "band_400plus_pct": 1.2,
+      "below_poverty_pct": 28.7
+    },
+    "education": {
+      "universe": 119843,
+      "under_9th": 25483,
+      "under_9th_pct": 21.3,
+      "incomplete_hs": 15408,
+      "incomplete_hs_pct": 12.9,
+      "hs_some_college": 60821,
+      "hs_some_college_pct": 50.8,
+      "ba_higher": 18131,
+      "ba_higher_pct": 15.1
+    },
+    "access": {
+      "no_internet": 4182,
+      "no_internet_pct": 7.8,
+      "no_computer": 1016,
+      "no_computer_pct": 1.9,
+      "snap_households": 16132,
+      "snap_pct": 30.2,
+      "linguistically_isolated": 8936,
+      "linguistically_isolated_pct": 16.8
+    },
+    "median_hh_income": 63005.0,
+    "top_language": "Spanish",
+    "top_language_lep": 57452,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 101304,
+        "lep_count": 57452,
+        "lep_pct_of_area": 33.4
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 850,
+        "lep_count": 454,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 811,
+        "lep_count": 353,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 812,
+        "lep_count": 333,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 487,
+        "lep_count": 275,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 292,
+        "lep_count": 193,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 186,
+        "lep_count": 162,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 545,
+        "lep_count": 119,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 112,
+        "lep_count": 55,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 16,
+        "lep_count": 10,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 3,
+        "lep_count": 3,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 59409,
+    "lep_pct": 34.6,
+    "poverty_pct": 28.7,
+    "no_internet_pct": 7.8,
+    "snap_pct": 30.2,
+    "puma_code": "03750"
+  },
+  {
+    "geo_id": "0603714",
+    "geo_type": "puma",
+    "name": "Diamond Bar",
+    "population": 103271,
+    "proficiency": {
+      "english_only": 33812,
+      "english_only_pct": 33.9,
+      "bilingual": 31756,
+      "bilingual_pct": 31.9,
+      "lep": 34113,
+      "lep_pct": 34.2,
+      "total_pop_5plus": 99681
+    },
+    "poverty": {
+      "universe": 102896,
+      "band_1_124": 14260,
+      "band_1_124_pct": 13.9,
+      "band_125_199": 11597,
+      "band_125_199_pct": 11.3,
+      "band_200_399": 1827,
+      "band_200_399_pct": 1.8,
+      "band_400plus": 1012,
+      "band_400plus_pct": 1.0,
+      "below_poverty_pct": 13.9
+    },
+    "education": {
+      "universe": 78026,
+      "under_9th": 4499,
+      "under_9th_pct": 5.8,
+      "incomplete_hs": 3918,
+      "incomplete_hs_pct": 5.0,
+      "hs_some_college": 34254,
+      "hs_some_college_pct": 43.9,
+      "ba_higher": 35355,
+      "ba_higher_pct": 45.3
+    },
+    "access": {
+      "no_internet": 1127,
+      "no_internet_pct": 3.3,
+      "no_computer": 395,
+      "no_computer_pct": 1.2,
+      "snap_households": 2758,
+      "snap_pct": 8.0,
+      "linguistically_isolated": 655,
+      "linguistically_isolated_pct": 1.9
+    },
+    "median_hh_income": 101300.0,
+    "top_language": "Chinese (Mandarin/Cantonese)",
+    "top_language_lep": 22149,
+    "languages": [
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 35267,
+        "lep_count": 22149,
+        "lep_pct_of_area": 22.2
+      },
+      {
+        "name": "Spanish",
+        "total_speakers": 13935,
+        "lep_count": 4795,
+        "lep_pct_of_area": 4.8
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 5146,
+        "lep_count": 3133,
+        "lep_pct_of_area": 3.1
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 2643,
+        "lep_count": 1625,
+        "lep_pct_of_area": 1.6
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 3772,
+        "lep_count": 951,
+        "lep_pct_of_area": 1.0
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 2962,
+        "lep_count": 774,
+        "lep_pct_of_area": 0.8
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 1085,
+        "lep_count": 456,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 615,
+        "lep_count": 177,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 101,
+        "lep_count": 44,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 203,
+        "lep_count": 9,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 34113,
+    "lep_pct": 34.2,
+    "poverty_pct": 13.9,
+    "no_internet_pct": 3.3,
+    "snap_pct": 8.0,
+    "puma_code": "03714"
+  },
+  {
+    "geo_id": "0603723",
+    "geo_type": "puma",
+    "name": "North)--LA City (North Central/Mission Hills & Panorama City) PUMA; California",
+    "population": 137688,
+    "proficiency": {
+      "english_only": 31776,
+      "english_only_pct": 24.4,
+      "bilingual": 54575,
+      "bilingual_pct": 42.0,
+      "lep": 43714,
+      "lep_pct": 33.6,
+      "total_pop_5plus": 130065
+    },
+    "poverty": {
+      "universe": 136552,
+      "band_1_124": 35961,
+      "band_1_124_pct": 26.3,
+      "band_125_199": 23099,
+      "band_125_199_pct": 16.9,
+      "band_200_399": 3585,
+      "band_200_399_pct": 2.6,
+      "band_400plus": 1597,
+      "band_400plus_pct": 1.2,
+      "below_poverty_pct": 26.3
+    },
+    "education": {
+      "universe": 91694,
+      "under_9th": 16313,
+      "under_9th_pct": 17.8,
+      "incomplete_hs": 10340,
+      "incomplete_hs_pct": 11.3,
+      "hs_some_college": 45863,
+      "hs_some_college_pct": 50.0,
+      "ba_higher": 19178,
+      "ba_higher_pct": 20.9
+    },
+    "access": {
+      "no_internet": 2900,
+      "no_internet_pct": 7.1,
+      "no_computer": 587,
+      "no_computer_pct": 1.4,
+      "snap_households": 7960,
+      "snap_pct": 19.4,
+      "linguistically_isolated": 6532,
+      "linguistically_isolated_pct": 15.9
+    },
+    "median_hh_income": 66171.0,
+    "top_language": "Spanish",
+    "top_language_lep": 34811,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 78088,
+        "lep_count": 34811,
+        "lep_pct_of_area": 26.8
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 8355,
+        "lep_count": 2977,
+        "lep_pct_of_area": 2.3
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 5699,
+        "lep_count": 2771,
+        "lep_pct_of_area": 2.1
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1770,
+        "lep_count": 883,
+        "lep_pct_of_area": 0.7
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 889,
+        "lep_count": 637,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 901,
+        "lep_count": 467,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 832,
+        "lep_count": 453,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 635,
+        "lep_count": 422,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 524,
+        "lep_count": 232,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 269,
+        "lep_count": 31,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 239,
+        "lep_count": 23,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 88,
+        "lep_count": 7,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 43714,
+    "lep_pct": 33.6,
+    "poverty_pct": 26.3,
+    "no_internet_pct": 7.1,
+    "snap_pct": 19.4,
+    "puma_code": "03723"
+  },
+  {
+    "geo_id": "0603707",
+    "geo_type": "puma",
+    "name": "LA (North Central/Arleta & Pacoima) & San Fernando Cities PUMA; California",
+    "population": 143849,
+    "proficiency": {
+      "english_only": 29990,
+      "english_only_pct": 22.0,
+      "bilingual": 62311,
+      "bilingual_pct": 45.8,
+      "lep": 43827,
+      "lep_pct": 32.2,
+      "total_pop_5plus": 136128
+    },
+    "poverty": {
+      "universe": 142301,
+      "band_1_124": 26038,
+      "band_1_124_pct": 18.3,
+      "band_125_199": 23253,
+      "band_125_199_pct": 16.3,
+      "band_200_399": 3345,
+      "band_200_399_pct": 2.4,
+      "band_400plus": 1722,
+      "band_400plus_pct": 1.2,
+      "below_poverty_pct": 18.3
+    },
+    "education": {
+      "universe": 96872,
+      "under_9th": 23031,
+      "under_9th_pct": 23.8,
+      "incomplete_hs": 13786,
+      "incomplete_hs_pct": 14.2,
+      "hs_some_college": 47384,
+      "hs_some_college_pct": 48.9,
+      "ba_higher": 12671,
+      "ba_higher_pct": 13.1
+    },
+    "access": {
+      "no_internet": 1809,
+      "no_internet_pct": 5.1,
+      "no_computer": 352,
+      "no_computer_pct": 1.0,
+      "snap_households": 7199,
+      "snap_pct": 20.3,
+      "linguistically_isolated": 4607,
+      "linguistically_isolated_pct": 13.0
+    },
+    "median_hh_income": 85639.0,
+    "top_language": "Spanish",
+    "top_language_lep": 41229,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 99200,
+        "lep_count": 41229,
+        "lep_pct_of_area": 30.3
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 1962,
+        "lep_count": 651,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 2380,
+        "lep_count": 578,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 730,
+        "lep_count": 420,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 695,
+        "lep_count": 377,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 364,
+        "lep_count": 214,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 184,
+        "lep_count": 147,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 172,
+        "lep_count": 78,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 156,
+        "lep_count": 74,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 209,
+        "lep_count": 45,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 76,
+        "lep_count": 14,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 43827,
+    "lep_pct": 32.2,
+    "poverty_pct": 18.3,
+    "no_internet_pct": 5.1,
+    "snap_pct": 20.3,
+    "puma_code": "03707"
+  },
+  {
+    "geo_id": "0603734",
+    "geo_type": "puma",
+    "name": "LA City (East Central/Silver Lake",
+    "population": 197013,
+    "proficiency": {
+      "english_only": 70146,
+      "english_only_pct": 37.3,
+      "bilingual": 59049,
+      "bilingual_pct": 31.4,
+      "lep": 58705,
+      "lep_pct": 31.2,
+      "total_pop_5plus": 187900
+    },
+    "poverty": {
+      "universe": 194561,
+      "band_1_124": 53428,
+      "band_1_124_pct": 27.5,
+      "band_125_199": 33133,
+      "band_125_199_pct": 17.0,
+      "band_200_399": 5083,
+      "band_200_399_pct": 2.6,
+      "band_400plus": 1668,
+      "band_400plus_pct": 0.9,
+      "below_poverty_pct": 27.5
+    },
+    "education": {
+      "universe": 147175,
+      "under_9th": 26107,
+      "under_9th_pct": 17.7,
+      "incomplete_hs": 12482,
+      "incomplete_hs_pct": 8.5,
+      "hs_some_college": 50386,
+      "hs_some_college_pct": 34.2,
+      "ba_higher": 58200,
+      "ba_higher_pct": 39.5
+    },
+    "access": {
+      "no_internet": 8404,
+      "no_internet_pct": 10.4,
+      "no_computer": 1380,
+      "no_computer_pct": 1.7,
+      "snap_households": 16654,
+      "snap_pct": 20.6,
+      "linguistically_isolated": 9178,
+      "linguistically_isolated_pct": 11.3
+    },
+    "median_hh_income": 66340.0,
+    "top_language": "Spanish",
+    "top_language_lep": 42619,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 85759,
+        "lep_count": 42619,
+        "lep_pct_of_area": 22.7
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 9789,
+        "lep_count": 7144,
+        "lep_pct_of_area": 3.8
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 7546,
+        "lep_count": 2528,
+        "lep_pct_of_area": 1.3
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 2502,
+        "lep_count": 1623,
+        "lep_pct_of_area": 0.9
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 3051,
+        "lep_count": 1507,
+        "lep_pct_of_area": 0.8
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 2676,
+        "lep_count": 1370,
+        "lep_pct_of_area": 0.7
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 2925,
+        "lep_count": 907,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 959,
+        "lep_count": 640,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 762,
+        "lep_count": 170,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 263,
+        "lep_count": 87,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 804,
+        "lep_count": 65,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 718,
+        "lep_count": 45,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 58705,
+    "lep_pct": 31.2,
+    "poverty_pct": 27.5,
+    "no_internet_pct": 10.4,
+    "snap_pct": 20.6,
+    "puma_code": "03734"
+  },
+  {
+    "geo_id": "0603719",
+    "geo_type": "puma",
+    "name": "Central)--Glendale City PUMA; California",
+    "population": 190748,
+    "proficiency": {
+      "english_only": 61016,
+      "english_only_pct": 33.8,
+      "bilingual": 63564,
+      "bilingual_pct": 35.2,
+      "lep": 56195,
+      "lep_pct": 31.1,
+      "total_pop_5plus": 180775
+    },
+    "poverty": {
+      "universe": 189326,
+      "band_1_124": 31537,
+      "band_1_124_pct": 16.7,
+      "band_125_199": 22867,
+      "band_125_199_pct": 12.1,
+      "band_200_399": 3895,
+      "band_200_399_pct": 2.1,
+      "band_400plus": 1887,
+      "band_400plus_pct": 1.0,
+      "below_poverty_pct": 16.7
+    },
+    "education": {
+      "universe": 141996,
+      "under_9th": 9612,
+      "under_9th_pct": 6.8,
+      "incomplete_hs": 5260,
+      "incomplete_hs_pct": 3.7,
+      "hs_some_college": 60072,
+      "hs_some_college_pct": 42.3,
+      "ba_higher": 67052,
+      "ba_higher_pct": 47.2
+    },
+    "access": {
+      "no_internet": 4230,
+      "no_internet_pct": 5.8,
+      "no_computer": 1343,
+      "no_computer_pct": 1.9,
+      "snap_households": 14763,
+      "snap_pct": 20.3,
+      "linguistically_isolated": 2267,
+      "linguistically_isolated_pct": 3.1
+    },
+    "median_hh_income": 88393.0,
+    "top_language": "Other Indo-European",
+    "top_language_lep": 36252,
+    "languages": [
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 69728,
+        "lep_count": 36252,
+        "lep_pct_of_area": 20.1
+      },
+      {
+        "name": "Spanish",
+        "total_speakers": 24708,
+        "lep_count": 8699,
+        "lep_pct_of_area": 4.8
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 5021,
+        "lep_count": 2953,
+        "lep_pct_of_area": 1.6
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 4698,
+        "lep_count": 2705,
+        "lep_pct_of_area": 1.5
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 7731,
+        "lep_count": 2476,
+        "lep_pct_of_area": 1.4
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 2639,
+        "lep_count": 1205,
+        "lep_pct_of_area": 0.7
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1914,
+        "lep_count": 877,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 1716,
+        "lep_count": 611,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 314,
+        "lep_count": 190,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 370,
+        "lep_count": 102,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 418,
+        "lep_count": 64,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 502,
+        "lep_count": 61,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 56195,
+    "lep_pct": 31.1,
+    "poverty_pct": 16.7,
+    "no_internet_pct": 5.8,
+    "snap_pct": 20.3,
+    "puma_code": "03719"
+  },
+  {
+    "geo_id": "0603744",
+    "geo_type": "puma",
+    "name": "Central)--LA City (East Central/Central City & Boyle Heights) PUMA; California",
+    "population": 187457,
+    "proficiency": {
+      "english_only": 59236,
+      "english_only_pct": 33.0,
+      "bilingual": 64741,
+      "bilingual_pct": 36.1,
+      "lep": 55324,
+      "lep_pct": 30.9,
+      "total_pop_5plus": 179301
+    },
+    "poverty": {
+      "universe": 177703,
+      "band_1_124": 54999,
+      "band_1_124_pct": 30.9,
+      "band_125_199": 30336,
+      "band_125_199_pct": 17.1,
+      "band_200_399": 4052,
+      "band_200_399_pct": 2.3,
+      "band_400plus": 1834,
+      "band_400plus_pct": 1.0,
+      "below_poverty_pct": 30.9
+    },
+    "education": {
+      "universe": 136549,
+      "under_9th": 24730,
+      "under_9th_pct": 18.1,
+      "incomplete_hs": 17710,
+      "incomplete_hs_pct": 13.0,
+      "hs_some_college": 53374,
+      "hs_some_college_pct": 39.1,
+      "ba_higher": 40735,
+      "ba_higher_pct": 29.8
+    },
+    "access": {
+      "no_internet": 8227,
+      "no_internet_pct": 11.0,
+      "no_computer": 2390,
+      "no_computer_pct": 3.2,
+      "snap_households": 18633,
+      "snap_pct": 24.9,
+      "linguistically_isolated": 7914,
+      "linguistically_isolated_pct": 10.6
+    },
+    "median_hh_income": 60823.0,
+    "top_language": "Spanish",
+    "top_language_lep": 39946,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 91249,
+        "lep_count": 39946,
+        "lep_pct_of_area": 22.3
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 10624,
+        "lep_count": 6825,
+        "lep_pct_of_area": 3.8
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 6322,
+        "lep_count": 4592,
+        "lep_pct_of_area": 2.6
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 3083,
+        "lep_count": 1546,
+        "lep_pct_of_area": 0.9
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 1459,
+        "lep_count": 668,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 1777,
+        "lep_count": 631,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 1548,
+        "lep_count": 558,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 2233,
+        "lep_count": 387,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 595,
+        "lep_count": 89,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 591,
+        "lep_count": 50,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 313,
+        "lep_count": 26,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 271,
+        "lep_count": 6,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 55324,
+    "lep_pct": 30.9,
+    "poverty_pct": 30.9,
+    "no_internet_pct": 11.0,
+    "snap_pct": 24.9,
+    "puma_code": "03744"
+  },
+  {
+    "geo_id": "0603717",
+    "geo_type": "puma",
+    "name": "East Central)--Arcadia",
+    "population": 187109,
+    "proficiency": {
+      "english_only": 66539,
+      "english_only_pct": 37.3,
+      "bilingual": 58314,
+      "bilingual_pct": 32.7,
+      "lep": 53300,
+      "lep_pct": 29.9,
+      "total_pop_5plus": 178153
+    },
+    "poverty": {
+      "universe": 184991,
+      "band_1_124": 24466,
+      "band_1_124_pct": 13.2,
+      "band_125_199": 17839,
+      "band_125_199_pct": 9.6,
+      "band_200_399": 2966,
+      "band_200_399_pct": 1.6,
+      "band_400plus": 1207,
+      "band_400plus_pct": 0.7,
+      "below_poverty_pct": 13.2
+    },
+    "education": {
+      "universe": 136702,
+      "under_9th": 10578,
+      "under_9th_pct": 7.7,
+      "incomplete_hs": 5791,
+      "incomplete_hs_pct": 4.2,
+      "hs_some_college": 53338,
+      "hs_some_college_pct": 39.0,
+      "ba_higher": 66995,
+      "ba_higher_pct": 49.0
+    },
+    "access": {
+      "no_internet": 2532,
+      "no_internet_pct": 4.0,
+      "no_computer": 691,
+      "no_computer_pct": 1.1,
+      "snap_households": 5002,
+      "snap_pct": 7.9,
+      "linguistically_isolated": 1231,
+      "linguistically_isolated_pct": 1.9
+    },
+    "median_hh_income": 105463.0,
+    "top_language": "Chinese (Mandarin/Cantonese)",
+    "top_language_lep": 36443,
+    "languages": [
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 62426,
+        "lep_count": 36443,
+        "lep_pct_of_area": 20.5
+      },
+      {
+        "name": "Spanish",
+        "total_speakers": 26317,
+        "lep_count": 7333,
+        "lep_pct_of_area": 4.1
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 4850,
+        "lep_count": 2879,
+        "lep_pct_of_area": 1.6
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 5671,
+        "lep_count": 2612,
+        "lep_pct_of_area": 1.5
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 2114,
+        "lep_count": 1199,
+        "lep_pct_of_area": 0.7
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 3448,
+        "lep_count": 1181,
+        "lep_pct_of_area": 0.7
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 4606,
+        "lep_count": 1132,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 674,
+        "lep_count": 203,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 372,
+        "lep_count": 124,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 422,
+        "lep_count": 113,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 398,
+        "lep_count": 51,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 316,
+        "lep_count": 30,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 53300,
+    "lep_pct": 29.9,
+    "poverty_pct": 13.2,
+    "no_internet_pct": 4.0,
+    "snap_pct": 7.9,
+    "puma_code": "03717"
+  },
+  {
+    "geo_id": "0603716",
+    "geo_type": "puma",
+    "name": "East Central)--La Puente & Industry Cities PUMA; California",
+    "population": 101120,
+    "proficiency": {
+      "english_only": 25423,
+      "english_only_pct": 26.2,
+      "bilingual": 43133,
+      "bilingual_pct": 44.4,
+      "lep": 28552,
+      "lep_pct": 29.4,
+      "total_pop_5plus": 97108
+    },
+    "poverty": {
+      "universe": 100714,
+      "band_1_124": 15438,
+      "band_1_124_pct": 15.3,
+      "band_125_199": 14483,
+      "band_125_199_pct": 14.4,
+      "band_200_399": 2171,
+      "band_200_399_pct": 2.2,
+      "band_400plus": 1057,
+      "band_400plus_pct": 1.0,
+      "below_poverty_pct": 15.3
+    },
+    "education": {
+      "universe": 70216,
+      "under_9th": 13280,
+      "under_9th_pct": 18.9,
+      "incomplete_hs": 8724,
+      "incomplete_hs_pct": 12.4,
+      "hs_some_college": 37415,
+      "hs_some_college_pct": 53.3,
+      "ba_higher": 10797,
+      "ba_higher_pct": 15.4
+    },
+    "access": {
+      "no_internet": 1592,
+      "no_internet_pct": 6.3,
+      "no_computer": 394,
+      "no_computer_pct": 1.6,
+      "snap_households": 3509,
+      "snap_pct": 13.9,
+      "linguistically_isolated": 1974,
+      "linguistically_isolated_pct": 7.8
+    },
+    "median_hh_income": 91071.0,
+    "top_language": "Spanish",
+    "top_language_lep": 20816,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 58739,
+        "lep_count": 20816,
+        "lep_pct_of_area": 21.4
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 6668,
+        "lep_count": 4511,
+        "lep_pct_of_area": 4.6
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 2312,
+        "lep_count": 1569,
+        "lep_pct_of_area": 1.6
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 2553,
+        "lep_count": 776,
+        "lep_pct_of_area": 0.8
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 575,
+        "lep_count": 364,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 342,
+        "lep_count": 275,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 116,
+        "lep_count": 94,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 238,
+        "lep_count": 60,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 57,
+        "lep_count": 50,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 60,
+        "lep_count": 37,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 28552,
+    "lep_pct": 29.4,
+    "poverty_pct": 15.3,
+    "no_internet_pct": 6.3,
+    "snap_pct": 13.9,
+    "puma_code": "03716"
+  },
+  {
+    "geo_id": "0603758",
+    "geo_type": "puma",
+    "name": "South Central)--Gardena",
+    "population": 154779,
+    "proficiency": {
+      "english_only": 62859,
+      "english_only_pct": 43.4,
+      "bilingual": 40803,
+      "bilingual_pct": 28.2,
+      "lep": 41264,
+      "lep_pct": 28.5,
+      "total_pop_5plus": 144926
+    },
+    "poverty": {
+      "universe": 153307,
+      "band_1_124": 29456,
+      "band_1_124_pct": 19.2,
+      "band_125_199": 26592,
+      "band_125_199_pct": 17.3,
+      "band_200_399": 3588,
+      "band_200_399_pct": 2.3,
+      "band_400plus": 1980,
+      "band_400plus_pct": 1.3,
+      "below_poverty_pct": 19.2
+    },
+    "education": {
+      "universe": 105333,
+      "under_9th": 13317,
+      "under_9th_pct": 12.6,
+      "incomplete_hs": 10128,
+      "incomplete_hs_pct": 9.6,
+      "hs_some_college": 56863,
+      "hs_some_college_pct": 54.0,
+      "ba_higher": 25025,
+      "ba_higher_pct": 23.8
+    },
+    "access": {
+      "no_internet": 2615,
+      "no_internet_pct": 5.1,
+      "no_computer": 1146,
+      "no_computer_pct": 2.2,
+      "snap_households": 9656,
+      "snap_pct": 18.9,
+      "linguistically_isolated": 4976,
+      "linguistically_isolated_pct": 9.7
+    },
+    "median_hh_income": 76320.0,
+    "top_language": "Spanish",
+    "top_language_lep": 32475,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 63328,
+        "lep_count": 32475,
+        "lep_pct_of_area": 22.4
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 2986,
+        "lep_count": 2214,
+        "lep_pct_of_area": 1.5
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 4182,
+        "lep_count": 2043,
+        "lep_pct_of_area": 1.4
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 2731,
+        "lep_count": 1803,
+        "lep_pct_of_area": 1.2
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 2657,
+        "lep_count": 793,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 1383,
+        "lep_count": 754,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 1415,
+        "lep_count": 633,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 1447,
+        "lep_count": 240,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 298,
+        "lep_count": 127,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 1310,
+        "lep_count": 108,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 235,
+        "lep_count": 74,
+        "lep_pct_of_area": 0.1
+      }
+    ],
+    "lep_total": 41264,
+    "lep_pct": 28.5,
+    "poverty_pct": 19.2,
+    "no_internet_pct": 5.1,
+    "snap_pct": 18.9,
+    "puma_code": "03758"
+  },
+  {
+    "geo_id": "0603722",
+    "geo_type": "puma",
+    "name": "Northwest)--LA City (North Central/Van Nuys & North Sherman Oaks) PUMA; California",
+    "population": 164473,
+    "proficiency": {
+      "english_only": 59988,
+      "english_only_pct": 38.5,
+      "bilingual": 52048,
+      "bilingual_pct": 33.4,
+      "lep": 43915,
+      "lep_pct": 28.2,
+      "total_pop_5plus": 155951
+    },
+    "poverty": {
+      "universe": 163157,
+      "band_1_124": 35191,
+      "band_1_124_pct": 21.6,
+      "band_125_199": 26368,
+      "band_125_199_pct": 16.2,
+      "band_200_399": 3492,
+      "band_200_399_pct": 2.1,
+      "band_400plus": 2167,
+      "band_400plus_pct": 1.3,
+      "below_poverty_pct": 21.6
+    },
+    "education": {
+      "universe": 119630,
+      "under_9th": 15451,
+      "under_9th_pct": 12.9,
+      "incomplete_hs": 9076,
+      "incomplete_hs_pct": 7.6,
+      "hs_some_college": 53481,
+      "hs_some_college_pct": 44.7,
+      "ba_higher": 41622,
+      "ba_higher_pct": 34.8
+    },
+    "access": {
+      "no_internet": 3225,
+      "no_internet_pct": 5.1,
+      "no_computer": 986,
+      "no_computer_pct": 1.6,
+      "snap_households": 10642,
+      "snap_pct": 17.0,
+      "linguistically_isolated": 6880,
+      "linguistically_isolated_pct": 11.0
+    },
+    "median_hh_income": 74430.0,
+    "top_language": "Spanish",
+    "top_language_lep": 31928,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 67162,
+        "lep_count": 31928,
+        "lep_pct_of_area": 20.5
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 14421,
+        "lep_count": 6147,
+        "lep_pct_of_area": 3.9
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 3990,
+        "lep_count": 2151,
+        "lep_pct_of_area": 1.4
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 3129,
+        "lep_count": 1059,
+        "lep_pct_of_area": 0.7
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 1001,
+        "lep_count": 599,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1569,
+        "lep_count": 562,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 1020,
+        "lep_count": 503,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 1078,
+        "lep_count": 414,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 1437,
+        "lep_count": 395,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 262,
+        "lep_count": 143,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 433,
+        "lep_count": 10,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 461,
+        "lep_count": 4,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 43915,
+    "lep_pct": 28.2,
+    "poverty_pct": 21.6,
+    "no_internet_pct": 5.1,
+    "snap_pct": 17.0,
+    "puma_code": "03722"
+  },
+  {
+    "geo_id": "0603708",
+    "geo_type": "puma",
+    "name": "North)--LA City (Northeast/Sunland",
+    "population": 133040,
+    "proficiency": {
+      "english_only": 39222,
+      "english_only_pct": 31.0,
+      "bilingual": 51761,
+      "bilingual_pct": 40.9,
+      "lep": 35700,
+      "lep_pct": 28.2,
+      "total_pop_5plus": 126683
+    },
+    "poverty": {
+      "universe": 131475,
+      "band_1_124": 24941,
+      "band_1_124_pct": 19.0,
+      "band_125_199": 17860,
+      "band_125_199_pct": 13.6,
+      "band_200_399": 2627,
+      "band_200_399_pct": 2.0,
+      "band_400plus": 1522,
+      "band_400plus_pct": 1.2,
+      "below_poverty_pct": 19.0
+    },
+    "education": {
+      "universe": 95530,
+      "under_9th": 13697,
+      "under_9th_pct": 14.3,
+      "incomplete_hs": 8600,
+      "incomplete_hs_pct": 9.0,
+      "hs_some_college": 49691,
+      "hs_some_college_pct": 52.0,
+      "ba_higher": 23542,
+      "ba_higher_pct": 24.6
+    },
+    "access": {
+      "no_internet": 1953,
+      "no_internet_pct": 4.7,
+      "no_computer": 499,
+      "no_computer_pct": 1.2,
+      "snap_households": 7807,
+      "snap_pct": 18.7,
+      "linguistically_isolated": 3064,
+      "linguistically_isolated_pct": 7.4
+    },
+    "median_hh_income": 84455.0,
+    "top_language": "Spanish",
+    "top_language_lep": 21608,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 53496,
+        "lep_count": 21608,
+        "lep_pct_of_area": 17.1
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 24467,
+        "lep_count": 10314,
+        "lep_pct_of_area": 8.1
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 3466,
+        "lep_count": 1267,
+        "lep_pct_of_area": 1.0
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 1232,
+        "lep_count": 706,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1474,
+        "lep_count": 673,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 941,
+        "lep_count": 370,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 795,
+        "lep_count": 306,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 468,
+        "lep_count": 167,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 332,
+        "lep_count": 133,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 130,
+        "lep_count": 70,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 263,
+        "lep_count": 61,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 397,
+        "lep_count": 25,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 35700,
+    "lep_pct": 28.2,
+    "poverty_pct": 19.0,
+    "no_internet_pct": 4.7,
+    "snap_pct": 18.7,
+    "puma_code": "03708"
+  },
+  {
+    "geo_id": "0603736",
+    "geo_type": "puma",
+    "name": "Central)--Alhambra & South Pasadena Cities PUMA; California",
+    "population": 113486,
+    "proficiency": {
+      "english_only": 43479,
+      "english_only_pct": 40.1,
+      "bilingual": 35318,
+      "bilingual_pct": 32.6,
+      "lep": 29531,
+      "lep_pct": 27.3,
+      "total_pop_5plus": 108328
+    },
+    "poverty": {
+      "universe": 112677,
+      "band_1_124": 15208,
+      "band_1_124_pct": 13.5,
+      "band_125_199": 10675,
+      "band_125_199_pct": 9.5,
+      "band_200_399": 1662,
+      "band_200_399_pct": 1.5,
+      "band_400plus": 1102,
+      "band_400plus_pct": 1.0,
+      "below_poverty_pct": 13.5
+    },
+    "education": {
+      "universe": 85941,
+      "under_9th": 6474,
+      "under_9th_pct": 7.5,
+      "incomplete_hs": 4732,
+      "incomplete_hs_pct": 5.5,
+      "hs_some_college": 33457,
+      "hs_some_college_pct": 38.9,
+      "ba_higher": 41278,
+      "ba_higher_pct": 48.0
+    },
+    "access": {
+      "no_internet": 1621,
+      "no_internet_pct": 3.8,
+      "no_computer": 476,
+      "no_computer_pct": 1.1,
+      "snap_households": 4249,
+      "snap_pct": 9.9,
+      "linguistically_isolated": 958,
+      "linguistically_isolated_pct": 2.2
+    },
+    "median_hh_income": 96340.0,
+    "top_language": "Chinese (Mandarin/Cantonese)",
+    "top_language_lep": 18199,
+    "languages": [
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 29330,
+        "lep_count": 18199,
+        "lep_pct_of_area": 16.8
+      },
+      {
+        "name": "Spanish",
+        "total_speakers": 23392,
+        "lep_count": 5828,
+        "lep_pct_of_area": 5.4
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 2914,
+        "lep_count": 2028,
+        "lep_pct_of_area": 1.9
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 3242,
+        "lep_count": 1635,
+        "lep_pct_of_area": 1.5
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 2399,
+        "lep_count": 703,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 1442,
+        "lep_count": 650,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 1102,
+        "lep_count": 159,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 344,
+        "lep_count": 137,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 202,
+        "lep_count": 126,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 128,
+        "lep_count": 29,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 226,
+        "lep_count": 24,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 128,
+        "lep_count": 13,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 29531,
+    "lep_pct": 27.3,
+    "poverty_pct": 13.5,
+    "no_internet_pct": 3.8,
+    "snap_pct": 9.9,
+    "puma_code": "03736"
+  },
+  {
+    "geo_id": "0603740",
+    "geo_type": "puma",
+    "name": "Central)--Pico Rivera & Montebello Cities PUMA; California",
+    "population": 124893,
+    "proficiency": {
+      "english_only": 38297,
+      "english_only_pct": 32.2,
+      "bilingual": 48979,
+      "bilingual_pct": 41.2,
+      "lep": 31582,
+      "lep_pct": 26.6,
+      "total_pop_5plus": 118858
+    },
+    "poverty": {
+      "universe": 123503,
+      "band_1_124": 18773,
+      "band_1_124_pct": 15.2,
+      "band_125_199": 19043,
+      "band_125_199_pct": 15.4,
+      "band_200_399": 2948,
+      "band_200_399_pct": 2.4,
+      "band_400plus": 1489,
+      "band_400plus_pct": 1.2,
+      "below_poverty_pct": 15.2
+    },
+    "education": {
+      "universe": 88113,
+      "under_9th": 13448,
+      "under_9th_pct": 15.3,
+      "incomplete_hs": 10121,
+      "incomplete_hs_pct": 11.5,
+      "hs_some_college": 47196,
+      "hs_some_college_pct": 53.6,
+      "ba_higher": 17348,
+      "ba_higher_pct": 19.7
+    },
+    "access": {
+      "no_internet": 3149,
+      "no_internet_pct": 8.4,
+      "no_computer": 466,
+      "no_computer_pct": 1.2,
+      "snap_households": 6481,
+      "snap_pct": 17.3,
+      "linguistically_isolated": 3273,
+      "linguistically_isolated_pct": 8.7
+    },
+    "median_hh_income": 81872.0,
+    "top_language": "Spanish",
+    "top_language_lep": 25774,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 69563,
+        "lep_count": 25774,
+        "lep_pct_of_area": 21.7
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 4453,
+        "lep_count": 2876,
+        "lep_pct_of_area": 2.4
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 2428,
+        "lep_count": 935,
+        "lep_pct_of_area": 0.8
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 860,
+        "lep_count": 720,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 1860,
+        "lep_count": 574,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 721,
+        "lep_count": 336,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 354,
+        "lep_count": 206,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 134,
+        "lep_count": 84,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 61,
+        "lep_count": 29,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 67,
+        "lep_count": 28,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 29,
+        "lep_count": 20,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 31582,
+    "lep_pct": 26.6,
+    "poverty_pct": 15.2,
+    "no_internet_pct": 8.4,
+    "snap_pct": 17.3,
+    "puma_code": "03740"
+  },
+  {
+    "geo_id": "0603710",
+    "geo_type": "puma",
+    "name": "Baldwin Park",
+    "population": 176832,
+    "proficiency": {
+      "english_only": 61670,
+      "english_only_pct": 36.7,
+      "bilingual": 62543,
+      "bilingual_pct": 37.2,
+      "lep": 43747,
+      "lep_pct": 26.0,
+      "total_pop_5plus": 167960
+    },
+    "poverty": {
+      "universe": 173223,
+      "band_1_124": 26823,
+      "band_1_124_pct": 15.5,
+      "band_125_199": 27887,
+      "band_125_199_pct": 16.1,
+      "band_200_399": 3952,
+      "band_200_399_pct": 2.3,
+      "band_400plus": 2058,
+      "band_400plus_pct": 1.2,
+      "below_poverty_pct": 15.5
+    },
+    "education": {
+      "universe": 122016,
+      "under_9th": 17536,
+      "under_9th_pct": 14.4,
+      "incomplete_hs": 10570,
+      "incomplete_hs_pct": 8.7,
+      "hs_some_college": 63596,
+      "hs_some_college_pct": 52.1,
+      "ba_higher": 30314,
+      "ba_higher_pct": 24.8
+    },
+    "access": {
+      "no_internet": 3679,
+      "no_internet_pct": 7.1,
+      "no_computer": 1082,
+      "no_computer_pct": 2.1,
+      "snap_households": 8240,
+      "snap_pct": 15.9,
+      "linguistically_isolated": 3076,
+      "linguistically_isolated_pct": 5.9
+    },
+    "median_hh_income": 91393.0,
+    "top_language": "Spanish",
+    "top_language_lep": 29909,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 79337,
+        "lep_count": 29909,
+        "lep_pct_of_area": 17.8
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 12354,
+        "lep_count": 7910,
+        "lep_pct_of_area": 4.7
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 3043,
+        "lep_count": 1920,
+        "lep_pct_of_area": 1.1
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 5088,
+        "lep_count": 1500,
+        "lep_pct_of_area": 0.9
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 2238,
+        "lep_count": 1073,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 980,
+        "lep_count": 442,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 1935,
+        "lep_count": 417,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 443,
+        "lep_count": 261,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 357,
+        "lep_count": 179,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 135,
+        "lep_count": 69,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 190,
+        "lep_count": 58,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 190,
+        "lep_count": 9,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 43747,
+    "lep_pct": 26.0,
+    "poverty_pct": 15.5,
+    "no_internet_pct": 7.1,
+    "snap_pct": 15.9,
+    "puma_code": "03710"
+  },
+  {
+    "geo_id": "0603757",
+    "geo_type": "puma",
+    "name": "South Central)--Compton City & West Rancho Dominquez PUMA; California",
+    "population": 152008,
+    "proficiency": {
+      "english_only": 51947,
+      "english_only_pct": 36.5,
+      "bilingual": 53801,
+      "bilingual_pct": 37.8,
+      "lep": 36483,
+      "lep_pct": 25.7,
+      "total_pop_5plus": 142231
+    },
+    "poverty": {
+      "universe": 150454,
+      "band_1_124": 33622,
+      "band_1_124_pct": 22.3,
+      "band_125_199": 27133,
+      "band_125_199_pct": 18.0,
+      "band_200_399": 3575,
+      "band_200_399_pct": 2.4,
+      "band_400plus": 1909,
+      "band_400plus_pct": 1.3,
+      "below_poverty_pct": 22.3
+    },
+    "education": {
+      "universe": 97536,
+      "under_9th": 22634,
+      "under_9th_pct": 23.2,
+      "incomplete_hs": 12095,
+      "incomplete_hs_pct": 12.4,
+      "hs_some_college": 51765,
+      "hs_some_college_pct": 53.1,
+      "ba_higher": 11042,
+      "ba_higher_pct": 11.3
+    },
+    "access": {
+      "no_internet": 3040,
+      "no_internet_pct": 7.5,
+      "no_computer": 1930,
+      "no_computer_pct": 4.8,
+      "snap_households": 10404,
+      "snap_pct": 25.7,
+      "linguistically_isolated": 3631,
+      "linguistically_isolated_pct": 9.0
+    },
+    "median_hh_income": 77318.0,
+    "top_language": "Spanish",
+    "top_language_lep": 35545,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 88304,
+        "lep_count": 35545,
+        "lep_pct_of_area": 25.0
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 502,
+        "lep_count": 373,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 734,
+        "lep_count": 350,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 118,
+        "lep_count": 93,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 239,
+        "lep_count": 87,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 45,
+        "lep_count": 24,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 183,
+        "lep_count": 8,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 30,
+        "lep_count": 2,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 101,
+        "lep_count": 1,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 36483,
+    "lep_pct": 25.7,
+    "poverty_pct": 22.3,
+    "no_internet_pct": 7.5,
+    "snap_pct": 25.7,
+    "puma_code": "03757"
+  },
+  {
+    "geo_id": "0603712",
+    "geo_type": "puma",
+    "name": "East Central)--Pomona City PUMA; California",
+    "population": 148544,
+    "proficiency": {
+      "english_only": 50517,
+      "english_only_pct": 36.1,
+      "bilingual": 53406,
+      "bilingual_pct": 38.2,
+      "lep": 35823,
+      "lep_pct": 25.6,
+      "total_pop_5plus": 139746
+    },
+    "poverty": {
+      "universe": 145774,
+      "band_1_124": 28773,
+      "band_1_124_pct": 19.7,
+      "band_125_199": 26091,
+      "band_125_199_pct": 17.9,
+      "band_200_399": 3676,
+      "band_200_399_pct": 2.5,
+      "band_400plus": 1877,
+      "band_400plus_pct": 1.3,
+      "below_poverty_pct": 19.7
+    },
+    "education": {
+      "universe": 98834,
+      "under_9th": 14544,
+      "under_9th_pct": 14.7,
+      "incomplete_hs": 11523,
+      "incomplete_hs_pct": 11.7,
+      "hs_some_college": 52673,
+      "hs_some_college_pct": 53.3,
+      "ba_higher": 20094,
+      "ba_higher_pct": 20.3
+    },
+    "access": {
+      "no_internet": 2327,
+      "no_internet_pct": 5.4,
+      "no_computer": 764,
+      "no_computer_pct": 1.8,
+      "snap_households": 8024,
+      "snap_pct": 18.7,
+      "linguistically_isolated": 3179,
+      "linguistically_isolated_pct": 7.4
+    },
+    "median_hh_income": 79724.0,
+    "top_language": "Spanish",
+    "top_language_lep": 28652,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 75308,
+        "lep_count": 28652,
+        "lep_pct_of_area": 20.5
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 5139,
+        "lep_count": 3443,
+        "lep_pct_of_area": 2.5
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 1349,
+        "lep_count": 916,
+        "lep_pct_of_area": 0.7
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 1159,
+        "lep_count": 873,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1354,
+        "lep_count": 593,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 2224,
+        "lep_count": 570,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 1518,
+        "lep_count": 534,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 275,
+        "lep_count": 123,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 218,
+        "lep_count": 60,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 408,
+        "lep_count": 55,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 81,
+        "lep_count": 3,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 196,
+        "lep_count": 1,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 35823,
+    "lep_pct": 25.6,
+    "poverty_pct": 19.7,
+    "no_internet_pct": 5.4,
+    "snap_pct": 18.7,
+    "puma_code": "03712"
+  },
+  {
+    "geo_id": "0603715",
+    "geo_type": "puma",
+    "name": "East Central)--West Covina City PUMA; California",
+    "population": 116267,
+    "proficiency": {
+      "english_only": 39525,
+      "english_only_pct": 35.7,
+      "bilingual": 43326,
+      "bilingual_pct": 39.2,
+      "lep": 27789,
+      "lep_pct": 25.1,
+      "total_pop_5plus": 110640
+    },
+    "poverty": {
+      "universe": 115235,
+      "band_1_124": 15705,
+      "band_1_124_pct": 13.6,
+      "band_125_199": 11407,
+      "band_125_199_pct": 9.9,
+      "band_200_399": 1743,
+      "band_200_399_pct": 1.5,
+      "band_400plus": 884,
+      "band_400plus_pct": 0.8,
+      "below_poverty_pct": 13.6
+    },
+    "education": {
+      "universe": 82802,
+      "under_9th": 9758,
+      "under_9th_pct": 11.8,
+      "incomplete_hs": 6344,
+      "incomplete_hs_pct": 7.7,
+      "hs_some_college": 45249,
+      "hs_some_college_pct": 54.6,
+      "ba_higher": 21451,
+      "ba_higher_pct": 25.9
+    },
+    "access": {
+      "no_internet": 1530,
+      "no_internet_pct": 4.6,
+      "no_computer": 387,
+      "no_computer_pct": 1.2,
+      "snap_households": 4803,
+      "snap_pct": 14.3,
+      "linguistically_isolated": 1526,
+      "linguistically_isolated_pct": 4.5
+    },
+    "median_hh_income": 98402.0,
+    "top_language": "Spanish",
+    "top_language_lep": 15541,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 47479,
+        "lep_count": 15541,
+        "lep_pct_of_area": 14.0
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 10987,
+        "lep_count": 7487,
+        "lep_pct_of_area": 6.8
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 6167,
+        "lep_count": 1642,
+        "lep_pct_of_area": 1.5
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 2502,
+        "lep_count": 1533,
+        "lep_pct_of_area": 1.4
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 2033,
+        "lep_count": 946,
+        "lep_pct_of_area": 0.9
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 520,
+        "lep_count": 208,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 697,
+        "lep_count": 182,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 236,
+        "lep_count": 133,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 256,
+        "lep_count": 93,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 193,
+        "lep_count": 24,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 27789,
+    "lep_pct": 25.1,
+    "poverty_pct": 13.6,
+    "no_internet_pct": 4.6,
+    "snap_pct": 14.3,
+    "puma_code": "03715"
+  },
+  {
+    "geo_id": "0603732",
+    "geo_type": "puma",
+    "name": "Central)--LA City (East Central & Hollywood) PUMA; California",
+    "population": 172839,
+    "proficiency": {
+      "english_only": 79847,
+      "english_only_pct": 47.9,
+      "bilingual": 45167,
+      "bilingual_pct": 27.1,
+      "lep": 41812,
+      "lep_pct": 25.1,
+      "total_pop_5plus": 166826
+    },
+    "poverty": {
+      "universe": 170757,
+      "band_1_124": 40298,
+      "band_1_124_pct": 23.6,
+      "band_125_199": 23796,
+      "band_125_199_pct": 13.9,
+      "band_200_399": 3014,
+      "band_200_399_pct": 1.8,
+      "band_400plus": 1210,
+      "band_400plus_pct": 0.7,
+      "below_poverty_pct": 23.6
+    },
+    "education": {
+      "universe": 138297,
+      "under_9th": 12705,
+      "under_9th_pct": 9.2,
+      "incomplete_hs": 8545,
+      "incomplete_hs_pct": 6.2,
+      "hs_some_college": 51959,
+      "hs_some_college_pct": 37.6,
+      "ba_higher": 65088,
+      "ba_higher_pct": 47.1
+    },
+    "access": {
+      "no_internet": 4102,
+      "no_internet_pct": 5.0,
+      "no_computer": 1554,
+      "no_computer_pct": 1.9,
+      "snap_households": 13201,
+      "snap_pct": 16.0,
+      "linguistically_isolated": 7903,
+      "linguistically_isolated_pct": 9.6
+    },
+    "median_hh_income": 68569.0,
+    "top_language": "Spanish",
+    "top_language_lep": 25916,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 51511,
+        "lep_count": 25916,
+        "lep_pct_of_area": 15.5
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 10247,
+        "lep_count": 5082,
+        "lep_pct_of_area": 3.0
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 6635,
+        "lep_count": 3081,
+        "lep_pct_of_area": 1.8
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 4416,
+        "lep_count": 2296,
+        "lep_pct_of_area": 1.4
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 4141,
+        "lep_count": 2095,
+        "lep_pct_of_area": 1.3
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 2599,
+        "lep_count": 1443,
+        "lep_pct_of_area": 0.9
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 1899,
+        "lep_count": 687,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 2151,
+        "lep_count": 388,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 575,
+        "lep_count": 362,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 1281,
+        "lep_count": 274,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 370,
+        "lep_count": 142,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 1154,
+        "lep_count": 46,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 41812,
+    "lep_pct": 25.1,
+    "poverty_pct": 23.6,
+    "no_internet_pct": 5.0,
+    "snap_pct": 16.0,
+    "puma_code": "03732"
+  },
+  {
+    "geo_id": "0603766",
+    "geo_type": "puma",
+    "name": "South)--Long Beach City (Southwest & Port) PUMA; California",
+    "population": 96071,
+    "proficiency": {
+      "english_only": 40064,
+      "english_only_pct": 43.6,
+      "bilingual": 29569,
+      "bilingual_pct": 32.2,
+      "lep": 22300,
+      "lep_pct": 24.3,
+      "total_pop_5plus": 91933
+    },
+    "poverty": {
+      "universe": 95283,
+      "band_1_124": 21419,
+      "band_1_124_pct": 22.5,
+      "band_125_199": 14109,
+      "band_125_199_pct": 14.8,
+      "band_200_399": 2062,
+      "band_200_399_pct": 2.2,
+      "band_400plus": 992,
+      "band_400plus_pct": 1.0,
+      "below_poverty_pct": 22.5
+    },
+    "education": {
+      "universe": 67877,
+      "under_9th": 10227,
+      "under_9th_pct": 15.1,
+      "incomplete_hs": 6353,
+      "incomplete_hs_pct": 9.4,
+      "hs_some_college": 32396,
+      "hs_some_college_pct": 47.7,
+      "ba_higher": 18901,
+      "ba_higher_pct": 27.8
+    },
+    "access": {
+      "no_internet": 2349,
+      "no_internet_pct": 6.5,
+      "no_computer": 875,
+      "no_computer_pct": 2.4,
+      "snap_households": 7329,
+      "snap_pct": 20.2,
+      "linguistically_isolated": 2901,
+      "linguistically_isolated_pct": 8.0
+    },
+    "median_hh_income": 69993.0,
+    "top_language": "Spanish",
+    "top_language_lep": 16701,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 40469,
+        "lep_count": 16701,
+        "lep_pct_of_area": 18.2
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 4343,
+        "lep_count": 2023,
+        "lep_pct_of_area": 2.2
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 3005,
+        "lep_count": 1630,
+        "lep_pct_of_area": 1.8
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 1059,
+        "lep_count": 518,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 525,
+        "lep_count": 348,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 563,
+        "lep_count": 311,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 591,
+        "lep_count": 301,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 402,
+        "lep_count": 185,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 399,
+        "lep_count": 158,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 206,
+        "lep_count": 125,
+        "lep_pct_of_area": 0.1
+      }
+    ],
+    "lep_total": 22300,
+    "lep_pct": 24.3,
+    "poverty_pct": 22.5,
+    "no_internet_pct": 6.5,
+    "snap_pct": 20.2,
+    "puma_code": "03766"
+  },
+  {
+    "geo_id": "0603759",
+    "geo_type": "puma",
+    "name": "South Central)--Hawthorne City PUMA; California",
+    "population": 111079,
+    "proficiency": {
+      "english_only": 44194,
+      "english_only_pct": 42.2,
+      "bilingual": 35243,
+      "bilingual_pct": 33.7,
+      "lep": 25256,
+      "lep_pct": 24.1,
+      "total_pop_5plus": 104693
+    },
+    "poverty": {
+      "universe": 110297,
+      "band_1_124": 23066,
+      "band_1_124_pct": 20.9,
+      "band_125_199": 13728,
+      "band_125_199_pct": 12.4,
+      "band_200_399": 2203,
+      "band_200_399_pct": 2.0,
+      "band_400plus": 877,
+      "band_400plus_pct": 0.8,
+      "below_poverty_pct": 20.9
+    },
+    "education": {
+      "universe": 75049,
+      "under_9th": 10533,
+      "under_9th_pct": 14.0,
+      "incomplete_hs": 7072,
+      "incomplete_hs_pct": 9.4,
+      "hs_some_college": 38231,
+      "hs_some_college_pct": 50.9,
+      "ba_higher": 19213,
+      "ba_higher_pct": 25.6
+    },
+    "access": {
+      "no_internet": 1950,
+      "no_internet_pct": 5.2,
+      "no_computer": 572,
+      "no_computer_pct": 1.5,
+      "snap_households": 6741,
+      "snap_pct": 17.9,
+      "linguistically_isolated": 3392,
+      "linguistically_isolated_pct": 9.0
+    },
+    "median_hh_income": 78290.0,
+    "top_language": "Spanish",
+    "top_language_lep": 21741,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 50471,
+        "lep_count": 21741,
+        "lep_pct_of_area": 20.8
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 1945,
+        "lep_count": 921,
+        "lep_pct_of_area": 0.9
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 1178,
+        "lep_count": 876,
+        "lep_pct_of_area": 0.8
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 1548,
+        "lep_count": 485,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 971,
+        "lep_count": 258,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 887,
+        "lep_count": 250,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 1918,
+        "lep_count": 221,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 281,
+        "lep_count": 192,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 589,
+        "lep_count": 152,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 504,
+        "lep_count": 103,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 170,
+        "lep_count": 57,
+        "lep_pct_of_area": 0.1
+      }
+    ],
+    "lep_total": 25256,
+    "lep_pct": 24.1,
+    "poverty_pct": 20.9,
+    "no_internet_pct": 5.2,
+    "snap_pct": 17.9,
+    "puma_code": "03759"
+  },
+  {
+    "geo_id": "0603767",
+    "geo_type": "puma",
+    "name": "South)--LA City (South/San Pedro) PUMA; California",
+    "population": 181743,
+    "proficiency": {
+      "english_only": 73389,
+      "english_only_pct": 43.0,
+      "bilingual": 56657,
+      "bilingual_pct": 33.2,
+      "lep": 40814,
+      "lep_pct": 23.9,
+      "total_pop_5plus": 170860
+    },
+    "poverty": {
+      "universe": 179805,
+      "band_1_124": 39105,
+      "band_1_124_pct": 21.7,
+      "band_125_199": 26637,
+      "band_125_199_pct": 14.8,
+      "band_200_399": 3868,
+      "band_200_399_pct": 2.2,
+      "band_400plus": 1951,
+      "band_400plus_pct": 1.1,
+      "below_poverty_pct": 21.7
+    },
+    "education": {
+      "universe": 124365,
+      "under_9th": 14747,
+      "under_9th_pct": 11.9,
+      "incomplete_hs": 13363,
+      "incomplete_hs_pct": 10.7,
+      "hs_some_college": 63746,
+      "hs_some_college_pct": 51.3,
+      "ba_higher": 32509,
+      "ba_higher_pct": 26.1
+    },
+    "access": {
+      "no_internet": 3262,
+      "no_internet_pct": 5.3,
+      "no_computer": 1063,
+      "no_computer_pct": 1.7,
+      "snap_households": 9276,
+      "snap_pct": 15.0,
+      "linguistically_isolated": 5978,
+      "linguistically_isolated_pct": 9.7
+    },
+    "median_hh_income": 77555.0,
+    "top_language": "Spanish",
+    "top_language_lep": 32802,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 78935,
+        "lep_count": 32802,
+        "lep_pct_of_area": 19.2
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 3317,
+        "lep_count": 1720,
+        "lep_pct_of_area": 1.0
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 2758,
+        "lep_count": 1699,
+        "lep_pct_of_area": 1.0
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 3641,
+        "lep_count": 1372,
+        "lep_pct_of_area": 0.8
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 1735,
+        "lep_count": 879,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 2635,
+        "lep_count": 757,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 1193,
+        "lep_count": 558,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 640,
+        "lep_count": 397,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 1150,
+        "lep_count": 336,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 640,
+        "lep_count": 190,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 569,
+        "lep_count": 104,
+        "lep_pct_of_area": 0.1
+      }
+    ],
+    "lep_total": 40814,
+    "lep_pct": 23.9,
+    "poverty_pct": 21.7,
+    "no_internet_pct": 5.3,
+    "snap_pct": 15.0,
+    "puma_code": "03767"
+  },
+  {
+    "geo_id": "0603706",
+    "geo_type": "puma",
+    "name": "North)--LA City (North Central/Granada Hills & Sylmar) PUMA; California",
+    "population": 140426,
+    "proficiency": {
+      "english_only": 50308,
+      "english_only_pct": 37.9,
+      "bilingual": 51448,
+      "bilingual_pct": 38.7,
+      "lep": 31121,
+      "lep_pct": 23.4,
+      "total_pop_5plus": 132877
+    },
+    "poverty": {
+      "universe": 138855,
+      "band_1_124": 20074,
+      "band_1_124_pct": 14.5,
+      "band_125_199": 16136,
+      "band_125_199_pct": 11.6,
+      "band_200_399": 2226,
+      "band_200_399_pct": 1.6,
+      "band_400plus": 1520,
+      "band_400plus_pct": 1.1,
+      "below_poverty_pct": 14.5
+    },
+    "education": {
+      "universe": 98531,
+      "under_9th": 11420,
+      "under_9th_pct": 11.6,
+      "incomplete_hs": 7895,
+      "incomplete_hs_pct": 8.0,
+      "hs_some_college": 50479,
+      "hs_some_college_pct": 51.2,
+      "ba_higher": 28737,
+      "ba_higher_pct": 29.2
+    },
+    "access": {
+      "no_internet": 2000,
+      "no_internet_pct": 4.7,
+      "no_computer": 826,
+      "no_computer_pct": 1.9,
+      "snap_households": 6017,
+      "snap_pct": 14.0,
+      "linguistically_isolated": 2873,
+      "linguistically_isolated_pct": 6.7
+    },
+    "median_hh_income": 102396.0,
+    "top_language": "Spanish",
+    "top_language_lep": 20894,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 55744,
+        "lep_count": 20894,
+        "lep_pct_of_area": 15.7
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 10885,
+        "lep_count": 4252,
+        "lep_pct_of_area": 3.2
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 6579,
+        "lep_count": 1439,
+        "lep_pct_of_area": 1.1
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 1926,
+        "lep_count": 1339,
+        "lep_pct_of_area": 1.0
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 1454,
+        "lep_count": 1060,
+        "lep_pct_of_area": 0.8
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 1711,
+        "lep_count": 791,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1038,
+        "lep_count": 437,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 1391,
+        "lep_count": 395,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 487,
+        "lep_count": 251,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 610,
+        "lep_count": 239,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 337,
+        "lep_count": 24,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 31121,
+    "lep_pct": 23.4,
+    "poverty_pct": 14.5,
+    "no_internet_pct": 4.7,
+    "snap_pct": 14.0,
+    "puma_code": "03706"
+  },
+  {
+    "geo_id": "0603735",
+    "geo_type": "puma",
+    "name": "LA City (Mount Washington",
+    "population": 181058,
+    "proficiency": {
+      "english_only": 72956,
+      "english_only_pct": 42.6,
+      "bilingual": 58521,
+      "bilingual_pct": 34.1,
+      "lep": 39976,
+      "lep_pct": 23.3,
+      "total_pop_5plus": 171453
+    },
+    "poverty": {
+      "universe": 177165,
+      "band_1_124": 29633,
+      "band_1_124_pct": 16.7,
+      "band_125_199": 21722,
+      "band_125_199_pct": 12.3,
+      "band_200_399": 3426,
+      "band_200_399_pct": 1.9,
+      "band_400plus": 1636,
+      "band_400plus_pct": 0.9,
+      "below_poverty_pct": 16.7
+    },
+    "education": {
+      "universe": 134325,
+      "under_9th": 16993,
+      "under_9th_pct": 12.7,
+      "incomplete_hs": 10934,
+      "incomplete_hs_pct": 8.1,
+      "hs_some_college": 54433,
+      "hs_some_college_pct": 40.5,
+      "ba_higher": 51965,
+      "ba_higher_pct": 38.7
+    },
+    "access": {
+      "no_internet": 3636,
+      "no_internet_pct": 5.7,
+      "no_computer": 1209,
+      "no_computer_pct": 1.9,
+      "snap_households": 9485,
+      "snap_pct": 14.8,
+      "linguistically_isolated": 5133,
+      "linguistically_isolated_pct": 8.0
+    },
+    "median_hh_income": 93331.0,
+    "top_language": "Spanish",
+    "top_language_lep": 28809,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 74035,
+        "lep_count": 28809,
+        "lep_pct_of_area": 16.8
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 7203,
+        "lep_count": 4956,
+        "lep_pct_of_area": 2.9
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 7996,
+        "lep_count": 2923,
+        "lep_pct_of_area": 1.7
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1695,
+        "lep_count": 1036,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 1570,
+        "lep_count": 875,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 2741,
+        "lep_count": 711,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 529,
+        "lep_count": 360,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 542,
+        "lep_count": 124,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 190,
+        "lep_count": 65,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 381,
+        "lep_count": 56,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 732,
+        "lep_count": 52,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 883,
+        "lep_count": 9,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 39976,
+    "lep_pct": 23.3,
+    "poverty_pct": 16.7,
+    "no_internet_pct": 5.7,
+    "snap_pct": 14.8,
+    "puma_code": "03735"
+  },
+  {
+    "geo_id": "0603721",
+    "geo_type": "puma",
+    "name": "North)--LA City (Northeast/North Hollywood & Valley Village) PUMA; California",
+    "population": 132163,
+    "proficiency": {
+      "english_only": 58731,
+      "english_only_pct": 46.5,
+      "bilingual": 38523,
+      "bilingual_pct": 30.5,
+      "lep": 28973,
+      "lep_pct": 23.0,
+      "total_pop_5plus": 126227
+    },
+    "poverty": {
+      "universe": 131511,
+      "band_1_124": 26513,
+      "band_1_124_pct": 20.2,
+      "band_125_199": 16994,
+      "band_125_199_pct": 12.9,
+      "band_200_399": 2514,
+      "band_200_399_pct": 1.9,
+      "band_400plus": 1089,
+      "band_400plus_pct": 0.8,
+      "below_poverty_pct": 20.2
+    },
+    "education": {
+      "universe": 99382,
+      "under_9th": 8268,
+      "under_9th_pct": 8.3,
+      "incomplete_hs": 6025,
+      "incomplete_hs_pct": 6.1,
+      "hs_some_college": 45371,
+      "hs_some_college_pct": 45.7,
+      "ba_higher": 39718,
+      "ba_higher_pct": 40.0
+    },
+    "access": {
+      "no_internet": 2021,
+      "no_internet_pct": 3.6,
+      "no_computer": 814,
+      "no_computer_pct": 1.4,
+      "snap_households": 9197,
+      "snap_pct": 16.2,
+      "linguistically_isolated": 4494,
+      "linguistically_isolated_pct": 7.9
+    },
+    "median_hh_income": 75591.0,
+    "top_language": "Spanish",
+    "top_language_lep": 18311,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 42834,
+        "lep_count": 18311,
+        "lep_pct_of_area": 14.5
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 12789,
+        "lep_count": 6145,
+        "lep_pct_of_area": 4.9
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 3819,
+        "lep_count": 1947,
+        "lep_pct_of_area": 1.5
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 1985,
+        "lep_count": 657,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1253,
+        "lep_count": 459,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 761,
+        "lep_count": 429,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 405,
+        "lep_count": 277,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 1034,
+        "lep_count": 267,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 666,
+        "lep_count": 210,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 476,
+        "lep_count": 162,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 510,
+        "lep_count": 84,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 964,
+        "lep_count": 25,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 28973,
+    "lep_pct": 23.0,
+    "poverty_pct": 20.2,
+    "no_internet_pct": 3.6,
+    "snap_pct": 16.2,
+    "puma_code": "03721"
+  },
+  {
+    "geo_id": "0603724",
+    "geo_type": "puma",
+    "name": "Northwest)--LA City (Northwest/Encino & Tarzana) PUMA; California",
+    "population": 172131,
+    "proficiency": {
+      "english_only": 76853,
+      "english_only_pct": 47.3,
+      "bilingual": 49636,
+      "bilingual_pct": 30.5,
+      "lep": 36135,
+      "lep_pct": 22.2,
+      "total_pop_5plus": 162624
+    },
+    "poverty": {
+      "universe": 170515,
+      "band_1_124": 28745,
+      "band_1_124_pct": 16.9,
+      "band_125_199": 15790,
+      "band_125_199_pct": 9.3,
+      "band_200_399": 2716,
+      "band_200_399_pct": 1.6,
+      "band_400plus": 969,
+      "band_400plus_pct": 0.6,
+      "below_poverty_pct": 16.9
+    },
+    "education": {
+      "universe": 124810,
+      "under_9th": 10445,
+      "under_9th_pct": 8.4,
+      "incomplete_hs": 7480,
+      "incomplete_hs_pct": 6.0,
+      "hs_some_college": 52451,
+      "hs_some_college_pct": 42.0,
+      "ba_higher": 54434,
+      "ba_higher_pct": 43.6
+    },
+    "access": {
+      "no_internet": 2501,
+      "no_internet_pct": 4.0,
+      "no_computer": 1154,
+      "no_computer_pct": 1.8,
+      "snap_households": 7973,
+      "snap_pct": 12.7,
+      "linguistically_isolated": 3516,
+      "linguistically_isolated_pct": 5.6
+    },
+    "median_hh_income": 96047.0,
+    "top_language": "Spanish",
+    "top_language_lep": 19715,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 46112,
+        "lep_count": 19715,
+        "lep_pct_of_area": 12.1
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 17742,
+        "lep_count": 8514,
+        "lep_pct_of_area": 5.2
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 4650,
+        "lep_count": 1732,
+        "lep_pct_of_area": 1.1
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 2063,
+        "lep_count": 1277,
+        "lep_pct_of_area": 0.8
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 3890,
+        "lep_count": 1219,
+        "lep_pct_of_area": 0.7
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 2191,
+        "lep_count": 1045,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 3797,
+        "lep_count": 949,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 1330,
+        "lep_count": 612,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 1334,
+        "lep_count": 429,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 1056,
+        "lep_count": 388,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 1245,
+        "lep_count": 203,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 361,
+        "lep_count": 52,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 36135,
+    "lep_pct": 22.2,
+    "poverty_pct": 16.9,
+    "no_internet_pct": 4.0,
+    "snap_pct": 12.7,
+    "puma_code": "03724"
+  },
+  {
+    "geo_id": "0603713",
+    "geo_type": "puma",
+    "name": "East Central)--Covina & Walnut Cities PUMA; California",
+    "population": 111007,
+    "proficiency": {
+      "english_only": 47167,
+      "english_only_pct": 44.7,
+      "bilingual": 35450,
+      "bilingual_pct": 33.6,
+      "lep": 22931,
+      "lep_pct": 21.7,
+      "total_pop_5plus": 105548
+    },
+    "poverty": {
+      "universe": 109325,
+      "band_1_124": 11881,
+      "band_1_124_pct": 10.9,
+      "band_125_199": 10916,
+      "band_125_199_pct": 10.0,
+      "band_200_399": 1622,
+      "band_200_399_pct": 1.5,
+      "band_400plus": 806,
+      "band_400plus_pct": 0.7,
+      "below_poverty_pct": 10.9
+    },
+    "education": {
+      "universe": 78067,
+      "under_9th": 4186,
+      "under_9th_pct": 5.4,
+      "incomplete_hs": 4378,
+      "incomplete_hs_pct": 5.6,
+      "hs_some_college": 40671,
+      "hs_some_college_pct": 52.1,
+      "ba_higher": 28832,
+      "ba_higher_pct": 36.9
+    },
+    "access": {
+      "no_internet": 1925,
+      "no_internet_pct": 5.6,
+      "no_computer": 278,
+      "no_computer_pct": 0.8,
+      "snap_households": 3720,
+      "snap_pct": 10.9,
+      "linguistically_isolated": 854,
+      "linguistically_isolated_pct": 2.5
+    },
+    "median_hh_income": 106895.0,
+    "top_language": "Chinese (Mandarin/Cantonese)",
+    "top_language_lep": 9417,
+    "languages": [
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 15741,
+        "lep_count": 9417,
+        "lep_pct_of_area": 8.9
+      },
+      {
+        "name": "Spanish",
+        "total_speakers": 29889,
+        "lep_count": 8734,
+        "lep_pct_of_area": 8.3
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 2237,
+        "lep_count": 1143,
+        "lep_pct_of_area": 1.1
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 1686,
+        "lep_count": 1073,
+        "lep_pct_of_area": 1.0
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 4310,
+        "lep_count": 1034,
+        "lep_pct_of_area": 1.0
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 1128,
+        "lep_count": 752,
+        "lep_pct_of_area": 0.7
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 1932,
+        "lep_count": 364,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 841,
+        "lep_count": 320,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 138,
+        "lep_count": 54,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 235,
+        "lep_count": 30,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 98,
+        "lep_count": 10,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 22931,
+    "lep_pct": 21.7,
+    "poverty_pct": 10.9,
+    "no_internet_pct": 5.6,
+    "snap_pct": 10.9,
+    "puma_code": "03713"
+  },
+  {
+    "geo_id": "0603704",
+    "geo_type": "puma",
+    "name": "North Central)--Palmdale City PUMA; California",
+    "population": 182729,
+    "proficiency": {
+      "english_only": 79409,
+      "english_only_pct": 46.6,
+      "bilingual": 54521,
+      "bilingual_pct": 32.0,
+      "lep": 36633,
+      "lep_pct": 21.5,
+      "total_pop_5plus": 170563
+    },
+    "poverty": {
+      "universe": 181476,
+      "band_1_124": 36465,
+      "band_1_124_pct": 20.1,
+      "band_125_199": 28765,
+      "band_125_199_pct": 15.9,
+      "band_200_399": 3999,
+      "band_200_399_pct": 2.2,
+      "band_400plus": 2369,
+      "band_400plus_pct": 1.3,
+      "below_poverty_pct": 20.1
+    },
+    "education": {
+      "universe": 112944,
+      "under_9th": 13072,
+      "under_9th_pct": 11.6,
+      "incomplete_hs": 12565,
+      "incomplete_hs_pct": 11.1,
+      "hs_some_college": 68483,
+      "hs_some_college_pct": 60.6,
+      "ba_higher": 18824,
+      "ba_higher_pct": 16.7
+    },
+    "access": {
+      "no_internet": 3096,
+      "no_internet_pct": 6.0,
+      "no_computer": 850,
+      "no_computer_pct": 1.6,
+      "snap_households": 10756,
+      "snap_pct": 20.7,
+      "linguistically_isolated": 3782,
+      "linguistically_isolated_pct": 7.3
+    },
+    "median_hh_income": 81855.0,
+    "top_language": "Spanish",
+    "top_language_lep": 33320,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 82658,
+        "lep_count": 33320,
+        "lep_pct_of_area": 19.5
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 1730,
+        "lep_count": 909,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 2418,
+        "lep_count": 631,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 458,
+        "lep_count": 394,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 890,
+        "lep_count": 337,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 773,
+        "lep_count": 327,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 784,
+        "lep_count": 223,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 507,
+        "lep_count": 194,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 271,
+        "lep_count": 166,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 245,
+        "lep_count": 132,
+        "lep_pct_of_area": 0.1
+      }
+    ],
+    "lep_total": 36633,
+    "lep_pct": 21.5,
+    "poverty_pct": 20.1,
+    "no_internet_pct": 6.0,
+    "snap_pct": 20.7,
+    "puma_code": "03704"
+  },
+  {
+    "geo_id": "0603753",
+    "geo_type": "puma",
+    "name": "South)--Downey City PUMA; California",
+    "population": 109806,
+    "proficiency": {
+      "english_only": 36455,
+      "english_only_pct": 34.9,
+      "bilingual": 45514,
+      "bilingual_pct": 43.6,
+      "lep": 22409,
+      "lep_pct": 21.5,
+      "total_pop_5plus": 104378
+    },
+    "poverty": {
+      "universe": 108821,
+      "band_1_124": 14436,
+      "band_1_124_pct": 13.3,
+      "band_125_199": 13209,
+      "band_125_199_pct": 12.1,
+      "band_200_399": 1828,
+      "band_200_399_pct": 1.7,
+      "band_400plus": 1260,
+      "band_400plus_pct": 1.2,
+      "below_poverty_pct": 13.3
+    },
+    "education": {
+      "universe": 76203,
+      "under_9th": 8524,
+      "under_9th_pct": 11.2,
+      "incomplete_hs": 5948,
+      "incomplete_hs_pct": 7.8,
+      "hs_some_college": 41908,
+      "hs_some_college_pct": 55.0,
+      "ba_higher": 19823,
+      "ba_higher_pct": 26.0
+    },
+    "access": {
+      "no_internet": 1498,
+      "no_internet_pct": 4.3,
+      "no_computer": 878,
+      "no_computer_pct": 2.5,
+      "snap_households": 4438,
+      "snap_pct": 12.9,
+      "linguistically_isolated": 2736,
+      "linguistically_isolated_pct": 7.9
+    },
+    "median_hh_income": 90474.0,
+    "top_language": "Spanish",
+    "top_language_lep": 18518,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 59358,
+        "lep_count": 18518,
+        "lep_pct_of_area": 17.7
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 1569,
+        "lep_count": 1063,
+        "lep_pct_of_area": 1.0
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 1927,
+        "lep_count": 959,
+        "lep_pct_of_area": 0.9
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 1973,
+        "lep_count": 504,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 871,
+        "lep_count": 425,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 612,
+        "lep_count": 328,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 827,
+        "lep_count": 321,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 144,
+        "lep_count": 113,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 286,
+        "lep_count": 93,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 203,
+        "lep_count": 51,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 121,
+        "lep_count": 23,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 32,
+        "lep_count": 11,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 22409,
+    "lep_pct": 21.5,
+    "poverty_pct": 13.3,
+    "no_internet_pct": 4.3,
+    "snap_pct": 12.9,
+    "puma_code": "03753"
+  },
+  {
+    "geo_id": "0603762",
+    "geo_type": "puma",
+    "name": "South Central)--Carson City PUMA; California",
+    "population": 115630,
+    "proficiency": {
+      "english_only": 52639,
+      "english_only_pct": 47.6,
+      "bilingual": 36037,
+      "bilingual_pct": 32.6,
+      "lep": 21921,
+      "lep_pct": 19.8,
+      "total_pop_5plus": 110597
+    },
+    "poverty": {
+      "universe": 114110,
+      "band_1_124": 13860,
+      "band_1_124_pct": 12.1,
+      "band_125_199": 13586,
+      "band_125_199_pct": 11.9,
+      "band_200_399": 1950,
+      "band_200_399_pct": 1.7,
+      "band_400plus": 1080,
+      "band_400plus_pct": 0.9,
+      "below_poverty_pct": 12.1
+    },
+    "education": {
+      "universe": 84288,
+      "under_9th": 6374,
+      "under_9th_pct": 7.6,
+      "incomplete_hs": 6381,
+      "incomplete_hs_pct": 7.6,
+      "hs_some_college": 45674,
+      "hs_some_college_pct": 54.2,
+      "ba_higher": 25859,
+      "ba_higher_pct": 30.7
+    },
+    "access": {
+      "no_internet": 1497,
+      "no_internet_pct": 4.2,
+      "no_computer": 453,
+      "no_computer_pct": 1.3,
+      "snap_households": 4617,
+      "snap_pct": 13.0,
+      "linguistically_isolated": 1473,
+      "linguistically_isolated_pct": 4.2
+    },
+    "median_hh_income": 105192.0,
+    "top_language": "Spanish",
+    "top_language_lep": 11237,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 32294,
+        "lep_count": 11237,
+        "lep_pct_of_area": 10.2
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 14385,
+        "lep_count": 5735,
+        "lep_pct_of_area": 5.2
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 2860,
+        "lep_count": 2011,
+        "lep_pct_of_area": 1.8
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 3178,
+        "lep_count": 1115,
+        "lep_pct_of_area": 1.0
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 1218,
+        "lep_count": 484,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 1636,
+        "lep_count": 390,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 768,
+        "lep_count": 335,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 495,
+        "lep_count": 333,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 245,
+        "lep_count": 191,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 250,
+        "lep_count": 58,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 419,
+        "lep_count": 32,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 21921,
+    "lep_pct": 19.8,
+    "poverty_pct": 12.1,
+    "no_internet_pct": 4.2,
+    "snap_pct": 13.0,
+    "puma_code": "03762"
+  },
+  {
+    "geo_id": "0603763",
+    "geo_type": "puma",
+    "name": "South Central)--Long Beach City (North) PUMA; California",
+    "population": 143610,
+    "proficiency": {
+      "english_only": 64646,
+      "english_only_pct": 47.7,
+      "bilingual": 44820,
+      "bilingual_pct": 33.0,
+      "lep": 26176,
+      "lep_pct": 19.3,
+      "total_pop_5plus": 135642
+    },
+    "poverty": {
+      "universe": 142401,
+      "band_1_124": 28942,
+      "band_1_124_pct": 20.3,
+      "band_125_199": 18219,
+      "band_125_199_pct": 12.8,
+      "band_200_399": 2595,
+      "band_200_399_pct": 1.8,
+      "band_400plus": 1055,
+      "band_400plus_pct": 0.7,
+      "below_poverty_pct": 20.3
+    },
+    "education": {
+      "universe": 95916,
+      "under_9th": 11830,
+      "under_9th_pct": 12.3,
+      "incomplete_hs": 8552,
+      "incomplete_hs_pct": 8.9,
+      "hs_some_college": 50956,
+      "hs_some_college_pct": 53.1,
+      "ba_higher": 24578,
+      "ba_higher_pct": 25.6
+    },
+    "access": {
+      "no_internet": 2634,
+      "no_internet_pct": 5.7,
+      "no_computer": 1123,
+      "no_computer_pct": 2.4,
+      "snap_households": 9563,
+      "snap_pct": 20.8,
+      "linguistically_isolated": 2236,
+      "linguistically_isolated_pct": 4.9
+    },
+    "median_hh_income": 82958.0,
+    "top_language": "Spanish",
+    "top_language_lep": 19192,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 53856,
+        "lep_count": 19192,
+        "lep_pct_of_area": 14.1
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 6422,
+        "lep_count": 3325,
+        "lep_pct_of_area": 2.5
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 5342,
+        "lep_count": 1744,
+        "lep_pct_of_area": 1.3
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 973,
+        "lep_count": 662,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 1704,
+        "lep_count": 518,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 755,
+        "lep_count": 210,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 485,
+        "lep_count": 178,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 196,
+        "lep_count": 110,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 672,
+        "lep_count": 96,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 200,
+        "lep_count": 76,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 229,
+        "lep_count": 41,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 162,
+        "lep_count": 24,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 26176,
+    "lep_pct": 19.3,
+    "poverty_pct": 20.3,
+    "no_internet_pct": 5.7,
+    "snap_pct": 20.8,
+    "puma_code": "03763"
+  },
+  {
+    "geo_id": "0603725",
+    "geo_type": "puma",
+    "name": "LA City (Northwest/Canoga Park",
+    "population": 185061,
+    "proficiency": {
+      "english_only": 88122,
+      "english_only_pct": 50.5,
+      "bilingual": 52712,
+      "bilingual_pct": 30.2,
+      "lep": 33583,
+      "lep_pct": 19.3,
+      "total_pop_5plus": 174417
+    },
+    "poverty": {
+      "universe": 183782,
+      "band_1_124": 28697,
+      "band_1_124_pct": 15.6,
+      "band_125_199": 17631,
+      "band_125_199_pct": 9.6,
+      "band_200_399": 2568,
+      "band_200_399_pct": 1.4,
+      "band_400plus": 1322,
+      "band_400plus_pct": 0.7,
+      "below_poverty_pct": 15.6
+    },
+    "education": {
+      "universe": 133467,
+      "under_9th": 10733,
+      "under_9th_pct": 8.0,
+      "incomplete_hs": 6420,
+      "incomplete_hs_pct": 4.8,
+      "hs_some_college": 58809,
+      "hs_some_college_pct": 44.1,
+      "ba_higher": 57505,
+      "ba_higher_pct": 43.1
+    },
+    "access": {
+      "no_internet": 2236,
+      "no_internet_pct": 3.3,
+      "no_computer": 978,
+      "no_computer_pct": 1.4,
+      "snap_households": 7486,
+      "snap_pct": 11.1,
+      "linguistically_isolated": 3789,
+      "linguistically_isolated_pct": 5.6
+    },
+    "median_hh_income": 101512.0,
+    "top_language": "Spanish",
+    "top_language_lep": 18363,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 43759,
+        "lep_count": 18363,
+        "lep_pct_of_area": 10.5
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 17459,
+        "lep_count": 5999,
+        "lep_pct_of_area": 3.4
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 3600,
+        "lep_count": 2538,
+        "lep_pct_of_area": 1.5
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 3898,
+        "lep_count": 1449,
+        "lep_pct_of_area": 0.8
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 4005,
+        "lep_count": 1293,
+        "lep_pct_of_area": 0.7
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 4371,
+        "lep_count": 1124,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 3622,
+        "lep_count": 874,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 1895,
+        "lep_count": 780,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 1155,
+        "lep_count": 568,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 1064,
+        "lep_count": 459,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 586,
+        "lep_count": 78,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 881,
+        "lep_count": 58,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 33583,
+    "lep_pct": 19.3,
+    "poverty_pct": 15.6,
+    "no_internet_pct": 3.3,
+    "snap_pct": 11.1,
+    "puma_code": "03725"
+  },
+  {
+    "geo_id": "0603764",
+    "geo_type": "puma",
+    "name": "South)--Lakewood",
+    "population": 157345,
+    "proficiency": {
+      "english_only": 75351,
+      "english_only_pct": 50.5,
+      "bilingual": 46440,
+      "bilingual_pct": 31.1,
+      "lep": 27319,
+      "lep_pct": 18.3,
+      "total_pop_5plus": 149110
+    },
+    "poverty": {
+      "universe": 156529,
+      "band_1_124": 14462,
+      "band_1_124_pct": 9.2,
+      "band_125_199": 13580,
+      "band_125_199_pct": 8.7,
+      "band_200_399": 1896,
+      "band_200_399_pct": 1.2,
+      "band_400plus": 1136,
+      "band_400plus_pct": 0.7,
+      "below_poverty_pct": 9.2
+    },
+    "education": {
+      "universe": 112760,
+      "under_9th": 7107,
+      "under_9th_pct": 6.3,
+      "incomplete_hs": 5841,
+      "incomplete_hs_pct": 5.2,
+      "hs_some_college": 55397,
+      "hs_some_college_pct": 49.1,
+      "ba_higher": 44415,
+      "ba_higher_pct": 39.4
+    },
+    "access": {
+      "no_internet": 1939,
+      "no_internet_pct": 3.8,
+      "no_computer": 723,
+      "no_computer_pct": 1.4,
+      "snap_households": 4882,
+      "snap_pct": 9.6,
+      "linguistically_isolated": 1232,
+      "linguistically_isolated_pct": 2.4
+    },
+    "median_hh_income": 118109.0,
+    "top_language": "Spanish",
+    "top_language_lep": 10562,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 32960,
+        "lep_count": 10562,
+        "lep_pct_of_area": 7.1
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 6727,
+        "lep_count": 4005,
+        "lep_pct_of_area": 2.7
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 7464,
+        "lep_count": 3944,
+        "lep_pct_of_area": 2.6
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 9791,
+        "lep_count": 2923,
+        "lep_pct_of_area": 2.0
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 6449,
+        "lep_count": 2772,
+        "lep_pct_of_area": 1.9
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 6693,
+        "lep_count": 1812,
+        "lep_pct_of_area": 1.2
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 1529,
+        "lep_count": 852,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 824,
+        "lep_count": 145,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 404,
+        "lep_count": 122,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 246,
+        "lep_count": 113,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 280,
+        "lep_count": 69,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 27319,
+    "lep_pct": 18.3,
+    "poverty_pct": 9.2,
+    "no_internet_pct": 3.8,
+    "snap_pct": 9.6,
+    "puma_code": "03764"
+  },
+  {
+    "geo_id": "0603739",
+    "geo_type": "puma",
+    "name": "Southeast)--Whittier City & Hacienda Heights PUMA; California",
+    "population": 169849,
+    "proficiency": {
+      "english_only": 77169,
+      "english_only_pct": 47.7,
+      "bilingual": 55059,
+      "bilingual_pct": 34.1,
+      "lep": 29437,
+      "lep_pct": 18.2,
+      "total_pop_5plus": 161665
+    },
+    "poverty": {
+      "universe": 168118,
+      "band_1_124": 22966,
+      "band_1_124_pct": 13.7,
+      "band_125_199": 17642,
+      "band_125_199_pct": 10.5,
+      "band_200_399": 2280,
+      "band_200_399_pct": 1.4,
+      "band_400plus": 1550,
+      "band_400plus_pct": 0.9,
+      "below_poverty_pct": 13.7
+    },
+    "education": {
+      "universe": 120496,
+      "under_9th": 8900,
+      "under_9th_pct": 7.4,
+      "incomplete_hs": 7534,
+      "incomplete_hs_pct": 6.3,
+      "hs_some_college": 67567,
+      "hs_some_college_pct": 56.1,
+      "ba_higher": 36495,
+      "ba_higher_pct": 30.3
+    },
+    "access": {
+      "no_internet": 2838,
+      "no_internet_pct": 5.3,
+      "no_computer": 795,
+      "no_computer_pct": 1.5,
+      "snap_households": 4626,
+      "snap_pct": 8.7,
+      "linguistically_isolated": 1742,
+      "linguistically_isolated_pct": 3.3
+    },
+    "median_hh_income": 103611.0,
+    "top_language": "Spanish",
+    "top_language_lep": 16031,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 59762,
+        "lep_count": 16031,
+        "lep_pct_of_area": 9.9
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 14210,
+        "lep_count": 9287,
+        "lep_pct_of_area": 5.7
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 1803,
+        "lep_count": 1066,
+        "lep_pct_of_area": 0.7
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1871,
+        "lep_count": 885,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 2207,
+        "lep_count": 619,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 931,
+        "lep_count": 591,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 2217,
+        "lep_count": 558,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 482,
+        "lep_count": 203,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 382,
+        "lep_count": 111,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 124,
+        "lep_count": 39,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 266,
+        "lep_count": 32,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 241,
+        "lep_count": 15,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 29437,
+    "lep_pct": 18.2,
+    "poverty_pct": 13.7,
+    "no_internet_pct": 5.3,
+    "snap_pct": 8.7,
+    "puma_code": "03739"
+  },
+  {
+    "geo_id": "0603730",
+    "geo_type": "puma",
+    "name": "West Central)--LA City (Central/Hancock Park & Mid-Wilshire) PUMA; California",
+    "population": 162974,
+    "proficiency": {
+      "english_only": 89906,
+      "english_only_pct": 57.6,
+      "bilingual": 37903,
+      "bilingual_pct": 24.3,
+      "lep": 28201,
+      "lep_pct": 18.1,
+      "total_pop_5plus": 156010
+    },
+    "poverty": {
+      "universe": 161691,
+      "band_1_124": 25720,
+      "band_1_124_pct": 15.9,
+      "band_125_199": 17520,
+      "band_125_199_pct": 10.8,
+      "band_200_399": 2329,
+      "band_200_399_pct": 1.4,
+      "band_400plus": 1119,
+      "band_400plus_pct": 0.7,
+      "below_poverty_pct": 15.9
+    },
+    "education": {
+      "universe": 126641,
+      "under_9th": 7993,
+      "under_9th_pct": 6.3,
+      "incomplete_hs": 3889,
+      "incomplete_hs_pct": 3.1,
+      "hs_some_college": 40613,
+      "hs_some_college_pct": 32.1,
+      "ba_higher": 74146,
+      "ba_higher_pct": 58.5
+    },
+    "access": {
+      "no_internet": 2982,
+      "no_internet_pct": 3.9,
+      "no_computer": 1579,
+      "no_computer_pct": 2.1,
+      "snap_households": 7833,
+      "snap_pct": 10.3,
+      "linguistically_isolated": 3231,
+      "linguistically_isolated_pct": 4.3
+    },
+    "median_hh_income": 95676.0,
+    "top_language": "Spanish",
+    "top_language_lep": 12525,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 27806,
+        "lep_count": 12525,
+        "lep_pct_of_area": 8.0
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 14595,
+        "lep_count": 9306,
+        "lep_pct_of_area": 6.0
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 6162,
+        "lep_count": 1791,
+        "lep_pct_of_area": 1.1
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 3534,
+        "lep_count": 1171,
+        "lep_pct_of_area": 0.8
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 3998,
+        "lep_count": 832,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 2329,
+        "lep_count": 780,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 2076,
+        "lep_count": 679,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 1576,
+        "lep_count": 588,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 427,
+        "lep_count": 209,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 2184,
+        "lep_count": 180,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 389,
+        "lep_count": 97,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 1028,
+        "lep_count": 43,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 28201,
+    "lep_pct": 18.1,
+    "poverty_pct": 15.9,
+    "no_internet_pct": 3.9,
+    "snap_pct": 10.3,
+    "puma_code": "03730"
+  },
+  {
+    "geo_id": "0603761",
+    "geo_type": "puma",
+    "name": "South Central)--Torrance City PUMA; California",
+    "population": 123638,
+    "proficiency": {
+      "english_only": 68610,
+      "english_only_pct": 58.4,
+      "bilingual": 27726,
+      "bilingual_pct": 23.6,
+      "lep": 21139,
+      "lep_pct": 18.0,
+      "total_pop_5plus": 117475
+    },
+    "poverty": {
+      "universe": 122510,
+      "band_1_124": 11912,
+      "band_1_124_pct": 9.7,
+      "band_125_199": 9861,
+      "band_125_199_pct": 8.0,
+      "band_200_399": 1400,
+      "band_200_399_pct": 1.1,
+      "band_400plus": 800,
+      "band_400plus_pct": 0.7,
+      "below_poverty_pct": 9.7
+    },
+    "education": {
+      "universe": 89917,
+      "under_9th": 2543,
+      "under_9th_pct": 2.8,
+      "incomplete_hs": 2270,
+      "incomplete_hs_pct": 2.5,
+      "hs_some_college": 37829,
+      "hs_some_college_pct": 42.1,
+      "ba_higher": 47275,
+      "ba_higher_pct": 52.6
+    },
+    "access": {
+      "no_internet": 1278,
+      "no_internet_pct": 2.7,
+      "no_computer": 678,
+      "no_computer_pct": 1.4,
+      "snap_households": 2821,
+      "snap_pct": 6.0,
+      "linguistically_isolated": 707,
+      "linguistically_isolated_pct": 1.5
+    },
+    "median_hh_income": 114900.0,
+    "top_language": "Arabic",
+    "top_language_lep": 5520,
+    "languages": [
+      {
+        "name": "Arabic",
+        "total_speakers": 10260,
+        "lep_count": 5520,
+        "lep_pct_of_area": 4.7
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 8221,
+        "lep_count": 4760,
+        "lep_pct_of_area": 4.1
+      },
+      {
+        "name": "Spanish",
+        "total_speakers": 12216,
+        "lep_count": 3381,
+        "lep_pct_of_area": 2.9
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 4050,
+        "lep_count": 2013,
+        "lep_pct_of_area": 1.7
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 4957,
+        "lep_count": 1833,
+        "lep_pct_of_area": 1.6
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 2717,
+        "lep_count": 1735,
+        "lep_pct_of_area": 1.5
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 3189,
+        "lep_count": 1133,
+        "lep_pct_of_area": 1.0
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 1486,
+        "lep_count": 255,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 451,
+        "lep_count": 175,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 324,
+        "lep_count": 169,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 449,
+        "lep_count": 145,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 545,
+        "lep_count": 20,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 21139,
+    "lep_pct": 18.0,
+    "poverty_pct": 9.7,
+    "no_internet_pct": 2.7,
+    "snap_pct": 6.0,
+    "puma_code": "03761"
+  },
+  {
+    "geo_id": "0603705",
+    "geo_type": "puma",
+    "name": "North)--LA City (Northwest/Chatsworth & Porter Ranch) PUMA; California",
+    "population": 183130,
+    "proficiency": {
+      "english_only": 88618,
+      "english_only_pct": 50.9,
+      "bilingual": 55441,
+      "bilingual_pct": 31.9,
+      "lep": 30001,
+      "lep_pct": 17.2,
+      "total_pop_5plus": 174060
+    },
+    "poverty": {
+      "universe": 179801,
+      "band_1_124": 22644,
+      "band_1_124_pct": 12.6,
+      "band_125_199": 18029,
+      "band_125_199_pct": 10.0,
+      "band_200_399": 2727,
+      "band_200_399_pct": 1.5,
+      "band_400plus": 1271,
+      "band_400plus_pct": 0.7,
+      "below_poverty_pct": 12.6
+    },
+    "education": {
+      "universe": 129567,
+      "under_9th": 7234,
+      "under_9th_pct": 5.6,
+      "incomplete_hs": 6882,
+      "incomplete_hs_pct": 5.3,
+      "hs_some_college": 58103,
+      "hs_some_college_pct": 44.8,
+      "ba_higher": 57348,
+      "ba_higher_pct": 44.3
+    },
+    "access": {
+      "no_internet": 1879,
+      "no_internet_pct": 3.0,
+      "no_computer": 705,
+      "no_computer_pct": 1.1,
+      "snap_households": 6152,
+      "snap_pct": 9.8,
+      "linguistically_isolated": 2839,
+      "linguistically_isolated_pct": 4.5
+    },
+    "median_hh_income": 110087.0,
+    "top_language": "Spanish",
+    "top_language_lep": 13933,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 39547,
+        "lep_count": 13933,
+        "lep_pct_of_area": 8.0
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 17172,
+        "lep_count": 5692,
+        "lep_pct_of_area": 3.3
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 4613,
+        "lep_count": 2412,
+        "lep_pct_of_area": 1.4
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 3904,
+        "lep_count": 1768,
+        "lep_pct_of_area": 1.0
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 7290,
+        "lep_count": 1480,
+        "lep_pct_of_area": 0.9
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 3661,
+        "lep_count": 1398,
+        "lep_pct_of_area": 0.8
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 1843,
+        "lep_count": 1108,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 2799,
+        "lep_count": 1037,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 1815,
+        "lep_count": 513,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 1888,
+        "lep_count": 493,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 588,
+        "lep_count": 126,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 322,
+        "lep_count": 41,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 30001,
+    "lep_pct": 17.2,
+    "poverty_pct": 12.6,
+    "no_internet_pct": 3.0,
+    "snap_pct": 9.8,
+    "puma_code": "03705"
   },
   {
     "geo_id": "0603747",
     "geo_type": "puma",
-    "name": "Koreatown/Westlake (LA City)",
-    "population": 156789,
+    "name": "Central)--LA City (Central/West Adams & Baldwin Hills) PUMA; California",
+    "population": 160119,
     "proficiency": {
-      "english_only": 31358,
-      "english_only_pct": 21.5,
-      "bilingual": 52807,
-      "bilingual_pct": 36.2,
-      "lep": 61752,
-      "lep_pct": 42.3,
-      "total_pop_5plus": 145917
+      "english_only": 84993,
+      "english_only_pct": 55.8,
+      "bilingual": 41528,
+      "bilingual_pct": 27.3,
+      "lep": 25748,
+      "lep_pct": 16.9,
+      "total_pop_5plus": 152269
     },
     "poverty": {
-      "universe": 155234,
-      "band_1_124": 40361,
-      "band_1_124_pct": 26.0,
-      "band_125_199": 26390,
-      "band_125_199_pct": 17.0,
-      "band_200_399": 43467,
-      "band_200_399_pct": 28.0,
-      "band_400plus": 45016,
-      "band_400plus_pct": 29.0,
-      "below_poverty_pct": 26.0
+      "universe": 159161,
+      "band_1_124": 34295,
+      "band_1_124_pct": 21.5,
+      "band_125_199": 23837,
+      "band_125_199_pct": 15.0,
+      "band_200_399": 3395,
+      "band_200_399_pct": 2.1,
+      "band_400plus": 1409,
+      "band_400plus_pct": 0.9,
+      "below_poverty_pct": 21.5
     },
     "education": {
-      "universe": 98765,
-      "under_9th": 14815,
-      "under_9th_pct": 15.0,
-      "incomplete_hs": 11852,
-      "incomplete_hs_pct": 12.0,
-      "hs_some_college": 39506,
-      "hs_some_college_pct": 40.0,
-      "ba_higher": 32592,
-      "ba_higher_pct": 33.0
+      "universe": 115464,
+      "under_9th": 11249,
+      "under_9th_pct": 9.7,
+      "incomplete_hs": 9270,
+      "incomplete_hs_pct": 8.0,
+      "hs_some_college": 57333,
+      "hs_some_college_pct": 49.7,
+      "ba_higher": 37612,
+      "ba_higher_pct": 32.6
     },
     "access": {
-      "no_internet": 3762,
-      "no_internet_pct": 9.5,
-      "no_computer": 789,
+      "no_internet": 4067,
+      "no_internet_pct": 6.4,
+      "no_computer": 1267,
       "no_computer_pct": 2.0,
-      "snap_households": 7123,
-      "snap_pct": 18.0,
-      "linguistically_isolated": 9876,
-      "linguistically_isolated_pct": 24.9
+      "snap_households": 13294,
+      "snap_pct": 21.0,
+      "linguistically_isolated": 4156,
+      "linguistically_isolated_pct": 6.6
     },
-    "median_hh_income": 52456,
+    "median_hh_income": 67851.0,
     "top_language": "Spanish",
-    "top_language_lep": 34567,
+    "top_language_lep": 22365,
     "languages": [
-      { "name": "Spanish", "total_speakers": 56789, "lep_count": 34567, "lep_pct_of_area": 23.7 },
-      { "name": "Korean", "total_speakers": 23456, "lep_count": 15678, "lep_pct_of_area": 10.7 },
-      { "name": "Chinese (Mandarin/Cantonese)", "total_speakers": 8765, "lep_count": 5432, "lep_pct_of_area": 3.7 },
-      { "name": "Tagalog", "total_speakers": 4567, "lep_count": 2345, "lep_pct_of_area": 1.6 },
-      { "name": "Thai", "total_speakers": 2345, "lep_count": 1234, "lep_pct_of_area": 0.8 }
+      {
+        "name": "Spanish",
+        "total_speakers": 55748,
+        "lep_count": 22365,
+        "lep_pct_of_area": 14.7
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 2960,
+        "lep_count": 1094,
+        "lep_pct_of_area": 0.7
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 1051,
+        "lep_count": 745,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 1804,
+        "lep_count": 346,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 1949,
+        "lep_count": 291,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 868,
+        "lep_count": 274,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 872,
+        "lep_count": 247,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 649,
+        "lep_count": 136,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 215,
+        "lep_count": 97,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 469,
+        "lep_count": 85,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 373,
+        "lep_count": 68,
+        "lep_pct_of_area": 0.0
+      }
     ],
-    "lep_total": 61752,
-    "lep_pct": 42.3,
-    "poverty_pct": 26.0,
-    "no_internet_pct": 9.5,
-    "snap_pct": 18.0
+    "lep_total": 25748,
+    "lep_pct": 16.9,
+    "poverty_pct": 21.5,
+    "no_internet_pct": 6.4,
+    "snap_pct": 21.0,
+    "puma_code": "03747"
+  },
+  {
+    "geo_id": "0603754",
+    "geo_type": "puma",
+    "name": "Southeast)--La Mirada & Santa Fe Springs Cities PUMA; California",
+    "population": 133949,
+    "proficiency": {
+      "english_only": 60001,
+      "english_only_pct": 47.2,
+      "bilingual": 45930,
+      "bilingual_pct": 36.1,
+      "lep": 21200,
+      "lep_pct": 16.7,
+      "total_pop_5plus": 127131
+    },
+    "poverty": {
+      "universe": 131246,
+      "band_1_124": 15976,
+      "band_1_124_pct": 12.2,
+      "band_125_199": 14363,
+      "band_125_199_pct": 10.9,
+      "band_200_399": 2117,
+      "band_200_399_pct": 1.6,
+      "band_400plus": 994,
+      "band_400plus_pct": 0.8,
+      "below_poverty_pct": 12.2
+    },
+    "education": {
+      "universe": 91651,
+      "under_9th": 7660,
+      "under_9th_pct": 8.4,
+      "incomplete_hs": 6215,
+      "incomplete_hs_pct": 6.8,
+      "hs_some_college": 51981,
+      "hs_some_college_pct": 56.7,
+      "ba_higher": 25795,
+      "ba_higher_pct": 28.1
+    },
+    "access": {
+      "no_internet": 1637,
+      "no_internet_pct": 4.1,
+      "no_computer": 462,
+      "no_computer_pct": 1.1,
+      "snap_households": 4031,
+      "snap_pct": 10.0,
+      "linguistically_isolated": 1348,
+      "linguistically_isolated_pct": 3.4
+    },
+    "median_hh_income": 102783.0,
+    "top_language": "Spanish",
+    "top_language_lep": 15108,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 53120,
+        "lep_count": 15108,
+        "lep_pct_of_area": 11.9
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 5352,
+        "lep_count": 3384,
+        "lep_pct_of_area": 2.7
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 2642,
+        "lep_count": 765,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 1421,
+        "lep_count": 621,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 1570,
+        "lep_count": 403,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1266,
+        "lep_count": 357,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 679,
+        "lep_count": 274,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 431,
+        "lep_count": 207,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 143,
+        "lep_count": 50,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 164,
+        "lep_count": 26,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 101,
+        "lep_count": 4,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 241,
+        "lep_count": 1,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 21200,
+    "lep_pct": 16.7,
+    "poverty_pct": 12.2,
+    "no_internet_pct": 4.1,
+    "snap_pct": 10.0,
+    "puma_code": "03754"
+  },
+  {
+    "geo_id": "0603718",
+    "geo_type": "puma",
+    "name": "Central)--Pasadena City PUMA; California",
+    "population": 135507,
+    "proficiency": {
+      "english_only": 74598,
+      "english_only_pct": 57.8,
+      "bilingual": 34568,
+      "bilingual_pct": 26.8,
+      "lep": 19949,
+      "lep_pct": 15.5,
+      "total_pop_5plus": 129115
+    },
+    "poverty": {
+      "universe": 132955,
+      "band_1_124": 21688,
+      "band_1_124_pct": 16.3,
+      "band_125_199": 12855,
+      "band_125_199_pct": 9.7,
+      "band_200_399": 1915,
+      "band_200_399_pct": 1.4,
+      "band_400plus": 796,
+      "band_400plus_pct": 0.6,
+      "below_poverty_pct": 16.3
+    },
+    "education": {
+      "universe": 102931,
+      "under_9th": 7057,
+      "under_9th_pct": 6.9,
+      "incomplete_hs": 3642,
+      "incomplete_hs_pct": 3.5,
+      "hs_some_college": 34931,
+      "hs_some_college_pct": 33.9,
+      "ba_higher": 57301,
+      "ba_higher_pct": 55.7
+    },
+    "access": {
+      "no_internet": 2734,
+      "no_internet_pct": 4.8,
+      "no_computer": 781,
+      "no_computer_pct": 1.4,
+      "snap_households": 6366,
+      "snap_pct": 11.2,
+      "linguistically_isolated": 1971,
+      "linguistically_isolated_pct": 3.5
+    },
+    "median_hh_income": 103821.0,
+    "top_language": "Spanish",
+    "top_language_lep": 11437,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 31329,
+        "lep_count": 11437,
+        "lep_pct_of_area": 8.9
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 7229,
+        "lep_count": 3666,
+        "lep_pct_of_area": 2.8
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 5599,
+        "lep_count": 1941,
+        "lep_pct_of_area": 1.5
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 2617,
+        "lep_count": 738,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 1692,
+        "lep_count": 654,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1632,
+        "lep_count": 414,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 1070,
+        "lep_count": 410,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 599,
+        "lep_count": 175,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 321,
+        "lep_count": 140,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 730,
+        "lep_count": 133,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 1073,
+        "lep_count": 121,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 626,
+        "lep_count": 120,
+        "lep_pct_of_area": 0.1
+      }
+    ],
+    "lep_total": 19949,
+    "lep_pct": 15.5,
+    "poverty_pct": 16.3,
+    "no_internet_pct": 4.8,
+    "snap_pct": 11.2,
+    "puma_code": "03718"
+  },
+  {
+    "geo_id": "0603720",
+    "geo_type": "puma",
+    "name": "Central)--Burbank City PUMA; California",
+    "population": 118827,
+    "proficiency": {
+      "english_only": 65743,
+      "english_only_pct": 58.2,
+      "bilingual": 30616,
+      "bilingual_pct": 27.1,
+      "lep": 16677,
+      "lep_pct": 14.8,
+      "total_pop_5plus": 113036
+    },
+    "poverty": {
+      "universe": 118391,
+      "band_1_124": 17914,
+      "band_1_124_pct": 15.1,
+      "band_125_199": 9583,
+      "band_125_199_pct": 8.1,
+      "band_200_399": 1224,
+      "band_200_399_pct": 1.0,
+      "band_400plus": 726,
+      "band_400plus_pct": 0.6,
+      "below_poverty_pct": 15.1
+    },
+    "education": {
+      "universe": 88713,
+      "under_9th": 3701,
+      "under_9th_pct": 4.2,
+      "incomplete_hs": 3139,
+      "incomplete_hs_pct": 3.5,
+      "hs_some_college": 38984,
+      "hs_some_college_pct": 43.9,
+      "ba_higher": 42889,
+      "ba_higher_pct": 48.3
+    },
+    "access": {
+      "no_internet": 1965,
+      "no_internet_pct": 3.9,
+      "no_computer": 458,
+      "no_computer_pct": 0.9,
+      "snap_households": 5595,
+      "snap_pct": 11.2,
+      "linguistically_isolated": 1325,
+      "linguistically_isolated_pct": 2.7
+    },
+    "median_hh_income": 98131.0,
+    "top_language": "Other Indo-European",
+    "top_language_lep": 6285,
+    "languages": [
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 15941,
+        "lep_count": 6285,
+        "lep_pct_of_area": 5.6
+      },
+      {
+        "name": "Spanish",
+        "total_speakers": 17597,
+        "lep_count": 5502,
+        "lep_pct_of_area": 4.9
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 3945,
+        "lep_count": 1208,
+        "lep_pct_of_area": 1.1
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 2303,
+        "lep_count": 960,
+        "lep_pct_of_area": 0.8
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 1478,
+        "lep_count": 612,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 1183,
+        "lep_count": 594,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1944,
+        "lep_count": 547,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 1050,
+        "lep_count": 470,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 433,
+        "lep_count": 267,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 355,
+        "lep_count": 159,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 500,
+        "lep_count": 40,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 564,
+        "lep_count": 33,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 16677,
+    "lep_pct": 14.8,
+    "poverty_pct": 15.1,
+    "no_internet_pct": 3.9,
+    "snap_pct": 11.2,
+    "puma_code": "03720"
+  },
+  {
+    "geo_id": "0603703",
+    "geo_type": "puma",
+    "name": "North Central)--Lancaster City PUMA; California",
+    "population": 175221,
+    "proficiency": {
+      "english_only": 109076,
+      "english_only_pct": 66.3,
+      "bilingual": 34815,
+      "bilingual_pct": 21.2,
+      "lep": 20526,
+      "lep_pct": 12.5,
+      "total_pop_5plus": 164417
+    },
+    "poverty": {
+      "universe": 170505,
+      "band_1_124": 34478,
+      "band_1_124_pct": 20.2,
+      "band_125_199": 25732,
+      "band_125_199_pct": 15.1,
+      "band_200_399": 3234,
+      "band_200_399_pct": 1.9,
+      "band_400plus": 2221,
+      "band_400plus_pct": 1.3,
+      "below_poverty_pct": 20.2
+    },
+    "education": {
+      "universe": 112689,
+      "under_9th": 9418,
+      "under_9th_pct": 8.4,
+      "incomplete_hs": 11611,
+      "incomplete_hs_pct": 10.3,
+      "hs_some_college": 69252,
+      "hs_some_college_pct": 61.5,
+      "ba_higher": 22408,
+      "ba_higher_pct": 19.9
+    },
+    "access": {
+      "no_internet": 3479,
+      "no_internet_pct": 6.3,
+      "no_computer": 1277,
+      "no_computer_pct": 2.3,
+      "snap_households": 10717,
+      "snap_pct": 19.4,
+      "linguistically_isolated": 2185,
+      "linguistically_isolated_pct": 3.9
+    },
+    "median_hh_income": 80878.0,
+    "top_language": "Spanish",
+    "top_language_lep": 17878,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 47770,
+        "lep_count": 17878,
+        "lep_pct_of_area": 10.9
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 2404,
+        "lep_count": 716,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1151,
+        "lep_count": 410,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 681,
+        "lep_count": 397,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 791,
+        "lep_count": 379,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 908,
+        "lep_count": 271,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 256,
+        "lep_count": 122,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 381,
+        "lep_count": 117,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 495,
+        "lep_count": 93,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 217,
+        "lep_count": 90,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 224,
+        "lep_count": 44,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 63,
+        "lep_count": 9,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 20526,
+    "lep_pct": 12.5,
+    "poverty_pct": 20.2,
+    "no_internet_pct": 6.3,
+    "snap_pct": 19.4,
+    "puma_code": "03703"
+  },
+  {
+    "geo_id": "0603768",
+    "geo_type": "puma",
+    "name": "Southwest)--Palos Verdes Peninsula PUMA; California",
+    "population": 108349,
+    "proficiency": {
+      "english_only": 68727,
+      "english_only_pct": 66.5,
+      "bilingual": 23027,
+      "bilingual_pct": 22.3,
+      "lep": 11596,
+      "lep_pct": 11.2,
+      "total_pop_5plus": 103350
+    },
+    "poverty": {
+      "universe": 107599,
+      "band_1_124": 8234,
+      "band_1_124_pct": 7.7,
+      "band_125_199": 6452,
+      "band_125_199_pct": 6.0,
+      "band_200_399": 997,
+      "band_200_399_pct": 0.9,
+      "band_400plus": 545,
+      "band_400plus_pct": 0.5,
+      "below_poverty_pct": 7.7
+    },
+    "education": {
+      "universe": 77815,
+      "under_9th": 1823,
+      "under_9th_pct": 2.3,
+      "incomplete_hs": 1876,
+      "incomplete_hs_pct": 2.4,
+      "hs_some_college": 25224,
+      "hs_some_college_pct": 32.4,
+      "ba_higher": 48892,
+      "ba_higher_pct": 62.8
+    },
+    "access": {
+      "no_internet": 1451,
+      "no_internet_pct": 3.5,
+      "no_computer": 393,
+      "no_computer_pct": 1.0,
+      "snap_households": 1396,
+      "snap_pct": 3.4,
+      "linguistically_isolated": 652,
+      "linguistically_isolated_pct": 1.6
+    },
+    "median_hh_income": 153368.0,
+    "top_language": "Spanish",
+    "top_language_lep": 3023,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 9590,
+        "lep_count": 3023,
+        "lep_pct_of_area": 2.9
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 5852,
+        "lep_count": 2665,
+        "lep_pct_of_area": 2.6
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 5612,
+        "lep_count": 2162,
+        "lep_pct_of_area": 2.1
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 3264,
+        "lep_count": 1389,
+        "lep_pct_of_area": 1.3
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 4226,
+        "lep_count": 866,
+        "lep_pct_of_area": 0.8
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 1459,
+        "lep_count": 631,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 1104,
+        "lep_count": 258,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 1305,
+        "lep_count": 199,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 572,
+        "lep_count": 142,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 867,
+        "lep_count": 134,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 390,
+        "lep_count": 87,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 382,
+        "lep_count": 40,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 11596,
+    "lep_pct": 11.2,
+    "poverty_pct": 7.7,
+    "no_internet_pct": 3.5,
+    "snap_pct": 3.4,
+    "puma_code": "03768"
+  },
+  {
+    "geo_id": "0603731",
+    "geo_type": "puma",
+    "name": "Central)--West Hollywood & Beverly Hills Cities PUMA; California",
+    "population": 106181,
+    "proficiency": {
+      "english_only": 69665,
+      "english_only_pct": 67.4,
+      "bilingual": 23277,
+      "bilingual_pct": 22.5,
+      "lep": 10443,
+      "lep_pct": 10.1,
+      "total_pop_5plus": 103385
+    },
+    "poverty": {
+      "universe": 105771,
+      "band_1_124": 14252,
+      "band_1_124_pct": 13.5,
+      "band_125_199": 9071,
+      "band_125_199_pct": 8.6,
+      "band_200_399": 859,
+      "band_200_399_pct": 0.8,
+      "band_400plus": 576,
+      "band_400plus_pct": 0.5,
+      "below_poverty_pct": 13.5
+    },
+    "education": {
+      "universe": 90956,
+      "under_9th": 1906,
+      "under_9th_pct": 2.1,
+      "incomplete_hs": 1470,
+      "incomplete_hs_pct": 1.6,
+      "hs_some_college": 26236,
+      "hs_some_college_pct": 28.8,
+      "ba_higher": 61344,
+      "ba_higher_pct": 67.4
+    },
+    "access": {
+      "no_internet": 1814,
+      "no_internet_pct": 3.0,
+      "no_computer": 1293,
+      "no_computer_pct": 2.1,
+      "snap_households": 5236,
+      "snap_pct": 8.7,
+      "linguistically_isolated": 2651,
+      "linguistically_isolated_pct": 4.4
+    },
+    "median_hh_income": 102747.0,
+    "top_language": "Russian/Slavic",
+    "top_language_lep": 3322,
+    "languages": [
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 5281,
+        "lep_count": 3322,
+        "lep_pct_of_area": 3.2
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 8866,
+        "lep_count": 2491,
+        "lep_pct_of_area": 2.4
+      },
+      {
+        "name": "Spanish",
+        "total_speakers": 7991,
+        "lep_count": 1626,
+        "lep_pct_of_area": 1.6
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1865,
+        "lep_count": 855,
+        "lep_pct_of_area": 0.8
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 1148,
+        "lep_count": 591,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 2160,
+        "lep_count": 522,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 2065,
+        "lep_count": 442,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 872,
+        "lep_count": 195,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 2031,
+        "lep_count": 143,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 307,
+        "lep_count": 142,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 385,
+        "lep_count": 114,
+        "lep_pct_of_area": 0.1
+      }
+    ],
+    "lep_total": 10443,
+    "lep_pct": 10.1,
+    "poverty_pct": 13.5,
+    "no_internet_pct": 3.0,
+    "snap_pct": 8.7,
+    "puma_code": "03731"
+  },
+  {
+    "geo_id": "0603709",
+    "geo_type": "puma",
+    "name": "Central)--San Gabriel Valley Region (North) PUMA; California",
+    "population": 107635,
+    "proficiency": {
+      "english_only": 68505,
+      "english_only_pct": 66.8,
+      "bilingual": 23730,
+      "bilingual_pct": 23.1,
+      "lep": 10278,
+      "lep_pct": 10.0,
+      "total_pop_5plus": 102513
+    },
+    "poverty": {
+      "universe": 106862,
+      "band_1_124": 8038,
+      "band_1_124_pct": 7.5,
+      "band_125_199": 6279,
+      "band_125_199_pct": 5.9,
+      "band_200_399": 873,
+      "band_200_399_pct": 0.8,
+      "band_400plus": 666,
+      "band_400plus_pct": 0.6,
+      "below_poverty_pct": 7.5
+    },
+    "education": {
+      "universe": 78898,
+      "under_9th": 2418,
+      "under_9th_pct": 3.1,
+      "incomplete_hs": 1807,
+      "incomplete_hs_pct": 2.3,
+      "hs_some_college": 27643,
+      "hs_some_college_pct": 35.0,
+      "ba_higher": 47030,
+      "ba_higher_pct": 59.6
+    },
+    "access": {
+      "no_internet": 1010,
+      "no_internet_pct": 2.6,
+      "no_computer": 673,
+      "no_computer_pct": 1.7,
+      "snap_households": 2087,
+      "snap_pct": 5.3,
+      "linguistically_isolated": 375,
+      "linguistically_isolated_pct": 1.0
+    },
+    "median_hh_income": 146593.0,
+    "top_language": "Spanish",
+    "top_language_lep": 3934,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 13614,
+        "lep_count": 3934,
+        "lep_pct_of_area": 3.8
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 5188,
+        "lep_count": 2526,
+        "lep_pct_of_area": 2.5
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 6575,
+        "lep_count": 1536,
+        "lep_pct_of_area": 1.5
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 3708,
+        "lep_count": 1061,
+        "lep_pct_of_area": 1.0
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1475,
+        "lep_count": 536,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 699,
+        "lep_count": 207,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 654,
+        "lep_count": 192,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 568,
+        "lep_count": 166,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 624,
+        "lep_count": 48,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 155,
+        "lep_count": 33,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 376,
+        "lep_count": 26,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 372,
+        "lep_count": 13,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 10278,
+    "lep_pct": 10.0,
+    "poverty_pct": 7.5,
+    "no_internet_pct": 2.6,
+    "snap_pct": 5.3,
+    "puma_code": "03709"
+  },
+  {
+    "geo_id": "0603711",
+    "geo_type": "puma",
+    "name": "East Central)--Glendora",
+    "population": 160221,
+    "proficiency": {
+      "english_only": 103306,
+      "english_only_pct": 67.7,
+      "bilingual": 35122,
+      "bilingual_pct": 23.0,
+      "lep": 14184,
+      "lep_pct": 9.3,
+      "total_pop_5plus": 152612
+    },
+    "poverty": {
+      "universe": 153013,
+      "band_1_124": 16315,
+      "band_1_124_pct": 10.7,
+      "band_125_199": 12127,
+      "band_125_199_pct": 7.9,
+      "band_200_399": 1640,
+      "band_200_399_pct": 1.1,
+      "band_400plus": 907,
+      "band_400plus_pct": 0.6,
+      "below_poverty_pct": 10.7
+    },
+    "education": {
+      "universe": 111779,
+      "under_9th": 3770,
+      "under_9th_pct": 3.4,
+      "incomplete_hs": 4202,
+      "incomplete_hs_pct": 3.8,
+      "hs_some_college": 55098,
+      "hs_some_college_pct": 49.3,
+      "ba_higher": 48709,
+      "ba_higher_pct": 43.6
+    },
+    "access": {
+      "no_internet": 2498,
+      "no_internet_pct": 4.5,
+      "no_computer": 705,
+      "no_computer_pct": 1.3,
+      "snap_households": 4255,
+      "snap_pct": 7.7,
+      "linguistically_isolated": 1111,
+      "linguistically_isolated_pct": 2.0
+    },
+    "median_hh_income": 110862.0,
+    "top_language": "Spanish",
+    "top_language_lep": 6256,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 27327,
+        "lep_count": 6256,
+        "lep_pct_of_area": 4.1
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 7303,
+        "lep_count": 3609,
+        "lep_pct_of_area": 2.4
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 2271,
+        "lep_count": 918,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 2810,
+        "lep_count": 880,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 2528,
+        "lep_count": 737,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 3230,
+        "lep_count": 569,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 765,
+        "lep_count": 424,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 901,
+        "lep_count": 324,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 742,
+        "lep_count": 230,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 605,
+        "lep_count": 150,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 324,
+        "lep_count": 44,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 500,
+        "lep_count": 43,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 14184,
+    "lep_pct": 9.3,
+    "poverty_pct": 10.7,
+    "no_internet_pct": 4.5,
+    "snap_pct": 7.7,
+    "puma_code": "03711"
+  },
+  {
+    "geo_id": "0603728",
+    "geo_type": "puma",
+    "name": "Southwest)--Santa Monica City PUMA; California",
+    "population": 103183,
+    "proficiency": {
+      "english_only": 71079,
+      "english_only_pct": 71.9,
+      "bilingual": 20400,
+      "bilingual_pct": 20.6,
+      "lep": 7436,
+      "lep_pct": 7.5,
+      "total_pop_5plus": 98915
+    },
+    "poverty": {
+      "universe": 102015,
+      "band_1_124": 14168,
+      "band_1_124_pct": 13.9,
+      "band_125_199": 7648,
+      "band_125_199_pct": 7.5,
+      "band_200_399": 872,
+      "band_200_399_pct": 0.9,
+      "band_400plus": 462,
+      "band_400plus_pct": 0.5,
+      "below_poverty_pct": 13.9
+    },
+    "education": {
+      "universe": 83968,
+      "under_9th": 2710,
+      "under_9th_pct": 3.2,
+      "incomplete_hs": 1845,
+      "incomplete_hs_pct": 2.2,
+      "hs_some_college": 20244,
+      "hs_some_college_pct": 24.1,
+      "ba_higher": 59169,
+      "ba_higher_pct": 70.5
+    },
+    "access": {
+      "no_internet": 2386,
+      "no_internet_pct": 4.4,
+      "no_computer": 676,
+      "no_computer_pct": 1.3,
+      "snap_households": 3611,
+      "snap_pct": 6.7,
+      "linguistically_isolated": 1273,
+      "linguistically_isolated_pct": 2.4
+    },
+    "median_hh_income": 115090.0,
+    "top_language": "Spanish",
+    "top_language_lep": 2752,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 10553,
+        "lep_count": 2752,
+        "lep_pct_of_area": 2.8
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 5661,
+        "lep_count": 1224,
+        "lep_pct_of_area": 1.2
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 1841,
+        "lep_count": 915,
+        "lep_pct_of_area": 0.9
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 1922,
+        "lep_count": 607,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1506,
+        "lep_count": 601,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 937,
+        "lep_count": 438,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 1625,
+        "lep_count": 378,
+        "lep_pct_of_area": 0.4
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 733,
+        "lep_count": 213,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 1648,
+        "lep_count": 212,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 238,
+        "lep_count": 47,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 929,
+        "lep_count": 31,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 243,
+        "lep_count": 18,
+        "lep_pct_of_area": 0.0
+      }
+    ],
+    "lep_total": 7436,
+    "lep_pct": 7.5,
+    "poverty_pct": 13.9,
+    "no_internet_pct": 4.4,
+    "snap_pct": 6.7,
+    "puma_code": "03728"
   },
   {
     "geo_id": "0603748",
     "geo_type": "puma",
-    "name": "East Los Angeles",
-    "population": 124567,
+    "name": "LA (Southwest/Marina del Rey & Westchester) & Culver City Cities PUMA; California",
+    "population": 183061,
     "proficiency": {
-      "english_only": 18685,
-      "english_only_pct": 16.0,
-      "bilingual": 40698,
-      "bilingual_pct": 34.9,
-      "lep": 57241,
-      "lep_pct": 49.1,
-      "total_pop_5plus": 116624
+      "english_only": 119581,
+      "english_only_pct": 69.1,
+      "bilingual": 42347,
+      "bilingual_pct": 24.5,
+      "lep": 11227,
+      "lep_pct": 6.5,
+      "total_pop_5plus": 173155
     },
     "poverty": {
-      "universe": 123456,
-      "band_1_124": 35802,
-      "band_1_124_pct": 29.0,
-      "band_125_199": 24691,
-      "band_125_199_pct": 20.0,
-      "band_200_399": 34568,
-      "band_200_399_pct": 28.0,
-      "band_400plus": 28395,
-      "band_400plus_pct": 23.0,
-      "below_poverty_pct": 29.0
+      "universe": 178849,
+      "band_1_124": 22194,
+      "band_1_124_pct": 12.4,
+      "band_125_199": 11639,
+      "band_125_199_pct": 6.5,
+      "band_200_399": 1443,
+      "band_200_399_pct": 0.8,
+      "band_400plus": 1138,
+      "band_400plus_pct": 0.6,
+      "below_poverty_pct": 12.4
     },
     "education": {
-      "universe": 76543,
-      "under_9th": 24893,
-      "under_9th_pct": 32.5,
-      "incomplete_hs": 13778,
-      "incomplete_hs_pct": 18.0,
-      "hs_some_college": 30617,
-      "hs_some_college_pct": 40.0,
-      "ba_higher": 7255,
-      "ba_higher_pct": 9.5
+      "universe": 139358,
+      "under_9th": 3763,
+      "under_9th_pct": 2.7,
+      "incomplete_hs": 3221,
+      "incomplete_hs_pct": 2.3,
+      "hs_some_college": 41622,
+      "hs_some_college_pct": 29.9,
+      "ba_higher": 90752,
+      "ba_higher_pct": 65.1
     },
     "access": {
-      "no_internet": 3115,
-      "no_internet_pct": 10.8,
-      "no_computer": 605,
-      "no_computer_pct": 2.1,
-      "snap_households": 7234,
-      "snap_pct": 25.1,
-      "linguistically_isolated": 8234,
-      "linguistically_isolated_pct": 28.5
+      "no_internet": 1994,
+      "no_internet_pct": 2.4,
+      "no_computer": 2527,
+      "no_computer_pct": 3.0,
+      "snap_households": 5097,
+      "snap_pct": 6.0,
+      "linguistically_isolated": 1621,
+      "linguistically_isolated_pct": 1.9
     },
-    "median_hh_income": 51234,
+    "median_hh_income": 130427.0,
     "top_language": "Spanish",
-    "top_language_lep": 55123,
+    "top_language_lep": 5410,
     "languages": [
-      { "name": "Spanish", "total_speakers": 89234, "lep_count": 55123, "lep_pct_of_area": 47.3 },
-      { "name": "Chinese (Mandarin/Cantonese)", "total_speakers": 456, "lep_count": 234, "lep_pct_of_area": 0.2 },
-      { "name": "Vietnamese", "total_speakers": 345, "lep_count": 178, "lep_pct_of_area": 0.2 }
+      {
+        "name": "Spanish",
+        "total_speakers": 25081,
+        "lep_count": 5410,
+        "lep_pct_of_area": 3.1
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 4232,
+        "lep_count": 1289,
+        "lep_pct_of_area": 0.7
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 4091,
+        "lep_count": 1087,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 2192,
+        "lep_count": 848,
+        "lep_pct_of_area": 0.5
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 6312,
+        "lep_count": 601,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 2052,
+        "lep_count": 567,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 1882,
+        "lep_count": 539,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 2259,
+        "lep_count": 273,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 1587,
+        "lep_count": 202,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 1562,
+        "lep_count": 201,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 646,
+        "lep_count": 186,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 1678,
+        "lep_count": 24,
+        "lep_pct_of_area": 0.0
+      }
     ],
-    "lep_total": 57241,
-    "lep_pct": 49.1,
-    "poverty_pct": 29.0,
-    "no_internet_pct": 10.8,
-    "snap_pct": 25.1
+    "lep_total": 11227,
+    "lep_pct": 6.5,
+    "poverty_pct": 12.4,
+    "no_internet_pct": 2.4,
+    "snap_pct": 6.0,
+    "puma_code": "03748"
   },
   {
-    "geo_id": "0603749",
+    "geo_id": "0603760",
     "geo_type": "puma",
-    "name": "Santa Monica/Pacific Palisades",
-    "population": 112345,
+    "name": "Redondo Beach",
+    "population": 139333,
     "proficiency": {
-      "english_only": 78642,
-      "english_only_pct": 74.5,
-      "bilingual": 20222,
-      "bilingual_pct": 19.2,
-      "lep": 6647,
-      "lep_pct": 6.3,
-      "total_pop_5plus": 105511
+      "english_only": 106611,
+      "english_only_pct": 80.6,
+      "bilingual": 19304,
+      "bilingual_pct": 14.6,
+      "lep": 6298,
+      "lep_pct": 4.8,
+      "total_pop_5plus": 132213
     },
     "poverty": {
-      "universe": 111234,
-      "band_1_124": 8899,
-      "band_1_124_pct": 8.0,
-      "band_125_199": 6674,
-      "band_125_199_pct": 6.0,
-      "band_200_399": 17798,
-      "band_200_399_pct": 16.0,
-      "band_400plus": 77863,
-      "band_400plus_pct": 70.0,
-      "below_poverty_pct": 8.0
+      "universe": 138995,
+      "band_1_124": 9075,
+      "band_1_124_pct": 6.5,
+      "band_125_199": 5607,
+      "band_125_199_pct": 4.0,
+      "band_200_399": 720,
+      "band_200_399_pct": 0.5,
+      "band_400plus": 437,
+      "band_400plus_pct": 0.3,
+      "below_poverty_pct": 6.5
     },
     "education": {
-      "universe": 82345,
-      "under_9th": 1647,
-      "under_9th_pct": 2.0,
-      "incomplete_hs": 2470,
-      "incomplete_hs_pct": 3.0,
-      "hs_some_college": 16469,
-      "hs_some_college_pct": 20.0,
-      "ba_higher": 61759,
-      "ba_higher_pct": 75.0
+      "universe": 101141,
+      "under_9th": 1411,
+      "under_9th_pct": 1.4,
+      "incomplete_hs": 1296,
+      "incomplete_hs_pct": 1.3,
+      "hs_some_college": 27056,
+      "hs_some_college_pct": 26.8,
+      "ba_higher": 71378,
+      "ba_higher_pct": 70.6
     },
     "access": {
-      "no_internet": 1573,
-      "no_internet_pct": 4.5,
-      "no_computer": 393,
-      "no_computer_pct": 1.1,
-      "snap_households": 1234,
-      "snap_pct": 3.5,
-      "linguistically_isolated": 2456,
-      "linguistically_isolated_pct": 7.0
+      "no_internet": 1033,
+      "no_internet_pct": 1.8,
+      "no_computer": 546,
+      "no_computer_pct": 0.9,
+      "snap_households": 1945,
+      "snap_pct": 3.4,
+      "linguistically_isolated": 370,
+      "linguistically_isolated_pct": 0.6
     },
-    "median_hh_income": 134567,
+    "median_hh_income": 160911.0,
     "top_language": "Spanish",
-    "top_language_lep": 2345,
+    "top_language_lep": 1816,
     "languages": [
-      { "name": "Spanish", "total_speakers": 8765, "lep_count": 2345, "lep_pct_of_area": 2.2 },
-      { "name": "Chinese (Mandarin/Cantonese)", "total_speakers": 3456, "lep_count": 1234, "lep_pct_of_area": 1.2 },
-      { "name": "Persian", "total_speakers": 2345, "lep_count": 987, "lep_pct_of_area": 0.9 },
-      { "name": "Russian", "total_speakers": 1876, "lep_count": 654, "lep_pct_of_area": 0.6 },
-      { "name": "French", "total_speakers": 1234, "lep_count": 456, "lep_pct_of_area": 0.4 }
+      {
+        "name": "Spanish",
+        "total_speakers": 8219,
+        "lep_count": 1816,
+        "lep_pct_of_area": 1.4
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 2839,
+        "lep_count": 1274,
+        "lep_pct_of_area": 1.0
+      },
+      {
+        "name": "Chinese (Mandarin/Cantonese)",
+        "total_speakers": 3393,
+        "lep_count": 1182,
+        "lep_pct_of_area": 0.9
+      },
+      {
+        "name": "Other Indo-European",
+        "total_speakers": 3974,
+        "lep_count": 764,
+        "lep_pct_of_area": 0.6
+      },
+      {
+        "name": "Russian/Slavic",
+        "total_speakers": 1175,
+        "lep_count": 386,
+        "lep_pct_of_area": 0.3
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 1322,
+        "lep_count": 272,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 635,
+        "lep_count": 234,
+        "lep_pct_of_area": 0.2
+      },
+      {
+        "name": "Other Asian/Pacific Islander",
+        "total_speakers": 898,
+        "lep_count": 164,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Other languages",
+        "total_speakers": 344,
+        "lep_count": 90,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "Filipino/Tagalog",
+        "total_speakers": 595,
+        "lep_count": 73,
+        "lep_pct_of_area": 0.1
+      },
+      {
+        "name": "French/Haitian/Cajun",
+        "total_speakers": 1248,
+        "lep_count": 29,
+        "lep_pct_of_area": 0.0
+      },
+      {
+        "name": "German/W. Germanic",
+        "total_speakers": 960,
+        "lep_count": 14,
+        "lep_pct_of_area": 0.0
+      }
     ],
-    "lep_total": 6647,
-    "lep_pct": 6.3,
-    "poverty_pct": 8.0,
-    "no_internet_pct": 4.5,
-    "snap_pct": 3.5
+    "lep_total": 6298,
+    "lep_pct": 4.8,
+    "poverty_pct": 6.5,
+    "no_internet_pct": 1.8,
+    "snap_pct": 3.4,
+    "puma_code": "03760"
   }
 ]
