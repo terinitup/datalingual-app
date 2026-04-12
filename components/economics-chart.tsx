@@ -1,7 +1,6 @@
 'use client';
 
-import { GeographyData } from '@/lib/types';
-import { formatCurrency, formatPercent } from '@/lib/data';
+import { GeoArea, LA_COUNTY_BENCHMARK } from '@/lib/types';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import {
   BarChart,
@@ -19,87 +18,112 @@ import {
 } from 'recharts';
 
 interface EconomicsChartProps {
-  data: GeographyData;
-  compareData?: GeographyData;
+  data: GeoArea;
+  compareData?: GeoArea;
+}
+
+function formatCurrency(n: number | null): string {
+  if (n === null) return 'N/A';
+  return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(n);
+}
+
+function formatPercent(n: number): string {
+  return `${n.toFixed(1)}%`;
 }
 
 export function EconomicsChart({ data, compareData }: EconomicsChartProps) {
-  const incomeData = [
+  if (!data) {
+    return null;
+  }
+
+  const educationData = data.education ? [
     {
-      name: 'Median Household',
-      [data.name]: data.economics.medianHouseholdIncome,
-      ...(compareData ? { [compareData.name]: compareData.economics.medianHouseholdIncome } : {}),
+      name: 'Under 9th',
+      [data.name]: data.education.under_9th_pct,
+      ...(compareData?.education ? { [compareData.name]: compareData.education.under_9th_pct } : {}),
     },
     {
-      name: 'Per Capita',
-      [data.name]: data.economics.perCapitaIncome,
-      ...(compareData ? { [compareData.name]: compareData.economics.perCapitaIncome } : {}),
+      name: 'Incomplete HS',
+      [data.name]: data.education.incomplete_hs_pct,
+      ...(compareData?.education ? { [compareData.name]: compareData.education.incomplete_hs_pct } : {}),
     },
-  ];
+    {
+      name: 'HS/Some College',
+      [data.name]: data.education.hs_some_college_pct,
+      ...(compareData?.education ? { [compareData.name]: compareData.education.hs_some_college_pct } : {}),
+    },
+    {
+      name: "Bachelor's+",
+      [data.name]: data.education.ba_higher_pct,
+      ...(compareData?.education ? { [compareData.name]: compareData.education.ba_higher_pct } : {}),
+    },
+  ] : [];
 
   const radarData = [
     {
-      metric: 'Employment',
-      [data.name]: 100 - data.economics.unemploymentRate,
-      ...(compareData ? { [compareData.name]: 100 - compareData.economics.unemploymentRate } : {}),
+      metric: 'Low LEP',
+      [data.name]: Math.max(0, 100 - data.lep_pct),
+      ...(compareData ? { [compareData.name]: Math.max(0, 100 - compareData.lep_pct) } : {}),
       fullMark: 100,
     },
     {
       metric: 'Low Poverty',
-      [data.name]: 100 - data.economics.povertyRate,
-      ...(compareData ? { [compareData.name]: 100 - compareData.economics.povertyRate } : {}),
+      [data.name]: Math.max(0, 100 - data.poverty_pct),
+      ...(compareData ? { [compareData.name]: Math.max(0, 100 - compareData.poverty_pct) } : {}),
+      fullMark: 100,
+    },
+    {
+      metric: 'Internet Access',
+      [data.name]: Math.max(0, 100 - data.no_internet_pct),
+      ...(compareData ? { [compareData.name]: Math.max(0, 100 - compareData.no_internet_pct) } : {}),
       fullMark: 100,
     },
     {
       metric: 'Education',
-      [data.name]: data.education.bachelorsOrHigher,
-      ...(compareData ? { [compareData.name]: compareData.education.bachelorsOrHigher } : {}),
+      [data.name]: data.education?.ba_higher_pct ?? 0,
+      ...(compareData ? { [compareData.name]: compareData.education?.ba_higher_pct ?? 0 } : {}),
       fullMark: 100,
     },
     {
-      metric: 'Health Coverage',
-      [data.name]: data.health.withHealthInsurance,
-      ...(compareData ? { [compareData.name]: compareData.health.withHealthInsurance } : {}),
-      fullMark: 100,
-    },
-    {
-      metric: 'Home Ownership',
-      [data.name]: data.housing.ownerOccupiedPercent,
-      ...(compareData ? { [compareData.name]: compareData.housing.ownerOccupiedPercent } : {}),
+      metric: 'Low SNAP',
+      [data.name]: Math.max(0, 100 - data.snap_pct),
+      ...(compareData ? { [compareData.name]: Math.max(0, 100 - compareData.snap_pct) } : {}),
       fullMark: 100,
     },
   ];
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      <Card>
-        <CardHeader className="pb-2">
-          <CardTitle className="text-base font-sans">Income Comparison</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="h-64">
-            <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={incomeData} margin={{ left: 20, right: 20 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
-                <XAxis dataKey="name" tick={{ fontSize: 11 }} />
-                <YAxis tickFormatter={(v) => `$${(v / 1000).toFixed(0)}K`} />
-                <Tooltip
-                  formatter={(value: number) => [formatCurrency(value), '']}
-                  contentStyle={{
-                    backgroundColor: 'hsl(var(--card))',
-                    border: '1px solid hsl(var(--border))',
-                    borderRadius: '8px',
-                  }}
-                />
-                <Bar dataKey={data.name} fill="#2E8B9A" radius={[4, 4, 0, 0]} />
-                {compareData && (
-                  <Bar dataKey={compareData.name} fill="#F5B041" radius={[4, 4, 0, 0]} />
-                )}
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
-        </CardContent>
-      </Card>
+      {educationData.length > 0 && (
+        <Card>
+          <CardHeader className="pb-2">
+            <CardTitle className="text-base font-sans">Education Attainment</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="h-64">
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart data={educationData} margin={{ left: 20, right: 20 }}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+                  <XAxis dataKey="name" tick={{ fontSize: 10 }} />
+                  <YAxis tickFormatter={(v) => `${v}%`} />
+                  <Tooltip
+                    formatter={(value: number) => [`${value.toFixed(1)}%`, '']}
+                    contentStyle={{
+                      backgroundColor: 'hsl(var(--card))',
+                      border: '1px solid hsl(var(--border))',
+                      borderRadius: '8px',
+                    }}
+                  />
+                  <Bar dataKey={data.name} fill="#2E8B9A" radius={[4, 4, 0, 0]} />
+                  {compareData && (
+                    <Bar dataKey={compareData.name} fill="#F5B041" radius={[4, 4, 0, 0]} />
+                  )}
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
+          </CardContent>
+        </Card>
+      )}
 
       <Card>
         <CardHeader className="pb-2">
@@ -145,41 +169,44 @@ export function EconomicsChart({ data, compareData }: EconomicsChartProps) {
       {/* Key Metrics Summary */}
       <Card className="lg:col-span-2">
         <CardHeader className="pb-2">
-          <CardTitle className="text-base font-sans">Key Economic Indicators</CardTitle>
+          <CardTitle className="text-base font-sans">Key Indicators vs LA County</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <MetricCard
-              label="Poverty Rate"
-              value={formatPercent(data.economics.povertyRate)}
-              compareValue={compareData ? formatPercent(compareData.economics.povertyRate) : undefined}
+              label="LEP Rate"
+              value={formatPercent(data.lep_pct)}
+              benchmark={formatPercent(LA_COUNTY_BENCHMARK.lep_pct)}
+              compareValue={compareData ? formatPercent(compareData.lep_pct) : undefined}
               isHigherBetter={false}
-              primary={data.economics.povertyRate}
-              secondary={compareData?.economics.povertyRate}
+              primary={data.lep_pct}
+              secondary={compareData?.lep_pct}
             />
             <MetricCard
-              label="Unemployment"
-              value={formatPercent(data.economics.unemploymentRate)}
-              compareValue={compareData ? formatPercent(compareData.economics.unemploymentRate) : undefined}
+              label="Poverty Rate"
+              value={formatPercent(data.poverty_pct)}
+              benchmark={formatPercent(LA_COUNTY_BENCHMARK.poverty_pct)}
+              compareValue={compareData ? formatPercent(compareData.poverty_pct) : undefined}
               isHigherBetter={false}
-              primary={data.economics.unemploymentRate}
-              secondary={compareData?.economics.unemploymentRate}
+              primary={data.poverty_pct}
+              secondary={compareData?.poverty_pct}
             />
             <MetricCard
               label="Median Income"
-              value={formatCurrency(data.economics.medianHouseholdIncome)}
-              compareValue={compareData ? formatCurrency(compareData.economics.medianHouseholdIncome) : undefined}
+              value={formatCurrency(data.median_hh_income)}
+              compareValue={compareData ? formatCurrency(compareData.median_hh_income) : undefined}
               isHigherBetter={true}
-              primary={data.economics.medianHouseholdIncome}
-              secondary={compareData?.economics.medianHouseholdIncome}
+              primary={data.median_hh_income ?? 0}
+              secondary={compareData?.median_hh_income ?? undefined}
             />
             <MetricCard
-              label="Health Coverage"
-              value={formatPercent(data.health.withHealthInsurance)}
-              compareValue={compareData ? formatPercent(compareData.health.withHealthInsurance) : undefined}
-              isHigherBetter={true}
-              primary={data.health.withHealthInsurance}
-              secondary={compareData?.health.withHealthInsurance}
+              label="No Internet"
+              value={formatPercent(data.no_internet_pct)}
+              benchmark={formatPercent(LA_COUNTY_BENCHMARK.no_internet_pct)}
+              compareValue={compareData ? formatPercent(compareData.no_internet_pct) : undefined}
+              isHigherBetter={false}
+              primary={data.no_internet_pct}
+              secondary={compareData?.no_internet_pct}
             />
           </div>
         </CardContent>
@@ -191,13 +218,14 @@ export function EconomicsChart({ data, compareData }: EconomicsChartProps) {
 interface MetricCardProps {
   label: string;
   value: string;
+  benchmark?: string;
   compareValue?: string;
   isHigherBetter: boolean;
   primary: number;
   secondary?: number;
 }
 
-function MetricCard({ label, value, compareValue, isHigherBetter, primary, secondary }: MetricCardProps) {
+function MetricCard({ label, value, benchmark, compareValue, isHigherBetter, primary, secondary }: MetricCardProps) {
   let comparison: 'better' | 'worse' | 'equal' | undefined;
   if (secondary !== undefined) {
     if (isHigherBetter) {
@@ -211,6 +239,9 @@ function MetricCard({ label, value, compareValue, isHigherBetter, primary, secon
     <div className="p-3 rounded-lg bg-muted/50">
       <p className="text-xs text-muted-foreground mb-1">{label}</p>
       <p className="text-lg font-semibold text-foreground">{value}</p>
+      {benchmark && (
+        <p className="text-xs text-muted-foreground">County: {benchmark}</p>
+      )}
       {compareValue && (
         <div className="flex items-center gap-1 mt-1">
           <span

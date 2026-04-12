@@ -1,15 +1,15 @@
 'use client';
 
-import { GeographyType } from '@/lib/types';
+import { GeoType } from '@/lib/types';
 import { getGeographyPluralLabel } from '@/lib/data';
 import { Button } from '@/components/ui/button';
 
 interface GeographySelectorProps {
-  selected: GeographyType;
-  onChange: (type: GeographyType) => void;
+  selected: GeoType;
+  onChange: (type: GeoType) => void;
 }
 
-const GEOGRAPHY_TYPES: GeographyType[] = ['county', 'puma', 'city', 'zip'];
+const GEOGRAPHY_TYPES: GeoType[] = ['county', 'puma', 'city', 'zip'];
 
 export function GeographySelector({ selected, onChange }: GeographySelectorProps) {
   return (

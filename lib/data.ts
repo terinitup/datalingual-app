@@ -1,7 +1,7 @@
-import { GeographyData, GeographyType } from './types';
+import { GeoArea, GeoType } from './types';
 
-export async function fetchGeographyData(type: GeographyType): Promise<GeographyData[]> {
-  const fileMap: Record<GeographyType, string> = {
+export async function fetchGeographyData(type: GeoType): Promise<GeoArea[]> {
+  const fileMap: Record<GeoType, string> = {
     county: '/data/county.json',
     puma: '/data/pumas.json',
     city: '/data/cities.json',
@@ -36,7 +36,8 @@ export function formatPercent(value: number): string {
   return `${value.toFixed(1)}%`;
 }
 
-export function formatCurrency(value: number): string {
+export function formatCurrency(value: number | null): string {
+  if (value === null) return 'N/A';
   return new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'USD',
@@ -44,8 +45,8 @@ export function formatCurrency(value: number): string {
   }).format(value);
 }
 
-export function getGeographyLabel(type: GeographyType): string {
-  const labels: Record<GeographyType, string> = {
+export function getGeographyLabel(type: GeoType): string {
+  const labels: Record<GeoType, string> = {
     county: 'County',
     puma: 'PUMA',
     city: 'City',
@@ -54,8 +55,8 @@ export function getGeographyLabel(type: GeographyType): string {
   return labels[type];
 }
 
-export function getGeographyPluralLabel(type: GeographyType): string {
-  const labels: Record<GeographyType, string> = {
+export function getGeographyPluralLabel(type: GeoType): string {
+  const labels: Record<GeoType, string> = {
     county: 'Counties',
     puma: 'PUMAs',
     city: 'Cities',

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { GeographyData, GeographyType } from '@/lib/types';
+import { GeoArea, GeoType } from '@/lib/types';
 import { fetchGeographyData, getGeographyLabel } from '@/lib/data';
 import { MapPanel } from './map-panel';
 import { ProfileCard } from './profile-card';
@@ -12,14 +12,14 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Skeleton } from '@/components/ui/skeleton';
-import { Users, DollarSign, TrendingUp } from 'lucide-react';
+import { Users, DollarSign, Globe } from 'lucide-react';
 
 export function Explorer() {
-  const [geographyType, setGeographyType] = useState<GeographyType>('county');
-  const [data, setData] = useState<GeographyData[]>([]);
+  const [geographyType, setGeographyType] = useState<GeoType>('county');
+  const [data, setData] = useState<GeoArea[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
-  const [colorMetric, setColorMetric] = useState<'population' | 'medianIncome' | 'povertyRate'>('population');
+  const [colorMetric, setColorMetric] = useState<'population' | 'median_hh_income' | 'lep_pct'>('population');
 
   useEffect(() => {
     async function loadData() {
@@ -28,7 +28,7 @@ export function Explorer() {
         const result = await fetchGeographyData(geographyType);
         setData(result);
         if (result.length > 0) {
-          setSelectedId(result[0].id);
+          setSelectedId(result[0].geo_id);
         }
       } catch (error) {
         console.error('Failed to load data:', error);
@@ -39,7 +39,7 @@ export function Explorer() {
     loadData();
   }, [geographyType]);
 
-  const selectedData = data?.find((d) => d.id === selectedId) ?? null;
+  const selectedData = Array.isArray(data) ? data.find((d) => d.geo_id === selectedId) ?? null : null;
 
   return (
     <div className="flex flex-col h-[calc(100vh-4rem)]">
@@ -59,16 +59,16 @@ export function Explorer() {
                   Population
                 </span>
               </SelectItem>
-              <SelectItem value="medianIncome">
+              <SelectItem value="median_hh_income">
                 <span className="flex items-center gap-2">
                   <DollarSign className="h-4 w-4" />
                   Median Income
                 </span>
               </SelectItem>
-              <SelectItem value="povertyRate">
+              <SelectItem value="lep_pct">
                 <span className="flex items-center gap-2">
-                  <TrendingUp className="h-4 w-4" />
-                  Poverty Rate
+                  <Globe className="h-4 w-4" />
+                  LEP Rate
                 </span>
               </SelectItem>
             </SelectContent>
@@ -124,7 +124,7 @@ export function Explorer() {
         <div className="border-t border-border p-4 bg-muted/30">
           <Tabs defaultValue="demographics" className="w-full">
             <TabsList className="mb-4">
-              <TabsTrigger value="demographics">Demographics</TabsTrigger>
+              <TabsTrigger value="demographics">Language & Demographics</TabsTrigger>
               <TabsTrigger value="economics">Economics & Wellbeing</TabsTrigger>
             </TabsList>
             <TabsContent value="demographics">

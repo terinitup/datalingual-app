@@ -3,14 +3,14 @@
 import { useEffect, useRef, useState } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { GeographyData, GeographyType } from '@/lib/types';
+import { GeoArea, GeoType } from '@/lib/types';
 
 interface MapPanelProps {
-  geographyType: GeographyType;
-  data: GeographyData[];
+  geographyType: GeoType;
+  data: GeoArea[];
   selectedId: string | null;
   onSelect: (id: string) => void;
-  colorMetric: 'population' | 'medianIncome' | 'povertyRate';
+  colorMetric: 'population' | 'median_hh_income' | 'lep_pct';
 }
 
 const LA_CENTER: [number, number] = [-118.2437, 34.0522];
@@ -20,7 +20,7 @@ const LA_BOUNDS: [[number, number], [number, number]] = [
 ];
 
 // Approximate boundaries for different geography types
-const GEOGRAPHY_BOUNDS: Record<GeographyType, { center: [number, number]; zoom: number }[]> = {
+const GEOGRAPHY_BOUNDS: Record<GeoType, { center: [number, number]; zoom: number }[]> = {
   county: [{ center: LA_CENTER, zoom: 9 }],
   puma: [
     { center: [-118.45, 34.05], zoom: 10 },
@@ -45,27 +45,27 @@ const GEOGRAPHY_BOUNDS: Record<GeographyType, { center: [number, number]; zoom: 
   ],
 };
 
-function getColorScale(metric: 'population' | 'medianIncome' | 'povertyRate') {
+function getColorScale(metric: 'population' | 'median_hh_income' | 'lep_pct') {
   switch (metric) {
     case 'population':
       return ['#E8F4F8', '#B8DDE6', '#6BB8CC', '#2E8B9A', '#1A5F6B'];
-    case 'medianIncome':
+    case 'median_hh_income':
       return ['#FEF3E2', '#FCD9A8', '#F5B041', '#D4A03A', '#8B6914'];
-    case 'povertyRate':
-      return ['#FDE8E8', '#F5B7B7', '#E57373', '#C62828', '#8B0000'];
+    case 'lep_pct':
+      return ['#E8F4F8', '#B8DDE6', '#6BB8CC', '#2E8B9A', '#1A5F6B'];
     default:
       return ['#E8F4F8', '#B8DDE6', '#6BB8CC', '#2E8B9A', '#1A5F6B'];
   }
 }
 
-function getMetricValue(item: GeographyData, metric: 'population' | 'medianIncome' | 'povertyRate'): number {
+function getMetricValue(item: GeoArea, metric: 'population' | 'median_hh_income' | 'lep_pct'): number {
   switch (metric) {
     case 'population':
-      return item.demographics.totalPopulation;
-    case 'medianIncome':
-      return item.economics.medianHouseholdIncome;
-    case 'povertyRate':
-      return item.economics.povertyRate;
+      return item.population ?? 0;
+    case 'median_hh_income':
+      return item.median_hh_income ?? 0;
+    case 'lep_pct':
+      return item.lep_pct ?? 0;
     default:
       return 0;
   }
@@ -105,7 +105,7 @@ export function MapPanel({ geographyType, data, selectedId, onSelect, colorMetri
   }, []);
 
   useEffect(() => {
-    if (!map.current || !mapLoaded || data.length === 0) return;
+    if (!map.current || !mapLoaded || !Array.isArray(data) || data.length === 0) return;
 
     // Clear existing markers
     markersRef.current.forEach((marker) => marker.remove());
@@ -135,7 +135,7 @@ export function MapPanel({ geographyType, data, selectedId, onSelect, colorMetri
         width: ${geographyType === 'county' ? '120px' : geographyType === 'puma' ? '80px' : '60px'};
         height: ${geographyType === 'county' ? '120px' : geographyType === 'puma' ? '80px' : '60px'};
         background-color: ${color};
-        border: ${selectedId === item.id ? '3px solid #1A5F6B' : '2px solid white'};
+        border: ${selectedId === item.geo_id ? '3px solid #1A5F6B' : '2px solid white'};
         border-radius: ${geographyType === 'zip' ? '4px' : '8px'};
         cursor: pointer;
         display: flex;
@@ -165,7 +165,7 @@ export function MapPanel({ geographyType, data, selectedId, onSelect, colorMetri
       });
 
       el.addEventListener('click', () => {
-        onSelect(item.id);
+        onSelect(item.geo_id);
       });
 
       const marker = new mapboxgl.Marker({ element: el })
@@ -191,8 +191,8 @@ export function MapPanel({ geographyType, data, selectedId, onSelect, colorMetri
       <div className="absolute bottom-4 left-4 bg-card/95 backdrop-blur-sm rounded-lg p-3 shadow-lg border border-border">
         <p className="text-xs font-medium text-muted-foreground mb-2">
           {colorMetric === 'population' && 'Population'}
-          {colorMetric === 'medianIncome' && 'Median Income'}
-          {colorMetric === 'povertyRate' && 'Poverty Rate'}
+          {colorMetric === 'median_hh_income' && 'Median Income'}
+          {colorMetric === 'lep_pct' && 'LEP Rate'}
         </p>
         <div className="flex items-center gap-1">
           {getColorScale(colorMetric).map((color, i) => (
