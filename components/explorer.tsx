@@ -19,7 +19,7 @@ export function Explorer() {
   const [data, setData] = useState<GeoArea[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
-  const [colorMetric, setColorMetric] = useState<'population' | 'median_hh_income' | 'lep_pct'>('population');
+  const [colorMetric, setColorMetric] = useState<'population' | 'median_hh_income' | 'lep_pct'>('lep_pct');
 
   useEffect(() => {
     async function loadData() {

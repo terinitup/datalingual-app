@@ -1,9 +1,9 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { GeoArea, GeoType } from '@/lib/types';
+import type { GeoArea, GeoType } from '@/lib/types';
 
 interface MapPanelProps {
   geographyType: GeoType;
@@ -13,237 +13,139 @@ interface MapPanelProps {
   colorMetric: 'population' | 'median_hh_income' | 'lep_pct';
 }
 
-const LA_CENTER: [number, number] = [-118.2437, 34.0522];
-const LA_BOUNDS: [[number, number], [number, number]] = [
-  [-118.9448, 33.7037],
-  [-117.6462, 34.8233],
-];
+const PUMA_GEOJSON_URL = '/geo/pumas.geojson';
 
-const GEO_FILES: Record<GeoType, string> = {
-  county: '/geo/county.geojson',
-  puma: '/geo/pumas.geojson',
-  city: '/geo/cities.geojson',
-  zip: '/geo/zips.geojson',
-};
+const LEP_COLORS = ['#E8F4F8', '#B8DDE6', '#6BB8CC', '#2E8B9A', '#1A5F6B'];
 
-function getFeatureGeoId(type: GeoType, props: Record<string, unknown> | null): string | null {
-  if (!props) return null;
-  switch (type) {
-    case 'county':
-      return props.GEOID != null ? String(props.GEOID) : null;
-    case 'puma':
-      return props.GEOID10 != null ? String(props.GEOID10) : null;
-    case 'city':
-      return props.GEOID != null ? String(props.GEOID) : null;
-    case 'zip':
-      return props.GEOID20 != null ? String(props.GEOID20) : null;
-    default:
-      return null;
-  }
+function mergePumaGeojsonWithLep(geojson: GeoJSON.FeatureCollection, data: GeoArea[]): GeoJSON.FeatureCollection {
+  const values = data.length > 0 ? data.map((d) => d.lep_pct ?? 0) : [0];
+  const minVal = Math.min(...values);
+  const maxVal = Math.max(...values);
+  const range = maxVal - minVal || 1;
+  const byId = new globalThis.Map<string, GeoArea>(data.map((d) => [d.geo_id, d]));
+
+  const features = geojson.features.map((f) => {
+    const props: Record<string, unknown> =
+      f.properties && typeof f.properties === 'object' ? { ...(f.properties as Record<string, unknown>) } : {};
+    const geoId = props.GEOID10 != null ? String(props.GEOID10) : '';
+    props.geo_id = geoId;
+    const row = geoId ? byId.get(geoId) : undefined;
+    const lep = row ? (row.lep_pct ?? 0) : 0;
+    const t = (lep - minVal) / range;
+    const idx = Math.min(Math.floor(t * LEP_COLORS.length), LEP_COLORS.length - 1);
+    props._color = LEP_COLORS[idx];
+    return { ...f, properties: props };
+  });
+
+  return { type: 'FeatureCollection', features };
 }
 
-function getColorScale(metric: 'population' | 'median_hh_income' | 'lep_pct') {
-  switch (metric) {
-    case 'population':
-      return ['#E8F4F8', '#B8DDE6', '#6BB8CC', '#2E8B9A', '#1A5F6B'];
-    case 'median_hh_income':
-      return ['#FEF3E2', '#FCD9A8', '#F5B041', '#D4A03A', '#8B6914'];
-    case 'lep_pct':
-      return ['#E8F4F8', '#B8DDE6', '#6BB8CC', '#2E8B9A', '#1A5F6B'];
-    default:
-      return ['#E8F4F8', '#B8DDE6', '#6BB8CC', '#2E8B9A', '#1A5F6B'];
-  }
-}
-
-function getMetricValue(item: GeoArea, metric: 'population' | 'median_hh_income' | 'lep_pct'): number {
-  switch (metric) {
-    case 'population':
-      return item.population ?? 0;
-    case 'median_hh_income':
-      return item.median_hh_income ?? 0;
-    case 'lep_pct':
-      return item.lep_pct ?? 0;
-    default:
-      return 0;
-  }
-}
-
-function fillOpacityExpr(selected: string | null): mapboxgl.ExpressionSpecification {
-  const sel = selected ?? '';
-  return ['case', ['==', ['get', '_gid'], sel], 0.92, 0.62] as mapboxgl.ExpressionSpecification;
-}
-
-function lineWidthExpr(selected: string | null): mapboxgl.ExpressionSpecification {
-  const sel = selected ?? '';
-  return ['case', ['==', ['get', '_gid'], sel], 2.5, 0.6] as mapboxgl.ExpressionSpecification;
-}
-
-export function MapPanel({ geographyType, data, selectedId, onSelect, colorMetric }: MapPanelProps) {
-  const mapContainer = useRef<HTMLDivElement>(null);
-  const map = useRef<mapboxgl.Map | null>(null);
-  const [mapLoaded, setMapLoaded] = useState(false);
+export function MapPanel({
+  geographyType: _geographyType,
+  data,
+  selectedId: _selectedId,
+  onSelect,
+  colorMetric: _colorMetric,
+}: MapPanelProps) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const mapRef = useRef<mapboxgl.Map | null>(null);
   const onSelectRef = useRef(onSelect);
-  const selectedIdRef = useRef(selectedId);
+  const dataRef = useRef(data);
+
   onSelectRef.current = onSelect;
-  selectedIdRef.current = selectedId;
+  dataRef.current = data;
 
   useEffect(() => {
-    if (!mapContainer.current || map.current) return;
+    const el = containerRef.current;
+    if (!el) return;
 
-    mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN || '';
-    // Next.js/Turbopack does not bundle the Mapbox worker reliably; use the CSP worker from Mapbox CDN.
-    mapboxgl.workerUrl = `https://api.mapbox.com/mapbox-gl-js/v${mapboxgl.version}/mapbox-gl-csp-worker.js`;
+    mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN ?? '';
 
-    map.current = new mapboxgl.Map({
-      container: mapContainer.current,
+    const map = new mapboxgl.Map({
+      container: el,
       style: 'mapbox://styles/mapbox/light-v11',
-      center: LA_CENTER,
+      center: [-118.2437, 34.0522],
       zoom: 9,
-      maxBounds: LA_BOUNDS,
     });
 
-    map.current.addControl(new mapboxgl.NavigationControl(), 'top-right');
+    mapRef.current = map;
 
-    const resizeObserver = new ResizeObserver(() => {
-      map.current?.resize();
-    });
-    resizeObserver.observe(mapContainer.current);
+    const onClick = (e: mapboxgl.MapLayerMouseEvent) => {
+      const feature = e.features?.[0];
+      const geoId = feature?.properties?.geo_id;
+      if (typeof geoId === 'string' && geoId) {
+        onSelectRef.current(geoId);
+      }
+    };
 
-    map.current.on('load', () => {
-      map.current?.resize();
-      setMapLoaded(true);
+    const onEnter = () => {
+      map.getCanvas().style.cursor = 'pointer';
+    };
+    const onLeave = () => {
+      map.getCanvas().style.cursor = '';
+    };
+
+    map.on('load', () => {
+      void (async () => {
+        const res = await fetch(PUMA_GEOJSON_URL);
+        if (!res.ok) return;
+        const raw = (await res.json()) as GeoJSON.FeatureCollection;
+        const merged = mergePumaGeojsonWithLep(raw, dataRef.current);
+
+        map.addSource('pumas', {
+          type: 'geojson',
+          data: merged,
+        });
+
+        map.addLayer({
+          id: 'pumas-fill',
+          type: 'fill',
+          source: 'pumas',
+          paint: {
+            'fill-color': ['get', '_color'] as mapboxgl.ExpressionSpecification,
+            'fill-opacity': 0.72,
+          },
+        });
+
+        map.on('click', 'pumas-fill', onClick);
+        map.on('mouseenter', 'pumas-fill', onEnter);
+        map.on('mouseleave', 'pumas-fill', onLeave);
+      })();
     });
 
     return () => {
-      resizeObserver.disconnect();
-      if (map.current) {
-        map.current.remove();
-        map.current = null;
-      }
-      setMapLoaded(false);
+      map.off('click', 'pumas-fill', onClick);
+      map.off('mouseenter', 'pumas-fill', onEnter);
+      map.off('mouseleave', 'pumas-fill', onLeave);
+      map.remove();
+      mapRef.current = null;
     };
   }, []);
 
   useEffect(() => {
-    if (!map.current || !mapLoaded || !Array.isArray(data) || data.length === 0) return;
+    const map = mapRef.current;
+    if (!map?.isStyleLoaded()) return;
 
-    const mapInstance = map.current;
-    let cancelled = false;
+    void (async () => {
+      const res = await fetch(PUMA_GEOJSON_URL);
+      if (!res.ok) return;
+      const raw = (await res.json()) as GeoJSON.FeatureCollection;
+      const merged = mergePumaGeojsonWithLep(raw, data);
 
-    const removeGeoLayers = () => {
-      if (mapInstance.getLayer('geo-outline')) mapInstance.removeLayer('geo-outline');
-      if (mapInstance.getLayer('geo-fill')) mapInstance.removeLayer('geo-fill');
-      if (mapInstance.getSource('geo')) mapInstance.removeSource('geo');
-    };
-
-    const onClick = (e: mapboxgl.MapLayerMouseEvent) => {
-      const f = e.features?.[0];
-      const gid = f?.properties && typeof f.properties._gid === 'string' ? f.properties._gid : null;
-      if (gid) onSelectRef.current(gid);
-    };
-    const onEnter = () => {
-      mapInstance.getCanvas().style.cursor = 'pointer';
-    };
-    const onLeave = () => {
-      mapInstance.getCanvas().style.cursor = '';
-    };
-
-    async function loadGeoLayers() {
-      const url = GEO_FILES[geographyType];
-      const res = await fetch(url);
-      if (!res.ok || cancelled) return;
-      const geojson = (await res.json()) as GeoJSON.FeatureCollection;
-
-      const colors = getColorScale(colorMetric);
-      const values = data.map((item) => getMetricValue(item, colorMetric));
-      const minVal = Math.min(...values);
-      const maxVal = Math.max(...values);
-      const range = maxVal - minVal || 1;
-      const byId = new Map(data.map((d) => [d.geo_id, d]));
-
-      for (const f of geojson.features) {
-        if (!f.properties || typeof f.properties !== 'object') continue;
-        const props = f.properties as Record<string, unknown>;
-        const gid = getFeatureGeoId(geographyType, props);
-        if (!gid) continue;
-        const row = byId.get(gid);
-        const value = row ? getMetricValue(row, colorMetric) : 0;
-        const normalizedValue = (value - minVal) / range;
-        const colorIndex = Math.min(Math.floor(normalizedValue * colors.length), colors.length - 1);
-        props._gid = gid;
-        props._color = colors[colorIndex];
+      const src = map.getSource('pumas') as mapboxgl.GeoJSONSource | undefined;
+      if (src) {
+        src.setData(merged);
       }
-
-      if (cancelled) return;
-
-      removeGeoLayers();
-
-      mapInstance.addSource('geo', { type: 'geojson', data: geojson });
-
-      const sel = selectedIdRef.current;
-      mapInstance.addLayer({
-        id: 'geo-fill',
-        type: 'fill',
-        source: 'geo',
-        paint: {
-          'fill-color': ['get', '_color'] as mapboxgl.ExpressionSpecification,
-          'fill-opacity': fillOpacityExpr(sel),
-        },
-      });
-
-      mapInstance.addLayer({
-        id: 'geo-outline',
-        type: 'line',
-        source: 'geo',
-        paint: {
-          'line-color': '#ffffff',
-          'line-width': lineWidthExpr(sel),
-        },
-      });
-
-      mapInstance.fitBounds(LA_BOUNDS, { padding: 48, duration: 600 });
-
-      mapInstance.off('click', 'geo-fill', onClick);
-      mapInstance.off('mouseenter', 'geo-fill', onEnter);
-      mapInstance.off('mouseleave', 'geo-fill', onLeave);
-      mapInstance.on('click', 'geo-fill', onClick);
-      mapInstance.on('mouseenter', 'geo-fill', onEnter);
-      mapInstance.on('mouseleave', 'geo-fill', onLeave);
-    }
-
-    loadGeoLayers().catch((err) => console.error('Map geo load failed:', err));
-
-    return () => {
-      cancelled = true;
-      mapInstance.off('click', 'geo-fill', onClick);
-      mapInstance.off('mouseenter', 'geo-fill', onEnter);
-      mapInstance.off('mouseleave', 'geo-fill', onLeave);
-      removeGeoLayers();
-    };
-  }, [data, geographyType, colorMetric, mapLoaded]);
-
-  useEffect(() => {
-    const m = map.current;
-    if (!m || !mapLoaded || !m.getLayer('geo-fill')) return;
-    m.setPaintProperty('geo-fill', 'fill-opacity', fillOpacityExpr(selectedId));
-    if (m.getLayer('geo-outline')) {
-      m.setPaintProperty('geo-outline', 'line-width', lineWidthExpr(selectedId));
-    }
-  }, [selectedId, mapLoaded]);
+    })();
+  }, [data]);
 
   return (
-    <div className="relative h-full w-full min-h-[300px] rounded-lg overflow-hidden border border-border">
-      <div ref={mapContainer} className="absolute inset-0 min-h-[300px]" />
-
-      {/* Legend */}
+    <div className="relative w-full rounded-lg overflow-hidden border border-border">
+      <div ref={containerRef} style={{ width: '100%', height: '500px' }} />
       <div className="absolute bottom-4 left-4 bg-card/95 backdrop-blur-sm rounded-lg p-3 shadow-lg border border-border z-10 pointer-events-none">
-        <p className="text-xs font-medium text-muted-foreground mb-2">
-          {colorMetric === 'population' && 'Population'}
-          {colorMetric === 'median_hh_income' && 'Median Income'}
-          {colorMetric === 'lep_pct' && 'LEP Rate'}
-        </p>
+        <p className="text-xs font-medium text-muted-foreground mb-2">LEP %</p>
         <div className="flex items-center gap-1">
-          {getColorScale(colorMetric).map((color, i) => (
+          {LEP_COLORS.map((color, i) => (
             <div
               key={i}
               className="w-6 h-3 first:rounded-l last:rounded-r"
