@@ -1,0 +1,305 @@
+[
+  {
+    "geo_id": "90011",
+    "geo_type": "zip",
+    "name": "90011 (South Los Angeles)",
+    "population": 103892,
+    "proficiency": {
+      "english_only": 12467,
+      "english_only_pct": 12.8,
+      "bilingual": 32209,
+      "bilingual_pct": 33.1,
+      "lep": 52668,
+      "lep_pct": 54.1,
+      "total_pop_5plus": 97344
+    },
+    "poverty": {
+      "universe": 102456,
+      "band_1_124": 36884,
+      "band_1_124_pct": 36.0,
+      "band_125_199": 24590,
+      "band_125_199_pct": 24.0,
+      "band_200_399": 27664,
+      "band_200_399_pct": 27.0,
+      "band_400plus": 13318,
+      "band_400plus_pct": 13.0,
+      "below_poverty_pct": 36.0
+    },
+    "education": {
+      "universe": 62345,
+      "under_9th": 24938,
+      "under_9th_pct": 40.0,
+      "incomplete_hs": 11222,
+      "incomplete_hs_pct": 18.0,
+      "hs_some_college": 22444,
+      "hs_some_college_pct": 36.0,
+      "ba_higher": 3741,
+      "ba_higher_pct": 6.0
+    },
+    "access": {
+      "no_internet": 3636,
+      "no_internet_pct": 12.5,
+      "no_computer": 756,
+      "no_computer_pct": 2.6,
+      "snap_households": 8765,
+      "snap_pct": 30.1,
+      "linguistically_isolated": 9234,
+      "linguistically_isolated_pct": 31.7
+    },
+    "median_hh_income": 42567,
+    "top_language": "Spanish",
+    "top_language_lep": 51234,
+    "languages": [
+      { "name": "Spanish", "total_speakers": 83456, "lep_count": 51234, "lep_pct_of_area": 52.6 },
+      { "name": "Other languages", "total_speakers": 876, "lep_count": 456, "lep_pct_of_area": 0.5 }
+    ],
+    "lep_total": 52668,
+    "lep_pct": 54.1,
+    "poverty_pct": 36.0,
+    "no_internet_pct": 12.5,
+    "snap_pct": 30.1
+  },
+  {
+    "geo_id": "90255",
+    "geo_type": "zip",
+    "name": "90255 (Huntington Park)",
+    "population": 65432,
+    "proficiency": {
+      "english_only": 7848,
+      "english_only_pct": 12.7,
+      "bilingual": 20584,
+      "bilingual_pct": 33.3,
+      "lep": 33371,
+      "lep_pct": 54.0,
+      "total_pop_5plus": 61803
+    },
+    "poverty": {
+      "universe": 64567,
+      "band_1_124": 21306,
+      "band_1_124_pct": 33.0,
+      "band_125_199": 14205,
+      "band_125_199_pct": 22.0,
+      "band_200_399": 17433,
+      "band_200_399_pct": 27.0,
+      "band_400plus": 11623,
+      "band_400plus_pct": 18.0,
+      "below_poverty_pct": 33.0
+    },
+    "education": {
+      "universe": 42345,
+      "under_9th": 16515,
+      "under_9th_pct": 39.0,
+      "incomplete_hs": 7622,
+      "incomplete_hs_pct": 18.0,
+      "hs_some_college": 15244,
+      "hs_some_college_pct": 36.0,
+      "ba_higher": 2964,
+      "ba_higher_pct": 7.0
+    },
+    "access": {
+      "no_internet": 2157,
+      "no_internet_pct": 11.8,
+      "no_computer": 438,
+      "no_computer_pct": 2.4,
+      "snap_households": 5234,
+      "snap_pct": 28.6,
+      "linguistically_isolated": 5678,
+      "linguistically_isolated_pct": 31.0
+    },
+    "median_hh_income": 48765,
+    "top_language": "Spanish",
+    "top_language_lep": 32567,
+    "languages": [
+      { "name": "Spanish", "total_speakers": 52345, "lep_count": 32567, "lep_pct_of_area": 52.7 },
+      { "name": "Other languages", "total_speakers": 654, "lep_count": 345, "lep_pct_of_area": 0.6 }
+    ],
+    "lep_total": 33371,
+    "lep_pct": 54.0,
+    "poverty_pct": 33.0,
+    "no_internet_pct": 11.8,
+    "snap_pct": 28.6
+  },
+  {
+    "geo_id": "90210",
+    "geo_type": "zip",
+    "name": "90210 (Beverly Hills)",
+    "population": 21234,
+    "proficiency": {
+      "english_only": 14864,
+      "english_only_pct": 74.1,
+      "bilingual": 4019,
+      "bilingual_pct": 20.0,
+      "lep": 1182,
+      "lep_pct": 5.9,
+      "total_pop_5plus": 20065
+    },
+    "poverty": {
+      "universe": 20987,
+      "band_1_124": 1259,
+      "band_1_124_pct": 6.0,
+      "band_125_199": 839,
+      "band_125_199_pct": 4.0,
+      "band_200_399": 2518,
+      "band_200_399_pct": 12.0,
+      "band_400plus": 16371,
+      "band_400plus_pct": 78.0,
+      "below_poverty_pct": 6.0
+    },
+    "education": {
+      "universe": 16234,
+      "under_9th": 325,
+      "under_9th_pct": 2.0,
+      "incomplete_hs": 487,
+      "incomplete_hs_pct": 3.0,
+      "hs_some_college": 2435,
+      "hs_some_college_pct": 15.0,
+      "ba_higher": 12987,
+      "ba_higher_pct": 80.0
+    },
+    "access": {
+      "no_internet": 531,
+      "no_internet_pct": 3.0,
+      "no_computer": 177,
+      "no_computer_pct": 1.0,
+      "snap_households": 234,
+      "snap_pct": 1.3,
+      "linguistically_isolated": 456,
+      "linguistically_isolated_pct": 2.6
+    },
+    "median_hh_income": 198765,
+    "top_language": "Persian",
+    "top_language_lep": 456,
+    "languages": [
+      { "name": "Persian", "total_speakers": 1876, "lep_count": 456, "lep_pct_of_area": 2.3 },
+      { "name": "Spanish", "total_speakers": 1234, "lep_count": 345, "lep_pct_of_area": 1.7 },
+      { "name": "Russian", "total_speakers": 876, "lep_count": 234, "lep_pct_of_area": 1.2 },
+      { "name": "Chinese (Mandarin/Cantonese)", "total_speakers": 567, "lep_count": 123, "lep_pct_of_area": 0.6 }
+    ],
+    "lep_total": 1182,
+    "lep_pct": 5.9,
+    "poverty_pct": 6.0,
+    "no_internet_pct": 3.0,
+    "snap_pct": 1.3
+  },
+  {
+    "geo_id": "90001",
+    "geo_type": "zip",
+    "name": "90001 (Florence-Firestone)",
+    "population": 57234,
+    "proficiency": {
+      "english_only": 8585,
+      "english_only_pct": 15.9,
+      "bilingual": 17741,
+      "bilingual_pct": 32.9,
+      "lep": 27599,
+      "lep_pct": 51.2,
+      "total_pop_5plus": 53925
+    },
+    "poverty": {
+      "universe": 56543,
+      "band_1_124": 19790,
+      "band_1_124_pct": 35.0,
+      "band_125_199": 12440,
+      "band_125_199_pct": 22.0,
+      "band_200_399": 15263,
+      "band_200_399_pct": 27.0,
+      "band_400plus": 9050,
+      "band_400plus_pct": 16.0,
+      "below_poverty_pct": 35.0
+    },
+    "education": {
+      "universe": 35234,
+      "under_9th": 13738,
+      "under_9th_pct": 39.0,
+      "incomplete_hs": 6342,
+      "incomplete_hs_pct": 18.0,
+      "hs_some_college": 12684,
+      "hs_some_college_pct": 36.0,
+      "ba_higher": 2470,
+      "ba_higher_pct": 7.0
+    },
+    "access": {
+      "no_internet": 1830,
+      "no_internet_pct": 11.5,
+      "no_computer": 398,
+      "no_computer_pct": 2.5,
+      "snap_households": 4567,
+      "snap_pct": 28.7,
+      "linguistically_isolated": 4876,
+      "linguistically_isolated_pct": 30.6
+    },
+    "median_hh_income": 45678,
+    "top_language": "Spanish",
+    "top_language_lep": 26789,
+    "languages": [
+      { "name": "Spanish", "total_speakers": 45678, "lep_count": 26789, "lep_pct_of_area": 49.7 },
+      { "name": "Other languages", "total_speakers": 567, "lep_count": 345, "lep_pct_of_area": 0.6 }
+    ],
+    "lep_total": 27599,
+    "lep_pct": 51.2,
+    "poverty_pct": 35.0,
+    "no_internet_pct": 11.5,
+    "snap_pct": 28.7
+  },
+  {
+    "geo_id": "91101",
+    "geo_type": "zip",
+    "name": "91101 (Downtown Pasadena)",
+    "population": 18765,
+    "proficiency": {
+      "english_only": 11259,
+      "english_only_pct": 63.5,
+      "bilingual": 4691,
+      "bilingual_pct": 26.5,
+      "lep": 1771,
+      "lep_pct": 10.0,
+      "total_pop_5plus": 17721
+    },
+    "poverty": {
+      "universe": 18543,
+      "band_1_124": 2039,
+      "band_1_124_pct": 11.0,
+      "band_125_199": 1669,
+      "band_125_199_pct": 9.0,
+      "band_200_399": 4821,
+      "band_200_399_pct": 26.0,
+      "band_400plus": 10014,
+      "band_400plus_pct": 54.0,
+      "below_poverty_pct": 11.0
+    },
+    "education": {
+      "universe": 14234,
+      "under_9th": 711,
+      "under_9th_pct": 5.0,
+      "incomplete_hs": 854,
+      "incomplete_hs_pct": 6.0,
+      "hs_some_college": 3985,
+      "hs_some_college_pct": 28.0,
+      "ba_higher": 8684,
+      "ba_higher_pct": 61.0
+    },
+    "access": {
+      "no_internet": 1089,
+      "no_internet_pct": 7.8,
+      "no_computer": 420,
+      "no_computer_pct": 3.0,
+      "snap_households": 1987,
+      "snap_pct": 14.2,
+      "linguistically_isolated": 1234,
+      "linguistically_isolated_pct": 8.8
+    },
+    "median_hh_income": 76543,
+    "top_language": "Spanish",
+    "top_language_lep": 987,
+    "languages": [
+      { "name": "Spanish", "total_speakers": 3456, "lep_count": 987, "lep_pct_of_area": 5.6 },
+      { "name": "Chinese (Mandarin/Cantonese)", "total_speakers": 1234, "lep_count": 456, "lep_pct_of_area": 2.6 },
+      { "name": "Armenian", "total_speakers": 567, "lep_count": 234, "lep_pct_of_area": 1.3 }
+    ],
+    "lep_total": 1771,
+    "lep_pct": 10.0,
+    "poverty_pct": 11.0,
+    "no_internet_pct": 7.8,
+    "snap_pct": 14.2
+  }
+]

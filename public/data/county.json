@@ -1,0 +1,66 @@
+{
+  "geo_id": "06037",
+  "geo_type": "county",
+  "name": "Los Angeles County",
+  "population": 9829544,
+  "proficiency": {
+    "english_only": 4215680,
+    "english_only_pct": 45.2,
+    "bilingual": 2923456,
+    "bilingual_pct": 31.4,
+    "lep": 2182408,
+    "lep_pct": 23.4,
+    "total_pop_5plus": 9321544
+  },
+  "poverty": {
+    "universe": 9654321,
+    "band_1_124": 1728923,
+    "band_1_124_pct": 17.9,
+    "band_125_199": 1158518,
+    "band_125_199_pct": 12.0,
+    "band_200_399": 2510123,
+    "band_200_399_pct": 26.0,
+    "band_400plus": 4256757,
+    "band_400plus_pct": 44.1,
+    "below_poverty_pct": 17.9
+  },
+  "education": {
+    "universe": 6825432,
+    "under_9th": 682543,
+    "under_9th_pct": 10.0,
+    "incomplete_hs": 614289,
+    "incomplete_hs_pct": 9.0,
+    "hs_some_college": 2729173,
+    "hs_some_college_pct": 40.0,
+    "ba_higher": 2799427,
+    "ba_higher_pct": 41.0
+  },
+  "access": {
+    "no_internet": 289456,
+    "no_internet_pct": 8.2,
+    "no_computer": 112345,
+    "no_computer_pct": 3.2,
+    "snap_households": 498765,
+    "snap_pct": 14.1,
+    "linguistically_isolated": 635892,
+    "linguistically_isolated_pct": 18.0
+  },
+  "median_hh_income": 77324,
+  "top_language": "Spanish",
+  "top_language_lep": 1523456,
+  "languages": [
+    { "name": "Spanish", "total_speakers": 3456789, "lep_count": 1523456, "lep_pct_of_area": 16.3 },
+    { "name": "Chinese (Mandarin/Cantonese)", "total_speakers": 456789, "lep_count": 234567, "lep_pct_of_area": 2.5 },
+    { "name": "Korean", "total_speakers": 234567, "lep_count": 123456, "lep_pct_of_area": 1.3 },
+    { "name": "Tagalog", "total_speakers": 198765, "lep_count": 89123, "lep_pct_of_area": 1.0 },
+    { "name": "Armenian", "total_speakers": 176543, "lep_count": 78234, "lep_pct_of_area": 0.8 },
+    { "name": "Vietnamese", "total_speakers": 134567, "lep_count": 67234, "lep_pct_of_area": 0.7 },
+    { "name": "Persian", "total_speakers": 98765, "lep_count": 34567, "lep_pct_of_area": 0.4 },
+    { "name": "Russian", "total_speakers": 76543, "lep_count": 23456, "lep_pct_of_area": 0.3 }
+  ],
+  "lep_total": 2182408,
+  "lep_pct": 23.4,
+  "poverty_pct": 17.9,
+  "no_internet_pct": 8.2,
+  "snap_pct": 14.1
+}

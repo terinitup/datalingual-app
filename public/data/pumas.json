@@ -1,0 +1,313 @@
+[
+  {
+    "geo_id": "0603745",
+    "geo_type": "puma",
+    "name": "Southeast/East Vernon (LA City)",
+    "population": 118105,
+    "proficiency": {
+      "english_only": 17280,
+      "english_only_pct": 15.5,
+      "bilingual": 37116,
+      "bilingual_pct": 33.3,
+      "lep": 56962,
+      "lep_pct": 51.2,
+      "total_pop_5plus": 111358
+    },
+    "poverty": {
+      "universe": 117058,
+      "band_1_124": 39031,
+      "band_1_124_pct": 33.3,
+      "band_125_199": 27278,
+      "band_125_199_pct": 23.3,
+      "band_200_399": 3768,
+      "band_200_399_pct": 3.2,
+      "band_400plus": 1609,
+      "band_400plus_pct": 1.4,
+      "below_poverty_pct": 33.3
+    },
+    "education": {
+      "universe": 73296,
+      "under_9th": 27334,
+      "under_9th_pct": 37.3,
+      "incomplete_hs": 12154,
+      "incomplete_hs_pct": 16.6,
+      "hs_some_college": 28077,
+      "hs_some_college_pct": 38.3,
+      "ba_higher": 5731,
+      "ba_higher_pct": 7.8
+    },
+    "access": {
+      "no_internet": 3250,
+      "no_internet_pct": 11.2,
+      "no_computer": 655,
+      "no_computer_pct": 2.3,
+      "snap_households": 7743,
+      "snap_pct": 26.8,
+      "linguistically_isolated": 8568,
+      "linguistically_isolated_pct": 29.6
+    },
+    "median_hh_income": 56076,
+    "top_language": "Spanish",
+    "top_language_lep": 56100,
+    "languages": [
+      { "name": "Spanish", "total_speakers": 92433, "lep_count": 56100, "lep_pct_of_area": 50.4 },
+      { "name": "Korean", "total_speakers": 483, "lep_count": 426, "lep_pct_of_area": 0.4 },
+      { "name": "Other languages", "total_speakers": 838, "lep_count": 260, "lep_pct_of_area": 0.2 },
+      { "name": "Chinese (Mandarin/Cantonese)", "total_speakers": 150, "lep_count": 80, "lep_pct_of_area": 0.1 },
+      { "name": "Arabic", "total_speakers": 22, "lep_count": 20, "lep_pct_of_area": 0.0 }
+    ],
+    "lep_total": 56962,
+    "lep_pct": 51.2,
+    "poverty_pct": 33.3,
+    "no_internet_pct": 11.2,
+    "snap_pct": 26.8
+  },
+  {
+    "geo_id": "0603746",
+    "geo_type": "puma",
+    "name": "Boyle Heights (LA City)",
+    "population": 95234,
+    "proficiency": {
+      "english_only": 14285,
+      "english_only_pct": 16.2,
+      "bilingual": 29520,
+      "bilingual_pct": 33.5,
+      "lep": 44329,
+      "lep_pct": 50.3,
+      "total_pop_5plus": 88134
+    },
+    "poverty": {
+      "universe": 94123,
+      "band_1_124": 30119,
+      "band_1_124_pct": 32.0,
+      "band_125_199": 21249,
+      "band_125_199_pct": 22.6,
+      "band_200_399": 28237,
+      "band_200_399_pct": 30.0,
+      "band_400plus": 14518,
+      "band_400plus_pct": 15.4,
+      "below_poverty_pct": 32.0
+    },
+    "education": {
+      "universe": 58234,
+      "under_9th": 19220,
+      "under_9th_pct": 33.0,
+      "incomplete_hs": 10482,
+      "incomplete_hs_pct": 18.0,
+      "hs_some_college": 23294,
+      "hs_some_college_pct": 40.0,
+      "ba_higher": 5238,
+      "ba_higher_pct": 9.0
+    },
+    "access": {
+      "no_internet": 2762,
+      "no_internet_pct": 10.5,
+      "no_computer": 528,
+      "no_computer_pct": 2.0,
+      "snap_households": 6895,
+      "snap_pct": 26.2,
+      "linguistically_isolated": 7543,
+      "linguistically_isolated_pct": 28.6
+    },
+    "median_hh_income": 48532,
+    "top_language": "Spanish",
+    "top_language_lep": 43256,
+    "languages": [
+      { "name": "Spanish", "total_speakers": 72345, "lep_count": 43256, "lep_pct_of_area": 49.1 },
+      { "name": "Chinese (Mandarin/Cantonese)", "total_speakers": 234, "lep_count": 156, "lep_pct_of_area": 0.2 },
+      { "name": "Other languages", "total_speakers": 567, "lep_count": 234, "lep_pct_of_area": 0.3 }
+    ],
+    "lep_total": 44329,
+    "lep_pct": 50.3,
+    "poverty_pct": 32.0,
+    "no_internet_pct": 10.5,
+    "snap_pct": 26.2
+  },
+  {
+    "geo_id": "0603747",
+    "geo_type": "puma",
+    "name": "Koreatown/Westlake (LA City)",
+    "population": 156789,
+    "proficiency": {
+      "english_only": 31358,
+      "english_only_pct": 21.5,
+      "bilingual": 52807,
+      "bilingual_pct": 36.2,
+      "lep": 61752,
+      "lep_pct": 42.3,
+      "total_pop_5plus": 145917
+    },
+    "poverty": {
+      "universe": 155234,
+      "band_1_124": 40361,
+      "band_1_124_pct": 26.0,
+      "band_125_199": 26390,
+      "band_125_199_pct": 17.0,
+      "band_200_399": 43467,
+      "band_200_399_pct": 28.0,
+      "band_400plus": 45016,
+      "band_400plus_pct": 29.0,
+      "below_poverty_pct": 26.0
+    },
+    "education": {
+      "universe": 98765,
+      "under_9th": 14815,
+      "under_9th_pct": 15.0,
+      "incomplete_hs": 11852,
+      "incomplete_hs_pct": 12.0,
+      "hs_some_college": 39506,
+      "hs_some_college_pct": 40.0,
+      "ba_higher": 32592,
+      "ba_higher_pct": 33.0
+    },
+    "access": {
+      "no_internet": 3762,
+      "no_internet_pct": 9.5,
+      "no_computer": 789,
+      "no_computer_pct": 2.0,
+      "snap_households": 7123,
+      "snap_pct": 18.0,
+      "linguistically_isolated": 9876,
+      "linguistically_isolated_pct": 24.9
+    },
+    "median_hh_income": 52456,
+    "top_language": "Spanish",
+    "top_language_lep": 34567,
+    "languages": [
+      { "name": "Spanish", "total_speakers": 56789, "lep_count": 34567, "lep_pct_of_area": 23.7 },
+      { "name": "Korean", "total_speakers": 23456, "lep_count": 15678, "lep_pct_of_area": 10.7 },
+      { "name": "Chinese (Mandarin/Cantonese)", "total_speakers": 8765, "lep_count": 5432, "lep_pct_of_area": 3.7 },
+      { "name": "Tagalog", "total_speakers": 4567, "lep_count": 2345, "lep_pct_of_area": 1.6 },
+      { "name": "Thai", "total_speakers": 2345, "lep_count": 1234, "lep_pct_of_area": 0.8 }
+    ],
+    "lep_total": 61752,
+    "lep_pct": 42.3,
+    "poverty_pct": 26.0,
+    "no_internet_pct": 9.5,
+    "snap_pct": 18.0
+  },
+  {
+    "geo_id": "0603748",
+    "geo_type": "puma",
+    "name": "East Los Angeles",
+    "population": 124567,
+    "proficiency": {
+      "english_only": 18685,
+      "english_only_pct": 16.0,
+      "bilingual": 40698,
+      "bilingual_pct": 34.9,
+      "lep": 57241,
+      "lep_pct": 49.1,
+      "total_pop_5plus": 116624
+    },
+    "poverty": {
+      "universe": 123456,
+      "band_1_124": 35802,
+      "band_1_124_pct": 29.0,
+      "band_125_199": 24691,
+      "band_125_199_pct": 20.0,
+      "band_200_399": 34568,
+      "band_200_399_pct": 28.0,
+      "band_400plus": 28395,
+      "band_400plus_pct": 23.0,
+      "below_poverty_pct": 29.0
+    },
+    "education": {
+      "universe": 76543,
+      "under_9th": 24893,
+      "under_9th_pct": 32.5,
+      "incomplete_hs": 13778,
+      "incomplete_hs_pct": 18.0,
+      "hs_some_college": 30617,
+      "hs_some_college_pct": 40.0,
+      "ba_higher": 7255,
+      "ba_higher_pct": 9.5
+    },
+    "access": {
+      "no_internet": 3115,
+      "no_internet_pct": 10.8,
+      "no_computer": 605,
+      "no_computer_pct": 2.1,
+      "snap_households": 7234,
+      "snap_pct": 25.1,
+      "linguistically_isolated": 8234,
+      "linguistically_isolated_pct": 28.5
+    },
+    "median_hh_income": 51234,
+    "top_language": "Spanish",
+    "top_language_lep": 55123,
+    "languages": [
+      { "name": "Spanish", "total_speakers": 89234, "lep_count": 55123, "lep_pct_of_area": 47.3 },
+      { "name": "Chinese (Mandarin/Cantonese)", "total_speakers": 456, "lep_count": 234, "lep_pct_of_area": 0.2 },
+      { "name": "Vietnamese", "total_speakers": 345, "lep_count": 178, "lep_pct_of_area": 0.2 }
+    ],
+    "lep_total": 57241,
+    "lep_pct": 49.1,
+    "poverty_pct": 29.0,
+    "no_internet_pct": 10.8,
+    "snap_pct": 25.1
+  },
+  {
+    "geo_id": "0603749",
+    "geo_type": "puma",
+    "name": "Santa Monica/Pacific Palisades",
+    "population": 112345,
+    "proficiency": {
+      "english_only": 78642,
+      "english_only_pct": 74.5,
+      "bilingual": 20222,
+      "bilingual_pct": 19.2,
+      "lep": 6647,
+      "lep_pct": 6.3,
+      "total_pop_5plus": 105511
+    },
+    "poverty": {
+      "universe": 111234,
+      "band_1_124": 8899,
+      "band_1_124_pct": 8.0,
+      "band_125_199": 6674,
+      "band_125_199_pct": 6.0,
+      "band_200_399": 17798,
+      "band_200_399_pct": 16.0,
+      "band_400plus": 77863,
+      "band_400plus_pct": 70.0,
+      "below_poverty_pct": 8.0
+    },
+    "education": {
+      "universe": 82345,
+      "under_9th": 1647,
+      "under_9th_pct": 2.0,
+      "incomplete_hs": 2470,
+      "incomplete_hs_pct": 3.0,
+      "hs_some_college": 16469,
+      "hs_some_college_pct": 20.0,
+      "ba_higher": 61759,
+      "ba_higher_pct": 75.0
+    },
+    "access": {
+      "no_internet": 1573,
+      "no_internet_pct": 4.5,
+      "no_computer": 393,
+      "no_computer_pct": 1.1,
+      "snap_households": 1234,
+      "snap_pct": 3.5,
+      "linguistically_isolated": 2456,
+      "linguistically_isolated_pct": 7.0
+    },
+    "median_hh_income": 134567,
+    "top_language": "Spanish",
+    "top_language_lep": 2345,
+    "languages": [
+      { "name": "Spanish", "total_speakers": 8765, "lep_count": 2345, "lep_pct_of_area": 2.2 },
+      { "name": "Chinese (Mandarin/Cantonese)", "total_speakers": 3456, "lep_count": 1234, "lep_pct_of_area": 1.2 },
+      { "name": "Persian", "total_speakers": 2345, "lep_count": 987, "lep_pct_of_area": 0.9 },
+      { "name": "Russian", "total_speakers": 1876, "lep_count": 654, "lep_pct_of_area": 0.6 },
+      { "name": "French", "total_speakers": 1234, "lep_count": 456, "lep_pct_of_area": 0.4 }
+    ],
+    "lep_total": 6647,
+    "lep_pct": 6.3,
+    "poverty_pct": 8.0,
+    "no_internet_pct": 4.5,
+    "snap_pct": 3.5
+  }
+]
