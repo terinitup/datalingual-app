@@ -15,7 +15,7 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { Users, DollarSign, Globe } from 'lucide-react';
 
 export function Explorer() {
-  const [geographyType, setGeographyType] = useState<GeoType>('county');
+  const [geographyType, setGeographyType] = useState<GeoType>('puma');
   const [data, setData] = useState<GeoArea[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
