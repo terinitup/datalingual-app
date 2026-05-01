@@ -196,6 +196,7 @@ export function LeafletMapView({
                   fillOpacity: 0.72,
                   color: selected ? '#1a56a0' : '#ffffff',
                   weight: selected ? 3 : 1,
+                  zIndex: selected ? 1000 : 1,
                 };
               }}
               onEachFeature={(feature, layer) => {
