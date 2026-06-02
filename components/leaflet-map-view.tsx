@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { GeoJSON, MapContainer, TileLayer } from 'react-leaflet';
-import type { Map as LeafletMap } from 'leaflet';
+import type { GeoJSON as LeafletGeoJSON, Map as LeafletMap } from 'leaflet';
 import type { FeatureCollection } from 'geojson';
 import type { GeoArea, GeoType } from '@/lib/types';
 
@@ -124,6 +124,7 @@ export function LeafletMapView({
   const [clientReady, setClientReady] = useState(false);
   const [mapReady, setMapReady] = useState(false);
   const mapRef = useRef<LeafletMap | null>(null);
+  const geoJsonRef = useRef<LeafletGeoJSON | null>(null);
   const wrapperRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -159,6 +160,20 @@ export function LeafletMapView({
     return () => ro.disconnect();
   }, [mapReady]);
 
+  useEffect(() => {
+    if (!merged || !selectedId) return;
+
+    const layers = geoJsonRef.current?.getLayers?.() ?? [];
+    for (const layer of layers) {
+      const feature = (layer as unknown as { feature?: { properties?: { geo_id?: unknown } } }).feature;
+      const gid = feature?.properties?.geo_id;
+      if (gid != null && String(gid) === selectedId) {
+        (layer as unknown as { bringToFront?: () => void }).bringToFront?.();
+        break;
+      }
+    }
+  }, [merged, selectedId]);
+
   return (
     <div ref={wrapperRef} className="relative w-full rounded-lg overflow-hidden border border-border">
       {clientReady ? (
@@ -181,6 +196,7 @@ export function LeafletMapView({
             <GeoJSON
               key={geographyType}
               data={merged}
+              ref={geoJsonRef as unknown as React.Ref<LeafletGeoJSON>}
               style={(feature) => {
                 const fill =
                   feature?.properties && typeof feature.properties === 'object' && '_fillColor' in feature.properties

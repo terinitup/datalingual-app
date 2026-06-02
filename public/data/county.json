@@ -3,14 +3,13 @@
   "geo_type": "county",
   "name": "Los Angeles County",
   "population": 9808667,
+  "language_source": "C16001",
   "proficiency": {
-    "english_only": 4182166,
-    "english_only_pct": 44.9,
-    "bilingual": 2951029,
-    "bilingual_pct": 31.7,
+    "english_only": 7634217,
+    "english_only_pct": 77.8,
     "lep": 2174450,
-    "lep_pct": 23.4,
-    "total_pop_5plus": 9307645
+    "lep_pct": 22.2,
+    "total_pop_5plus": 9808667
   },
   "poverty": {
     "universe": 9656697,
@@ -53,77 +52,89 @@
       "name": "Spanish",
       "total_speakers": 3498863,
       "lep_count": 1458491,
-      "lep_pct_of_area": 15.7
+      "lep_pct_of_area": 15.7,
+      "source": "C16001"
     },
     {
       "name": "Chinese (Mandarin/Cantonese)",
       "total_speakers": 386106,
       "lep_count": 222958,
-      "lep_pct_of_area": 2.4
+      "lep_pct_of_area": 2.4,
+      "source": "C16001"
     },
     {
       "name": "Other Indo-European",
       "total_speakers": 384256,
       "lep_count": 143407,
-      "lep_pct_of_area": 1.5
+      "lep_pct_of_area": 1.5,
+      "source": "C16001"
     },
     {
       "name": "Korean",
       "total_speakers": 156737,
       "lep_count": 92322,
-      "lep_pct_of_area": 1.0
+      "lep_pct_of_area": 1.0,
+      "source": "C16001"
     },
     {
       "name": "Other Asian/Pacific Islander",
       "total_speakers": 216850,
       "lep_count": 68983,
-      "lep_pct_of_area": 0.7
+      "lep_pct_of_area": 0.7,
+      "source": "C16001"
     },
     {
       "name": "Arabic",
       "total_speakers": 154632,
       "lep_count": 68673,
-      "lep_pct_of_area": 0.7
+      "lep_pct_of_area": 0.7,
+      "source": "C16001"
     },
     {
       "name": "Japanese",
       "total_speakers": 78733,
       "lep_count": 49036,
-      "lep_pct_of_area": 0.5
+      "lep_pct_of_area": 0.5,
+      "source": "C16001"
     },
     {
       "name": "Russian/Slavic",
       "total_speakers": 73923,
       "lep_count": 31095,
-      "lep_pct_of_area": 0.3
+      "lep_pct_of_area": 0.3,
+      "source": "C16001"
     },
     {
       "name": "Other languages",
       "total_speakers": 62755,
       "lep_count": 16071,
-      "lep_pct_of_area": 0.2
+      "lep_pct_of_area": 0.2,
+      "source": "C16001"
     },
     {
-      "name": "Filipino/Tagalog",
+      "name": "Tagalog/Filipino",
       "total_speakers": 47317,
       "lep_count": 15651,
-      "lep_pct_of_area": 0.2
+      "lep_pct_of_area": 0.2,
+      "source": "C16001"
     },
     {
       "name": "French/Haitian/Cajun",
       "total_speakers": 39992,
       "lep_count": 5418,
-      "lep_pct_of_area": 0.1
+      "lep_pct_of_area": 0.1,
+      "source": "C16001"
     },
     {
       "name": "German/W. Germanic",
       "total_speakers": 25315,
       "lep_count": 2345,
-      "lep_pct_of_area": 0.0
+      "lep_pct_of_area": 0.0,
+      "source": "C16001"
     }
   ],
   "lep_total": 2174450,
-  "lep_pct": 23.4,
+  "lep_pct": 22.2,
   "poverty_pct": 17.9,
   "no_internet_pct": 5.2,
   "snap_pct": 14.4
