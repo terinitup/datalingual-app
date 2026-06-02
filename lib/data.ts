@@ -14,15 +14,14 @@ export async function fetchGeographyData(type: GeoType): Promise<GeoArea[]> {
   }
   const data = await response.json();
   
-  // county.json is a single object, others are arrays
-  // Normalize to always return an array
   if (Array.isArray(data)) {
     return data;
   }
   return [data];
 }
 
-export function formatNumber(value: number): string {
+export function formatNumber(value: number | null | undefined): string {
+  if (value == null || isNaN(value)) return 'N/A';
   if (value >= 1000000) {
     return `${(value / 1000000).toFixed(1)}M`;
   }
@@ -32,12 +31,13 @@ export function formatNumber(value: number): string {
   return value.toLocaleString();
 }
 
-export function formatPercent(value: number): string {
+export function formatPercent(value: number | null | undefined): string {
+  if (value == null || isNaN(value)) return 'N/A';
   return `${value.toFixed(1)}%`;
 }
 
 export function formatCurrency(value: number | null): string {
-  if (value === null) return 'N/A';
+  if (value === null || value === undefined) return 'N/A';
   return new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'USD',
