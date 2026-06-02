@@ -26,8 +26,8 @@ function formatCurrency(n: number | null): string {
   return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(n);
 }
 
-export function ProfileCard({ data, onCompare, isComparing }: ProfileCardProps) {
-  if (!data || !data.geo_type) {
+export function EconomicsChart({ data, compareData }: EconomicsChartProps) {
+  if (!data) {
     return null;
   }
 
