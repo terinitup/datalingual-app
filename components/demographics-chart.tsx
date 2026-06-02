@@ -23,6 +23,10 @@ interface DemographicsChartProps {
 
 const COLORS = ['#2E8B9A', '#6BB8CC', '#F5B041', '#E57373', '#9B59B6', '#3498DB', '#1ABC9C'];
 
+function safe(n: number | null | undefined): number {
+  return n != null && !isNaN(n) ? n : 0;
+}
+
 export function DemographicsChart({ data, compareData }: DemographicsChartProps) {
   if (!data || !data.proficiency) {
     return null;
@@ -31,27 +35,27 @@ export function DemographicsChart({ data, compareData }: DemographicsChartProps)
   const proficiencyData = [
     {
       name: 'English Only',
-      [data.name]: data.proficiency.english_only_pct,
-      ...(compareData?.proficiency ? { [compareData.name]: compareData.proficiency.english_only_pct } : {}),
+      [data.name]: safe(data.proficiency.english_only_pct),
+      ...(compareData?.proficiency ? { [compareData.name]: safe(compareData.proficiency.english_only_pct) } : {}),
     },
     {
       name: 'Bilingual',
-      [data.name]: data.proficiency.bilingual_pct,
-      ...(compareData?.proficiency ? { [compareData.name]: compareData.proficiency.bilingual_pct } : {}),
+      [data.name]: safe(data.proficiency.bilingual_pct),
+      ...(compareData?.proficiency ? { [compareData.name]: safe(compareData.proficiency.bilingual_pct) } : {}),
     },
     {
       name: 'Limited English',
-      [data.name]: data.proficiency.lep_pct,
-      ...(compareData?.proficiency ? { [compareData.name]: compareData.proficiency.lep_pct } : {}),
+      [data.name]: safe(data.proficiency.lep_pct),
+      ...(compareData?.proficiency ? { [compareData.name]: safe(compareData.proficiency.lep_pct) } : {}),
     },
   ];
 
   const languagePieData = data.languages
-    ?.filter((lang) => lang.lep_pct_of_area > 0.1)
+    ?.filter((lang) => lang.lep_pct_of_area != null && lang.lep_pct_of_area > 0.1)
     .slice(0, 7)
     .map((lang) => ({
       name: lang.name,
-      value: lang.lep_count,
+      value: safe(lang.lep_count),
     })) ?? [];
 
   return (
@@ -68,7 +72,7 @@ export function DemographicsChart({ data, compareData }: DemographicsChartProps)
                 <XAxis type="number" domain={[0, 100]} tickFormatter={(v) => `${v}%`} />
                 <YAxis type="category" dataKey="name" tick={{ fontSize: 11 }} />
                 <Tooltip
-                  formatter={(value: number) => [`${value.toFixed(1)}%`, '']}
+                  formatter={(value: number) => [value != null ? `${value.toFixed(1)}%` : 'N/A', '']}
                   contentStyle={{
                     backgroundColor: 'hsl(var(--card))',
                     border: '1px solid hsl(var(--border))',

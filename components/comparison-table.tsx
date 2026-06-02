@@ -10,11 +10,12 @@ interface ComparisonTableProps {
   data: GeoArea[];
 }
 
-function formatNumber(n: number): string {
+function formatNumber(n: number | null | undefined): string {
+  if (n == null || isNaN(n)) return 'N/A';
   return new Intl.NumberFormat('en-US').format(n);
 }
-
-function formatPercent(n: number): string {
+function formatPercent(n: number | null | undefined): string {
+  if (n == null || isNaN(n)) return 'N/A';
   return `${n.toFixed(1)}%`;
 }
 
