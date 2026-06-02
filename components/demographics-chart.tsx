@@ -43,14 +43,9 @@ export function DemographicsChart({ data, compareData }: DemographicsChartProps)
 
   const proficiencyData = [
     {
-      name: 'English Only',
-      [data.name]: safe(data.proficiency.english_only_pct),
-      ...(compareData?.proficiency ? { [compareData.name]: safe(compareData.proficiency.english_only_pct) } : {}),
-    },
-    {
-      name: 'Bilingual',
-      [data.name]: safe(data.proficiency.bilingual_pct),
-      ...(compareData?.proficiency ? { [compareData.name]: safe(compareData.proficiency.bilingual_pct) } : {}),
+      name: 'English Proficient',
+      [data.name]: safe(data.proficiency.english_only_pct) + safe(data.proficiency.bilingual_pct),
+      ...(compareData?.proficiency ? { [compareData.name]: safe(compareData.proficiency.english_only_pct) + safe(compareData.proficiency.bilingual_pct) } : {}),
     },
     {
       name: 'Limited English',
