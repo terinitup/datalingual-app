@@ -67,8 +67,8 @@ export function ProfileCard({ data, onCompare, isComparing }: ProfileCardProps) 
           </h3>
           <div className="grid grid-cols-2 gap-3">
             <StatItem label="Total Population" value={formatNumber(data.population)} />
-            <StatItem label="Top Language" value={data.top_language ?? 'N/A'} />
-            <StatItem label="LEP Population" value={formatNumber(data.lep_total)} />
+            <StatItem label="Top Language Population with LEP" value={data.top_language ?? 'N/A'} />
+            <StatItem label="Population with LEP" value={formatNumber(data.lep_total)} />
             <StatItem 
               label="LEP Rate" 
               value={formatPercent(data.lep_pct)} 
