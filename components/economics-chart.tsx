@@ -151,12 +151,10 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
                     <XAxis dataKey="name" tick={{ fontSize: 9 }} />
                     <YAxis tickFormatter={(v) => `${v}%`} tick={{ fontSize: 10 }} />
                     <Tooltip
-  formatter={(value: number) => [`${value.toFixed(1)}%`, '']}
-  contentStyle={{ backgroundColor: 'hsl(var(--card))', border: '1px solid hsl(var(--border))', borderRadius: '8px' }}
-  itemStyle={{ color: '#333333' }}
+  content={() => <></>}
 />
 <Bar dataKey="value" fill="#2E8B9A" radius={[4, 4, 0, 0]}
-  label={{ position: 'top', formatter: (v: number) => `${v.toFixed(1)}%`, fontSize: 10, fill: 'hsl(var(--foreground))' }}
+  label={{ position: 'top', formatter: (v: number) => `${v.toFixed(1)}%`, fontSize: 13, fill: 'hsl(var(--foreground))' }}
 />                  </BarChart>
                 </ResponsiveContainer>
               </div>
@@ -180,12 +178,10 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
                     <XAxis dataKey="name" tick={{ fontSize: 9 }} />
                     <YAxis tickFormatter={(v) => `${v}%`} tick={{ fontSize: 10 }} />
                     <Tooltip
-  formatter={(value: number) => [`${value.toFixed(1)}%`, '']}
-  contentStyle={{ backgroundColor: 'hsl(var(--card))', border: '1px solid hsl(var(--border))', borderRadius: '8px' }}
-  itemStyle={{ color: '#333333' }}
+  content={() => <></>}
 />
                     <Bar dataKey="value" fill="#E57373" radius={[4, 4, 0, 0]}
-  label={{ position: 'top', formatter: (v: number) => `${v.toFixed(1)}%`, fontSize: 10, fill: 'hsl(var(--foreground))' }}
+  label={{ position: 'top', formatter: (v: number) => `${v.toFixed(1)}%`, fontSize: 13, fill: 'hsl(var(--foreground))' }}
 />
                   </BarChart>
                 </ResponsiveContainer>
