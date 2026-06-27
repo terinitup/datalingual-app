@@ -233,20 +233,24 @@ export function LeafletMapView({
               )}
             </MapContainer>
           ) : (
-        <div className="w-full bg-muted animate-pulse rounded-lg" style={{ height: MAP_HEIGHT_PX }} aria-hidden />
-      )}
-
-      <div className="absolute bottom-4 left-4 bg-card/95 backdrop-blur-sm rounded-lg p-3 shadow-lg border border-border z-[1000] pointer-events-none">
-        <p className="text-xs font-medium text-muted-foreground mb-2">LEP %</p>
-        <div className="flex flex-col gap-1">
-          {LEP_LEGEND.map(({ label, color }) => (
-            <div key={label} className="flex items-center gap-2 text-xs text-muted-foreground">
-              <span className="h-3 w-6 shrink-0 rounded-sm border border-border" style={{ backgroundColor: color }} />
-              <span>{label}</span>
-            </div>
-          ))}
+            <div className="w-full bg-muted animate-pulse rounded-lg" style={{ height: MAP_HEIGHT_PX }} aria-hidden />
+          )}
+    
+          <div className="absolute bottom-4 left-4 bg-card/95 backdrop-blur-sm rounded-lg p-3 shadow-lg border border-border z-[1000] pointer-events-none">
+            <p className="text-xs font-medium text-muted-foreground mb-2">
+              {colorMetric === 'lep_pct' ? 'LEP %' : colorMetric === 'median_hh_income' ? 'Median Income' : 'Population'}
+            </p>
+            {colorMetric === 'lep_pct' && (
+              <div className="flex flex-col gap-1">
+                {LEP_LEGEND.map(({ label, color }) => (
+                  <div key={label} className="flex items-center gap-2 text-xs text-muted-foreground">
+                    <span className="h-3 w-6 shrink-0 rounded-sm border border-border" style={{ backgroundColor: color }} />
+                    <span>{label}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
-      </div>
-    </div>
-  );
-}
+      );
+    }
