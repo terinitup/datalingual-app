@@ -154,8 +154,9 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
                       formatter={(value: number) => [`${value.toFixed(1)}%`, '']}
                       contentStyle={{ backgroundColor: 'hsl(var(--card))', border: '1px solid hsl(var(--border))', borderRadius: '8px' }}
                     />
-                    <Bar dataKey="value" fill="#2E8B9A" radius={[4, 4, 0, 0]} />
-                  </BarChart>
+<Bar dataKey="value" fill="#2E8B9A" radius={[4, 4, 0, 0]}
+  label={{ position: 'top', formatter: (v: number) => `${v.toFixed(1)}%`, fontSize: 10, fill: 'hsl(var(--foreground))' }}
+/>                  </BarChart>
                 </ResponsiveContainer>
               </div>
             </CardContent>
@@ -181,7 +182,9 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
                       formatter={(value: number) => [`${value.toFixed(1)}%`, '']}
                       contentStyle={{ backgroundColor: 'hsl(var(--card))', border: '1px solid hsl(var(--border))', borderRadius: '8px' }}
                     />
-                    <Bar dataKey="value" fill="#E57373" radius={[4, 4, 0, 0]} />
+                    <Bar dataKey="value" fill="#E57373" radius={[4, 4, 0, 0]}
+  label={{ position: 'top', formatter: (v: number) => `${v.toFixed(1)}%`, fontSize: 10, fill: 'hsl(var(--foreground))' }}
+/>
                   </BarChart>
                 </ResponsiveContainer>
               </div>
