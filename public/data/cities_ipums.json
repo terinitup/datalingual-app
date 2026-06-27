@@ -35,169 +35,958 @@
       "snap_pct": 17.3,
       "linguistically_isolated_pct": 12.3
     },
+    "housing": {
+      "owned_home_pct": 40.6,
+      "rented_no_payment_pct": 1.2,
+      "rented_paying_pct": 58.2,
+      "renters_with_income": 2058000,
+      "rent_burdened_pct": 47.7
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 689000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 689000,
         "lep_count": 689000,
         "lep_pct_of_area": 18.7,
+        "age": {
+          "age_5_17_pct": 9.1,
+          "age_18_34_pct": 16.5,
+          "age_35_64_pct": 57.8,
+          "age_65plus_pct": 16.6
+        },
+        "education": {
+          "universe": 588000,
+          "under_9th_pct": 44.3,
+          "incomplete_hs_pct": 18.8,
+          "hs_some_college_pct": 32.0,
+          "ba_higher_pct": 4.9
+        },
+        "poverty": {
+          "universe": 683000,
+          "band_1_124_pct": 26.5,
+          "band_125_199_pct": 22.8,
+          "band_200plus_pct": 50.7,
+          "band_400plus_pct": 14.8
+        },
+        "access": {
+          "hh_universe": 683000,
+          "linguistically_isolated_pct": 41.0,
+          "no_internet_pct": 8.7,
+          "no_computer_pct": 21.1,
+          "snap_pct": 21.8
+        },
+        "housing": {
+          "owned_home_pct": 29.2,
+          "rented_no_payment_pct": 1.0,
+          "rented_paying_pct": 69.8,
+          "renters_with_income": 472000,
+          "rent_burdened_pct": 50.1
+        },
+        "name": "Spanish",
+        "total_speakers": 689000,
         "source": "IPUMS"
       },
       {
-        "name": "Korean",
-        "total_speakers": 52000,
         "lep_count": 52000,
         "lep_pct_of_area": 1.4,
+        "age": {
+          "age_5_17_pct": 2.1,
+          "age_18_34_pct": 8.1,
+          "age_35_64_pct": 47.6,
+          "age_65plus_pct": 42.3
+        },
+        "education": {
+          "universe": 50000,
+          "under_9th_pct": 8.2,
+          "incomplete_hs_pct": 5.0,
+          "hs_some_college_pct": 46.5,
+          "ba_higher_pct": 40.3
+        },
+        "poverty": {
+          "universe": 51000,
+          "band_1_124_pct": 29.6,
+          "band_125_199_pct": 15.9,
+          "band_200plus_pct": 54.5,
+          "band_400plus_pct": 31.3
+        },
+        "access": {
+          "hh_universe": 51000,
+          "linguistically_isolated_pct": 64.6,
+          "no_internet_pct": 12.9,
+          "no_computer_pct": 20.1,
+          "snap_pct": 20.4
+        },
+        "housing": {
+          "owned_home_pct": 26.7,
+          "rented_no_payment_pct": 1.8,
+          "rented_paying_pct": 71.5,
+          "renters_with_income": 35000,
+          "rent_burdened_pct": 59.3
+        },
+        "name": "Korean",
+        "total_speakers": 52000,
         "source": "IPUMS"
       },
       {
-        "name": "Armenian",
-        "total_speakers": 33000,
         "lep_count": 33000,
         "lep_pct_of_area": 0.9,
+        "age": {
+          "age_5_17_pct": 4.6,
+          "age_18_34_pct": 8.2,
+          "age_35_64_pct": 48.5,
+          "age_65plus_pct": 38.7
+        },
+        "education": {
+          "universe": 31000,
+          "under_9th_pct": 9.3,
+          "incomplete_hs_pct": 6.6,
+          "hs_some_college_pct": 65.2,
+          "ba_higher_pct": 18.9
+        },
+        "poverty": {
+          "universe": 33000,
+          "band_1_124_pct": 33.9,
+          "band_125_199_pct": 15.7,
+          "band_200plus_pct": 50.4,
+          "band_400plus_pct": 27.4
+        },
+        "access": {
+          "hh_universe": 33000,
+          "linguistically_isolated_pct": 52.5,
+          "no_internet_pct": 8.4,
+          "no_computer_pct": 23.1,
+          "snap_pct": 36.6
+        },
+        "housing": {
+          "owned_home_pct": 40.9,
+          "rented_no_payment_pct": 1.4,
+          "rented_paying_pct": 57.7,
+          "renters_with_income": 18000,
+          "rent_burdened_pct": 63.7
+        },
+        "name": "Armenian",
+        "total_speakers": 33000,
         "source": "IPUMS"
       },
       {
-        "name": "Tagalog",
-        "total_speakers": 29000,
         "lep_count": 29000,
         "lep_pct_of_area": 0.8,
+        "age": {
+          "age_5_17_pct": 2.6,
+          "age_18_34_pct": 10.7,
+          "age_35_64_pct": 47.4,
+          "age_65plus_pct": 39.3
+        },
+        "education": {
+          "universe": 28000,
+          "under_9th_pct": 8.0,
+          "incomplete_hs_pct": 4.3,
+          "hs_some_college_pct": 46.6,
+          "ba_higher_pct": 41.1
+        },
+        "poverty": {
+          "universe": 29000,
+          "band_1_124_pct": 11.8,
+          "band_125_199_pct": 12.8,
+          "band_200plus_pct": 75.4,
+          "band_400plus_pct": 40.5
+        },
+        "access": {
+          "hh_universe": 29000,
+          "linguistically_isolated_pct": 36.0,
+          "no_internet_pct": 6.0,
+          "no_computer_pct": 12.3,
+          "snap_pct": 18.4
+        },
+        "housing": {
+          "owned_home_pct": 38.7,
+          "rented_no_payment_pct": 1.3,
+          "rented_paying_pct": 60.0,
+          "renters_with_income": 17000,
+          "rent_burdened_pct": 29.7
+        },
+        "name": "Tagalog",
+        "total_speakers": 29000,
         "source": "IPUMS"
       },
       {
-        "name": "Chinese",
-        "total_speakers": 27000,
         "lep_count": 27000,
         "lep_pct_of_area": 0.7,
+        "age": {
+          "age_5_17_pct": 3.4,
+          "age_18_34_pct": 28.1,
+          "age_35_64_pct": 35.0,
+          "age_65plus_pct": 33.4
+        },
+        "education": {
+          "universe": 23000,
+          "under_9th_pct": 20.7,
+          "incomplete_hs_pct": 8.6,
+          "hs_some_college_pct": 30.1,
+          "ba_higher_pct": 40.5
+        },
+        "poverty": {
+          "universe": 26000,
+          "band_1_124_pct": 33.6,
+          "band_125_199_pct": 13.2,
+          "band_200plus_pct": 53.2,
+          "band_400plus_pct": 32.4
+        },
+        "access": {
+          "hh_universe": 26000,
+          "linguistically_isolated_pct": 60.9,
+          "no_internet_pct": 11.2,
+          "no_computer_pct": 13.8,
+          "snap_pct": 16.3
+        },
+        "housing": {
+          "owned_home_pct": 40.3,
+          "rented_no_payment_pct": 2.5,
+          "rented_paying_pct": 57.2,
+          "renters_with_income": 13000,
+          "rent_burdened_pct": 55.9
+        },
+        "name": "Chinese",
+        "total_speakers": 27000,
         "source": "IPUMS"
       },
       {
-        "name": "Farsi/Persian",
-        "total_speakers": 20000,
         "lep_count": 20000,
         "lep_pct_of_area": 0.5,
+        "age": {
+          "age_5_17_pct": 4.0,
+          "age_18_34_pct": 7.5,
+          "age_35_64_pct": 42.7,
+          "age_65plus_pct": 45.7
+        },
+        "education": {
+          "universe": 19000,
+          "under_9th_pct": 8.1,
+          "incomplete_hs_pct": 5.6,
+          "hs_some_college_pct": 50.4,
+          "ba_higher_pct": 35.9
+        },
+        "poverty": {
+          "universe": 20000,
+          "band_1_124_pct": 29.0,
+          "band_125_199_pct": 11.9,
+          "band_200plus_pct": 59.1,
+          "band_400plus_pct": 36.9
+        },
+        "access": {
+          "hh_universe": 20000,
+          "linguistically_isolated_pct": 57.9,
+          "no_internet_pct": 10.0,
+          "no_computer_pct": 17.6,
+          "snap_pct": 25.5
+        },
+        "housing": {
+          "owned_home_pct": 45.1,
+          "rented_no_payment_pct": 3.6,
+          "rented_paying_pct": 51.3,
+          "renters_with_income": 10000,
+          "rent_burdened_pct": 68.5
+        },
+        "name": "Farsi/Persian",
+        "total_speakers": 20000,
         "source": "IPUMS"
       },
       {
-        "name": "Russian",
-        "total_speakers": 14000,
         "lep_count": 14000,
         "lep_pct_of_area": 0.4,
+        "age": {
+          "age_5_17_pct": 5.6,
+          "age_18_34_pct": 10.8,
+          "age_35_64_pct": 43.4,
+          "age_65plus_pct": 40.2
+        },
+        "education": {
+          "universe": 13000,
+          "under_9th_pct": 4.1,
+          "incomplete_hs_pct": 2.3,
+          "hs_some_college_pct": 39.3,
+          "ba_higher_pct": 54.3
+        },
+        "poverty": {
+          "universe": 13000,
+          "band_1_124_pct": 33.8,
+          "band_125_199_pct": 12.5,
+          "band_200plus_pct": 53.8,
+          "band_400plus_pct": 31.9
+        },
+        "access": {
+          "hh_universe": 13000,
+          "linguistically_isolated_pct": 65.7,
+          "no_internet_pct": 4.7,
+          "no_computer_pct": 16.0,
+          "snap_pct": 25.1
+        },
+        "housing": {
+          "owned_home_pct": 34.7,
+          "rented_no_payment_pct": 1.1,
+          "rented_paying_pct": 64.2,
+          "renters_with_income": 8000,
+          "rent_burdened_pct": 49.4
+        },
+        "name": "Russian",
+        "total_speakers": 14000,
         "source": "IPUMS"
       },
       {
-        "name": "Vietnamese",
-        "total_speakers": 11000,
         "lep_count": 11000,
         "lep_pct_of_area": 0.3,
+        "age": {
+          "age_5_17_pct": 5.1,
+          "age_18_34_pct": 11.9,
+          "age_35_64_pct": 51.1,
+          "age_65plus_pct": 31.9
+        },
+        "education": {
+          "universe": 10000,
+          "under_9th_pct": 23.0,
+          "incomplete_hs_pct": 15.9,
+          "hs_some_college_pct": 44.0,
+          "ba_higher_pct": 17.1
+        },
+        "poverty": {
+          "universe": 11000,
+          "band_1_124_pct": 23.5,
+          "band_125_199_pct": 12.5,
+          "band_200plus_pct": 64.0,
+          "band_400plus_pct": 36.9
+        },
+        "access": {
+          "hh_universe": 11000,
+          "linguistically_isolated_pct": 46.5,
+          "no_internet_pct": 6.2,
+          "no_computer_pct": 16.4,
+          "snap_pct": 18.0
+        },
+        "housing": {
+          "owned_home_pct": 52.3,
+          "rented_no_payment_pct": 7.9,
+          "rented_paying_pct": 39.8,
+          "renters_with_income": 4000,
+          "rent_burdened_pct": 43.1
+        },
+        "name": "Vietnamese",
+        "total_speakers": 11000,
         "source": "IPUMS"
       },
       {
-        "name": "Japanese",
-        "total_speakers": 7000,
         "lep_count": 7000,
         "lep_pct_of_area": 0.2,
+        "age": {
+          "age_5_17_pct": 6.0,
+          "age_18_34_pct": 10.3,
+          "age_35_64_pct": 52.2,
+          "age_65plus_pct": 31.5
+        },
+        "education": {
+          "universe": 6000,
+          "under_9th_pct": 2.0,
+          "incomplete_hs_pct": 2.6,
+          "hs_some_college_pct": 49.5,
+          "ba_higher_pct": 45.9
+        },
+        "poverty": {
+          "universe": 7000,
+          "band_1_124_pct": 15.1,
+          "band_125_199_pct": 8.6,
+          "band_200plus_pct": 76.3,
+          "band_400plus_pct": 44.5
+        },
+        "access": {
+          "hh_universe": 7000,
+          "linguistically_isolated_pct": 51.9,
+          "no_internet_pct": 8.6,
+          "no_computer_pct": 12.3,
+          "snap_pct": 5.0
+        },
+        "housing": {
+          "owned_home_pct": 45.6,
+          "rented_no_payment_pct": 1.1,
+          "rented_paying_pct": 53.3,
+          "renters_with_income": 3000,
+          "rent_burdened_pct": 53.9
+        },
+        "name": "Japanese",
+        "total_speakers": 7000,
         "source": "IPUMS"
       },
       {
-        "name": "Thai",
-        "total_speakers": 6000,
         "lep_count": 6000,
         "lep_pct_of_area": 0.2,
+        "age": {
+          "age_5_17_pct": 3.7,
+          "age_18_34_pct": 15.0,
+          "age_35_64_pct": 46.5,
+          "age_65plus_pct": 34.8
+        },
+        "education": {
+          "universe": 6000,
+          "under_9th_pct": 8.1,
+          "incomplete_hs_pct": 6.9,
+          "hs_some_college_pct": 44.9,
+          "ba_higher_pct": 40.0
+        },
+        "poverty": {
+          "universe": 6000,
+          "band_1_124_pct": 19.7,
+          "band_125_199_pct": 16.5,
+          "band_200plus_pct": 63.7,
+          "band_400plus_pct": 33.5
+        },
+        "access": {
+          "hh_universe": 6000,
+          "linguistically_isolated_pct": 52.4,
+          "no_internet_pct": 3.2,
+          "no_computer_pct": 12.0,
+          "snap_pct": 13.2
+        },
+        "housing": {
+          "owned_home_pct": 48.5,
+          "rented_no_payment_pct": 0.4,
+          "rented_paying_pct": 51.1,
+          "renters_with_income": 3000,
+          "rent_burdened_pct": 39.7
+        },
+        "name": "Thai",
+        "total_speakers": 6000,
         "source": "IPUMS"
       },
       {
-        "name": "Arabic",
-        "total_speakers": 5000,
         "lep_count": 5000,
         "lep_pct_of_area": 0.1,
+        "age": {
+          "age_5_17_pct": 4.7,
+          "age_18_34_pct": 11.6,
+          "age_35_64_pct": 50.7,
+          "age_65plus_pct": 33.0
+        },
+        "education": {
+          "universe": 4000,
+          "under_9th_pct": 15.6,
+          "incomplete_hs_pct": 6.9,
+          "hs_some_college_pct": 52.6,
+          "ba_higher_pct": 25.0
+        },
+        "poverty": {
+          "universe": 5000,
+          "band_1_124_pct": 34.1,
+          "band_125_199_pct": 18.3,
+          "band_200plus_pct": 47.6,
+          "band_400plus_pct": 27.5
+        },
+        "access": {
+          "hh_universe": 5000,
+          "linguistically_isolated_pct": 43.1,
+          "no_internet_pct": 10.0,
+          "no_computer_pct": 23.7,
+          "snap_pct": 27.3
+        },
+        "housing": {
+          "owned_home_pct": 37.7,
+          "rented_no_payment_pct": 2.3,
+          "rented_paying_pct": 60.0,
+          "renters_with_income": 3000,
+          "rent_burdened_pct": 68.7
+        },
+        "name": "Arabic",
+        "total_speakers": 5000,
         "source": "IPUMS"
       },
       {
-        "name": "Bengali",
-        "total_speakers": 4000,
         "lep_count": 4000,
         "lep_pct_of_area": 0.1,
+        "age": {
+          "age_5_17_pct": 6.7,
+          "age_18_34_pct": 24.7,
+          "age_35_64_pct": 57.0,
+          "age_65plus_pct": 11.7
+        },
+        "education": {
+          "universe": 3000,
+          "under_9th_pct": 10.8,
+          "incomplete_hs_pct": 9.7,
+          "hs_some_college_pct": 44.5,
+          "ba_higher_pct": 35.1
+        },
+        "poverty": {
+          "universe": 4000,
+          "band_1_124_pct": 34.8,
+          "band_125_199_pct": 22.3,
+          "band_200plus_pct": 42.8,
+          "band_400plus_pct": 14.7
+        },
+        "access": {
+          "hh_universe": 4000,
+          "linguistically_isolated_pct": 54.6,
+          "no_internet_pct": 0.9,
+          "no_computer_pct": 12.4,
+          "snap_pct": 29.8
+        },
+        "housing": {
+          "owned_home_pct": 20.5,
+          "rented_no_payment_pct": 0.0,
+          "rented_paying_pct": 79.5,
+          "renters_with_income": 3000,
+          "rent_burdened_pct": 65.7
+        },
+        "name": "Bengali",
+        "total_speakers": 4000,
         "source": "IPUMS"
       },
       {
-        "name": "Hebrew",
-        "total_speakers": 3000,
         "lep_count": 3000,
         "lep_pct_of_area": 0.1,
+        "age": {
+          "age_5_17_pct": 12.7,
+          "age_18_34_pct": 8.6,
+          "age_35_64_pct": 49.6,
+          "age_65plus_pct": 29.1
+        },
+        "education": {
+          "universe": 3000,
+          "under_9th_pct": 5.3,
+          "incomplete_hs_pct": 2.7,
+          "hs_some_college_pct": 58.7,
+          "ba_higher_pct": 33.2
+        },
+        "poverty": {
+          "universe": 3000,
+          "band_1_124_pct": 25.0,
+          "band_125_199_pct": 6.9,
+          "band_200plus_pct": 68.1,
+          "band_400plus_pct": 41.2
+        },
+        "access": {
+          "hh_universe": 3000,
+          "linguistically_isolated_pct": 39.0,
+          "no_internet_pct": 4.3,
+          "no_computer_pct": 9.0,
+          "snap_pct": 5.5
+        },
+        "housing": {
+          "owned_home_pct": 47.2,
+          "rented_no_payment_pct": 4.2,
+          "rented_paying_pct": 48.6,
+          "renters_with_income": 2000,
+          "rent_burdened_pct": 74.7
+        },
+        "name": "Hebrew",
+        "total_speakers": 3000,
         "source": "IPUMS"
       },
       {
+        "lep_count": 2000,
+        "lep_pct_of_area": 0.1,
+        "age": {
+          "age_5_17_pct": 12.0,
+          "age_18_34_pct": 11.0,
+          "age_35_64_pct": 51.3,
+          "age_65plus_pct": 25.8
+        },
+        "education": {
+          "universe": 2000,
+          "under_9th_pct": 3.7,
+          "incomplete_hs_pct": 2.9,
+          "hs_some_college_pct": 31.3,
+          "ba_higher_pct": 62.1
+        },
+        "poverty": {
+          "universe": 2000,
+          "band_1_124_pct": 14.4,
+          "band_125_199_pct": 8.5,
+          "band_200plus_pct": 77.0,
+          "band_400plus_pct": 54.1
+        },
+        "access": {
+          "hh_universe": 2000,
+          "linguistically_isolated_pct": 46.2,
+          "no_internet_pct": 2.1,
+          "no_computer_pct": 6.4,
+          "snap_pct": 9.5
+        },
+        "housing": {
+          "owned_home_pct": 39.1,
+          "rented_no_payment_pct": 3.8,
+          "rented_paying_pct": 57.2,
+          "renters_with_income": 1000,
+          "rent_burdened_pct": 50.0
+        },
         "name": "French",
         "total_speakers": 2000,
-        "lep_count": 2000,
-        "lep_pct_of_area": 0.1,
         "source": "IPUMS"
       },
       {
+        "lep_count": 2000,
+        "lep_pct_of_area": 0.1,
+        "age": {
+          "age_5_17_pct": 1.6,
+          "age_18_34_pct": 39.1,
+          "age_35_64_pct": 50.8,
+          "age_65plus_pct": 8.5
+        },
+        "education": {
+          "universe": 1000,
+          "under_9th_pct": 5.4,
+          "incomplete_hs_pct": 2.4,
+          "hs_some_college_pct": 39.0,
+          "ba_higher_pct": 53.2
+        },
+        "poverty": {
+          "universe": 2000,
+          "band_1_124_pct": 17.3,
+          "band_125_199_pct": 12.3,
+          "band_200plus_pct": 70.3,
+          "band_400plus_pct": 38.6
+        },
+        "access": {
+          "hh_universe": 2000,
+          "linguistically_isolated_pct": 45.3,
+          "no_internet_pct": 0.0,
+          "no_computer_pct": 7.4,
+          "snap_pct": 4.3
+        },
+        "housing": {
+          "owned_home_pct": 22.0,
+          "rented_no_payment_pct": 0.6,
+          "rented_paying_pct": 77.4,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
         "name": "Portuguese",
         "total_speakers": 2000,
-        "lep_count": 2000,
-        "lep_pct_of_area": 0.1,
         "source": "IPUMS"
       },
       {
+        "lep_count": 2000,
+        "lep_pct_of_area": 0.1,
+        "age": {
+          "age_5_17_pct": 3.9,
+          "age_18_34_pct": 30.6,
+          "age_35_64_pct": 45.1,
+          "age_65plus_pct": 20.4
+        },
+        "education": {
+          "universe": 2000,
+          "under_9th_pct": 10.3,
+          "incomplete_hs_pct": 14.8,
+          "hs_some_college_pct": 34.4,
+          "ba_higher_pct": 40.5
+        },
+        "poverty": {
+          "universe": 2000,
+          "band_1_124_pct": 11.5,
+          "band_125_199_pct": 9.9,
+          "band_200plus_pct": 78.6,
+          "band_400plus_pct": 38.6
+        },
+        "access": {
+          "hh_universe": 2000,
+          "linguistically_isolated_pct": 21.8,
+          "no_internet_pct": 6.5,
+          "no_computer_pct": 7.9,
+          "snap_pct": 9.3
+        },
+        "housing": {
+          "owned_home_pct": 32.8,
+          "rented_no_payment_pct": 0.0,
+          "rented_paying_pct": 67.2,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
         "name": "Hindi",
         "total_speakers": 2000,
-        "lep_count": 2000,
-        "lep_pct_of_area": 0.1,
         "source": "IPUMS"
       },
       {
+        "lep_count": 2000,
+        "lep_pct_of_area": 0.1,
+        "age": {
+          "age_5_17_pct": 6.6,
+          "age_18_34_pct": 18.7,
+          "age_35_64_pct": 48.9,
+          "age_65plus_pct": 25.9
+        },
+        "education": {
+          "universe": 2000,
+          "under_9th_pct": 23.9,
+          "incomplete_hs_pct": 8.3,
+          "hs_some_college_pct": 39.1,
+          "ba_higher_pct": 28.6
+        },
+        "poverty": {
+          "universe": 2000,
+          "band_1_124_pct": 22.3,
+          "band_125_199_pct": 6.8,
+          "band_200plus_pct": 70.9,
+          "band_400plus_pct": 39.8
+        },
+        "access": {
+          "hh_universe": 2000,
+          "linguistically_isolated_pct": 21.9,
+          "no_internet_pct": 0.0,
+          "no_computer_pct": 3.6,
+          "snap_pct": 18.7
+        },
+        "housing": {
+          "owned_home_pct": 64.2,
+          "rented_no_payment_pct": 0.0,
+          "rented_paying_pct": 35.8,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
         "name": "Punjabi",
         "total_speakers": 2000,
-        "lep_count": 2000,
-        "lep_pct_of_area": 0.1,
         "source": "IPUMS"
       },
       {
+        "lep_count": 2000,
+        "lep_pct_of_area": 0.1,
+        "age": {
+          "age_5_17_pct": 0.3,
+          "age_18_34_pct": 16.6,
+          "age_35_64_pct": 57.9,
+          "age_65plus_pct": 25.1
+        },
+        "education": {
+          "universe": 2000,
+          "under_9th_pct": 37.1,
+          "incomplete_hs_pct": 12.5,
+          "hs_some_college_pct": 38.6,
+          "ba_higher_pct": 11.8
+        },
+        "poverty": {
+          "universe": 2000,
+          "band_1_124_pct": 30.8,
+          "band_125_199_pct": 14.4,
+          "band_200plus_pct": 54.8,
+          "band_400plus_pct": 22.4
+        },
+        "access": {
+          "hh_universe": 2000,
+          "linguistically_isolated_pct": 35.5,
+          "no_internet_pct": 10.2,
+          "no_computer_pct": 14.4,
+          "snap_pct": 34.2
+        },
+        "housing": {
+          "owned_home_pct": 44.4,
+          "rented_no_payment_pct": 0.7,
+          "rented_paying_pct": 54.9,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
         "name": "Khmer/Cambodian",
         "total_speakers": 2000,
-        "lep_count": 2000,
-        "lep_pct_of_area": 0.1,
         "source": "IPUMS"
       },
       {
+        "lep_count": 2000,
+        "lep_pct_of_area": 0.1,
+        "age": {
+          "age_5_17_pct": 1.8,
+          "age_18_34_pct": 4.3,
+          "age_35_64_pct": 73.4,
+          "age_65plus_pct": 20.5
+        },
+        "education": {
+          "universe": 2000,
+          "under_9th_pct": 13.1,
+          "incomplete_hs_pct": 7.6,
+          "hs_some_college_pct": 68.2,
+          "ba_higher_pct": 11.1
+        },
+        "poverty": {
+          "universe": 2000,
+          "band_1_124_pct": 22.8,
+          "band_125_199_pct": 19.9,
+          "band_200plus_pct": 57.3,
+          "band_400plus_pct": 20.9
+        },
+        "access": {
+          "hh_universe": 2000,
+          "linguistically_isolated_pct": 50.8,
+          "no_internet_pct": 11.0,
+          "no_computer_pct": 30.4,
+          "snap_pct": 22.4
+        },
+        "housing": {
+          "owned_home_pct": 12.7,
+          "rented_no_payment_pct": 1.3,
+          "rented_paying_pct": 86.0,
+          "renters_with_income": 1000,
+          "rent_burdened_pct": 53.9
+        },
         "name": "Amharic and other Eth",
         "total_speakers": 2000,
-        "lep_count": 2000,
-        "lep_pct_of_area": 0.1,
         "source": "IPUMS"
       },
       {
+        "lep_count": 1000,
+        "lep_pct_of_area": 0.0,
+        "age": {
+          "age_5_17_pct": 0.0,
+          "age_18_34_pct": 26.8,
+          "age_35_64_pct": 20.4,
+          "age_65plus_pct": 52.9
+        },
+        "education": {
+          "universe": 1000,
+          "under_9th_pct": 20.0,
+          "incomplete_hs_pct": 8.7,
+          "hs_some_college_pct": 46.0,
+          "ba_higher_pct": 25.4
+        },
+        "poverty": {
+          "universe": 1000,
+          "band_1_124_pct": 17.2,
+          "band_125_199_pct": 16.0,
+          "band_200plus_pct": 66.8,
+          "band_400plus_pct": 47.4
+        },
+        "access": {
+          "hh_universe": 1000,
+          "linguistically_isolated_pct": 62.7,
+          "no_internet_pct": 8.9,
+          "no_computer_pct": 25.3,
+          "snap_pct": 6.6
+        },
+        "housing": {
+          "owned_home_pct": 49.7,
+          "rented_no_payment_pct": 7.9,
+          "rented_paying_pct": 42.4,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
         "name": "Italian",
         "total_speakers": 1000,
-        "lep_count": 1000,
-        "lep_pct_of_area": 0.0,
         "source": "IPUMS"
       },
       {
+        "lep_count": 1000,
+        "lep_pct_of_area": 0.0,
+        "age": {
+          "age_5_17_pct": 5.7,
+          "age_18_34_pct": 8.3,
+          "age_35_64_pct": 64.0,
+          "age_65plus_pct": 22.0
+        },
+        "education": {
+          "universe": 1000,
+          "under_9th_pct": 17.4,
+          "incomplete_hs_pct": 8.5,
+          "hs_some_college_pct": 33.1,
+          "ba_higher_pct": 41.0
+        },
+        "poverty": {
+          "universe": 1000,
+          "band_1_124_pct": 17.3,
+          "band_125_199_pct": 5.7,
+          "band_200plus_pct": 77.0,
+          "band_400plus_pct": 40.0
+        },
+        "access": {
+          "hh_universe": 1000,
+          "linguistically_isolated_pct": 27.1,
+          "no_internet_pct": 4.7,
+          "no_computer_pct": 9.0,
+          "snap_pct": 32.7
+        },
+        "housing": {
+          "owned_home_pct": 47.2,
+          "rented_no_payment_pct": 1.0,
+          "rented_paying_pct": 51.8,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
         "name": "Urdu",
         "total_speakers": 1000,
-        "lep_count": 1000,
-        "lep_pct_of_area": 0.0,
         "source": "IPUMS"
       },
       {
+        "lep_count": 1000,
+        "lep_pct_of_area": 0.0,
+        "age": {
+          "age_5_17_pct": 1.6,
+          "age_18_34_pct": 10.1,
+          "age_35_64_pct": 68.2,
+          "age_65plus_pct": 20.1
+        },
+        "education": {
+          "universe": 1000,
+          "under_9th_pct": 3.4,
+          "incomplete_hs_pct": 11.2,
+          "hs_some_college_pct": 39.4,
+          "ba_higher_pct": 46.1
+        },
+        "poverty": {
+          "universe": 1000,
+          "band_1_124_pct": 9.6,
+          "band_125_199_pct": 12.8,
+          "band_200plus_pct": 77.6,
+          "band_400plus_pct": 40.4
+        },
+        "access": {
+          "hh_universe": 1000,
+          "linguistically_isolated_pct": 29.5,
+          "no_internet_pct": 4.6,
+          "no_computer_pct": 5.0,
+          "snap_pct": 6.4
+        },
+        "housing": {
+          "owned_home_pct": 58.7,
+          "rented_no_payment_pct": 1.5,
+          "rented_paying_pct": 39.8,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
         "name": "Indonesian/Malay",
         "total_speakers": 1000,
-        "lep_count": 1000,
-        "lep_pct_of_area": 0.0,
         "source": "IPUMS"
       },
       {
-        "name": "South or Central Amer",
-        "total_speakers": 1000,
         "lep_count": 1000,
         "lep_pct_of_area": 0.0,
+        "age": {
+          "age_5_17_pct": 7.7,
+          "age_18_34_pct": 36.5,
+          "age_35_64_pct": 50.1,
+          "age_65plus_pct": 5.7
+        },
+        "education": {
+          "universe": 0,
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 0.0,
+          "ba_higher_pct": 0.0
+        },
+        "poverty": {
+          "universe": 1000,
+          "band_1_124_pct": 26.4,
+          "band_125_199_pct": 41.6,
+          "band_200plus_pct": 32.0,
+          "band_400plus_pct": 6.2
+        },
+        "access": {
+          "hh_universe": 1000,
+          "linguistically_isolated_pct": 58.5,
+          "no_internet_pct": 11.0,
+          "no_computer_pct": 22.1,
+          "snap_pct": 19.5
+        },
+        "housing": {
+          "owned_home_pct": 3.5,
+          "rented_no_payment_pct": 0.0,
+          "rented_paying_pct": 96.5,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
+        "name": "South or Central Amer",
+        "total_speakers": 1000,
         "source": "IPUMS"
       }
     ],
@@ -243,64 +1032,343 @@
       "snap_pct": 11.2,
       "linguistically_isolated_pct": 10.1
     },
+    "housing": {
+      "owned_home_pct": 44.3,
+      "rented_no_payment_pct": 1.6,
+      "rented_paying_pct": 54.1,
+      "renters_with_income": 417000,
+      "rent_burdened_pct": 30.3
+    },
     "median_hh_income": null,
     "top_language": "Chinese",
     "top_language_lep": 86000,
     "languages": [
       {
-        "name": "Chinese",
-        "total_speakers": 86000,
         "lep_count": 86000,
         "lep_pct_of_area": 10.8,
+        "age": {
+          "age_5_17_pct": 4.3,
+          "age_18_34_pct": 8.0,
+          "age_35_64_pct": 45.0,
+          "age_65plus_pct": 42.7
+        },
+        "education": {
+          "universe": 80000,
+          "under_9th_pct": 29.2,
+          "incomplete_hs_pct": 14.8,
+          "hs_some_college_pct": 40.0,
+          "ba_higher_pct": 15.9
+        },
+        "poverty": {
+          "universe": 84000,
+          "band_1_124_pct": 19.7,
+          "band_125_199_pct": 13.8,
+          "band_200plus_pct": 66.4,
+          "band_400plus_pct": 37.4
+        },
+        "access": {
+          "hh_universe": 84000,
+          "linguistically_isolated_pct": 54.5,
+          "no_internet_pct": 9.4,
+          "no_computer_pct": 16.0,
+          "snap_pct": 28.8
+        },
+        "housing": {
+          "owned_home_pct": 58.3,
+          "rented_no_payment_pct": 3.1,
+          "rented_paying_pct": 38.5,
+          "renters_with_income": 32000,
+          "rent_burdened_pct": 45.1
+        },
+        "name": "Chinese",
+        "total_speakers": 86000,
         "source": "IPUMS"
       },
       {
-        "name": "Spanish",
-        "total_speakers": 31000,
         "lep_count": 31000,
         "lep_pct_of_area": 3.9,
+        "age": {
+          "age_5_17_pct": 7.5,
+          "age_18_34_pct": 16.3,
+          "age_35_64_pct": 58.9,
+          "age_65plus_pct": 17.3
+        },
+        "education": {
+          "universe": 28000,
+          "under_9th_pct": 31.9,
+          "incomplete_hs_pct": 11.0,
+          "hs_some_college_pct": 40.0,
+          "ba_higher_pct": 17.2
+        },
+        "poverty": {
+          "universe": 31000,
+          "band_1_124_pct": 21.0,
+          "band_125_199_pct": 15.9,
+          "band_200plus_pct": 63.1,
+          "band_400plus_pct": 30.3
+        },
+        "access": {
+          "hh_universe": 31000,
+          "linguistically_isolated_pct": 40.8,
+          "no_internet_pct": 6.9,
+          "no_computer_pct": 22.1,
+          "snap_pct": 18.2
+        },
+        "housing": {
+          "owned_home_pct": 24.9,
+          "rented_no_payment_pct": 2.0,
+          "rented_paying_pct": 73.1,
+          "renters_with_income": 22000,
+          "rent_burdened_pct": 42.9
+        },
+        "name": "Spanish",
+        "total_speakers": 31000,
         "source": "IPUMS"
       },
       {
-        "name": "Tagalog",
-        "total_speakers": 8000,
         "lep_count": 8000,
         "lep_pct_of_area": 1.0,
+        "age": {
+          "age_5_17_pct": 2.5,
+          "age_18_34_pct": 8.9,
+          "age_35_64_pct": 44.3,
+          "age_65plus_pct": 44.3
+        },
+        "education": {
+          "universe": 8000,
+          "under_9th_pct": 9.1,
+          "incomplete_hs_pct": 7.1,
+          "hs_some_college_pct": 56.4,
+          "ba_higher_pct": 27.4
+        },
+        "poverty": {
+          "universe": 8000,
+          "band_1_124_pct": 14.0,
+          "band_125_199_pct": 7.5,
+          "band_200plus_pct": 78.6,
+          "band_400plus_pct": 52.6
+        },
+        "access": {
+          "hh_universe": 8000,
+          "linguistically_isolated_pct": 32.6,
+          "no_internet_pct": 8.9,
+          "no_computer_pct": 20.6,
+          "snap_pct": 18.4
+        },
+        "housing": {
+          "owned_home_pct": 45.8,
+          "rented_no_payment_pct": 3.0,
+          "rented_paying_pct": 51.2,
+          "renters_with_income": 4000,
+          "rent_burdened_pct": 21.3
+        },
+        "name": "Tagalog",
+        "total_speakers": 8000,
         "source": "IPUMS"
       },
       {
-        "name": "Vietnamese",
-        "total_speakers": 6000,
         "lep_count": 6000,
         "lep_pct_of_area": 0.8,
+        "age": {
+          "age_5_17_pct": 3.8,
+          "age_18_34_pct": 13.1,
+          "age_35_64_pct": 49.1,
+          "age_65plus_pct": 34.0
+        },
+        "education": {
+          "universe": 5000,
+          "under_9th_pct": 36.5,
+          "incomplete_hs_pct": 10.7,
+          "hs_some_college_pct": 38.1,
+          "ba_higher_pct": 14.8
+        },
+        "poverty": {
+          "universe": 5000,
+          "band_1_124_pct": 21.4,
+          "band_125_199_pct": 17.3,
+          "band_200plus_pct": 61.3,
+          "band_400plus_pct": 27.0
+        },
+        "access": {
+          "hh_universe": 5000,
+          "linguistically_isolated_pct": 52.8,
+          "no_internet_pct": 8.9,
+          "no_computer_pct": 17.3,
+          "snap_pct": 40.1
+        },
+        "housing": {
+          "owned_home_pct": 33.5,
+          "rented_no_payment_pct": 0.0,
+          "rented_paying_pct": 66.5,
+          "renters_with_income": 4000,
+          "rent_burdened_pct": 44.9
+        },
+        "name": "Vietnamese",
+        "total_speakers": 6000,
         "source": "IPUMS"
       },
       {
-        "name": "Russian",
-        "total_speakers": 4000,
         "lep_count": 4000,
         "lep_pct_of_area": 0.5,
+        "age": {
+          "age_5_17_pct": 0.0,
+          "age_18_34_pct": 6.3,
+          "age_35_64_pct": 31.1,
+          "age_65plus_pct": 62.6
+        },
+        "education": {
+          "universe": 4000,
+          "under_9th_pct": 1.5,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 30.9,
+          "ba_higher_pct": 67.7
+        },
+        "poverty": {
+          "universe": 4000,
+          "band_1_124_pct": 43.8,
+          "band_125_199_pct": 7.5,
+          "band_200plus_pct": 48.6,
+          "band_400plus_pct": 36.0
+        },
+        "access": {
+          "hh_universe": 4000,
+          "linguistically_isolated_pct": 72.5,
+          "no_internet_pct": 10.2,
+          "no_computer_pct": 22.0,
+          "snap_pct": 30.0
+        },
+        "housing": {
+          "owned_home_pct": 22.0,
+          "rented_no_payment_pct": 2.0,
+          "rented_paying_pct": 76.0,
+          "renters_with_income": 3000,
+          "rent_burdened_pct": 42.2
+        },
+        "name": "Russian",
+        "total_speakers": 4000,
         "source": "IPUMS"
       },
       {
-        "name": "Korean",
-        "total_speakers": 3000,
         "lep_count": 3000,
         "lep_pct_of_area": 0.4,
+        "age": {
+          "age_5_17_pct": 1.7,
+          "age_18_34_pct": 12.2,
+          "age_35_64_pct": 54.2,
+          "age_65plus_pct": 32.0
+        },
+        "education": {
+          "universe": 3000,
+          "under_9th_pct": 4.1,
+          "incomplete_hs_pct": 3.0,
+          "hs_some_college_pct": 31.6,
+          "ba_higher_pct": 61.3
+        },
+        "poverty": {
+          "universe": 3000,
+          "band_1_124_pct": 15.1,
+          "band_125_199_pct": 3.7,
+          "band_200plus_pct": 81.2,
+          "band_400plus_pct": 63.3
+        },
+        "access": {
+          "hh_universe": 3000,
+          "linguistically_isolated_pct": 67.0,
+          "no_internet_pct": 5.6,
+          "no_computer_pct": 6.8,
+          "snap_pct": 4.3
+        },
+        "housing": {
+          "owned_home_pct": 35.8,
+          "rented_no_payment_pct": 4.9,
+          "rented_paying_pct": 59.4,
+          "renters_with_income": 2000,
+          "rent_burdened_pct": 40.6
+        },
+        "name": "Korean",
+        "total_speakers": 3000,
         "source": "IPUMS"
       },
       {
-        "name": "Japanese",
-        "total_speakers": 2000,
         "lep_count": 2000,
         "lep_pct_of_area": 0.2,
+        "age": {
+          "age_5_17_pct": 0.4,
+          "age_18_34_pct": 11.5,
+          "age_35_64_pct": 46.7,
+          "age_65plus_pct": 41.4
+        },
+        "education": {
+          "universe": 2000,
+          "under_9th_pct": 1.3,
+          "incomplete_hs_pct": 4.8,
+          "hs_some_college_pct": 54.6,
+          "ba_higher_pct": 39.4
+        },
+        "poverty": {
+          "universe": 2000,
+          "band_1_124_pct": 5.9,
+          "band_125_199_pct": 12.4,
+          "band_200plus_pct": 81.6,
+          "band_400plus_pct": 63.0
+        },
+        "access": {
+          "hh_universe": 2000,
+          "linguistically_isolated_pct": 43.6,
+          "no_internet_pct": 1.0,
+          "no_computer_pct": 2.3,
+          "snap_pct": 6.5
+        },
+        "housing": {
+          "owned_home_pct": 52.4,
+          "rented_no_payment_pct": 0.0,
+          "rented_paying_pct": 47.6,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
+        "name": "Japanese",
+        "total_speakers": 2000,
         "source": "IPUMS"
       },
       {
-        "name": "Arabic",
-        "total_speakers": 1000,
         "lep_count": 1000,
         "lep_pct_of_area": 0.1,
+        "age": {
+          "age_5_17_pct": 6.7,
+          "age_18_34_pct": 33.2,
+          "age_35_64_pct": 52.1,
+          "age_65plus_pct": 7.9
+        },
+        "education": {
+          "universe": 0,
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 0.0,
+          "ba_higher_pct": 0.0
+        },
+        "poverty": {
+          "universe": 1000,
+          "band_1_124_pct": 17.1,
+          "band_125_199_pct": 18.3,
+          "band_200plus_pct": 64.6,
+          "band_400plus_pct": 24.7
+        },
+        "access": {
+          "hh_universe": 1000,
+          "linguistically_isolated_pct": 54.6,
+          "no_internet_pct": 22.1,
+          "no_computer_pct": 31.1,
+          "snap_pct": 11.0
+        },
+        "housing": {
+          "owned_home_pct": 21.1,
+          "rented_no_payment_pct": 0.0,
+          "rented_paying_pct": 78.9,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
+        "name": "Arabic",
+        "total_speakers": 1000,
         "source": "IPUMS"
       }
     ],
@@ -346,43 +1414,220 @@
       "snap_pct": 16.5,
       "linguistically_isolated_pct": 6.0
     },
+    "housing": {
+      "owned_home_pct": 43.9,
+      "rented_no_payment_pct": 1.0,
+      "rented_paying_pct": 55.1,
+      "renters_with_income": 233000,
+      "rent_burdened_pct": 46.5
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 51000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 51000,
         "lep_count": 51000,
         "lep_pct_of_area": 11.6,
+        "age": {
+          "age_5_17_pct": 8.0,
+          "age_18_34_pct": 13.0,
+          "age_35_64_pct": 64.2,
+          "age_65plus_pct": 14.9
+        },
+        "education": {
+          "universe": 45000,
+          "under_9th_pct": 44.4,
+          "incomplete_hs_pct": 22.4,
+          "hs_some_college_pct": 28.6,
+          "ba_higher_pct": 4.6
+        },
+        "poverty": {
+          "universe": 50000,
+          "band_1_124_pct": 22.3,
+          "band_125_199_pct": 21.0,
+          "band_200plus_pct": 56.7,
+          "band_400plus_pct": 19.9
+        },
+        "access": {
+          "hh_universe": 51000,
+          "linguistically_isolated_pct": 29.2,
+          "no_internet_pct": 8.0,
+          "no_computer_pct": 18.2,
+          "snap_pct": 19.2
+        },
+        "housing": {
+          "owned_home_pct": 30.3,
+          "rented_no_payment_pct": 0.9,
+          "rented_paying_pct": 68.8,
+          "renters_with_income": 35000,
+          "rent_burdened_pct": 52.0
+        },
+        "name": "Spanish",
+        "total_speakers": 51000,
         "source": "IPUMS"
       },
       {
-        "name": "Khmer/Cambodian",
-        "total_speakers": 6000,
         "lep_count": 6000,
         "lep_pct_of_area": 1.4,
+        "age": {
+          "age_5_17_pct": 3.1,
+          "age_18_34_pct": 11.2,
+          "age_35_64_pct": 51.9,
+          "age_65plus_pct": 33.8
+        },
+        "education": {
+          "universe": 6000,
+          "under_9th_pct": 48.1,
+          "incomplete_hs_pct": 6.7,
+          "hs_some_college_pct": 35.2,
+          "ba_higher_pct": 9.9
+        },
+        "poverty": {
+          "universe": 6000,
+          "band_1_124_pct": 23.1,
+          "band_125_199_pct": 24.1,
+          "band_200plus_pct": 52.9,
+          "band_400plus_pct": 22.4
+        },
+        "access": {
+          "hh_universe": 6000,
+          "linguistically_isolated_pct": 48.1,
+          "no_internet_pct": 11.4,
+          "no_computer_pct": 18.7,
+          "snap_pct": 41.4
+        },
+        "housing": {
+          "owned_home_pct": 35.6,
+          "rented_no_payment_pct": 0.8,
+          "rented_paying_pct": 63.6,
+          "renters_with_income": 4000,
+          "rent_burdened_pct": 56.5
+        },
+        "name": "Khmer/Cambodian",
+        "total_speakers": 6000,
         "source": "IPUMS"
       },
       {
-        "name": "Tagalog",
-        "total_speakers": 5000,
         "lep_count": 5000,
         "lep_pct_of_area": 1.1,
+        "age": {
+          "age_5_17_pct": 1.1,
+          "age_18_34_pct": 10.0,
+          "age_35_64_pct": 47.1,
+          "age_65plus_pct": 41.8
+        },
+        "education": {
+          "universe": 5000,
+          "under_9th_pct": 15.1,
+          "incomplete_hs_pct": 3.6,
+          "hs_some_college_pct": 49.4,
+          "ba_higher_pct": 31.8
+        },
+        "poverty": {
+          "universe": 5000,
+          "band_1_124_pct": 17.3,
+          "band_125_199_pct": 11.6,
+          "band_200plus_pct": 71.1,
+          "band_400plus_pct": 40.5
+        },
+        "access": {
+          "hh_universe": 5000,
+          "linguistically_isolated_pct": 39.4,
+          "no_internet_pct": 2.5,
+          "no_computer_pct": 12.0,
+          "snap_pct": 17.3
+        },
+        "housing": {
+          "owned_home_pct": 55.2,
+          "rented_no_payment_pct": 0.7,
+          "rented_paying_pct": 44.2,
+          "renters_with_income": 2000,
+          "rent_burdened_pct": 49.3
+        },
+        "name": "Tagalog",
+        "total_speakers": 5000,
         "source": "IPUMS"
       },
       {
+        "lep_count": 1000,
+        "lep_pct_of_area": 0.2,
+        "age": {
+          "age_5_17_pct": 6.8,
+          "age_18_34_pct": 6.0,
+          "age_35_64_pct": 45.7,
+          "age_65plus_pct": 41.5
+        },
+        "education": {
+          "universe": 1000,
+          "under_9th_pct": 16.6,
+          "incomplete_hs_pct": 14.1,
+          "hs_some_college_pct": 35.1,
+          "ba_higher_pct": 34.2
+        },
+        "poverty": {
+          "universe": 1000,
+          "band_1_124_pct": 22.8,
+          "band_125_199_pct": 22.9,
+          "band_200plus_pct": 54.3,
+          "band_400plus_pct": 41.5
+        },
+        "access": {
+          "hh_universe": 1000,
+          "linguistically_isolated_pct": 50.5,
+          "no_internet_pct": 10.1,
+          "no_computer_pct": 18.0,
+          "snap_pct": 12.5
+        },
+        "housing": {
+          "owned_home_pct": 54.7,
+          "rented_no_payment_pct": 0.0,
+          "rented_paying_pct": 45.3,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
         "name": "Chinese",
         "total_speakers": 1000,
-        "lep_count": 1000,
-        "lep_pct_of_area": 0.2,
         "source": "IPUMS"
       },
       {
-        "name": "Vietnamese",
-        "total_speakers": 1000,
         "lep_count": 1000,
         "lep_pct_of_area": 0.2,
+        "age": {
+          "age_5_17_pct": 1.7,
+          "age_18_34_pct": 7.3,
+          "age_35_64_pct": 46.3,
+          "age_65plus_pct": 44.7
+        },
+        "education": {
+          "universe": 1000,
+          "under_9th_pct": 30.5,
+          "incomplete_hs_pct": 21.9,
+          "hs_some_college_pct": 32.0,
+          "ba_higher_pct": 15.5
+        },
+        "poverty": {
+          "universe": 1000,
+          "band_1_124_pct": 23.6,
+          "band_125_199_pct": 12.8,
+          "band_200plus_pct": 63.6,
+          "band_400plus_pct": 26.9
+        },
+        "access": {
+          "hh_universe": 1000,
+          "linguistically_isolated_pct": 34.8,
+          "no_internet_pct": 7.9,
+          "no_computer_pct": 10.1,
+          "snap_pct": 33.1
+        },
+        "housing": {
+          "owned_home_pct": 55.6,
+          "rented_no_payment_pct": 1.5,
+          "rented_paying_pct": 42.9,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
+        "name": "Vietnamese",
+        "total_speakers": 1000,
         "source": "IPUMS"
       }
     ],
@@ -428,43 +1673,220 @@
       "snap_pct": 15.8,
       "linguistically_isolated_pct": 7.4
     },
+    "housing": {
+      "owned_home_pct": 45.2,
+      "rented_no_payment_pct": 1.1,
+      "rented_paying_pct": 53.7,
+      "renters_with_income": 221000,
+      "rent_burdened_pct": 41.5
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 30000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 30000,
         "lep_count": 30000,
         "lep_pct_of_area": 7.1,
+        "age": {
+          "age_5_17_pct": 9.8,
+          "age_18_34_pct": 19.6,
+          "age_35_64_pct": 59.6,
+          "age_65plus_pct": 10.9
+        },
+        "education": {
+          "universe": 25000,
+          "under_9th_pct": 38.6,
+          "incomplete_hs_pct": 20.1,
+          "hs_some_college_pct": 33.7,
+          "ba_higher_pct": 7.6
+        },
+        "poverty": {
+          "universe": 29000,
+          "band_1_124_pct": 23.6,
+          "band_125_199_pct": 21.4,
+          "band_200plus_pct": 54.9,
+          "band_400plus_pct": 18.0
+        },
+        "access": {
+          "hh_universe": 29000,
+          "linguistically_isolated_pct": 37.5,
+          "no_internet_pct": 8.3,
+          "no_computer_pct": 24.1,
+          "snap_pct": 20.0
+        },
+        "housing": {
+          "owned_home_pct": 33.3,
+          "rented_no_payment_pct": 1.2,
+          "rented_paying_pct": 65.5,
+          "renters_with_income": 19000,
+          "rent_burdened_pct": 54.2
+        },
+        "name": "Spanish",
+        "total_speakers": 30000,
         "source": "IPUMS"
       },
       {
-        "name": "Chinese",
-        "total_speakers": 16000,
         "lep_count": 16000,
         "lep_pct_of_area": 3.8,
+        "age": {
+          "age_5_17_pct": 3.2,
+          "age_18_34_pct": 12.0,
+          "age_35_64_pct": 43.2,
+          "age_65plus_pct": 41.6
+        },
+        "education": {
+          "universe": 15000,
+          "under_9th_pct": 26.2,
+          "incomplete_hs_pct": 10.4,
+          "hs_some_college_pct": 45.1,
+          "ba_higher_pct": 18.2
+        },
+        "poverty": {
+          "universe": 15000,
+          "band_1_124_pct": 33.0,
+          "band_125_199_pct": 15.3,
+          "band_200plus_pct": 51.7,
+          "band_400plus_pct": 29.1
+        },
+        "access": {
+          "hh_universe": 15000,
+          "linguistically_isolated_pct": 63.9,
+          "no_internet_pct": 11.7,
+          "no_computer_pct": 20.6,
+          "snap_pct": 35.5
+        },
+        "housing": {
+          "owned_home_pct": 45.8,
+          "rented_no_payment_pct": 3.0,
+          "rented_paying_pct": 51.2,
+          "renters_with_income": 8000,
+          "rent_burdened_pct": 41.4
+        },
+        "name": "Chinese",
+        "total_speakers": 16000,
         "source": "IPUMS"
       },
       {
-        "name": "Vietnamese",
-        "total_speakers": 4000,
         "lep_count": 4000,
         "lep_pct_of_area": 0.9,
+        "age": {
+          "age_5_17_pct": 3.9,
+          "age_18_34_pct": 6.6,
+          "age_35_64_pct": 58.5,
+          "age_65plus_pct": 31.0
+        },
+        "education": {
+          "universe": 4000,
+          "under_9th_pct": 35.5,
+          "incomplete_hs_pct": 16.2,
+          "hs_some_college_pct": 41.9,
+          "ba_higher_pct": 6.4
+        },
+        "poverty": {
+          "universe": 4000,
+          "band_1_124_pct": 29.6,
+          "band_125_199_pct": 28.6,
+          "band_200plus_pct": 41.8,
+          "band_400plus_pct": 17.0
+        },
+        "access": {
+          "hh_universe": 4000,
+          "linguistically_isolated_pct": 50.1,
+          "no_internet_pct": 4.3,
+          "no_computer_pct": 15.2,
+          "snap_pct": 40.8
+        },
+        "housing": {
+          "owned_home_pct": 37.3,
+          "rented_no_payment_pct": 3.6,
+          "rented_paying_pct": 59.2,
+          "renters_with_income": 2000,
+          "rent_burdened_pct": 59.9
+        },
+        "name": "Vietnamese",
+        "total_speakers": 4000,
         "source": "IPUMS"
       },
       {
-        "name": "South or Central Amer",
-        "total_speakers": 2000,
         "lep_count": 2000,
         "lep_pct_of_area": 0.5,
+        "age": {
+          "age_5_17_pct": 21.7,
+          "age_18_34_pct": 61.4,
+          "age_35_64_pct": 16.9,
+          "age_65plus_pct": 0.0
+        },
+        "education": {
+          "universe": 0,
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 0.0,
+          "ba_higher_pct": 0.0
+        },
+        "poverty": {
+          "universe": 2000,
+          "band_1_124_pct": 31.5,
+          "band_125_199_pct": 43.0,
+          "band_200plus_pct": 25.5,
+          "band_400plus_pct": 0.0
+        },
+        "access": {
+          "hh_universe": 2000,
+          "linguistically_isolated_pct": 65.6,
+          "no_internet_pct": 31.6,
+          "no_computer_pct": 40.2,
+          "snap_pct": 39.7
+        },
+        "housing": {
+          "owned_home_pct": 7.0,
+          "rented_no_payment_pct": 0.0,
+          "rented_paying_pct": 93.0,
+          "renters_with_income": 2000,
+          "rent_burdened_pct": 59.8
+        },
+        "name": "South or Central Amer",
+        "total_speakers": 2000,
         "source": "IPUMS"
       },
       {
-        "name": "Tagalog",
-        "total_speakers": 1000,
         "lep_count": 1000,
         "lep_pct_of_area": 0.2,
+        "age": {
+          "age_5_17_pct": 4.1,
+          "age_18_34_pct": 7.5,
+          "age_35_64_pct": 51.4,
+          "age_65plus_pct": 37.0
+        },
+        "education": {
+          "universe": 1000,
+          "under_9th_pct": 22.1,
+          "incomplete_hs_pct": 3.6,
+          "hs_some_college_pct": 44.9,
+          "ba_higher_pct": 29.4
+        },
+        "poverty": {
+          "universe": 1000,
+          "band_1_124_pct": 7.4,
+          "band_125_199_pct": 12.1,
+          "band_200plus_pct": 80.5,
+          "band_400plus_pct": 32.2
+        },
+        "access": {
+          "hh_universe": 1000,
+          "linguistically_isolated_pct": 36.8,
+          "no_internet_pct": 11.7,
+          "no_computer_pct": 16.7,
+          "snap_pct": 15.1
+        },
+        "housing": {
+          "owned_home_pct": 50.1,
+          "rented_no_payment_pct": 0.0,
+          "rented_paying_pct": 49.9,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
+        "name": "Tagalog",
+        "total_speakers": 1000,
         "source": "IPUMS"
       }
     ],
@@ -510,36 +1932,179 @@
       "snap_pct": 14.3,
       "linguistically_isolated_pct": 9.2
     },
+    "housing": {
+      "owned_home_pct": 46.5,
+      "rented_no_payment_pct": 0.8,
+      "rented_paying_pct": 52.7,
+      "renters_with_income": 153000,
+      "rent_burdened_pct": 41.4
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 79000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 79000,
         "lep_count": 79000,
         "lep_pct_of_area": 26.5,
+        "age": {
+          "age_5_17_pct": 8.6,
+          "age_18_34_pct": 12.8,
+          "age_35_64_pct": 63.5,
+          "age_65plus_pct": 15.1
+        },
+        "education": {
+          "universe": 70000,
+          "under_9th_pct": 39.7,
+          "incomplete_hs_pct": 22.1,
+          "hs_some_college_pct": 33.7,
+          "ba_higher_pct": 4.4
+        },
+        "poverty": {
+          "universe": 79000,
+          "band_1_124_pct": 15.6,
+          "band_125_199_pct": 21.2,
+          "band_200plus_pct": 63.1,
+          "band_400plus_pct": 19.6
+        },
+        "access": {
+          "hh_universe": 79000,
+          "linguistically_isolated_pct": 19.9,
+          "no_internet_pct": 6.9,
+          "no_computer_pct": 17.3,
+          "snap_pct": 14.6
+        },
+        "housing": {
+          "owned_home_pct": 39.0,
+          "rented_no_payment_pct": 0.6,
+          "rented_paying_pct": 60.4,
+          "renters_with_income": 48000,
+          "rent_burdened_pct": 40.0
+        },
+        "name": "Spanish",
+        "total_speakers": 79000,
         "source": "IPUMS"
       },
       {
-        "name": "Vietnamese",
-        "total_speakers": 16000,
         "lep_count": 16000,
         "lep_pct_of_area": 5.4,
+        "age": {
+          "age_5_17_pct": 3.9,
+          "age_18_34_pct": 9.3,
+          "age_35_64_pct": 51.6,
+          "age_65plus_pct": 35.3
+        },
+        "education": {
+          "universe": 15000,
+          "under_9th_pct": 19.0,
+          "incomplete_hs_pct": 17.7,
+          "hs_some_college_pct": 47.3,
+          "ba_higher_pct": 16.0
+        },
+        "poverty": {
+          "universe": 15000,
+          "band_1_124_pct": 23.5,
+          "band_125_199_pct": 18.2,
+          "band_200plus_pct": 58.3,
+          "band_400plus_pct": 32.6
+        },
+        "access": {
+          "hh_universe": 15000,
+          "linguistically_isolated_pct": 45.6,
+          "no_internet_pct": 7.1,
+          "no_computer_pct": 14.3,
+          "snap_pct": 18.9
+        },
+        "housing": {
+          "owned_home_pct": 64.3,
+          "rented_no_payment_pct": 1.1,
+          "rented_paying_pct": 34.6,
+          "renters_with_income": 5000,
+          "rent_burdened_pct": 53.2
+        },
+        "name": "Vietnamese",
+        "total_speakers": 16000,
         "source": "IPUMS"
       },
       {
+        "lep_count": 1000,
+        "lep_pct_of_area": 0.3,
+        "age": {
+          "age_5_17_pct": 0.0,
+          "age_18_34_pct": 10.9,
+          "age_35_64_pct": 28.9,
+          "age_65plus_pct": 60.2
+        },
+        "education": {
+          "universe": 1000,
+          "under_9th_pct": 33.7,
+          "incomplete_hs_pct": 15.8,
+          "hs_some_college_pct": 30.9,
+          "ba_higher_pct": 19.6
+        },
+        "poverty": {
+          "universe": 1000,
+          "band_1_124_pct": 35.7,
+          "band_125_199_pct": 9.5,
+          "band_200plus_pct": 54.9,
+          "band_400plus_pct": 40.0
+        },
+        "access": {
+          "hh_universe": 1000,
+          "linguistically_isolated_pct": 46.7,
+          "no_internet_pct": 16.3,
+          "no_computer_pct": 31.9,
+          "snap_pct": 19.2
+        },
+        "housing": {
+          "owned_home_pct": 58.7,
+          "rented_no_payment_pct": 1.3,
+          "rented_paying_pct": 40.0,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
         "name": "Chinese",
         "total_speakers": 1000,
-        "lep_count": 1000,
-        "lep_pct_of_area": 0.3,
         "source": "IPUMS"
       },
       {
-        "name": "Khmer/Cambodian",
-        "total_speakers": 1000,
         "lep_count": 1000,
         "lep_pct_of_area": 0.3,
+        "age": {
+          "age_5_17_pct": 6.7,
+          "age_18_34_pct": 12.2,
+          "age_35_64_pct": 61.8,
+          "age_65plus_pct": 19.3
+        },
+        "education": {
+          "universe": 0,
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 0.0,
+          "ba_higher_pct": 0.0
+        },
+        "poverty": {
+          "universe": 0,
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200plus_pct": 0.0,
+          "band_400plus_pct": 0.0
+        },
+        "access": {
+          "hh_universe": 0,
+          "linguistically_isolated_pct": 0.0,
+          "no_internet_pct": 0.0,
+          "no_computer_pct": 0.0,
+          "snap_pct": 0.0
+        },
+        "housing": {
+          "owned_home_pct": 0.0,
+          "rented_no_payment_pct": 0.0,
+          "rented_paying_pct": 0.0,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
+        "name": "Khmer/Cambodian",
+        "total_speakers": 1000,
         "source": "IPUMS"
       }
     ],
@@ -585,15 +2150,56 @@
       "snap_pct": 17.5,
       "linguistically_isolated_pct": 4.6
     },
+    "housing": {
+      "owned_home_pct": 66.5,
+      "rented_no_payment_pct": 0.5,
+      "rented_paying_pct": 33.1,
+      "renters_with_income": 65000,
+      "rent_burdened_pct": 48.2
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 31000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 31000,
         "lep_count": 31000,
         "lep_pct_of_area": 15.6,
+        "age": {
+          "age_5_17_pct": 8.5,
+          "age_18_34_pct": 14.2,
+          "age_35_64_pct": 63.7,
+          "age_65plus_pct": 13.6
+        },
+        "education": {
+          "universe": 27000,
+          "under_9th_pct": 34.8,
+          "incomplete_hs_pct": 21.8,
+          "hs_some_college_pct": 39.9,
+          "ba_higher_pct": 3.6
+        },
+        "poverty": {
+          "universe": 31000,
+          "band_1_124_pct": 14.6,
+          "band_125_199_pct": 23.1,
+          "band_200plus_pct": 62.3,
+          "band_400plus_pct": 17.9
+        },
+        "access": {
+          "hh_universe": 31000,
+          "linguistically_isolated_pct": 20.1,
+          "no_internet_pct": 3.7,
+          "no_computer_pct": 12.8,
+          "snap_pct": 17.4
+        },
+        "housing": {
+          "owned_home_pct": 69.0,
+          "rented_no_payment_pct": 0.5,
+          "rented_paying_pct": 30.5,
+          "renters_with_income": 10000,
+          "rent_burdened_pct": 48.5
+        },
+        "name": "Spanish",
+        "total_speakers": 31000,
         "source": "IPUMS"
       }
     ],
@@ -639,50 +2245,261 @@
       "snap_pct": 20.3,
       "linguistically_isolated_pct": 17.3
     },
+    "housing": {
+      "owned_home_pct": 36.4,
+      "rented_no_payment_pct": 1.4,
+      "rented_paying_pct": 62.3,
+      "renters_with_income": 111000,
+      "rent_burdened_pct": 53.4
+    },
     "median_hh_income": null,
     "top_language": "Armenian",
     "top_language_lep": 32000,
     "languages": [
       {
-        "name": "Armenian",
-        "total_speakers": 32000,
         "lep_count": 32000,
         "lep_pct_of_area": 17.4,
+        "age": {
+          "age_5_17_pct": 4.6,
+          "age_18_34_pct": 8.5,
+          "age_35_64_pct": 49.9,
+          "age_65plus_pct": 37.0
+        },
+        "education": {
+          "universe": 30000,
+          "under_9th_pct": 16.3,
+          "incomplete_hs_pct": 7.0,
+          "hs_some_college_pct": 58.2,
+          "ba_higher_pct": 18.5
+        },
+        "poverty": {
+          "universe": 32000,
+          "band_1_124_pct": 34.0,
+          "band_125_199_pct": 17.4,
+          "band_200plus_pct": 48.6,
+          "band_400plus_pct": 22.6
+        },
+        "access": {
+          "hh_universe": 32000,
+          "linguistically_isolated_pct": 58.3,
+          "no_internet_pct": 10.5,
+          "no_computer_pct": 21.3,
+          "snap_pct": 47.2
+        },
+        "housing": {
+          "owned_home_pct": 16.4,
+          "rented_no_payment_pct": 1.5,
+          "rented_paying_pct": 82.1,
+          "renters_with_income": 25000,
+          "rent_burdened_pct": 67.6
+        },
+        "name": "Armenian",
+        "total_speakers": 32000,
         "source": "IPUMS"
       },
       {
-        "name": "Spanish",
-        "total_speakers": 9000,
         "lep_count": 9000,
         "lep_pct_of_area": 4.9,
+        "age": {
+          "age_5_17_pct": 6.7,
+          "age_18_34_pct": 11.9,
+          "age_35_64_pct": 52.4,
+          "age_65plus_pct": 29.0
+        },
+        "education": {
+          "universe": 8000,
+          "under_9th_pct": 29.3,
+          "incomplete_hs_pct": 14.6,
+          "hs_some_college_pct": 45.8,
+          "ba_higher_pct": 10.3
+        },
+        "poverty": {
+          "universe": 9000,
+          "band_1_124_pct": 18.4,
+          "band_125_199_pct": 20.8,
+          "band_200plus_pct": 60.8,
+          "band_400plus_pct": 18.1
+        },
+        "access": {
+          "hh_universe": 9000,
+          "linguistically_isolated_pct": 36.6,
+          "no_internet_pct": 13.9,
+          "no_computer_pct": 26.4,
+          "snap_pct": 21.3
+        },
+        "housing": {
+          "owned_home_pct": 19.1,
+          "rented_no_payment_pct": 3.2,
+          "rented_paying_pct": 77.7,
+          "renters_with_income": 7000,
+          "rent_burdened_pct": 54.5
+        },
+        "name": "Spanish",
+        "total_speakers": 9000,
         "source": "IPUMS"
       },
       {
+        "lep_count": 3000,
+        "lep_pct_of_area": 1.6,
+        "age": {
+          "age_5_17_pct": 16.7,
+          "age_18_34_pct": 15.2,
+          "age_35_64_pct": 44.9,
+          "age_65plus_pct": 23.2
+        },
+        "education": {
+          "universe": 2000,
+          "under_9th_pct": 13.2,
+          "incomplete_hs_pct": 2.1,
+          "hs_some_college_pct": 41.6,
+          "ba_higher_pct": 43.1
+        },
+        "poverty": {
+          "universe": 3000,
+          "band_1_124_pct": 34.7,
+          "band_125_199_pct": 14.9,
+          "band_200plus_pct": 50.4,
+          "band_400plus_pct": 29.3
+        },
+        "access": {
+          "hh_universe": 3000,
+          "linguistically_isolated_pct": 61.0,
+          "no_internet_pct": 3.7,
+          "no_computer_pct": 11.7,
+          "snap_pct": 41.6
+        },
+        "housing": {
+          "owned_home_pct": 16.3,
+          "rented_no_payment_pct": 3.2,
+          "rented_paying_pct": 80.5,
+          "renters_with_income": 2000,
+          "rent_burdened_pct": 81.0
+        },
         "name": "Russian",
         "total_speakers": 3000,
-        "lep_count": 3000,
-        "lep_pct_of_area": 1.6,
         "source": "IPUMS"
       },
       {
+        "lep_count": 3000,
+        "lep_pct_of_area": 1.6,
+        "age": {
+          "age_5_17_pct": 6.6,
+          "age_18_34_pct": 3.7,
+          "age_35_64_pct": 48.1,
+          "age_65plus_pct": 41.7
+        },
+        "education": {
+          "universe": 3000,
+          "under_9th_pct": 4.2,
+          "incomplete_hs_pct": 0.7,
+          "hs_some_college_pct": 43.4,
+          "ba_higher_pct": 51.7
+        },
+        "poverty": {
+          "universe": 3000,
+          "band_1_124_pct": 8.1,
+          "band_125_199_pct": 8.9,
+          "band_200plus_pct": 82.9,
+          "band_400plus_pct": 30.8
+        },
+        "access": {
+          "hh_universe": 3000,
+          "linguistically_isolated_pct": 54.9,
+          "no_internet_pct": 11.9,
+          "no_computer_pct": 9.1,
+          "snap_pct": 6.6
+        },
+        "housing": {
+          "owned_home_pct": 58.4,
+          "rented_no_payment_pct": 3.0,
+          "rented_paying_pct": 38.6,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
         "name": "Korean",
         "total_speakers": 3000,
-        "lep_count": 3000,
-        "lep_pct_of_area": 1.6,
         "source": "IPUMS"
       },
       {
+        "lep_count": 3000,
+        "lep_pct_of_area": 1.6,
+        "age": {
+          "age_5_17_pct": 3.0,
+          "age_18_34_pct": 7.3,
+          "age_35_64_pct": 52.0,
+          "age_65plus_pct": 37.8
+        },
+        "education": {
+          "universe": 3000,
+          "under_9th_pct": 3.4,
+          "incomplete_hs_pct": 4.3,
+          "hs_some_college_pct": 37.5,
+          "ba_higher_pct": 54.9
+        },
+        "poverty": {
+          "universe": 3000,
+          "band_1_124_pct": 4.3,
+          "band_125_199_pct": 5.3,
+          "band_200plus_pct": 90.4,
+          "band_400plus_pct": 46.0
+        },
+        "access": {
+          "hh_universe": 3000,
+          "linguistically_isolated_pct": 40.4,
+          "no_internet_pct": 1.3,
+          "no_computer_pct": 5.7,
+          "snap_pct": 10.3
+        },
+        "housing": {
+          "owned_home_pct": 30.2,
+          "rented_no_payment_pct": 2.1,
+          "rented_paying_pct": 67.7,
+          "renters_with_income": 2000,
+          "rent_burdened_pct": 28.9
+        },
         "name": "Tagalog",
         "total_speakers": 3000,
-        "lep_count": 3000,
-        "lep_pct_of_area": 1.6,
         "source": "IPUMS"
       },
       {
-        "name": "Farsi/Persian",
-        "total_speakers": 2000,
         "lep_count": 2000,
         "lep_pct_of_area": 1.1,
+        "age": {
+          "age_5_17_pct": 0.0,
+          "age_18_34_pct": 7.8,
+          "age_35_64_pct": 52.9,
+          "age_65plus_pct": 39.3
+        },
+        "education": {
+          "universe": 2000,
+          "under_9th_pct": 5.8,
+          "incomplete_hs_pct": 2.4,
+          "hs_some_college_pct": 65.6,
+          "ba_higher_pct": 26.2
+        },
+        "poverty": {
+          "universe": 2000,
+          "band_1_124_pct": 27.2,
+          "band_125_199_pct": 13.0,
+          "band_200plus_pct": 59.8,
+          "band_400plus_pct": 39.6
+        },
+        "access": {
+          "hh_universe": 2000,
+          "linguistically_isolated_pct": 58.6,
+          "no_internet_pct": 11.0,
+          "no_computer_pct": 16.2,
+          "snap_pct": 28.7
+        },
+        "housing": {
+          "owned_home_pct": 10.1,
+          "rented_no_payment_pct": 2.9,
+          "rented_paying_pct": 87.0,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
+        "name": "Farsi/Persian",
+        "total_speakers": 2000,
         "source": "IPUMS"
       }
     ],
@@ -728,29 +2545,138 @@
       "snap_pct": 7.2,
       "linguistically_isolated_pct": 3.0
     },
+    "housing": {
+      "owned_home_pct": 59.9,
+      "rented_no_payment_pct": 0.9,
+      "rented_paying_pct": 39.3,
+      "renters_with_income": 71000,
+      "rent_burdened_pct": 44.4
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 5000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 5000,
         "lep_count": 5000,
         "lep_pct_of_area": 2.7,
+        "age": {
+          "age_5_17_pct": 6.0,
+          "age_18_34_pct": 13.5,
+          "age_35_64_pct": 61.1,
+          "age_65plus_pct": 19.4
+        },
+        "education": {
+          "universe": 4000,
+          "under_9th_pct": 34.6,
+          "incomplete_hs_pct": 15.7,
+          "hs_some_college_pct": 36.0,
+          "ba_higher_pct": 13.7
+        },
+        "poverty": {
+          "universe": 5000,
+          "band_1_124_pct": 17.0,
+          "band_125_199_pct": 9.5,
+          "band_200plus_pct": 73.5,
+          "band_400plus_pct": 31.0
+        },
+        "access": {
+          "hh_universe": 5000,
+          "linguistically_isolated_pct": 23.6,
+          "no_internet_pct": 9.3,
+          "no_computer_pct": 13.7,
+          "snap_pct": 17.4
+        },
+        "housing": {
+          "owned_home_pct": 29.5,
+          "rented_no_payment_pct": 0.6,
+          "rented_paying_pct": 69.9,
+          "renters_with_income": 3000,
+          "rent_burdened_pct": 33.9
+        },
+        "name": "Spanish",
+        "total_speakers": 5000,
         "source": "IPUMS"
       },
       {
-        "name": "Vietnamese",
-        "total_speakers": 4000,
         "lep_count": 4000,
         "lep_pct_of_area": 2.2,
+        "age": {
+          "age_5_17_pct": 4.1,
+          "age_18_34_pct": 5.3,
+          "age_35_64_pct": 50.5,
+          "age_65plus_pct": 40.1
+        },
+        "education": {
+          "universe": 4000,
+          "under_9th_pct": 18.9,
+          "incomplete_hs_pct": 13.1,
+          "hs_some_college_pct": 45.3,
+          "ba_higher_pct": 22.8
+        },
+        "poverty": {
+          "universe": 4000,
+          "band_1_124_pct": 18.8,
+          "band_125_199_pct": 16.2,
+          "band_200plus_pct": 65.0,
+          "band_400plus_pct": 47.7
+        },
+        "access": {
+          "hh_universe": 4000,
+          "linguistically_isolated_pct": 44.9,
+          "no_internet_pct": 3.0,
+          "no_computer_pct": 10.7,
+          "snap_pct": 17.8
+        },
+        "housing": {
+          "owned_home_pct": 67.7,
+          "rented_no_payment_pct": 1.2,
+          "rented_paying_pct": 31.2,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
+        "name": "Vietnamese",
+        "total_speakers": 4000,
         "source": "IPUMS"
       },
       {
-        "name": "Chinese",
-        "total_speakers": 1000,
         "lep_count": 1000,
         "lep_pct_of_area": 0.5,
+        "age": {
+          "age_5_17_pct": 2.1,
+          "age_18_34_pct": 5.6,
+          "age_35_64_pct": 52.2,
+          "age_65plus_pct": 40.2
+        },
+        "education": {
+          "universe": 1000,
+          "under_9th_pct": 6.8,
+          "incomplete_hs_pct": 3.7,
+          "hs_some_college_pct": 44.2,
+          "ba_higher_pct": 45.4
+        },
+        "poverty": {
+          "universe": 1000,
+          "band_1_124_pct": 18.6,
+          "band_125_199_pct": 9.6,
+          "band_200plus_pct": 71.7,
+          "band_400plus_pct": 50.0
+        },
+        "access": {
+          "hh_universe": 1000,
+          "linguistically_isolated_pct": 45.1,
+          "no_internet_pct": 2.5,
+          "no_computer_pct": 9.6,
+          "snap_pct": 3.7
+        },
+        "housing": {
+          "owned_home_pct": 85.6,
+          "rented_no_payment_pct": 1.9,
+          "rented_paying_pct": 12.5,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
+        "name": "Chinese",
+        "total_speakers": 1000,
         "source": "IPUMS"
       }
     ],
@@ -796,22 +2722,97 @@
       "snap_pct": 15.0,
       "linguistically_isolated_pct": 9.0
     },
+    "housing": {
+      "owned_home_pct": 58.4,
+      "rented_no_payment_pct": 1.0,
+      "rented_paying_pct": 40.6,
+      "renters_with_income": 69000,
+      "rent_burdened_pct": 49.1
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 34000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 34000,
         "lep_count": 34000,
         "lep_pct_of_area": 19.7,
+        "age": {
+          "age_5_17_pct": 10.9,
+          "age_18_34_pct": 15.5,
+          "age_35_64_pct": 60.4,
+          "age_65plus_pct": 13.3
+        },
+        "education": {
+          "universe": 28000,
+          "under_9th_pct": 36.8,
+          "incomplete_hs_pct": 21.9,
+          "hs_some_college_pct": 36.4,
+          "ba_higher_pct": 4.9
+        },
+        "poverty": {
+          "universe": 34000,
+          "band_1_124_pct": 18.3,
+          "band_125_199_pct": 23.7,
+          "band_200plus_pct": 58.0,
+          "band_400plus_pct": 18.3
+        },
+        "access": {
+          "hh_universe": 34000,
+          "linguistically_isolated_pct": 32.2,
+          "no_internet_pct": 5.3,
+          "no_computer_pct": 16.9,
+          "snap_pct": 18.1
+        },
+        "housing": {
+          "owned_home_pct": 47.9,
+          "rented_no_payment_pct": 0.8,
+          "rented_paying_pct": 51.3,
+          "renters_with_income": 17000,
+          "rent_burdened_pct": 50.4
+        },
+        "name": "Spanish",
+        "total_speakers": 34000,
         "source": "IPUMS"
       },
       {
-        "name": "Chinese",
-        "total_speakers": 3000,
         "lep_count": 3000,
         "lep_pct_of_area": 1.7,
+        "age": {
+          "age_5_17_pct": 5.3,
+          "age_18_34_pct": 15.6,
+          "age_35_64_pct": 57.7,
+          "age_65plus_pct": 21.4
+        },
+        "education": {
+          "universe": 3000,
+          "under_9th_pct": 16.1,
+          "incomplete_hs_pct": 5.4,
+          "hs_some_college_pct": 47.1,
+          "ba_higher_pct": 31.5
+        },
+        "poverty": {
+          "universe": 3000,
+          "band_1_124_pct": 16.3,
+          "band_125_199_pct": 14.9,
+          "band_200plus_pct": 68.8,
+          "band_400plus_pct": 39.5
+        },
+        "access": {
+          "hh_universe": 3000,
+          "linguistically_isolated_pct": 69.1,
+          "no_internet_pct": 2.4,
+          "no_computer_pct": 3.5,
+          "snap_pct": 11.2
+        },
+        "housing": {
+          "owned_home_pct": 86.7,
+          "rented_no_payment_pct": 1.4,
+          "rented_paying_pct": 11.8,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
+        "name": "Chinese",
+        "total_speakers": 3000,
         "source": "IPUMS"
       }
     ],
@@ -857,22 +2858,97 @@
       "snap_pct": 8.4,
       "linguistically_isolated_pct": 5.4
     },
+    "housing": {
+      "owned_home_pct": 67.2,
+      "rented_no_payment_pct": 1.3,
+      "rented_paying_pct": 31.5,
+      "renters_with_income": 50000,
+      "rent_burdened_pct": 47.4
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 9000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 9000,
         "lep_count": 9000,
         "lep_pct_of_area": 5.5,
+        "age": {
+          "age_5_17_pct": 9.1,
+          "age_18_34_pct": 13.4,
+          "age_35_64_pct": 54.3,
+          "age_65plus_pct": 23.3
+        },
+        "education": {
+          "universe": 8000,
+          "under_9th_pct": 29.2,
+          "incomplete_hs_pct": 13.4,
+          "hs_some_college_pct": 46.1,
+          "ba_higher_pct": 11.2
+        },
+        "poverty": {
+          "universe": 8000,
+          "band_1_124_pct": 24.0,
+          "band_125_199_pct": 18.8,
+          "band_200plus_pct": 57.2,
+          "band_400plus_pct": 27.2
+        },
+        "access": {
+          "hh_universe": 8000,
+          "linguistically_isolated_pct": 28.3,
+          "no_internet_pct": 13.4,
+          "no_computer_pct": 19.2,
+          "snap_pct": 4.9
+        },
+        "housing": {
+          "owned_home_pct": 57.3,
+          "rented_no_payment_pct": 2.2,
+          "rented_paying_pct": 40.5,
+          "renters_with_income": 3000,
+          "rent_burdened_pct": 44.7
+        },
+        "name": "Spanish",
+        "total_speakers": 9000,
         "source": "IPUMS"
       },
       {
-        "name": "Chinese",
-        "total_speakers": 5000,
         "lep_count": 5000,
         "lep_pct_of_area": 3.0,
+        "age": {
+          "age_5_17_pct": 15.5,
+          "age_18_34_pct": 14.0,
+          "age_35_64_pct": 55.4,
+          "age_65plus_pct": 15.1
+        },
+        "education": {
+          "universe": 4000,
+          "under_9th_pct": 6.4,
+          "incomplete_hs_pct": 2.4,
+          "hs_some_college_pct": 44.3,
+          "ba_higher_pct": 46.9
+        },
+        "poverty": {
+          "universe": 5000,
+          "band_1_124_pct": 20.8,
+          "band_125_199_pct": 13.6,
+          "band_200plus_pct": 65.5,
+          "band_400plus_pct": 31.0
+        },
+        "access": {
+          "hh_universe": 5000,
+          "linguistically_isolated_pct": 72.6,
+          "no_internet_pct": 0.0,
+          "no_computer_pct": 0.3,
+          "snap_pct": 10.0
+        },
+        "housing": {
+          "owned_home_pct": 83.3,
+          "rented_no_payment_pct": 3.1,
+          "rented_paying_pct": 13.6,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
+        "name": "Chinese",
+        "total_speakers": 5000,
         "source": "IPUMS"
       }
     ],
@@ -918,15 +2994,56 @@
       "snap_pct": 6.7,
       "linguistically_isolated_pct": 2.4
     },
+    "housing": {
+      "owned_home_pct": 72.7,
+      "rented_no_payment_pct": 0.7,
+      "rented_paying_pct": 26.6,
+      "renters_with_income": 39000,
+      "rent_burdened_pct": 42.6
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 3000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 3000,
         "lep_count": 3000,
         "lep_pct_of_area": 2.0,
+        "age": {
+          "age_5_17_pct": 16.9,
+          "age_18_34_pct": 20.7,
+          "age_35_64_pct": 47.0,
+          "age_65plus_pct": 15.4
+        },
+        "education": {
+          "universe": 2000,
+          "under_9th_pct": 30.7,
+          "incomplete_hs_pct": 4.4,
+          "hs_some_college_pct": 56.3,
+          "ba_higher_pct": 8.5
+        },
+        "poverty": {
+          "universe": 2000,
+          "band_1_124_pct": 12.0,
+          "band_125_199_pct": 15.6,
+          "band_200plus_pct": 72.4,
+          "band_400plus_pct": 14.5
+        },
+        "access": {
+          "hh_universe": 2000,
+          "linguistically_isolated_pct": 25.5,
+          "no_internet_pct": 18.9,
+          "no_computer_pct": 22.0,
+          "snap_pct": 8.2
+        },
+        "housing": {
+          "owned_home_pct": 44.2,
+          "rented_no_payment_pct": 0.0,
+          "rented_paying_pct": 55.8,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
+        "name": "Spanish",
+        "total_speakers": 3000,
         "source": "IPUMS"
       }
     ],
@@ -972,43 +3089,220 @@
       "snap_pct": 4.2,
       "linguistically_isolated_pct": 8.8
     },
+    "housing": {
+      "owned_home_pct": 47.9,
+      "rented_no_payment_pct": 1.3,
+      "rented_paying_pct": 50.8,
+      "renters_with_income": 74000,
+      "rent_burdened_pct": 28.6
+    },
     "median_hh_income": null,
     "top_language": "Chinese",
     "top_language_lep": 10000,
     "languages": [
       {
-        "name": "Chinese",
-        "total_speakers": 10000,
         "lep_count": 10000,
         "lep_pct_of_area": 6.8,
+        "age": {
+          "age_5_17_pct": 5.0,
+          "age_18_34_pct": 35.4,
+          "age_35_64_pct": 38.6,
+          "age_65plus_pct": 21.1
+        },
+        "education": {
+          "universe": 9000,
+          "under_9th_pct": 3.7,
+          "incomplete_hs_pct": 3.3,
+          "hs_some_college_pct": 25.0,
+          "ba_higher_pct": 68.0
+        },
+        "poverty": {
+          "universe": 10000,
+          "band_1_124_pct": 9.0,
+          "band_125_199_pct": 5.8,
+          "band_200plus_pct": 85.1,
+          "band_400plus_pct": 72.7
+        },
+        "access": {
+          "hh_universe": 10000,
+          "linguistically_isolated_pct": 58.1,
+          "no_internet_pct": 1.2,
+          "no_computer_pct": 2.2,
+          "snap_pct": 5.5
+        },
+        "housing": {
+          "owned_home_pct": 60.0,
+          "rented_no_payment_pct": 2.7,
+          "rented_paying_pct": 37.3,
+          "renters_with_income": 4000,
+          "rent_burdened_pct": 36.7
+        },
+        "name": "Chinese",
+        "total_speakers": 10000,
         "source": "IPUMS"
       },
       {
-        "name": "Spanish",
-        "total_speakers": 6000,
         "lep_count": 6000,
         "lep_pct_of_area": 4.1,
+        "age": {
+          "age_5_17_pct": 5.5,
+          "age_18_34_pct": 18.7,
+          "age_35_64_pct": 61.2,
+          "age_65plus_pct": 14.6
+        },
+        "education": {
+          "universe": 6000,
+          "under_9th_pct": 31.8,
+          "incomplete_hs_pct": 15.7,
+          "hs_some_college_pct": 37.5,
+          "ba_higher_pct": 14.9
+        },
+        "poverty": {
+          "universe": 6000,
+          "band_1_124_pct": 17.3,
+          "band_125_199_pct": 10.9,
+          "band_200plus_pct": 71.8,
+          "band_400plus_pct": 23.9
+        },
+        "access": {
+          "hh_universe": 6000,
+          "linguistically_isolated_pct": 30.7,
+          "no_internet_pct": 2.9,
+          "no_computer_pct": 23.7,
+          "snap_pct": 10.8
+        },
+        "housing": {
+          "owned_home_pct": 26.9,
+          "rented_no_payment_pct": 0.0,
+          "rented_paying_pct": 73.1,
+          "renters_with_income": 5000,
+          "rent_burdened_pct": 56.1
+        },
+        "name": "Spanish",
+        "total_speakers": 6000,
         "source": "IPUMS"
       },
       {
+        "lep_count": 2000,
+        "lep_pct_of_area": 1.4,
+        "age": {
+          "age_5_17_pct": 5.6,
+          "age_18_34_pct": 12.4,
+          "age_35_64_pct": 59.0,
+          "age_65plus_pct": 22.9
+        },
+        "education": {
+          "universe": 2000,
+          "under_9th_pct": 2.1,
+          "incomplete_hs_pct": 1.5,
+          "hs_some_college_pct": 27.5,
+          "ba_higher_pct": 68.9
+        },
+        "poverty": {
+          "universe": 2000,
+          "band_1_124_pct": 6.3,
+          "band_125_199_pct": 0.7,
+          "band_200plus_pct": 93.1,
+          "band_400plus_pct": 70.7
+        },
+        "access": {
+          "hh_universe": 2000,
+          "linguistically_isolated_pct": 58.5,
+          "no_internet_pct": 4.2,
+          "no_computer_pct": 4.2,
+          "snap_pct": 2.0
+        },
+        "housing": {
+          "owned_home_pct": 50.4,
+          "rented_no_payment_pct": 0.0,
+          "rented_paying_pct": 49.6,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
         "name": "Korean",
         "total_speakers": 2000,
-        "lep_count": 2000,
-        "lep_pct_of_area": 1.4,
         "source": "IPUMS"
       },
       {
+        "lep_count": 2000,
+        "lep_pct_of_area": 1.4,
+        "age": {
+          "age_5_17_pct": 0.7,
+          "age_18_34_pct": 10.3,
+          "age_35_64_pct": 58.3,
+          "age_65plus_pct": 30.7
+        },
+        "education": {
+          "universe": 2000,
+          "under_9th_pct": 8.0,
+          "incomplete_hs_pct": 0.3,
+          "hs_some_college_pct": 65.0,
+          "ba_higher_pct": 26.8
+        },
+        "poverty": {
+          "universe": 2000,
+          "band_1_124_pct": 6.0,
+          "band_125_199_pct": 10.7,
+          "band_200plus_pct": 83.4,
+          "band_400plus_pct": 50.1
+        },
+        "access": {
+          "hh_universe": 2000,
+          "linguistically_isolated_pct": 16.5,
+          "no_internet_pct": 0.0,
+          "no_computer_pct": 12.4,
+          "snap_pct": 6.1
+        },
+        "housing": {
+          "owned_home_pct": 56.4,
+          "rented_no_payment_pct": 1.4,
+          "rented_paying_pct": 42.3,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
         "name": "Tagalog",
         "total_speakers": 2000,
-        "lep_count": 2000,
-        "lep_pct_of_area": 1.4,
         "source": "IPUMS"
       },
       {
-        "name": "Vietnamese",
-        "total_speakers": 1000,
         "lep_count": 1000,
         "lep_pct_of_area": 0.7,
+        "age": {
+          "age_5_17_pct": 9.7,
+          "age_18_34_pct": 12.1,
+          "age_35_64_pct": 41.3,
+          "age_65plus_pct": 36.9
+        },
+        "education": {
+          "universe": 1000,
+          "under_9th_pct": 18.2,
+          "incomplete_hs_pct": 8.7,
+          "hs_some_college_pct": 47.3,
+          "ba_higher_pct": 25.8
+        },
+        "poverty": {
+          "universe": 1000,
+          "band_1_124_pct": 27.8,
+          "band_125_199_pct": 9.0,
+          "band_200plus_pct": 63.3,
+          "band_400plus_pct": 47.1
+        },
+        "access": {
+          "hh_universe": 1000,
+          "linguistically_isolated_pct": 52.2,
+          "no_internet_pct": 0.0,
+          "no_computer_pct": 3.6,
+          "snap_pct": 21.5
+        },
+        "housing": {
+          "owned_home_pct": 82.9,
+          "rented_no_payment_pct": 0.0,
+          "rented_paying_pct": 17.1,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
+        "name": "Vietnamese",
+        "total_speakers": 1000,
         "source": "IPUMS"
       }
     ],
@@ -1054,22 +3348,97 @@
       "snap_pct": 21.6,
       "linguistically_isolated_pct": 8.6
     },
+    "housing": {
+      "owned_home_pct": 56.3,
+      "rented_no_payment_pct": 1.0,
+      "rented_paying_pct": 42.6,
+      "renters_with_income": 56000,
+      "rent_burdened_pct": 45.9
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 27000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 27000,
         "lep_count": 27000,
         "lep_pct_of_area": 19.9,
+        "age": {
+          "age_5_17_pct": 6.1,
+          "age_18_34_pct": 15.0,
+          "age_35_64_pct": 62.4,
+          "age_65plus_pct": 16.5
+        },
+        "education": {
+          "universe": 25000,
+          "under_9th_pct": 43.0,
+          "incomplete_hs_pct": 18.3,
+          "hs_some_college_pct": 34.3,
+          "ba_higher_pct": 4.4
+        },
+        "poverty": {
+          "universe": 27000,
+          "band_1_124_pct": 18.8,
+          "band_125_199_pct": 21.5,
+          "band_200plus_pct": 59.7,
+          "band_400plus_pct": 19.4
+        },
+        "access": {
+          "hh_universe": 27000,
+          "linguistically_isolated_pct": 22.9,
+          "no_internet_pct": 7.0,
+          "no_computer_pct": 14.4,
+          "snap_pct": 20.4
+        },
+        "housing": {
+          "owned_home_pct": 49.0,
+          "rented_no_payment_pct": 0.8,
+          "rented_paying_pct": 50.2,
+          "renters_with_income": 13000,
+          "rent_burdened_pct": 45.7
+        },
+        "name": "Spanish",
+        "total_speakers": 27000,
         "source": "IPUMS"
       },
       {
-        "name": "Chinese",
-        "total_speakers": 4000,
         "lep_count": 4000,
         "lep_pct_of_area": 2.9,
+        "age": {
+          "age_5_17_pct": 0.9,
+          "age_18_34_pct": 8.8,
+          "age_35_64_pct": 61.9,
+          "age_65plus_pct": 28.4
+        },
+        "education": {
+          "universe": 3000,
+          "under_9th_pct": 11.3,
+          "incomplete_hs_pct": 5.1,
+          "hs_some_college_pct": 44.3,
+          "ba_higher_pct": 39.3
+        },
+        "poverty": {
+          "universe": 3000,
+          "band_1_124_pct": 13.9,
+          "band_125_199_pct": 17.1,
+          "band_200plus_pct": 69.1,
+          "band_400plus_pct": 41.8
+        },
+        "access": {
+          "hh_universe": 3000,
+          "linguistically_isolated_pct": 68.8,
+          "no_internet_pct": 3.4,
+          "no_computer_pct": 5.0,
+          "snap_pct": 8.8
+        },
+        "housing": {
+          "owned_home_pct": 84.2,
+          "rented_no_payment_pct": 2.6,
+          "rented_paying_pct": 13.3,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
+        "name": "Chinese",
+        "total_speakers": 4000,
         "source": "IPUMS"
       }
     ],
@@ -1115,22 +3484,97 @@
       "snap_pct": 11.5,
       "linguistically_isolated_pct": 7.1
     },
+    "housing": {
+      "owned_home_pct": 43.9,
+      "rented_no_payment_pct": 1.6,
+      "rented_paying_pct": 54.5,
+      "renters_with_income": 66000,
+      "rent_burdened_pct": 42.2
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 11000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 11000,
         "lep_count": 11000,
         "lep_pct_of_area": 8.5,
+        "age": {
+          "age_5_17_pct": 5.4,
+          "age_18_34_pct": 14.6,
+          "age_35_64_pct": 59.8,
+          "age_65plus_pct": 20.2
+        },
+        "education": {
+          "universe": 10000,
+          "under_9th_pct": 37.9,
+          "incomplete_hs_pct": 10.3,
+          "hs_some_college_pct": 43.1,
+          "ba_higher_pct": 8.6
+        },
+        "poverty": {
+          "universe": 11000,
+          "band_1_124_pct": 23.9,
+          "band_125_199_pct": 24.5,
+          "band_200plus_pct": 51.6,
+          "band_400plus_pct": 12.5
+        },
+        "access": {
+          "hh_universe": 11000,
+          "linguistically_isolated_pct": 37.1,
+          "no_internet_pct": 15.0,
+          "no_computer_pct": 30.1,
+          "snap_pct": 23.2
+        },
+        "housing": {
+          "owned_home_pct": 27.5,
+          "rented_no_payment_pct": 0.8,
+          "rented_paying_pct": 71.7,
+          "renters_with_income": 8000,
+          "rent_burdened_pct": 56.4
+        },
+        "name": "Spanish",
+        "total_speakers": 11000,
         "source": "IPUMS"
       },
       {
-        "name": "Chinese",
-        "total_speakers": 4000,
         "lep_count": 4000,
         "lep_pct_of_area": 3.1,
+        "age": {
+          "age_5_17_pct": 5.8,
+          "age_18_34_pct": 28.0,
+          "age_35_64_pct": 30.9,
+          "age_65plus_pct": 35.3
+        },
+        "education": {
+          "universe": 3000,
+          "under_9th_pct": 6.8,
+          "incomplete_hs_pct": 4.3,
+          "hs_some_college_pct": 43.0,
+          "ba_higher_pct": 46.0
+        },
+        "poverty": {
+          "universe": 4000,
+          "band_1_124_pct": 49.7,
+          "band_125_199_pct": 3.7,
+          "band_200plus_pct": 46.5,
+          "band_400plus_pct": 35.0
+        },
+        "access": {
+          "hh_universe": 4000,
+          "linguistically_isolated_pct": 70.8,
+          "no_internet_pct": 11.8,
+          "no_computer_pct": 15.7,
+          "snap_pct": 11.9
+        },
+        "housing": {
+          "owned_home_pct": 45.4,
+          "rented_no_payment_pct": 2.7,
+          "rented_paying_pct": 51.9,
+          "renters_with_income": 1000,
+          "rent_burdened_pct": 44.8
+        },
+        "name": "Chinese",
+        "total_speakers": 4000,
         "source": "IPUMS"
       }
     ],
@@ -1176,15 +3620,56 @@
       "snap_pct": 16.8,
       "linguistically_isolated_pct": 6.7
     },
+    "housing": {
+      "owned_home_pct": 57.5,
+      "rented_no_payment_pct": 0.8,
+      "rented_paying_pct": 41.7,
+      "renters_with_income": 49000,
+      "rent_burdened_pct": 43.8
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 17000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 17000,
         "lep_count": 17000,
         "lep_pct_of_area": 13.8,
+        "age": {
+          "age_5_17_pct": 4.9,
+          "age_18_34_pct": 10.9,
+          "age_35_64_pct": 68.4,
+          "age_65plus_pct": 15.8
+        },
+        "education": {
+          "universe": 16000,
+          "under_9th_pct": 32.9,
+          "incomplete_hs_pct": 17.0,
+          "hs_some_college_pct": 41.2,
+          "ba_higher_pct": 8.9
+        },
+        "poverty": {
+          "universe": 17000,
+          "band_1_124_pct": 20.8,
+          "band_125_199_pct": 20.3,
+          "band_200plus_pct": 58.9,
+          "band_400plus_pct": 24.0
+        },
+        "access": {
+          "hh_universe": 17000,
+          "linguistically_isolated_pct": 32.0,
+          "no_internet_pct": 4.4,
+          "no_computer_pct": 19.6,
+          "snap_pct": 17.9
+        },
+        "housing": {
+          "owned_home_pct": 57.1,
+          "rented_no_payment_pct": 1.1,
+          "rented_paying_pct": 41.8,
+          "renters_with_income": 7000,
+          "rent_burdened_pct": 53.1
+        },
+        "name": "Spanish",
+        "total_speakers": 17000,
         "source": "IPUMS"
       }
     ],
@@ -1230,15 +3715,56 @@
       "snap_pct": 22.5,
       "linguistically_isolated_pct": 15.0
     },
+    "housing": {
+      "owned_home_pct": 36.1,
+      "rented_no_payment_pct": 1.9,
+      "rented_paying_pct": 62.0,
+      "renters_with_income": 67000,
+      "rent_burdened_pct": 37.3
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 40000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 40000,
         "lep_count": 40000,
         "lep_pct_of_area": 37.0,
+        "age": {
+          "age_5_17_pct": 8.4,
+          "age_18_34_pct": 12.0,
+          "age_35_64_pct": 60.4,
+          "age_65plus_pct": 19.2
+        },
+        "education": {
+          "universe": 35000,
+          "under_9th_pct": 49.1,
+          "incomplete_hs_pct": 21.0,
+          "hs_some_college_pct": 26.4,
+          "ba_higher_pct": 3.4
+        },
+        "poverty": {
+          "universe": 39000,
+          "band_1_124_pct": 24.8,
+          "band_125_199_pct": 23.5,
+          "band_200plus_pct": 51.7,
+          "band_400plus_pct": 14.6
+        },
+        "access": {
+          "hh_universe": 40000,
+          "linguistically_isolated_pct": 36.4,
+          "no_internet_pct": 13.2,
+          "no_computer_pct": 23.4,
+          "snap_pct": 21.4
+        },
+        "housing": {
+          "owned_home_pct": 31.5,
+          "rented_no_payment_pct": 1.3,
+          "rented_paying_pct": 67.2,
+          "renters_with_income": 27000,
+          "rent_burdened_pct": 44.1
+        },
+        "name": "Spanish",
+        "total_speakers": 40000,
         "source": "IPUMS"
       }
     ],
@@ -1284,15 +3810,56 @@
       "snap_pct": 15.9,
       "linguistically_isolated_pct": 6.9
     },
+    "housing": {
+      "owned_home_pct": 65.1,
+      "rented_no_payment_pct": 1.3,
+      "rented_paying_pct": 33.6,
+      "renters_with_income": 36000,
+      "rent_burdened_pct": 50.0
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 10000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 10000,
         "lep_count": 10000,
         "lep_pct_of_area": 9.3,
+        "age": {
+          "age_5_17_pct": 12.8,
+          "age_18_34_pct": 14.7,
+          "age_35_64_pct": 59.2,
+          "age_65plus_pct": 13.2
+        },
+        "education": {
+          "universe": 9000,
+          "under_9th_pct": 35.2,
+          "incomplete_hs_pct": 12.4,
+          "hs_some_college_pct": 43.6,
+          "ba_higher_pct": 8.8
+        },
+        "poverty": {
+          "universe": 10000,
+          "band_1_124_pct": 20.7,
+          "band_125_199_pct": 20.3,
+          "band_200plus_pct": 59.0,
+          "band_400plus_pct": 24.3
+        },
+        "access": {
+          "hh_universe": 10000,
+          "linguistically_isolated_pct": 33.2,
+          "no_internet_pct": 5.4,
+          "no_computer_pct": 14.4,
+          "snap_pct": 15.4
+        },
+        "housing": {
+          "owned_home_pct": 51.0,
+          "rented_no_payment_pct": 2.9,
+          "rented_paying_pct": 46.1,
+          "renters_with_income": 4000,
+          "rent_burdened_pct": 60.7
+        },
+        "name": "Spanish",
+        "total_speakers": 10000,
         "source": "IPUMS"
       }
     ],
@@ -1338,15 +3905,56 @@
       "snap_pct": 20.7,
       "linguistically_isolated_pct": 10.8
     },
+    "housing": {
+      "owned_home_pct": 39.8,
+      "rented_no_payment_pct": 1.0,
+      "rented_paying_pct": 59.2,
+      "renters_with_income": 59000,
+      "rent_burdened_pct": 45.2
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 22000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 22000,
         "lep_count": 22000,
         "lep_pct_of_area": 21.2,
+        "age": {
+          "age_5_17_pct": 8.1,
+          "age_18_34_pct": 18.6,
+          "age_35_64_pct": 55.7,
+          "age_65plus_pct": 17.6
+        },
+        "education": {
+          "universe": 19000,
+          "under_9th_pct": 42.9,
+          "incomplete_hs_pct": 21.2,
+          "hs_some_college_pct": 30.0,
+          "ba_higher_pct": 6.0
+        },
+        "poverty": {
+          "universe": 21000,
+          "band_1_124_pct": 18.7,
+          "band_125_199_pct": 22.4,
+          "band_200plus_pct": 58.9,
+          "band_400plus_pct": 19.2
+        },
+        "access": {
+          "hh_universe": 21000,
+          "linguistically_isolated_pct": 41.4,
+          "no_internet_pct": 5.4,
+          "no_computer_pct": 17.8,
+          "snap_pct": 19.2
+        },
+        "housing": {
+          "owned_home_pct": 35.3,
+          "rented_no_payment_pct": 0.8,
+          "rented_paying_pct": 63.8,
+          "renters_with_income": 13000,
+          "rent_burdened_pct": 47.5
+        },
+        "name": "Spanish",
+        "total_speakers": 22000,
         "source": "IPUMS"
       }
     ],
@@ -1392,15 +4000,56 @@
       "snap_pct": 14.1,
       "linguistically_isolated_pct": 7.0
     },
+    "housing": {
+      "owned_home_pct": 54.2,
+      "rented_no_payment_pct": 0.7,
+      "rented_paying_pct": 45.1,
+      "renters_with_income": 43000,
+      "rent_burdened_pct": 47.6
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 18000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 18000,
         "lep_count": 18000,
         "lep_pct_of_area": 18.4,
+        "age": {
+          "age_5_17_pct": 6.8,
+          "age_18_34_pct": 11.8,
+          "age_35_64_pct": 55.0,
+          "age_65plus_pct": 26.4
+        },
+        "education": {
+          "universe": 16000,
+          "under_9th_pct": 34.6,
+          "incomplete_hs_pct": 12.3,
+          "hs_some_college_pct": 42.6,
+          "ba_higher_pct": 10.5
+        },
+        "poverty": {
+          "universe": 18000,
+          "band_1_124_pct": 15.2,
+          "band_125_199_pct": 13.6,
+          "band_200plus_pct": 71.2,
+          "band_400plus_pct": 37.2
+        },
+        "access": {
+          "hh_universe": 18000,
+          "linguistically_isolated_pct": 26.5,
+          "no_internet_pct": 4.0,
+          "no_computer_pct": 17.2,
+          "snap_pct": 14.1
+        },
+        "housing": {
+          "owned_home_pct": 50.7,
+          "rented_no_payment_pct": 0.8,
+          "rented_paying_pct": 48.5,
+          "renters_with_income": 9000,
+          "rent_burdened_pct": 53.7
+        },
+        "name": "Spanish",
+        "total_speakers": 18000,
         "source": "IPUMS"
       }
     ],
@@ -1446,15 +4095,56 @@
       "snap_pct": 21.0,
       "linguistically_isolated_pct": 8.3
     },
+    "housing": {
+      "owned_home_pct": 65.5,
+      "rented_no_payment_pct": 1.9,
+      "rented_paying_pct": 32.6,
+      "renters_with_income": 30000,
+      "rent_burdened_pct": 47.6
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 17000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 17000,
         "lep_count": 17000,
         "lep_pct_of_area": 18.1,
+        "age": {
+          "age_5_17_pct": 10.1,
+          "age_18_34_pct": 12.3,
+          "age_35_64_pct": 58.4,
+          "age_65plus_pct": 19.2
+        },
+        "education": {
+          "universe": 14000,
+          "under_9th_pct": 37.7,
+          "incomplete_hs_pct": 18.4,
+          "hs_some_college_pct": 41.8,
+          "ba_higher_pct": 2.1
+        },
+        "poverty": {
+          "universe": 17000,
+          "band_1_124_pct": 18.5,
+          "band_125_199_pct": 29.8,
+          "band_200plus_pct": 51.7,
+          "band_400plus_pct": 14.7
+        },
+        "access": {
+          "hh_universe": 17000,
+          "linguistically_isolated_pct": 35.0,
+          "no_internet_pct": 8.8,
+          "no_computer_pct": 18.2,
+          "snap_pct": 18.0
+        },
+        "housing": {
+          "owned_home_pct": 64.8,
+          "rented_no_payment_pct": 1.5,
+          "rented_paying_pct": 33.6,
+          "renters_with_income": 6000,
+          "rent_burdened_pct": 40.0
+        },
+        "name": "Spanish",
+        "total_speakers": 17000,
         "source": "IPUMS"
       }
     ],
@@ -1500,36 +4190,179 @@
       "snap_pct": 10.8,
       "linguistically_isolated_pct": 4.1
     },
+    "housing": {
+      "owned_home_pct": 73.6,
+      "rented_no_payment_pct": 1.9,
+      "rented_paying_pct": 24.5,
+      "renters_with_income": 22000,
+      "rent_burdened_pct": 45.0
+    },
     "median_hh_income": null,
     "top_language": "Chinese",
     "top_language_lep": 3000,
     "languages": [
       {
-        "name": "Chinese",
-        "total_speakers": 3000,
         "lep_count": 3000,
         "lep_pct_of_area": 3.3,
+        "age": {
+          "age_5_17_pct": 7.7,
+          "age_18_34_pct": 11.5,
+          "age_35_64_pct": 57.9,
+          "age_65plus_pct": 22.9
+        },
+        "education": {
+          "universe": 2000,
+          "under_9th_pct": 22.6,
+          "incomplete_hs_pct": 16.0,
+          "hs_some_college_pct": 42.5,
+          "ba_higher_pct": 18.8
+        },
+        "poverty": {
+          "universe": 3000,
+          "band_1_124_pct": 24.9,
+          "band_125_199_pct": 7.8,
+          "band_200plus_pct": 67.3,
+          "band_400plus_pct": 33.7
+        },
+        "access": {
+          "hh_universe": 3000,
+          "linguistically_isolated_pct": 45.2,
+          "no_internet_pct": 2.4,
+          "no_computer_pct": 5.6,
+          "snap_pct": 16.0
+        },
+        "housing": {
+          "owned_home_pct": 82.4,
+          "rented_no_payment_pct": 3.9,
+          "rented_paying_pct": 13.7,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
+        "name": "Chinese",
+        "total_speakers": 3000,
         "source": "IPUMS"
       },
       {
+        "lep_count": 2000,
+        "lep_pct_of_area": 2.2,
+        "age": {
+          "age_5_17_pct": 14.8,
+          "age_18_34_pct": 9.0,
+          "age_35_64_pct": 62.2,
+          "age_65plus_pct": 14.0
+        },
+        "education": {
+          "universe": 1000,
+          "under_9th_pct": 12.7,
+          "incomplete_hs_pct": 25.3,
+          "hs_some_college_pct": 51.1,
+          "ba_higher_pct": 10.9
+        },
+        "poverty": {
+          "universe": 2000,
+          "band_1_124_pct": 10.2,
+          "band_125_199_pct": 9.0,
+          "band_200plus_pct": 80.8,
+          "band_400plus_pct": 37.8
+        },
+        "access": {
+          "hh_universe": 2000,
+          "linguistically_isolated_pct": 11.1,
+          "no_internet_pct": 2.4,
+          "no_computer_pct": 4.4,
+          "snap_pct": 1.6
+        },
+        "housing": {
+          "owned_home_pct": 82.7,
+          "rented_no_payment_pct": 0.0,
+          "rented_paying_pct": 17.3,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
         "name": "Spanish",
         "total_speakers": 2000,
-        "lep_count": 2000,
-        "lep_pct_of_area": 2.2,
         "source": "IPUMS"
       },
       {
+        "lep_count": 2000,
+        "lep_pct_of_area": 2.2,
+        "age": {
+          "age_5_17_pct": 5.5,
+          "age_18_34_pct": 5.9,
+          "age_35_64_pct": 61.4,
+          "age_65plus_pct": 27.2
+        },
+        "education": {
+          "universe": 2000,
+          "under_9th_pct": 26.5,
+          "incomplete_hs_pct": 10.9,
+          "hs_some_college_pct": 48.7,
+          "ba_higher_pct": 13.9
+        },
+        "poverty": {
+          "universe": 2000,
+          "band_1_124_pct": 11.8,
+          "band_125_199_pct": 16.5,
+          "band_200plus_pct": 71.7,
+          "band_400plus_pct": 43.6
+        },
+        "access": {
+          "hh_universe": 2000,
+          "linguistically_isolated_pct": 28.4,
+          "no_internet_pct": 6.7,
+          "no_computer_pct": 7.2,
+          "snap_pct": 12.8
+        },
+        "housing": {
+          "owned_home_pct": 77.4,
+          "rented_no_payment_pct": 4.1,
+          "rented_paying_pct": 18.5,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
         "name": "Vietnamese",
         "total_speakers": 2000,
-        "lep_count": 2000,
-        "lep_pct_of_area": 2.2,
         "source": "IPUMS"
       },
       {
-        "name": "Tagalog",
-        "total_speakers": 1000,
         "lep_count": 1000,
         "lep_pct_of_area": 1.1,
+        "age": {
+          "age_5_17_pct": 7.7,
+          "age_18_34_pct": 5.1,
+          "age_35_64_pct": 62.8,
+          "age_65plus_pct": 24.3
+        },
+        "education": {
+          "universe": 1000,
+          "under_9th_pct": 9.6,
+          "incomplete_hs_pct": 2.4,
+          "hs_some_college_pct": 60.8,
+          "ba_higher_pct": 27.1
+        },
+        "poverty": {
+          "universe": 1000,
+          "band_1_124_pct": 7.1,
+          "band_125_199_pct": 6.5,
+          "band_200plus_pct": 86.3,
+          "band_400plus_pct": 51.6
+        },
+        "access": {
+          "hh_universe": 1000,
+          "linguistically_isolated_pct": 29.6,
+          "no_internet_pct": 0.0,
+          "no_computer_pct": 6.8,
+          "snap_pct": 15.8
+        },
+        "housing": {
+          "owned_home_pct": 79.2,
+          "rented_no_payment_pct": 1.1,
+          "rented_paying_pct": 19.7,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
+        "name": "Tagalog",
+        "total_speakers": 1000,
         "source": "IPUMS"
       }
     ],
@@ -1575,15 +4408,56 @@
       "snap_pct": 10.2,
       "linguistically_isolated_pct": 4.2
     },
+    "housing": {
+      "owned_home_pct": 75.2,
+      "rented_no_payment_pct": 1.3,
+      "rented_paying_pct": 23.5,
+      "renters_with_income": 20000,
+      "rent_burdened_pct": 47.8
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 6000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 6000,
         "lep_count": 6000,
         "lep_pct_of_area": 7.1,
+        "age": {
+          "age_5_17_pct": 9.3,
+          "age_18_34_pct": 15.6,
+          "age_35_64_pct": 62.3,
+          "age_65plus_pct": 12.8
+        },
+        "education": {
+          "universe": 5000,
+          "under_9th_pct": 35.4,
+          "incomplete_hs_pct": 17.0,
+          "hs_some_college_pct": 37.2,
+          "ba_higher_pct": 10.4
+        },
+        "poverty": {
+          "universe": 6000,
+          "band_1_124_pct": 8.5,
+          "band_125_199_pct": 18.0,
+          "band_200plus_pct": 73.5,
+          "band_400plus_pct": 31.5
+        },
+        "access": {
+          "hh_universe": 6000,
+          "linguistically_isolated_pct": 31.0,
+          "no_internet_pct": 3.1,
+          "no_computer_pct": 7.1,
+          "snap_pct": 21.2
+        },
+        "housing": {
+          "owned_home_pct": 58.9,
+          "rented_no_payment_pct": 0.3,
+          "rented_paying_pct": 40.7,
+          "renters_with_income": 2000,
+          "rent_burdened_pct": 44.1
+        },
+        "name": "Spanish",
+        "total_speakers": 6000,
         "source": "IPUMS"
       }
     ],
@@ -1629,15 +4503,56 @@
       "snap_pct": 7.4,
       "linguistically_isolated_pct": 3.8
     },
+    "housing": {
+      "owned_home_pct": 75.6,
+      "rented_no_payment_pct": 0.7,
+      "rented_paying_pct": 23.7,
+      "renters_with_income": 12000,
+      "rent_burdened_pct": 44.2
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 3000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 3000,
         "lep_count": 3000,
         "lep_pct_of_area": 6.1,
+        "age": {
+          "age_5_17_pct": 10.9,
+          "age_18_34_pct": 23.0,
+          "age_35_64_pct": 56.3,
+          "age_65plus_pct": 9.8
+        },
+        "education": {
+          "universe": 3000,
+          "under_9th_pct": 28.2,
+          "incomplete_hs_pct": 18.8,
+          "hs_some_college_pct": 40.8,
+          "ba_higher_pct": 12.2
+        },
+        "poverty": {
+          "universe": 3000,
+          "band_1_124_pct": 19.3,
+          "band_125_199_pct": 10.9,
+          "band_200plus_pct": 69.8,
+          "band_400plus_pct": 24.7
+        },
+        "access": {
+          "hh_universe": 3000,
+          "linguistically_isolated_pct": 40.0,
+          "no_internet_pct": 2.2,
+          "no_computer_pct": 27.1,
+          "snap_pct": 11.3
+        },
+        "housing": {
+          "owned_home_pct": 56.6,
+          "rented_no_payment_pct": 0.0,
+          "rented_paying_pct": 43.4,
+          "renters_with_income": 0,
+          "rent_burdened_pct": 0.0
+        },
+        "name": "Spanish",
+        "total_speakers": 3000,
         "source": "IPUMS"
       }
     ],
@@ -1683,15 +4598,56 @@
       "snap_pct": 19.1,
       "linguistically_isolated_pct": 9.1
     },
+    "housing": {
+      "owned_home_pct": 70.8,
+      "rented_no_payment_pct": 0.8,
+      "rented_paying_pct": 28.4,
+      "renters_with_income": 10000,
+      "rent_burdened_pct": 42.6
+    },
     "median_hh_income": null,
     "top_language": "Spanish",
     "top_language_lep": 8000,
     "languages": [
       {
-        "name": "Spanish",
-        "total_speakers": 8000,
         "lep_count": 8000,
         "lep_pct_of_area": 21.1,
+        "age": {
+          "age_5_17_pct": 11.1,
+          "age_18_34_pct": 10.5,
+          "age_35_64_pct": 57.5,
+          "age_65plus_pct": 21.0
+        },
+        "education": {
+          "universe": 6000,
+          "under_9th_pct": 38.2,
+          "incomplete_hs_pct": 12.3,
+          "hs_some_college_pct": 40.7,
+          "ba_higher_pct": 8.8
+        },
+        "poverty": {
+          "universe": 7000,
+          "band_1_124_pct": 10.9,
+          "band_125_199_pct": 17.9,
+          "band_200plus_pct": 71.2,
+          "band_400plus_pct": 27.9
+        },
+        "access": {
+          "hh_universe": 7000,
+          "linguistically_isolated_pct": 29.4,
+          "no_internet_pct": 2.5,
+          "no_computer_pct": 16.1,
+          "snap_pct": 21.8
+        },
+        "housing": {
+          "owned_home_pct": 65.1,
+          "rented_no_payment_pct": 0.1,
+          "rented_paying_pct": 34.8,
+          "renters_with_income": 3000,
+          "rent_burdened_pct": 43.5
+        },
+        "name": "Spanish",
+        "total_speakers": 8000,
         "source": "IPUMS"
       }
     ],
