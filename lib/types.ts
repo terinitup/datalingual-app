@@ -1,8 +1,51 @@
+export interface LanguageData {
+  name: string
+  total_speakers: number
+  lep_count: number
+  lep_pct_of_area: number
+  source?: string
+  age?: {
+    age_5_17_pct: number
+    age_18_34_pct: number
+    age_35_64_pct: number
+    age_65plus_pct: number
+  }
+  education?: {
+    universe: number
+    under_9th_pct: number
+    incomplete_hs_pct: number
+    hs_some_college_pct: number
+    ba_higher_pct: number
+  }
+  poverty?: {
+    universe: number
+    band_1_124_pct: number
+    band_125_199_pct: number
+    band_200plus_pct: number
+    band_400plus_pct: number
+  }
+  access?: {
+    hh_universe: number
+    linguistically_isolated_pct: number
+    no_internet_pct: number
+    no_computer_pct: number
+    snap_pct: number
+  }
+  housing?: {
+    owned_home_pct: number
+    rented_no_payment_pct: number
+    rented_paying_pct: number
+    renters_with_income: number
+    rent_burdened_pct: number
+  }
+}
+
 export interface GeoArea {
   geo_id: string
   geo_type: "county" | "city" | "puma" | "zip"
   name: string
   population: number
+  language_source?: string
   proficiency: {
     english_only: number
     english_only_pct: number
@@ -13,47 +56,49 @@ export interface GeoArea {
     total_pop_5plus: number
   }
   poverty: {
-    universe: number
-    band_1_124: number
+    universe?: number
+    band_1_124?: number
     band_1_124_pct: number
-    band_125_199: number
+    band_125_199?: number
     band_125_199_pct: number
-    band_200_399: number
+    band_200_399?: number
     band_200_399_pct: number
-    band_400plus: number
+    band_400plus?: number
     band_400plus_pct: number
     below_poverty_pct: number
   }
   education: {
-    universe: number
-    under_9th: number
+    universe?: number
+    under_9th?: number
     under_9th_pct: number
-    incomplete_hs: number
+    incomplete_hs?: number
     incomplete_hs_pct: number
-    hs_some_college: number
+    hs_some_college?: number
     hs_some_college_pct: number
-    ba_higher: number
+    ba_higher?: number
     ba_higher_pct: number
   }
   access: {
-    no_internet: number
+    no_internet?: number
     no_internet_pct: number
-    no_computer: number
+    no_computer?: number
     no_computer_pct: number
-    snap_households: number
+    snap_households?: number
     snap_pct: number
-    linguistically_isolated: number
+    linguistically_isolated?: number
     linguistically_isolated_pct: number
   }
-  median_hh_income: number | null
+  housing?: {
+    owned_home_pct: number
+    rented_no_payment_pct: number
+    rented_paying_pct: number
+    renters_with_income: number
+    rent_burdened_pct: number
+  }
+  median_hh_income?: number | null
   top_language: string
   top_language_lep: number
-  languages: {
-    name: string
-    total_speakers: number
-    lep_count: number
-    lep_pct_of_area: number
-  }[]
+  languages: LanguageData[]
   lep_total: number
   lep_pct: number
   poverty_pct: number
@@ -126,6 +171,13 @@ export const SAMPLE_AREA: GeoArea = {
     linguistically_isolated: 8568,
     linguistically_isolated_pct: 29.6,
   },
+  housing: {
+    owned_home_pct: 0,
+    rented_no_payment_pct: 0,
+    rented_paying_pct: 0,
+    renters_with_income: 0,
+    rent_burdened_pct: 0,
+  },
   median_hh_income: 56076,
   top_language: "Spanish",
   top_language_lep: 56100,
@@ -135,30 +187,6 @@ export const SAMPLE_AREA: GeoArea = {
       total_speakers: 92433,
       lep_count: 56100,
       lep_pct_of_area: 50.4,
-    },
-    {
-      name: "Korean",
-      total_speakers: 483,
-      lep_count: 426,
-      lep_pct_of_area: 0.4,
-    },
-    {
-      name: "Other languages",
-      total_speakers: 838,
-      lep_count: 260,
-      lep_pct_of_area: 0.2,
-    },
-    {
-      name: "Chinese (Mandarin/Cantonese)",
-      total_speakers: 150,
-      lep_count: 80,
-      lep_pct_of_area: 0.1,
-    },
-    {
-      name: "Arabic",
-      total_speakers: 22,
-      lep_count: 20,
-      lep_pct_of_area: 0.0,
     },
   ],
   lep_total: 56962,
