@@ -14,14 +14,20 @@
     "total_pop_5plus": 9319000
   },
   "poverty": {
-    "universe": 2161000,
-    "band_1_124_pct": 22.8,
-    "band_125_199_pct": 19.2,
-    "band_200_399_pct": 34.3,
-    "band_400plus_pct": 23.7,
-    "below_poverty_pct": 22.8
+    "universe": 9118000,
+    "band_1_124_pct": 16.0,
+    "band_125_199_pct": 12.9,
+    "band_200_399_pct": 29.4,
+    "band_400plus_pct": 41.7,
+    "below_poverty_pct": 16.0
   },
-  "education": {},
+  "education": {
+    "universe": 6892000,
+    "under_9th_pct": 11.7,
+    "incomplete_hs_pct": 7.8,
+    "hs_some_college_pct": 45.2,
+    "ba_higher_pct": 35.3
+  },
   "access": {
     "no_internet_pct": 4.3,
     "no_computer_pct": 9.3,
@@ -308,7 +314,7 @@
   ],
   "lep_total": 2184000,
   "lep_pct": 23.4,
-  "poverty_pct": 22.8,
+  "poverty_pct": 16.0,
   "no_internet_pct": 4.3,
   "snap_pct": 15.8
 }

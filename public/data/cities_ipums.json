@@ -15,14 +15,20 @@
       "total_pop_5plus": 3694000
     },
     "poverty": {
-      "universe": 922000,
-      "band_1_124_pct": 26.5,
-      "band_125_199_pct": 20.5,
-      "band_200_399_pct": 33.3,
-      "band_400plus_pct": 19.7,
-      "below_poverty_pct": 26.5
+      "universe": 3592000,
+      "band_1_124_pct": 19.2,
+      "band_125_199_pct": 13.7,
+      "band_200_399_pct": 28.5,
+      "band_400plus_pct": 38.7,
+      "below_poverty_pct": 19.2
     },
-    "education": {},
+    "education": {
+      "universe": 2750000,
+      "under_9th_pct": 13.0,
+      "incomplete_hs_pct": 8.2,
+      "hs_some_college_pct": 41.8,
+      "ba_higher_pct": 37.0
+    },
     "access": {
       "no_internet_pct": 4.7,
       "no_computer_pct": 10.6,
@@ -197,12 +203,12 @@
     ],
     "lep_total": 933000,
     "lep_pct": 25.3,
-    "poverty_pct": 26.5,
+    "poverty_pct": 19.2,
     "no_internet_pct": 4.7,
     "snap_pct": 17.3
   },
   {
-    "geo_id": "06_san_francisco",
+    "geo_id": "0667000",
     "geo_type": "city",
     "name": "San Francisco",
     "population": 801000,
@@ -217,14 +223,20 @@
       "total_pop_5plus": 800000
     },
     "poverty": {
-      "universe": 148000,
-      "band_1_124_pct": 20.2,
-      "band_125_199_pct": 13.3,
-      "band_200_399_pct": 28.5,
-      "band_400plus_pct": 38.0,
-      "below_poverty_pct": 20.2
+      "universe": 778000,
+      "band_1_124_pct": 11.4,
+      "band_125_199_pct": 7.2,
+      "band_200_399_pct": 17.0,
+      "band_400plus_pct": 64.4,
+      "below_poverty_pct": 11.4
     },
-    "education": {},
+    "education": {
+      "universe": 665000,
+      "under_9th_pct": 6.9,
+      "incomplete_hs_pct": 4.2,
+      "hs_some_college_pct": 28.5,
+      "ba_higher_pct": 60.5
+    },
     "access": {
       "no_internet_pct": 3.4,
       "no_computer_pct": 7.3,
@@ -294,7 +306,7 @@
     ],
     "lep_total": 151000,
     "lep_pct": 18.9,
-    "poverty_pct": 20.2,
+    "poverty_pct": 11.4,
     "no_internet_pct": 3.4,
     "snap_pct": 11.2
   },
@@ -314,14 +326,20 @@
       "total_pop_5plus": 440000
     },
     "poverty": {
-      "universe": 70000,
-      "band_1_124_pct": 22.3,
-      "band_125_199_pct": 19.7,
-      "band_200_399_pct": 34.0,
-      "band_400plus_pct": 24.0,
-      "below_poverty_pct": 22.3
+      "universe": 429000,
+      "band_1_124_pct": 16.0,
+      "band_125_199_pct": 12.0,
+      "band_200_399_pct": 29.1,
+      "band_400plus_pct": 42.9,
+      "below_poverty_pct": 16.0
     },
-    "education": {},
+    "education": {
+      "universe": 325000,
+      "under_9th_pct": 10.7,
+      "incomplete_hs_pct": 7.2,
+      "hs_some_college_pct": 46.7,
+      "ba_higher_pct": 35.3
+    },
     "access": {
       "no_internet_pct": 4.4,
       "no_computer_pct": 9.1,
@@ -370,12 +388,12 @@
     ],
     "lep_total": 71000,
     "lep_pct": 16.1,
-    "poverty_pct": 22.3,
+    "poverty_pct": 16.0,
     "no_internet_pct": 4.4,
     "snap_pct": 16.5
   },
   {
-    "geo_id": "06_oakland",
+    "geo_id": "0653000",
     "geo_type": "city",
     "name": "Oakland",
     "population": 424000,
@@ -390,14 +408,20 @@
       "total_pop_5plus": 424000
     },
     "poverty": {
-      "universe": 62000,
-      "band_1_124_pct": 26.1,
-      "band_125_199_pct": 19.1,
-      "band_200_399_pct": 31.8,
-      "band_400plus_pct": 23.0,
-      "below_poverty_pct": 26.1
+      "universe": 418000,
+      "band_1_124_pct": 15.9,
+      "band_125_199_pct": 10.9,
+      "band_200_399_pct": 23.2,
+      "band_400plus_pct": 50.0,
+      "below_poverty_pct": 15.9
     },
-    "education": {},
+    "education": {
+      "universe": 333000,
+      "under_9th_pct": 8.1,
+      "incomplete_hs_pct": 6.0,
+      "hs_some_college_pct": 36.0,
+      "ba_higher_pct": 49.9
+    },
     "access": {
       "no_internet_pct": 5.7,
       "no_computer_pct": 10.9,
@@ -446,12 +470,12 @@
     ],
     "lep_total": 63000,
     "lep_pct": 14.9,
-    "poverty_pct": 26.1,
+    "poverty_pct": 15.9,
     "no_internet_pct": 5.7,
     "snap_pct": 15.8
   },
   {
-    "geo_id": "06_santa_ana",
+    "geo_id": "0669000",
     "geo_type": "city",
     "name": "Santa Ana",
     "population": 297000,
@@ -466,14 +490,20 @@
       "total_pop_5plus": 298000
     },
     "poverty": {
-      "universe": 99000,
-      "band_1_124_pct": 17.3,
-      "band_125_199_pct": 20.3,
-      "band_200_399_pct": 40.2,
-      "band_400plus_pct": 22.2,
-      "below_poverty_pct": 17.3
+      "universe": 293000,
+      "band_1_124_pct": 14.8,
+      "band_125_199_pct": 17.6,
+      "band_200_399_pct": 37.6,
+      "band_400plus_pct": 30.1,
+      "below_poverty_pct": 14.8
     },
-    "education": {},
+    "education": {
+      "universe": 206000,
+      "under_9th_pct": 20.0,
+      "incomplete_hs_pct": 14.6,
+      "hs_some_college_pct": 47.7,
+      "ba_higher_pct": 17.7
+    },
     "access": {
       "no_internet_pct": 5.2,
       "no_computer_pct": 11.9,
@@ -515,12 +545,12 @@
     ],
     "lep_total": 100000,
     "lep_pct": 33.6,
-    "poverty_pct": 17.3,
+    "poverty_pct": 14.8,
     "no_internet_pct": 5.2,
     "snap_pct": 14.3
   },
   {
-    "geo_id": "06_moreno_valley",
+    "geo_id": "0649270",
     "geo_type": "city",
     "name": "Moreno Valley",
     "population": 199000,
@@ -535,14 +565,20 @@
       "total_pop_5plus": 199000
     },
     "poverty": {
-      "universe": 36000,
-      "band_1_124_pct": 15.7,
-      "band_125_199_pct": 21.7,
-      "band_200_399_pct": 42.6,
-      "band_400plus_pct": 20.0,
-      "below_poverty_pct": 15.7
+      "universe": 198000,
+      "band_1_124_pct": 14.6,
+      "band_125_199_pct": 16.3,
+      "band_200_399_pct": 39.0,
+      "band_400plus_pct": 30.1,
+      "below_poverty_pct": 14.6
     },
-    "education": {},
+    "education": {
+      "universe": 132000,
+      "under_9th_pct": 10.1,
+      "incomplete_hs_pct": 10.3,
+      "hs_some_college_pct": 62.5,
+      "ba_higher_pct": 17.1
+    },
     "access": {
       "no_internet_pct": 2.0,
       "no_computer_pct": 8.3,
@@ -563,7 +599,7 @@
     ],
     "lep_total": 36000,
     "lep_pct": 18.1,
-    "poverty_pct": 15.7,
+    "poverty_pct": 14.6,
     "no_internet_pct": 2.0,
     "snap_pct": 17.5
   },
@@ -583,14 +619,20 @@
       "total_pop_5plus": 184000
     },
     "poverty": {
-      "universe": 55000,
-      "band_1_124_pct": 27.1,
-      "band_125_199_pct": 16.2,
-      "band_200_399_pct": 30.4,
-      "band_400plus_pct": 26.3,
-      "below_poverty_pct": 27.1
+      "universe": 182000,
+      "band_1_124_pct": 15.0,
+      "band_125_199_pct": 12.7,
+      "band_200_399_pct": 25.4,
+      "band_400plus_pct": 46.9,
+      "below_poverty_pct": 15.0
     },
-    "education": {},
+    "education": {
+      "universe": 144000,
+      "under_9th_pct": 6.6,
+      "incomplete_hs_pct": 4.0,
+      "hs_some_college_pct": 43.7,
+      "ba_higher_pct": 45.7
+    },
     "access": {
       "no_internet_pct": 5.3,
       "no_computer_pct": 10.0,
@@ -646,12 +688,12 @@
     ],
     "lep_total": 56000,
     "lep_pct": 30.4,
-    "poverty_pct": 27.1,
+    "poverty_pct": 15.0,
     "no_internet_pct": 5.3,
     "snap_pct": 20.3
   },
   {
-    "geo_id": "06_huntington_beach",
+    "geo_id": "0636000",
     "geo_type": "city",
     "name": "Huntington Beach",
     "population": 183000,
@@ -666,14 +708,20 @@
       "total_pop_5plus": 183000
     },
     "poverty": {
-      "universe": 14000,
-      "band_1_124_pct": 20.1,
-      "band_125_199_pct": 10.7,
-      "band_200_399_pct": 27.4,
-      "band_400plus_pct": 41.8,
-      "below_poverty_pct": 20.1
+      "universe": 182000,
+      "band_1_124_pct": 8.5,
+      "band_125_199_pct": 6.1,
+      "band_200_399_pct": 21.3,
+      "band_400plus_pct": 64.0,
+      "below_poverty_pct": 8.5
     },
-    "education": {},
+    "education": {
+      "universe": 144000,
+      "under_9th_pct": 3.1,
+      "incomplete_hs_pct": 3.5,
+      "hs_some_college_pct": 46.7,
+      "ba_higher_pct": 46.8
+    },
     "access": {
       "no_internet_pct": 2.6,
       "no_computer_pct": 4.7,
@@ -708,12 +756,12 @@
     ],
     "lep_total": 14000,
     "lep_pct": 7.7,
-    "poverty_pct": 20.1,
+    "poverty_pct": 8.5,
     "no_internet_pct": 2.6,
     "snap_pct": 7.2
   },
   {
-    "geo_id": "06_ontario",
+    "geo_id": "0653896",
     "geo_type": "city",
     "name": "Ontario",
     "population": 173000,
@@ -728,14 +776,20 @@
       "total_pop_5plus": 173000
     },
     "poverty": {
-      "universe": 40000,
-      "band_1_124_pct": 18.1,
-      "band_125_199_pct": 21.8,
-      "band_200_399_pct": 38.8,
-      "band_400plus_pct": 21.3,
-      "below_poverty_pct": 18.1
+      "universe": 172000,
+      "band_1_124_pct": 15.0,
+      "band_125_199_pct": 15.3,
+      "band_200_399_pct": 37.0,
+      "band_400plus_pct": 32.7,
+      "below_poverty_pct": 15.0
     },
-    "education": {},
+    "education": {
+      "universe": 121000,
+      "under_9th_pct": 12.3,
+      "incomplete_hs_pct": 11.0,
+      "hs_some_college_pct": 56.3,
+      "ba_higher_pct": 20.3
+    },
     "access": {
       "no_internet_pct": 3.5,
       "no_computer_pct": 9.8,
@@ -763,12 +817,12 @@
     ],
     "lep_total": 40000,
     "lep_pct": 23.1,
-    "poverty_pct": 18.1,
+    "poverty_pct": 15.0,
     "no_internet_pct": 3.5,
     "snap_pct": 15.0
   },
   {
-    "geo_id": "06_rancho_cucamonga",
+    "geo_id": "0659451",
     "geo_type": "city",
     "name": "Rancho Cucamonga",
     "population": 164000,
@@ -783,14 +837,20 @@
       "total_pop_5plus": 164000
     },
     "poverty": {
-      "universe": 19000,
-      "band_1_124_pct": 20.4,
-      "band_125_199_pct": 16.3,
-      "band_200_399_pct": 29.2,
-      "band_400plus_pct": 34.1,
-      "below_poverty_pct": 20.4
+      "universe": 160000,
+      "band_1_124_pct": 9.8,
+      "band_125_199_pct": 9.8,
+      "band_200_399_pct": 25.9,
+      "band_400plus_pct": 54.5,
+      "below_poverty_pct": 9.8
     },
-    "education": {},
+    "education": {
+      "universe": 121000,
+      "under_9th_pct": 4.1,
+      "incomplete_hs_pct": 4.5,
+      "hs_some_college_pct": 55.6,
+      "ba_higher_pct": 35.8
+    },
     "access": {
       "no_internet_pct": 2.5,
       "no_computer_pct": 5.3,
@@ -818,12 +878,12 @@
     ],
     "lep_total": 19000,
     "lep_pct": 11.6,
-    "poverty_pct": 20.4,
+    "poverty_pct": 9.8,
     "no_internet_pct": 2.5,
     "snap_pct": 8.4
   },
   {
-    "geo_id": "06_roseville",
+    "geo_id": "0662938",
     "geo_type": "city",
     "name": "Roseville",
     "population": 148000,
@@ -838,14 +898,20 @@
       "total_pop_5plus": 148000
     },
     "poverty": {
-      "universe": 9000,
-      "band_1_124_pct": 12.4,
-      "band_125_199_pct": 12.6,
-      "band_200_399_pct": 36.1,
-      "band_400plus_pct": 38.9,
-      "below_poverty_pct": 12.4
+      "universe": 147000,
+      "band_1_124_pct": 6.7,
+      "band_125_199_pct": 7.0,
+      "band_200_399_pct": 22.6,
+      "band_400plus_pct": 63.7,
+      "below_poverty_pct": 6.7
     },
-    "education": {},
+    "education": {
+      "universe": 111000,
+      "under_9th_pct": 2.2,
+      "incomplete_hs_pct": 2.6,
+      "hs_some_college_pct": 52.0,
+      "ba_higher_pct": 43.2
+    },
     "access": {
       "no_internet_pct": 2.8,
       "no_computer_pct": 4.1,
@@ -866,12 +932,12 @@
     ],
     "lep_total": 9000,
     "lep_pct": 6.1,
-    "poverty_pct": 12.4,
+    "poverty_pct": 6.7,
     "no_internet_pct": 2.8,
     "snap_pct": 6.7
   },
   {
-    "geo_id": "06_sunnyvale",
+    "geo_id": "0677000",
     "geo_type": "city",
     "name": "Sunnyvale",
     "population": 147000,
@@ -886,14 +952,20 @@
       "total_pop_5plus": 148000
     },
     "poverty": {
-      "universe": 28000,
-      "band_1_124_pct": 10.1,
-      "band_125_199_pct": 7.0,
-      "band_200_399_pct": 23.2,
-      "band_400plus_pct": 59.8,
-      "below_poverty_pct": 10.1
+      "universe": 146000,
+      "band_1_124_pct": 6.1,
+      "band_125_199_pct": 4.1,
+      "band_200_399_pct": 15.6,
+      "band_400plus_pct": 74.2,
+      "below_poverty_pct": 6.1
     },
-    "education": {},
+    "education": {
+      "universe": 116000,
+      "under_9th_pct": 3.3,
+      "incomplete_hs_pct": 2.3,
+      "hs_some_college_pct": 25.5,
+      "ba_higher_pct": 68.9
+    },
     "access": {
       "no_internet_pct": 1.9,
       "no_computer_pct": 4.2,
@@ -942,7 +1014,7 @@
     ],
     "lep_total": 29000,
     "lep_pct": 19.6,
-    "poverty_pct": 10.1,
+    "poverty_pct": 6.1,
     "no_internet_pct": 1.9,
     "snap_pct": 4.2
   },
@@ -962,14 +1034,20 @@
       "total_pop_5plus": 136000
     },
     "poverty": {
-      "universe": 34000,
-      "band_1_124_pct": 18.5,
-      "band_125_199_pct": 20.1,
-      "band_200_399_pct": 37.0,
-      "band_400plus_pct": 24.4,
-      "below_poverty_pct": 18.5
+      "universe": 132000,
+      "band_1_124_pct": 16.5,
+      "band_125_199_pct": 18.0,
+      "band_200_399_pct": 34.6,
+      "band_400plus_pct": 30.8,
+      "below_poverty_pct": 16.5
     },
-    "education": {},
+    "education": {
+      "universe": 95000,
+      "under_9th_pct": 15.6,
+      "incomplete_hs_pct": 12.0,
+      "hs_some_college_pct": 52.4,
+      "ba_higher_pct": 19.9
+    },
     "access": {
       "no_internet_pct": 4.3,
       "no_computer_pct": 10.7,
@@ -997,7 +1075,7 @@
     ],
     "lep_total": 35000,
     "lep_pct": 25.7,
-    "poverty_pct": 18.5,
+    "poverty_pct": 16.5,
     "no_internet_pct": 4.3,
     "snap_pct": 21.6
   },
@@ -1017,14 +1095,20 @@
       "total_pop_5plus": 129000
     },
     "poverty": {
-      "universe": 18000,
-      "band_1_124_pct": 29.3,
-      "band_125_199_pct": 18.0,
-      "band_200_399_pct": 28.0,
-      "band_400plus_pct": 24.7,
-      "below_poverty_pct": 29.3
+      "universe": 124000,
+      "band_1_124_pct": 13.1,
+      "band_125_199_pct": 8.8,
+      "band_200_399_pct": 21.8,
+      "band_400plus_pct": 56.3,
+      "below_poverty_pct": 13.1
     },
-    "education": {},
+    "education": {
+      "universe": 103000,
+      "under_9th_pct": 5.8,
+      "incomplete_hs_pct": 2.9,
+      "hs_some_college_pct": 34.0,
+      "ba_higher_pct": 57.2
+    },
     "access": {
       "no_internet_pct": 4.3,
       "no_computer_pct": 8.3,
@@ -1052,12 +1136,12 @@
     ],
     "lep_total": 19000,
     "lep_pct": 14.7,
-    "poverty_pct": 29.3,
+    "poverty_pct": 13.1,
     "no_internet_pct": 4.3,
     "snap_pct": 11.5
   },
   {
-    "geo_id": "06_riverside",
+    "geo_id": "0662000",
     "geo_type": "city",
     "name": "Riverside",
     "population": 123000,
@@ -1072,14 +1156,20 @@
       "total_pop_5plus": 123000
     },
     "poverty": {
-      "universe": 21000,
-      "band_1_124_pct": 21.9,
-      "band_125_199_pct": 18.7,
-      "band_200_399_pct": 33.5,
-      "band_400plus_pct": 25.9,
-      "below_poverty_pct": 21.9
+      "universe": 118000,
+      "band_1_124_pct": 15.5,
+      "band_125_199_pct": 12.1,
+      "band_200_399_pct": 35.9,
+      "band_400plus_pct": 36.5,
+      "below_poverty_pct": 15.5
     },
-    "education": {},
+    "education": {
+      "universe": 83000,
+      "under_9th_pct": 8.8,
+      "incomplete_hs_pct": 7.7,
+      "hs_some_college_pct": 56.4,
+      "ba_higher_pct": 27.1
+    },
     "access": {
       "no_internet_pct": 2.1,
       "no_computer_pct": 9.6,
@@ -1100,7 +1190,7 @@
     ],
     "lep_total": 22000,
     "lep_pct": 17.9,
-    "poverty_pct": 21.9,
+    "poverty_pct": 15.5,
     "no_internet_pct": 2.1,
     "snap_pct": 16.8
   },
@@ -1120,14 +1210,20 @@
       "total_pop_5plus": 108000
     },
     "poverty": {
-      "universe": 40000,
-      "band_1_124_pct": 25.2,
-      "band_125_199_pct": 23.4,
-      "band_200_399_pct": 36.8,
-      "band_400plus_pct": 14.7,
-      "below_poverty_pct": 25.2
+      "universe": 108000,
+      "band_1_124_pct": 21.2,
+      "band_125_199_pct": 19.4,
+      "band_200_399_pct": 38.9,
+      "band_400plus_pct": 20.6,
+      "below_poverty_pct": 21.2
     },
-    "education": {},
+    "education": {
+      "universe": 74000,
+      "under_9th_pct": 27.7,
+      "incomplete_hs_pct": 16.9,
+      "hs_some_college_pct": 44.7,
+      "ba_higher_pct": 10.8
+    },
     "access": {
       "no_internet_pct": 9.2,
       "no_computer_pct": 15.7,
@@ -1148,12 +1244,12 @@
     ],
     "lep_total": 40000,
     "lep_pct": 37.0,
-    "poverty_pct": 25.2,
+    "poverty_pct": 21.2,
     "no_internet_pct": 9.2,
     "snap_pct": 22.5
   },
   {
-    "geo_id": "06_antioch",
+    "geo_id": "0602252",
     "geo_type": "city",
     "name": "Antioch",
     "population": 108000,
@@ -1168,14 +1264,20 @@
       "total_pop_5plus": 108000
     },
     "poverty": {
-      "universe": 17000,
-      "band_1_124_pct": 19.0,
-      "band_125_199_pct": 18.4,
-      "band_200_399_pct": 33.3,
-      "band_400plus_pct": 29.3,
-      "below_poverty_pct": 19.0
+      "universe": 107000,
+      "band_1_124_pct": 12.9,
+      "band_125_199_pct": 12.4,
+      "band_200_399_pct": 26.6,
+      "band_400plus_pct": 48.1,
+      "below_poverty_pct": 12.9
     },
-    "education": {},
+    "education": {
+      "universe": 78000,
+      "under_9th_pct": 7.5,
+      "incomplete_hs_pct": 6.6,
+      "hs_some_college_pct": 59.5,
+      "ba_higher_pct": 26.3
+    },
     "access": {
       "no_internet_pct": 2.1,
       "no_computer_pct": 7.9,
@@ -1196,7 +1298,7 @@
     ],
     "lep_total": 17000,
     "lep_pct": 15.7,
-    "poverty_pct": 19.0,
+    "poverty_pct": 12.9,
     "no_internet_pct": 2.1,
     "snap_pct": 15.9
   },
@@ -1216,14 +1318,20 @@
       "total_pop_5plus": 104000
     },
     "poverty": {
-      "universe": 23000,
-      "band_1_124_pct": 19.2,
-      "band_125_199_pct": 21.4,
-      "band_200_399_pct": 39.2,
-      "band_400plus_pct": 20.2,
-      "below_poverty_pct": 19.2
+      "universe": 101000,
+      "band_1_124_pct": 16.9,
+      "band_125_199_pct": 13.7,
+      "band_200_399_pct": 34.8,
+      "band_400plus_pct": 34.7,
+      "below_poverty_pct": 16.9
     },
-    "education": {},
+    "education": {
+      "universe": 77000,
+      "under_9th_pct": 14.4,
+      "incomplete_hs_pct": 10.2,
+      "hs_some_college_pct": 51.2,
+      "ba_higher_pct": 24.3
+    },
     "access": {
       "no_internet_pct": 4.1,
       "no_computer_pct": 10.9,
@@ -1244,7 +1352,7 @@
     ],
     "lep_total": 24000,
     "lep_pct": 23.1,
-    "poverty_pct": 19.2,
+    "poverty_pct": 16.9,
     "no_internet_pct": 4.1,
     "snap_pct": 20.7
   },
@@ -1264,14 +1372,20 @@
       "total_pop_5plus": 98000
     },
     "poverty": {
-      "universe": 22000,
-      "band_1_124_pct": 15.0,
-      "band_125_199_pct": 12.0,
-      "band_200_399_pct": 33.8,
-      "band_400plus_pct": 39.2,
-      "below_poverty_pct": 15.0
+      "universe": 97000,
+      "band_1_124_pct": 11.4,
+      "band_125_199_pct": 12.1,
+      "band_200_399_pct": 32.0,
+      "band_400plus_pct": 44.5,
+      "below_poverty_pct": 11.4
     },
-    "education": {},
+    "education": {
+      "universe": 72000,
+      "under_9th_pct": 11.4,
+      "incomplete_hs_pct": 7.6,
+      "hs_some_college_pct": 56.4,
+      "ba_higher_pct": 24.6
+    },
     "access": {
       "no_internet_pct": 2.4,
       "no_computer_pct": 8.1,
@@ -1292,7 +1406,7 @@
     ],
     "lep_total": 22000,
     "lep_pct": 22.4,
-    "poverty_pct": 15.0,
+    "poverty_pct": 11.4,
     "no_internet_pct": 2.4,
     "snap_pct": 14.1
   },
@@ -1312,14 +1426,20 @@
       "total_pop_5plus": 94000
     },
     "poverty": {
-      "universe": 19000,
-      "band_1_124_pct": 18.3,
-      "band_125_199_pct": 28.2,
-      "band_200_399_pct": 36.6,
-      "band_400plus_pct": 16.8,
-      "below_poverty_pct": 18.3
+      "universe": 94000,
+      "band_1_124_pct": 18.2,
+      "band_125_199_pct": 16.0,
+      "band_200_399_pct": 37.3,
+      "band_400plus_pct": 28.5,
+      "below_poverty_pct": 18.2
     },
-    "education": {},
+    "education": {
+      "universe": 63000,
+      "under_9th_pct": 12.1,
+      "incomplete_hs_pct": 11.0,
+      "hs_some_college_pct": 60.6,
+      "ba_higher_pct": 16.4
+    },
     "access": {
       "no_internet_pct": 5.5,
       "no_computer_pct": 10.5,
@@ -1340,12 +1460,12 @@
     ],
     "lep_total": 19000,
     "lep_pct": 20.2,
-    "poverty_pct": 18.3,
+    "poverty_pct": 18.2,
     "no_internet_pct": 5.5,
     "snap_pct": 21.0
   },
   {
-    "geo_id": "06_elk_grove",
+    "geo_id": "0622020",
     "geo_type": "city",
     "name": "Elk Grove",
     "population": 90000,
@@ -1360,14 +1480,20 @@
       "total_pop_5plus": 90000
     },
     "poverty": {
-      "universe": 11000,
-      "band_1_124_pct": 15.9,
-      "band_125_199_pct": 14.1,
-      "band_200_399_pct": 32.0,
-      "band_400plus_pct": 38.0,
-      "below_poverty_pct": 15.9
+      "universe": 90000,
+      "band_1_124_pct": 9.3,
+      "band_125_199_pct": 7.2,
+      "band_200_399_pct": 27.2,
+      "band_400plus_pct": 56.3,
+      "below_poverty_pct": 9.3
     },
-    "education": {},
+    "education": {
+      "universe": 63000,
+      "under_9th_pct": 4.6,
+      "incomplete_hs_pct": 4.7,
+      "hs_some_college_pct": 54.4,
+      "ba_higher_pct": 36.2
+    },
     "access": {
       "no_internet_pct": 1.7,
       "no_computer_pct": 3.6,
@@ -1409,7 +1535,7 @@
     ],
     "lep_total": 12000,
     "lep_pct": 13.3,
-    "poverty_pct": 15.9,
+    "poverty_pct": 9.3,
     "no_internet_pct": 1.7,
     "snap_pct": 10.8
   },
@@ -1429,14 +1555,20 @@
       "total_pop_5plus": 85000
     },
     "poverty": {
-      "universe": 10000,
-      "band_1_124_pct": 11.1,
-      "band_125_199_pct": 13.6,
-      "band_200_399_pct": 34.0,
-      "band_400plus_pct": 41.3,
-      "below_poverty_pct": 11.1
+      "universe": 85000,
+      "band_1_124_pct": 7.0,
+      "band_125_199_pct": 6.2,
+      "band_200_399_pct": 24.4,
+      "band_400plus_pct": 62.5,
+      "below_poverty_pct": 7.0
     },
-    "education": {},
+    "education": {
+      "universe": 63000,
+      "under_9th_pct": 4.8,
+      "incomplete_hs_pct": 4.3,
+      "hs_some_college_pct": 50.8,
+      "ba_higher_pct": 40.1
+    },
     "access": {
       "no_internet_pct": 1.4,
       "no_computer_pct": 4.3,
@@ -1457,12 +1589,12 @@
     ],
     "lep_total": 10000,
     "lep_pct": 11.8,
-    "poverty_pct": 11.1,
+    "poverty_pct": 7.0,
     "no_internet_pct": 1.4,
     "snap_pct": 10.2
   },
   {
-    "geo_id": "06_simi_valley",
+    "geo_id": "0672016",
     "geo_type": "city",
     "name": "Simi Valley",
     "population": 49000,
@@ -1477,14 +1609,20 @@
       "total_pop_5plus": 49000
     },
     "poverty": {
-      "universe": 5000,
-      "band_1_124_pct": 19.6,
-      "band_125_199_pct": 10.6,
-      "band_200_399_pct": 39.3,
-      "band_400plus_pct": 30.5,
-      "below_poverty_pct": 19.6
+      "universe": 49000,
+      "band_1_124_pct": 8.1,
+      "band_125_199_pct": 8.9,
+      "band_200_399_pct": 24.8,
+      "band_400plus_pct": 58.2,
+      "below_poverty_pct": 8.1
     },
-    "education": {},
+    "education": {
+      "universe": 36000,
+      "under_9th_pct": 4.9,
+      "incomplete_hs_pct": 5.7,
+      "hs_some_college_pct": 47.7,
+      "ba_higher_pct": 41.7
+    },
     "access": {
       "no_internet_pct": 1.8,
       "no_computer_pct": 5.4,
@@ -1505,7 +1643,7 @@
     ],
     "lep_total": 5000,
     "lep_pct": 10.2,
-    "poverty_pct": 19.6,
+    "poverty_pct": 8.1,
     "no_internet_pct": 1.8,
     "snap_pct": 7.4
   },
@@ -1525,14 +1663,20 @@
       "total_pop_5plus": 38000
     },
     "poverty": {
-      "universe": 10000,
-      "band_1_124_pct": 10.7,
-      "band_125_199_pct": 18.8,
-      "band_200_399_pct": 39.3,
-      "band_400plus_pct": 31.1,
-      "below_poverty_pct": 10.7
+      "universe": 37000,
+      "band_1_124_pct": 11.3,
+      "band_125_199_pct": 13.9,
+      "band_200_399_pct": 35.2,
+      "band_400plus_pct": 39.6,
+      "below_poverty_pct": 11.3
     },
-    "education": {},
+    "education": {
+      "universe": 27000,
+      "under_9th_pct": 13.9,
+      "incomplete_hs_pct": 9.4,
+      "hs_some_college_pct": 56.0,
+      "ba_higher_pct": 20.7
+    },
     "access": {
       "no_internet_pct": 1.4,
       "no_computer_pct": 7.7,
@@ -1553,7 +1697,7 @@
     ],
     "lep_total": 10000,
     "lep_pct": 26.3,
-    "poverty_pct": 10.7,
+    "poverty_pct": 11.3,
     "no_internet_pct": 1.4,
     "snap_pct": 19.1
   }
