@@ -1,0 +1,314 @@
+{
+  "geo_id": "06037",
+  "geo_type": "county",
+  "name": "Los Angeles County",
+  "population": 9318000,
+  "language_source": "IPUMS ACS 2019-2023",
+  "proficiency": {
+    "english_only": 4138000,
+    "english_only_pct": 44.4,
+    "bilingual": 2997000,
+    "bilingual_pct": 32.2,
+    "lep": 2184000,
+    "lep_pct": 23.4,
+    "total_pop_5plus": 9319000
+  },
+  "poverty": {
+    "universe": 2161000,
+    "band_1_124_pct": 22.8,
+    "band_125_199_pct": 19.2,
+    "band_200_399_pct": 34.3,
+    "band_400plus_pct": 23.7,
+    "below_poverty_pct": 22.8
+  },
+  "education": {},
+  "access": {
+    "no_internet_pct": 4.3,
+    "no_computer_pct": 9.3,
+    "snap_pct": 15.8,
+    "linguistically_isolated_pct": 10.5
+  },
+  "median_hh_income": null,
+  "top_language": "Spanish",
+  "top_language_lep": 1469000,
+  "languages": [
+    {
+      "name": "Spanish",
+      "total_speakers": 1469000,
+      "lep_count": 1469000,
+      "lep_pct_of_area": 15.8,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Chinese",
+      "total_speakers": 222000,
+      "lep_count": 222000,
+      "lep_pct_of_area": 2.4,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Korean",
+      "total_speakers": 93000,
+      "lep_count": 93000,
+      "lep_pct_of_area": 1.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Armenian",
+      "total_speakers": 77000,
+      "lep_count": 77000,
+      "lep_pct_of_area": 0.8,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Tagalog",
+      "total_speakers": 73000,
+      "lep_count": 73000,
+      "lep_pct_of_area": 0.8,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Vietnamese",
+      "total_speakers": 52000,
+      "lep_count": 52000,
+      "lep_pct_of_area": 0.6,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Farsi/Persian",
+      "total_speakers": 29000,
+      "lep_count": 29000,
+      "lep_pct_of_area": 0.3,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Russian",
+      "total_speakers": 23000,
+      "lep_count": 23000,
+      "lep_pct_of_area": 0.2,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Japanese",
+      "total_speakers": 21000,
+      "lep_count": 21000,
+      "lep_pct_of_area": 0.2,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Arabic",
+      "total_speakers": 15000,
+      "lep_count": 15000,
+      "lep_pct_of_area": 0.2,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Khmer/Cambodian",
+      "total_speakers": 14000,
+      "lep_count": 14000,
+      "lep_pct_of_area": 0.2,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Thai",
+      "total_speakers": 13000,
+      "lep_count": 13000,
+      "lep_pct_of_area": 0.1,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Bengali",
+      "total_speakers": 6000,
+      "lep_count": 6000,
+      "lep_pct_of_area": 0.1,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Hindi",
+      "total_speakers": 5000,
+      "lep_count": 5000,
+      "lep_pct_of_area": 0.1,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Indonesian/Malay",
+      "total_speakers": 5000,
+      "lep_count": 5000,
+      "lep_pct_of_area": 0.1,
+      "source": "IPUMS"
+    },
+    {
+      "name": "French",
+      "total_speakers": 4000,
+      "lep_count": 4000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Portuguese",
+      "total_speakers": 4000,
+      "lep_count": 4000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Punjabi",
+      "total_speakers": 4000,
+      "lep_count": 4000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Burmese",
+      "total_speakers": 4000,
+      "lep_count": 4000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Hebrew",
+      "total_speakers": 4000,
+      "lep_count": 4000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Urdu",
+      "total_speakers": 3000,
+      "lep_count": 3000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Amharic and other Ethiopian la",
+      "total_speakers": 3000,
+      "lep_count": 3000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "German",
+      "total_speakers": 2000,
+      "lep_count": 2000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Italian",
+      "total_speakers": 2000,
+      "lep_count": 2000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Gujarati",
+      "total_speakers": 2000,
+      "lep_count": 2000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Mongolian",
+      "total_speakers": 2000,
+      "lep_count": 2000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "South or Central American Indi",
+      "total_speakers": 2000,
+      "lep_count": 2000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Romanian",
+      "total_speakers": 1000,
+      "lep_count": 1000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Greek",
+      "total_speakers": 1000,
+      "lep_count": 1000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Ukrainian",
+      "total_speakers": 1000,
+      "lep_count": 1000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Polish",
+      "total_speakers": 1000,
+      "lep_count": 1000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Bosnian/Croatian/Serbian",
+      "total_speakers": 1000,
+      "lep_count": 1000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Sinhalese",
+      "total_speakers": 1000,
+      "lep_count": 1000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Hungarian",
+      "total_speakers": 1000,
+      "lep_count": 1000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Turkish",
+      "total_speakers": 1000,
+      "lep_count": 1000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Telugu",
+      "total_speakers": 1000,
+      "lep_count": 1000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Lao",
+      "total_speakers": 1000,
+      "lep_count": 1000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Cebuano",
+      "total_speakers": 1000,
+      "lep_count": 1000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    },
+    {
+      "name": "Ilocano",
+      "total_speakers": 1000,
+      "lep_count": 1000,
+      "lep_pct_of_area": 0.0,
+      "source": "IPUMS"
+    }
+  ],
+  "lep_total": 2184000,
+  "lep_pct": 23.4,
+  "poverty_pct": 22.8,
+  "no_internet_pct": 4.3,
+  "snap_pct": 15.8
+}

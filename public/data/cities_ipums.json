@@ -1,0 +1,1560 @@
+[
+  {
+    "geo_id": "0644000",
+    "geo_type": "city",
+    "name": "Los Angeles",
+    "population": 3693000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 1566000,
+      "english_only_pct": 42.4,
+      "bilingual": 1195000,
+      "bilingual_pct": 32.3,
+      "lep": 933000,
+      "lep_pct": 25.3,
+      "total_pop_5plus": 3694000
+    },
+    "poverty": {
+      "universe": 922000,
+      "band_1_124_pct": 26.5,
+      "band_125_199_pct": 20.5,
+      "band_200_399_pct": 33.3,
+      "band_400plus_pct": 19.7,
+      "below_poverty_pct": 26.5
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 4.7,
+      "no_computer_pct": 10.6,
+      "snap_pct": 17.3,
+      "linguistically_isolated_pct": 12.3
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 689000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 689000,
+        "lep_count": 689000,
+        "lep_pct_of_area": 18.7,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 52000,
+        "lep_count": 52000,
+        "lep_pct_of_area": 1.4,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Armenian",
+        "total_speakers": 33000,
+        "lep_count": 33000,
+        "lep_pct_of_area": 0.9,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Tagalog",
+        "total_speakers": 29000,
+        "lep_count": 29000,
+        "lep_pct_of_area": 0.8,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Chinese",
+        "total_speakers": 27000,
+        "lep_count": 27000,
+        "lep_pct_of_area": 0.7,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Farsi/Persian",
+        "total_speakers": 20000,
+        "lep_count": 20000,
+        "lep_pct_of_area": 0.5,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Russian",
+        "total_speakers": 14000,
+        "lep_count": 14000,
+        "lep_pct_of_area": 0.4,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Vietnamese",
+        "total_speakers": 11000,
+        "lep_count": 11000,
+        "lep_pct_of_area": 0.3,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 7000,
+        "lep_count": 7000,
+        "lep_pct_of_area": 0.2,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Thai",
+        "total_speakers": 6000,
+        "lep_count": 6000,
+        "lep_pct_of_area": 0.2,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 5000,
+        "lep_count": 5000,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Bengali",
+        "total_speakers": 4000,
+        "lep_count": 4000,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Hebrew",
+        "total_speakers": 3000,
+        "lep_count": 3000,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS"
+      },
+      {
+        "name": "French",
+        "total_speakers": 2000,
+        "lep_count": 2000,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Portuguese",
+        "total_speakers": 2000,
+        "lep_count": 2000,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Hindi",
+        "total_speakers": 2000,
+        "lep_count": 2000,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Punjabi",
+        "total_speakers": 2000,
+        "lep_count": 2000,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Khmer/Cambodian",
+        "total_speakers": 2000,
+        "lep_count": 2000,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Amharic and other Eth",
+        "total_speakers": 2000,
+        "lep_count": 2000,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Italian",
+        "total_speakers": 1000,
+        "lep_count": 1000,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Urdu",
+        "total_speakers": 1000,
+        "lep_count": 1000,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Indonesian/Malay",
+        "total_speakers": 1000,
+        "lep_count": 1000,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS"
+      },
+      {
+        "name": "South or Central Amer",
+        "total_speakers": 1000,
+        "lep_count": 1000,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 933000,
+    "lep_pct": 25.3,
+    "poverty_pct": 26.5,
+    "no_internet_pct": 4.7,
+    "snap_pct": 17.3
+  },
+  {
+    "geo_id": "06_san_francisco",
+    "geo_type": "city",
+    "name": "San Francisco",
+    "population": 801000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 456000,
+      "english_only_pct": 57.0,
+      "bilingual": 193000,
+      "bilingual_pct": 24.1,
+      "lep": 151000,
+      "lep_pct": 18.9,
+      "total_pop_5plus": 800000
+    },
+    "poverty": {
+      "universe": 148000,
+      "band_1_124_pct": 20.2,
+      "band_125_199_pct": 13.3,
+      "band_200_399_pct": 28.5,
+      "band_400plus_pct": 38.0,
+      "below_poverty_pct": 20.2
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 3.4,
+      "no_computer_pct": 7.3,
+      "snap_pct": 11.2,
+      "linguistically_isolated_pct": 10.1
+    },
+    "median_hh_income": null,
+    "top_language": "Chinese",
+    "top_language_lep": 86000,
+    "languages": [
+      {
+        "name": "Chinese",
+        "total_speakers": 86000,
+        "lep_count": 86000,
+        "lep_pct_of_area": 10.8,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Spanish",
+        "total_speakers": 31000,
+        "lep_count": 31000,
+        "lep_pct_of_area": 3.9,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Tagalog",
+        "total_speakers": 8000,
+        "lep_count": 8000,
+        "lep_pct_of_area": 1.0,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Vietnamese",
+        "total_speakers": 6000,
+        "lep_count": 6000,
+        "lep_pct_of_area": 0.8,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Russian",
+        "total_speakers": 4000,
+        "lep_count": 4000,
+        "lep_pct_of_area": 0.5,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 3000,
+        "lep_count": 3000,
+        "lep_pct_of_area": 0.4,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Japanese",
+        "total_speakers": 2000,
+        "lep_count": 2000,
+        "lep_pct_of_area": 0.2,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Arabic",
+        "total_speakers": 1000,
+        "lep_count": 1000,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 151000,
+    "lep_pct": 18.9,
+    "poverty_pct": 20.2,
+    "no_internet_pct": 3.4,
+    "snap_pct": 11.2
+  },
+  {
+    "geo_id": "0643000",
+    "geo_type": "city",
+    "name": "Long Beach",
+    "population": 440000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 243000,
+      "english_only_pct": 55.2,
+      "bilingual": 126000,
+      "bilingual_pct": 28.6,
+      "lep": 71000,
+      "lep_pct": 16.1,
+      "total_pop_5plus": 440000
+    },
+    "poverty": {
+      "universe": 70000,
+      "band_1_124_pct": 22.3,
+      "band_125_199_pct": 19.7,
+      "band_200_399_pct": 34.0,
+      "band_400plus_pct": 24.0,
+      "below_poverty_pct": 22.3
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 4.4,
+      "no_computer_pct": 9.1,
+      "snap_pct": 16.5,
+      "linguistically_isolated_pct": 6.0
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 51000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 51000,
+        "lep_count": 51000,
+        "lep_pct_of_area": 11.6,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Khmer/Cambodian",
+        "total_speakers": 6000,
+        "lep_count": 6000,
+        "lep_pct_of_area": 1.4,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Tagalog",
+        "total_speakers": 5000,
+        "lep_count": 5000,
+        "lep_pct_of_area": 1.1,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Chinese",
+        "total_speakers": 1000,
+        "lep_count": 1000,
+        "lep_pct_of_area": 0.2,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Vietnamese",
+        "total_speakers": 1000,
+        "lep_count": 1000,
+        "lep_pct_of_area": 0.2,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 71000,
+    "lep_pct": 16.1,
+    "poverty_pct": 22.3,
+    "no_internet_pct": 4.4,
+    "snap_pct": 16.5
+  },
+  {
+    "geo_id": "06_oakland",
+    "geo_type": "city",
+    "name": "Oakland",
+    "population": 424000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 260000,
+      "english_only_pct": 61.3,
+      "bilingual": 101000,
+      "bilingual_pct": 23.8,
+      "lep": 63000,
+      "lep_pct": 14.9,
+      "total_pop_5plus": 424000
+    },
+    "poverty": {
+      "universe": 62000,
+      "band_1_124_pct": 26.1,
+      "band_125_199_pct": 19.1,
+      "band_200_399_pct": 31.8,
+      "band_400plus_pct": 23.0,
+      "below_poverty_pct": 26.1
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 5.7,
+      "no_computer_pct": 10.9,
+      "snap_pct": 15.8,
+      "linguistically_isolated_pct": 7.4
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 30000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 30000,
+        "lep_count": 30000,
+        "lep_pct_of_area": 7.1,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Chinese",
+        "total_speakers": 16000,
+        "lep_count": 16000,
+        "lep_pct_of_area": 3.8,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Vietnamese",
+        "total_speakers": 4000,
+        "lep_count": 4000,
+        "lep_pct_of_area": 0.9,
+        "source": "IPUMS"
+      },
+      {
+        "name": "South or Central Amer",
+        "total_speakers": 2000,
+        "lep_count": 2000,
+        "lep_pct_of_area": 0.5,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Tagalog",
+        "total_speakers": 1000,
+        "lep_count": 1000,
+        "lep_pct_of_area": 0.2,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 63000,
+    "lep_pct": 14.9,
+    "poverty_pct": 26.1,
+    "no_internet_pct": 5.7,
+    "snap_pct": 15.8
+  },
+  {
+    "geo_id": "06_santa_ana",
+    "geo_type": "city",
+    "name": "Santa Ana",
+    "population": 297000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 65000,
+      "english_only_pct": 21.8,
+      "bilingual": 133000,
+      "bilingual_pct": 44.6,
+      "lep": 100000,
+      "lep_pct": 33.6,
+      "total_pop_5plus": 298000
+    },
+    "poverty": {
+      "universe": 99000,
+      "band_1_124_pct": 17.3,
+      "band_125_199_pct": 20.3,
+      "band_200_399_pct": 40.2,
+      "band_400plus_pct": 22.2,
+      "below_poverty_pct": 17.3
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 5.2,
+      "no_computer_pct": 11.9,
+      "snap_pct": 14.3,
+      "linguistically_isolated_pct": 9.2
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 79000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 79000,
+        "lep_count": 79000,
+        "lep_pct_of_area": 26.5,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Vietnamese",
+        "total_speakers": 16000,
+        "lep_count": 16000,
+        "lep_pct_of_area": 5.4,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Chinese",
+        "total_speakers": 1000,
+        "lep_count": 1000,
+        "lep_pct_of_area": 0.3,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Khmer/Cambodian",
+        "total_speakers": 1000,
+        "lep_count": 1000,
+        "lep_pct_of_area": 0.3,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 100000,
+    "lep_pct": 33.6,
+    "poverty_pct": 17.3,
+    "no_internet_pct": 5.2,
+    "snap_pct": 14.3
+  },
+  {
+    "geo_id": "06_moreno_valley",
+    "geo_type": "city",
+    "name": "Moreno Valley",
+    "population": 199000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 98000,
+      "english_only_pct": 49.2,
+      "bilingual": 65000,
+      "bilingual_pct": 32.7,
+      "lep": 36000,
+      "lep_pct": 18.1,
+      "total_pop_5plus": 199000
+    },
+    "poverty": {
+      "universe": 36000,
+      "band_1_124_pct": 15.7,
+      "band_125_199_pct": 21.7,
+      "band_200_399_pct": 42.6,
+      "band_400plus_pct": 20.0,
+      "below_poverty_pct": 15.7
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 2.0,
+      "no_computer_pct": 8.3,
+      "snap_pct": 17.5,
+      "linguistically_isolated_pct": 4.6
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 31000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 31000,
+        "lep_count": 31000,
+        "lep_pct_of_area": 15.6,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 36000,
+    "lep_pct": 18.1,
+    "poverty_pct": 15.7,
+    "no_internet_pct": 2.0,
+    "snap_pct": 17.5
+  },
+  {
+    "geo_id": "0630000",
+    "geo_type": "city",
+    "name": "Glendale",
+    "population": 184000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 63000,
+      "english_only_pct": 34.2,
+      "bilingual": 65000,
+      "bilingual_pct": 35.3,
+      "lep": 56000,
+      "lep_pct": 30.4,
+      "total_pop_5plus": 184000
+    },
+    "poverty": {
+      "universe": 55000,
+      "band_1_124_pct": 27.1,
+      "band_125_199_pct": 16.2,
+      "band_200_399_pct": 30.4,
+      "band_400plus_pct": 26.3,
+      "below_poverty_pct": 27.1
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 5.3,
+      "no_computer_pct": 10.0,
+      "snap_pct": 20.3,
+      "linguistically_isolated_pct": 17.3
+    },
+    "median_hh_income": null,
+    "top_language": "Armenian",
+    "top_language_lep": 32000,
+    "languages": [
+      {
+        "name": "Armenian",
+        "total_speakers": 32000,
+        "lep_count": 32000,
+        "lep_pct_of_area": 17.4,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Spanish",
+        "total_speakers": 9000,
+        "lep_count": 9000,
+        "lep_pct_of_area": 4.9,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Russian",
+        "total_speakers": 3000,
+        "lep_count": 3000,
+        "lep_pct_of_area": 1.6,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 3000,
+        "lep_count": 3000,
+        "lep_pct_of_area": 1.6,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Tagalog",
+        "total_speakers": 3000,
+        "lep_count": 3000,
+        "lep_pct_of_area": 1.6,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Farsi/Persian",
+        "total_speakers": 2000,
+        "lep_count": 2000,
+        "lep_pct_of_area": 1.1,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 56000,
+    "lep_pct": 30.4,
+    "poverty_pct": 27.1,
+    "no_internet_pct": 5.3,
+    "snap_pct": 20.3
+  },
+  {
+    "geo_id": "06_huntington_beach",
+    "geo_type": "city",
+    "name": "Huntington Beach",
+    "population": 183000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 140000,
+      "english_only_pct": 76.5,
+      "bilingual": 29000,
+      "bilingual_pct": 15.8,
+      "lep": 14000,
+      "lep_pct": 7.7,
+      "total_pop_5plus": 183000
+    },
+    "poverty": {
+      "universe": 14000,
+      "band_1_124_pct": 20.1,
+      "band_125_199_pct": 10.7,
+      "band_200_399_pct": 27.4,
+      "band_400plus_pct": 41.8,
+      "below_poverty_pct": 20.1
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 2.6,
+      "no_computer_pct": 4.7,
+      "snap_pct": 7.2,
+      "linguistically_isolated_pct": 3.0
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 5000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 5000,
+        "lep_count": 5000,
+        "lep_pct_of_area": 2.7,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Vietnamese",
+        "total_speakers": 4000,
+        "lep_count": 4000,
+        "lep_pct_of_area": 2.2,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Chinese",
+        "total_speakers": 1000,
+        "lep_count": 1000,
+        "lep_pct_of_area": 0.5,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 14000,
+    "lep_pct": 7.7,
+    "poverty_pct": 20.1,
+    "no_internet_pct": 2.6,
+    "snap_pct": 7.2
+  },
+  {
+    "geo_id": "06_ontario",
+    "geo_type": "city",
+    "name": "Ontario",
+    "population": 173000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 78000,
+      "english_only_pct": 45.1,
+      "bilingual": 55000,
+      "bilingual_pct": 31.8,
+      "lep": 40000,
+      "lep_pct": 23.1,
+      "total_pop_5plus": 173000
+    },
+    "poverty": {
+      "universe": 40000,
+      "band_1_124_pct": 18.1,
+      "band_125_199_pct": 21.8,
+      "band_200_399_pct": 38.8,
+      "band_400plus_pct": 21.3,
+      "below_poverty_pct": 18.1
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 3.5,
+      "no_computer_pct": 9.8,
+      "snap_pct": 15.0,
+      "linguistically_isolated_pct": 9.0
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 34000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 34000,
+        "lep_count": 34000,
+        "lep_pct_of_area": 19.7,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Chinese",
+        "total_speakers": 3000,
+        "lep_count": 3000,
+        "lep_pct_of_area": 1.7,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 40000,
+    "lep_pct": 23.1,
+    "poverty_pct": 18.1,
+    "no_internet_pct": 3.5,
+    "snap_pct": 15.0
+  },
+  {
+    "geo_id": "06_rancho_cucamonga",
+    "geo_type": "city",
+    "name": "Rancho Cucamonga",
+    "population": 164000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 107000,
+      "english_only_pct": 65.2,
+      "bilingual": 38000,
+      "bilingual_pct": 23.2,
+      "lep": 19000,
+      "lep_pct": 11.6,
+      "total_pop_5plus": 164000
+    },
+    "poverty": {
+      "universe": 19000,
+      "band_1_124_pct": 20.4,
+      "band_125_199_pct": 16.3,
+      "band_200_399_pct": 29.2,
+      "band_400plus_pct": 34.1,
+      "below_poverty_pct": 20.4
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 2.5,
+      "no_computer_pct": 5.3,
+      "snap_pct": 8.4,
+      "linguistically_isolated_pct": 5.4
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 9000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 9000,
+        "lep_count": 9000,
+        "lep_pct_of_area": 5.5,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Chinese",
+        "total_speakers": 5000,
+        "lep_count": 5000,
+        "lep_pct_of_area": 3.0,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 19000,
+    "lep_pct": 11.6,
+    "poverty_pct": 20.4,
+    "no_internet_pct": 2.5,
+    "snap_pct": 8.4
+  },
+  {
+    "geo_id": "06_roseville",
+    "geo_type": "city",
+    "name": "Roseville",
+    "population": 148000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 118000,
+      "english_only_pct": 79.7,
+      "bilingual": 21000,
+      "bilingual_pct": 14.2,
+      "lep": 9000,
+      "lep_pct": 6.1,
+      "total_pop_5plus": 148000
+    },
+    "poverty": {
+      "universe": 9000,
+      "band_1_124_pct": 12.4,
+      "band_125_199_pct": 12.6,
+      "band_200_399_pct": 36.1,
+      "band_400plus_pct": 38.9,
+      "below_poverty_pct": 12.4
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 2.8,
+      "no_computer_pct": 4.1,
+      "snap_pct": 6.7,
+      "linguistically_isolated_pct": 2.4
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 3000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 3000,
+        "lep_count": 3000,
+        "lep_pct_of_area": 2.0,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 9000,
+    "lep_pct": 6.1,
+    "poverty_pct": 12.4,
+    "no_internet_pct": 2.8,
+    "snap_pct": 6.7
+  },
+  {
+    "geo_id": "06_sunnyvale",
+    "geo_type": "city",
+    "name": "Sunnyvale",
+    "population": 147000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 59000,
+      "english_only_pct": 39.9,
+      "bilingual": 60000,
+      "bilingual_pct": 40.5,
+      "lep": 29000,
+      "lep_pct": 19.6,
+      "total_pop_5plus": 148000
+    },
+    "poverty": {
+      "universe": 28000,
+      "band_1_124_pct": 10.1,
+      "band_125_199_pct": 7.0,
+      "band_200_399_pct": 23.2,
+      "band_400plus_pct": 59.8,
+      "below_poverty_pct": 10.1
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 1.9,
+      "no_computer_pct": 4.2,
+      "snap_pct": 4.2,
+      "linguistically_isolated_pct": 8.8
+    },
+    "median_hh_income": null,
+    "top_language": "Chinese",
+    "top_language_lep": 10000,
+    "languages": [
+      {
+        "name": "Chinese",
+        "total_speakers": 10000,
+        "lep_count": 10000,
+        "lep_pct_of_area": 6.8,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Spanish",
+        "total_speakers": 6000,
+        "lep_count": 6000,
+        "lep_pct_of_area": 4.1,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Korean",
+        "total_speakers": 2000,
+        "lep_count": 2000,
+        "lep_pct_of_area": 1.4,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Tagalog",
+        "total_speakers": 2000,
+        "lep_count": 2000,
+        "lep_pct_of_area": 1.4,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Vietnamese",
+        "total_speakers": 1000,
+        "lep_count": 1000,
+        "lep_pct_of_area": 0.7,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 29000,
+    "lep_pct": 19.6,
+    "poverty_pct": 10.1,
+    "no_internet_pct": 1.9,
+    "snap_pct": 4.2
+  },
+  {
+    "geo_id": "0658072",
+    "geo_type": "city",
+    "name": "Pomona",
+    "population": 136000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 47000,
+      "english_only_pct": 34.6,
+      "bilingual": 54000,
+      "bilingual_pct": 39.7,
+      "lep": 35000,
+      "lep_pct": 25.7,
+      "total_pop_5plus": 136000
+    },
+    "poverty": {
+      "universe": 34000,
+      "band_1_124_pct": 18.5,
+      "band_125_199_pct": 20.1,
+      "band_200_399_pct": 37.0,
+      "band_400plus_pct": 24.4,
+      "below_poverty_pct": 18.5
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 4.3,
+      "no_computer_pct": 10.7,
+      "snap_pct": 21.6,
+      "linguistically_isolated_pct": 8.6
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 27000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 27000,
+        "lep_count": 27000,
+        "lep_pct_of_area": 19.9,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Chinese",
+        "total_speakers": 4000,
+        "lep_count": 4000,
+        "lep_pct_of_area": 2.9,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 35000,
+    "lep_pct": 25.7,
+    "poverty_pct": 18.5,
+    "no_internet_pct": 4.3,
+    "snap_pct": 21.6
+  },
+  {
+    "geo_id": "0656000",
+    "geo_type": "city",
+    "name": "Pasadena",
+    "population": 128000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 75000,
+      "english_only_pct": 58.1,
+      "bilingual": 35000,
+      "bilingual_pct": 27.1,
+      "lep": 19000,
+      "lep_pct": 14.7,
+      "total_pop_5plus": 129000
+    },
+    "poverty": {
+      "universe": 18000,
+      "band_1_124_pct": 29.3,
+      "band_125_199_pct": 18.0,
+      "band_200_399_pct": 28.0,
+      "band_400plus_pct": 24.7,
+      "below_poverty_pct": 29.3
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 4.3,
+      "no_computer_pct": 8.3,
+      "snap_pct": 11.5,
+      "linguistically_isolated_pct": 7.1
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 11000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 11000,
+        "lep_count": 11000,
+        "lep_pct_of_area": 8.5,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Chinese",
+        "total_speakers": 4000,
+        "lep_count": 4000,
+        "lep_pct_of_area": 3.1,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 19000,
+    "lep_pct": 14.7,
+    "poverty_pct": 29.3,
+    "no_internet_pct": 4.3,
+    "snap_pct": 11.5
+  },
+  {
+    "geo_id": "06_riverside",
+    "geo_type": "city",
+    "name": "Riverside",
+    "population": 123000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 65000,
+      "english_only_pct": 52.8,
+      "bilingual": 36000,
+      "bilingual_pct": 29.3,
+      "lep": 22000,
+      "lep_pct": 17.9,
+      "total_pop_5plus": 123000
+    },
+    "poverty": {
+      "universe": 21000,
+      "band_1_124_pct": 21.9,
+      "band_125_199_pct": 18.7,
+      "band_200_399_pct": 33.5,
+      "band_400plus_pct": 25.9,
+      "below_poverty_pct": 21.9
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 2.1,
+      "no_computer_pct": 9.6,
+      "snap_pct": 16.8,
+      "linguistically_isolated_pct": 6.7
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 17000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 17000,
+        "lep_count": 17000,
+        "lep_pct_of_area": 13.8,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 22000,
+    "lep_pct": 17.9,
+    "poverty_pct": 21.9,
+    "no_internet_pct": 2.1,
+    "snap_pct": 16.8
+  },
+  {
+    "geo_id": "0620802",
+    "geo_type": "city",
+    "name": "East LA",
+    "population": 108000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 18000,
+      "english_only_pct": 16.7,
+      "bilingual": 50000,
+      "bilingual_pct": 46.3,
+      "lep": 40000,
+      "lep_pct": 37.0,
+      "total_pop_5plus": 108000
+    },
+    "poverty": {
+      "universe": 40000,
+      "band_1_124_pct": 25.2,
+      "band_125_199_pct": 23.4,
+      "band_200_399_pct": 36.8,
+      "band_400plus_pct": 14.7,
+      "below_poverty_pct": 25.2
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 9.2,
+      "no_computer_pct": 15.7,
+      "snap_pct": 22.5,
+      "linguistically_isolated_pct": 15.0
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 40000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 40000,
+        "lep_count": 40000,
+        "lep_pct_of_area": 37.0,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 40000,
+    "lep_pct": 37.0,
+    "poverty_pct": 25.2,
+    "no_internet_pct": 9.2,
+    "snap_pct": 22.5
+  },
+  {
+    "geo_id": "06_antioch",
+    "geo_type": "city",
+    "name": "Antioch",
+    "population": 108000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 67000,
+      "english_only_pct": 62.0,
+      "bilingual": 24000,
+      "bilingual_pct": 22.2,
+      "lep": 17000,
+      "lep_pct": 15.7,
+      "total_pop_5plus": 108000
+    },
+    "poverty": {
+      "universe": 17000,
+      "band_1_124_pct": 19.0,
+      "band_125_199_pct": 18.4,
+      "band_200_399_pct": 33.3,
+      "band_400plus_pct": 29.3,
+      "below_poverty_pct": 19.0
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 2.1,
+      "no_computer_pct": 7.9,
+      "snap_pct": 15.9,
+      "linguistically_isolated_pct": 6.9
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 10000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 10000,
+        "lep_count": 10000,
+        "lep_pct_of_area": 9.3,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 17000,
+    "lep_pct": 15.7,
+    "poverty_pct": 19.0,
+    "no_internet_pct": 2.1,
+    "snap_pct": 15.9
+  },
+  {
+    "geo_id": "0636448",
+    "geo_type": "city",
+    "name": "Inglewood",
+    "population": 103000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 51000,
+      "english_only_pct": 49.0,
+      "bilingual": 29000,
+      "bilingual_pct": 27.9,
+      "lep": 24000,
+      "lep_pct": 23.1,
+      "total_pop_5plus": 104000
+    },
+    "poverty": {
+      "universe": 23000,
+      "band_1_124_pct": 19.2,
+      "band_125_199_pct": 21.4,
+      "band_200_399_pct": 39.2,
+      "band_400plus_pct": 20.2,
+      "below_poverty_pct": 19.2
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 4.1,
+      "no_computer_pct": 10.9,
+      "snap_pct": 20.7,
+      "linguistically_isolated_pct": 10.8
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 22000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 22000,
+        "lep_count": 22000,
+        "lep_pct_of_area": 21.2,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 24000,
+    "lep_pct": 23.1,
+    "poverty_pct": 19.2,
+    "no_internet_pct": 4.1,
+    "snap_pct": 20.7
+  },
+  {
+    "geo_id": "0619766",
+    "geo_type": "city",
+    "name": "Downey",
+    "population": 98000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 34000,
+      "english_only_pct": 34.7,
+      "bilingual": 42000,
+      "bilingual_pct": 42.9,
+      "lep": 22000,
+      "lep_pct": 22.4,
+      "total_pop_5plus": 98000
+    },
+    "poverty": {
+      "universe": 22000,
+      "band_1_124_pct": 15.0,
+      "band_125_199_pct": 12.0,
+      "band_200_399_pct": 33.8,
+      "band_400plus_pct": 39.2,
+      "below_poverty_pct": 15.0
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 2.4,
+      "no_computer_pct": 8.1,
+      "snap_pct": 14.1,
+      "linguistically_isolated_pct": 7.0
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 18000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 18000,
+        "lep_count": 18000,
+        "lep_pct_of_area": 18.4,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 22000,
+    "lep_pct": 22.4,
+    "poverty_pct": 15.0,
+    "no_internet_pct": 2.4,
+    "snap_pct": 14.1
+  },
+  {
+    "geo_id": "0655184",
+    "geo_type": "city",
+    "name": "Palmdale",
+    "population": 94000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 46000,
+      "english_only_pct": 48.9,
+      "bilingual": 29000,
+      "bilingual_pct": 30.9,
+      "lep": 19000,
+      "lep_pct": 20.2,
+      "total_pop_5plus": 94000
+    },
+    "poverty": {
+      "universe": 19000,
+      "band_1_124_pct": 18.3,
+      "band_125_199_pct": 28.2,
+      "band_200_399_pct": 36.6,
+      "band_400plus_pct": 16.8,
+      "below_poverty_pct": 18.3
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 5.5,
+      "no_computer_pct": 10.5,
+      "snap_pct": 21.0,
+      "linguistically_isolated_pct": 8.3
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 17000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 17000,
+        "lep_count": 17000,
+        "lep_pct_of_area": 18.1,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 19000,
+    "lep_pct": 20.2,
+    "poverty_pct": 18.3,
+    "no_internet_pct": 5.5,
+    "snap_pct": 21.0
+  },
+  {
+    "geo_id": "06_elk_grove",
+    "geo_type": "city",
+    "name": "Elk Grove",
+    "population": 90000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 59000,
+      "english_only_pct": 65.6,
+      "bilingual": 19000,
+      "bilingual_pct": 21.1,
+      "lep": 12000,
+      "lep_pct": 13.3,
+      "total_pop_5plus": 90000
+    },
+    "poverty": {
+      "universe": 11000,
+      "band_1_124_pct": 15.9,
+      "band_125_199_pct": 14.1,
+      "band_200_399_pct": 32.0,
+      "band_400plus_pct": 38.0,
+      "below_poverty_pct": 15.9
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 1.7,
+      "no_computer_pct": 3.6,
+      "snap_pct": 10.8,
+      "linguistically_isolated_pct": 4.1
+    },
+    "median_hh_income": null,
+    "top_language": "Chinese",
+    "top_language_lep": 3000,
+    "languages": [
+      {
+        "name": "Chinese",
+        "total_speakers": 3000,
+        "lep_count": 3000,
+        "lep_pct_of_area": 3.3,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Spanish",
+        "total_speakers": 2000,
+        "lep_count": 2000,
+        "lep_pct_of_area": 2.2,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Vietnamese",
+        "total_speakers": 2000,
+        "lep_count": 2000,
+        "lep_pct_of_area": 2.2,
+        "source": "IPUMS"
+      },
+      {
+        "name": "Tagalog",
+        "total_speakers": 1000,
+        "lep_count": 1000,
+        "lep_pct_of_area": 1.1,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 12000,
+    "lep_pct": 13.3,
+    "poverty_pct": 15.9,
+    "no_internet_pct": 1.7,
+    "snap_pct": 10.8
+  },
+  {
+    "geo_id": "0666462",
+    "geo_type": "city",
+    "name": "Santa Clarita",
+    "population": 86000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 54000,
+      "english_only_pct": 63.5,
+      "bilingual": 21000,
+      "bilingual_pct": 24.7,
+      "lep": 10000,
+      "lep_pct": 11.8,
+      "total_pop_5plus": 85000
+    },
+    "poverty": {
+      "universe": 10000,
+      "band_1_124_pct": 11.1,
+      "band_125_199_pct": 13.6,
+      "band_200_399_pct": 34.0,
+      "band_400plus_pct": 41.3,
+      "below_poverty_pct": 11.1
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 1.4,
+      "no_computer_pct": 4.3,
+      "snap_pct": 10.2,
+      "linguistically_isolated_pct": 4.2
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 6000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 6000,
+        "lep_count": 6000,
+        "lep_pct_of_area": 7.1,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 10000,
+    "lep_pct": 11.8,
+    "poverty_pct": 11.1,
+    "no_internet_pct": 1.4,
+    "snap_pct": 10.2
+  },
+  {
+    "geo_id": "06_simi_valley",
+    "geo_type": "city",
+    "name": "Simi Valley",
+    "population": 49000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 34000,
+      "english_only_pct": 69.4,
+      "bilingual": 10000,
+      "bilingual_pct": 20.4,
+      "lep": 5000,
+      "lep_pct": 10.2,
+      "total_pop_5plus": 49000
+    },
+    "poverty": {
+      "universe": 5000,
+      "band_1_124_pct": 19.6,
+      "band_125_199_pct": 10.6,
+      "band_200_399_pct": 39.3,
+      "band_400plus_pct": 30.5,
+      "below_poverty_pct": 19.6
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 1.8,
+      "no_computer_pct": 5.4,
+      "snap_pct": 7.4,
+      "linguistically_isolated_pct": 3.8
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 3000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 3000,
+        "lep_count": 3000,
+        "lep_pct_of_area": 6.1,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 5000,
+    "lep_pct": 10.2,
+    "poverty_pct": 19.6,
+    "no_internet_pct": 1.8,
+    "snap_pct": 7.4
+  },
+  {
+    "geo_id": "0651182",
+    "geo_type": "city",
+    "name": "Norwalk",
+    "population": 38000,
+    "language_source": "IPUMS ACS 2019-2023",
+    "proficiency": {
+      "english_only": 13000,
+      "english_only_pct": 34.2,
+      "bilingual": 15000,
+      "bilingual_pct": 39.5,
+      "lep": 10000,
+      "lep_pct": 26.3,
+      "total_pop_5plus": 38000
+    },
+    "poverty": {
+      "universe": 10000,
+      "band_1_124_pct": 10.7,
+      "band_125_199_pct": 18.8,
+      "band_200_399_pct": 39.3,
+      "band_400plus_pct": 31.1,
+      "below_poverty_pct": 10.7
+    },
+    "education": {},
+    "access": {
+      "no_internet_pct": 1.4,
+      "no_computer_pct": 7.7,
+      "snap_pct": 19.1,
+      "linguistically_isolated_pct": 9.1
+    },
+    "median_hh_income": null,
+    "top_language": "Spanish",
+    "top_language_lep": 8000,
+    "languages": [
+      {
+        "name": "Spanish",
+        "total_speakers": 8000,
+        "lep_count": 8000,
+        "lep_pct_of_area": 21.1,
+        "source": "IPUMS"
+      }
+    ],
+    "lep_total": 10000,
+    "lep_pct": 26.3,
+    "poverty_pct": 10.7,
+    "no_internet_pct": 1.4,
+    "snap_pct": 19.1
+  }
+]
