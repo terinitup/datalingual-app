@@ -290,9 +290,9 @@
       },
       {
         "name": "Other/Unspecified",
-        "total_speakers": 128,
-        "lep_count": 128,
-        "lep_pct_of_area": 0.1,
+        "total_speakers": 163,
+        "lep_count": 163,
+        "lep_pct_of_area": 0.2,
         "source": "IPUMS ACS 2019-2023"
       },
       {
@@ -306,13 +306,6 @@
         "name": "French (incl. Cajun)",
         "total_speakers": 36,
         "lep_count": 36,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (94)",
-        "total_speakers": 35,
-        "lep_count": 35,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -448,6 +441,13 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
+        "name": "Other/Unspecified",
+        "total_speakers": 161,
+        "lep_count": 161,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS ACS 2019-2023"
+      },
+      {
         "name": "Other Asian/Pacific Islander",
         "total_speakers": 85,
         "lep_count": 85,
@@ -455,23 +455,9 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (94)",
-        "total_speakers": 81,
-        "lep_count": 81,
-        "lep_pct_of_area": 0.1,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
         "name": "Chinese (Mandarin/Cantonese)",
         "total_speakers": 73,
         "lep_count": 73,
-        "lep_pct_of_area": 0.1,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other/Unspecified",
-        "total_speakers": 65,
-        "lep_count": 65,
         "lep_pct_of_area": 0.1,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -486,13 +472,6 @@
         "name": "Ilocano",
         "total_speakers": 25,
         "lep_count": 25,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (89)",
-        "total_speakers": 15,
-        "lep_count": 15,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -850,7 +829,7 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (94)",
+        "name": "Other/Unspecified",
         "total_speakers": 37,
         "lep_count": 37,
         "lep_pct_of_area": 0.0,
@@ -1432,7 +1411,7 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (75)",
+        "name": "Other/Unspecified",
         "total_speakers": 7,
         "lep_count": 7,
         "lep_pct_of_area": 0.0,
@@ -1521,7 +1500,7 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (94)",
+        "name": "Other/Unspecified",
         "total_speakers": 39,
         "lep_count": 39,
         "lep_pct_of_area": 0.0,
@@ -1771,7 +1750,7 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (96)",
+        "name": "Other/Unspecified",
         "total_speakers": 33,
         "lep_count": 33,
         "lep_pct_of_area": 0.0,
@@ -1924,9 +1903,9 @@
       },
       {
         "name": "Other/Unspecified",
-        "total_speakers": 307,
-        "lep_count": 307,
-        "lep_pct_of_area": 0.3,
+        "total_speakers": 362,
+        "lep_count": 362,
+        "lep_pct_of_area": 0.4,
         "source": "IPUMS ACS 2019-2023"
       },
       {
@@ -1954,13 +1933,6 @@
         "name": "Thai/Lao",
         "total_speakers": 58,
         "lep_count": 58,
-        "lep_pct_of_area": 0.1,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (62)",
-        "total_speakers": 55,
-        "lep_count": 55,
         "lep_pct_of_area": 0.1,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -2409,7 +2381,7 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (96)",
+        "name": "Other/Unspecified",
         "total_speakers": 34,
         "lep_count": 34,
         "lep_pct_of_area": 0.0,
@@ -3005,9 +2977,9 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (94)",
-        "total_speakers": 120,
-        "lep_count": 120,
+        "name": "Other/Unspecified",
+        "total_speakers": 129,
+        "lep_count": 129,
         "lep_pct_of_area": 0.1,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -3099,13 +3071,6 @@
         "name": "Sinhalese",
         "total_speakers": 15,
         "lep_count": 15,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other/Unspecified",
-        "total_speakers": 9,
-        "lep_count": 9,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -3706,6 +3671,13 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
+        "name": "Other/Unspecified",
+        "total_speakers": 57,
+        "lep_count": 57,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2019-2023"
+      },
+      {
         "name": "Yoruba/Other W. African",
         "total_speakers": 43,
         "lep_count": 43,
@@ -3716,20 +3688,6 @@
         "name": "Armenian",
         "total_speakers": 39,
         "lep_count": 39,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (62)",
-        "total_speakers": 31,
-        "lep_count": 31,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other/Unspecified",
-        "total_speakers": 26,
-        "lep_count": 26,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -3942,6 +3900,13 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
+        "name": "Other/Unspecified",
+        "total_speakers": 100,
+        "lep_count": 100,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS ACS 2019-2023"
+      },
+      {
         "name": "Thai/Lao",
         "total_speakers": 93,
         "lep_count": 93,
@@ -3970,23 +3935,9 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (15)",
-        "total_speakers": 51,
-        "lep_count": 51,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
         "name": "Bulgarian/Macedonian",
         "total_speakers": 46,
         "lep_count": 46,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (96)",
-        "total_speakers": 40,
-        "lep_count": 40,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -4055,13 +4006,6 @@
       },
       {
         "name": "Hebrew",
-        "total_speakers": 9,
-        "lep_count": 9,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (94)",
         "total_speakers": 9,
         "lep_count": 9,
         "lep_pct_of_area": 0.0,
@@ -4372,7 +4316,7 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (94)",
+        "name": "Other/Unspecified",
         "total_speakers": 365,
         "lep_count": 365,
         "lep_pct_of_area": 0.2,
@@ -4741,6 +4685,13 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
+        "name": "Other/Unspecified",
+        "total_speakers": 37,
+        "lep_count": 37,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2019-2023"
+      },
+      {
         "name": "Swedish",
         "total_speakers": 32,
         "lep_count": 32,
@@ -4769,13 +4720,6 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (94)",
-        "total_speakers": 23,
-        "lep_count": 23,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
         "name": "German",
         "total_speakers": 20,
         "lep_count": 20,
@@ -4786,13 +4730,6 @@
         "name": "Tagalog/Filipino",
         "total_speakers": 17,
         "lep_count": 17,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (96)",
-        "total_speakers": 14,
-        "lep_count": 14,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -4963,16 +4900,16 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "French (incl. Cajun)",
-        "total_speakers": 120,
-        "lep_count": 120,
+        "name": "Other/Unspecified",
+        "total_speakers": 125,
+        "lep_count": 125,
         "lep_pct_of_area": 0.1,
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other/Unspecified",
-        "total_speakers": 117,
-        "lep_count": 117,
+        "name": "French (incl. Cajun)",
+        "total_speakers": 120,
+        "lep_count": 120,
         "lep_pct_of_area": 0.1,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -5064,13 +5001,6 @@
         "name": "Serbo-Croatian",
         "total_speakers": 12,
         "lep_count": 12,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (94)",
-        "total_speakers": 8,
-        "lep_count": 8,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -5400,6 +5330,13 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
+        "name": "Other/Unspecified",
+        "total_speakers": 135,
+        "lep_count": 135,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS ACS 2019-2023"
+      },
+      {
         "name": "French (incl. Cajun)",
         "total_speakers": 133,
         "lep_count": 133,
@@ -5435,13 +5372,6 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other/Unspecified",
-        "total_speakers": 92,
-        "lep_count": 92,
-        "lep_pct_of_area": 0.1,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
         "name": "Vietnamese",
         "total_speakers": 55,
         "lep_count": 55,
@@ -5452,13 +5382,6 @@
         "name": "Russian",
         "total_speakers": 47,
         "lep_count": 47,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (62)",
-        "total_speakers": 43,
-        "lep_count": 43,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -5706,6 +5629,13 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
+        "name": "Other/Unspecified",
+        "total_speakers": 28,
+        "lep_count": 28,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2019-2023"
+      },
+      {
         "name": "French (incl. Cajun)",
         "total_speakers": 16,
         "lep_count": 16,
@@ -5723,20 +5653,6 @@
         "name": "Hawaiian",
         "total_speakers": 15,
         "lep_count": 15,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other/Unspecified",
-        "total_speakers": 14,
-        "lep_count": 14,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (96)",
-        "total_speakers": 14,
-        "lep_count": 14,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -5914,6 +5830,13 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
+        "name": "Other/Unspecified",
+        "total_speakers": 40,
+        "lep_count": 40,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2019-2023"
+      },
+      {
         "name": "Malayalam/Kannada",
         "total_speakers": 37,
         "lep_count": 37,
@@ -5956,13 +5879,6 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (94)",
-        "total_speakers": 25,
-        "lep_count": 25,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
         "name": "Marathi",
         "total_speakers": 25,
         "lep_count": 25,
@@ -5980,13 +5896,6 @@
         "name": "Italian",
         "total_speakers": 16,
         "lep_count": 16,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (96)",
-        "total_speakers": 15,
-        "lep_count": 15,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -6115,7 +6024,7 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (94)",
+        "name": "Other/Unspecified",
         "total_speakers": 207,
         "lep_count": 207,
         "lep_pct_of_area": 0.1,
@@ -6692,7 +6601,7 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (96)",
+        "name": "Other/Unspecified",
         "total_speakers": 11,
         "lep_count": 11,
         "lep_pct_of_area": 0.0,
@@ -6914,6 +6823,13 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
+        "name": "Other/Unspecified",
+        "total_speakers": 35,
+        "lep_count": 35,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2019-2023"
+      },
+      {
         "name": "French (incl. Cajun)",
         "total_speakers": 33,
         "lep_count": 33,
@@ -6924,13 +6840,6 @@
         "name": "Armenian",
         "total_speakers": 26,
         "lep_count": 26,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (75)",
-        "total_speakers": 23,
-        "lep_count": 23,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -6952,13 +6861,6 @@
         "name": "Ukrainian",
         "total_speakers": 13,
         "lep_count": 13,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other/Unspecified",
-        "total_speakers": 12,
-        "lep_count": 12,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -7213,7 +7115,7 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (96)",
+        "name": "Other/Unspecified",
         "total_speakers": 35,
         "lep_count": 35,
         "lep_pct_of_area": 0.0,
@@ -7400,6 +7302,13 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
+        "name": "Other/Unspecified",
+        "total_speakers": 56,
+        "lep_count": 56,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2019-2023"
+      },
+      {
         "name": "Korean",
         "total_speakers": 48,
         "lep_count": 48,
@@ -7424,20 +7333,6 @@
         "name": "French (incl. Cajun)",
         "total_speakers": 41,
         "lep_count": 41,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other/Unspecified",
-        "total_speakers": 28,
-        "lep_count": 28,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (94)",
-        "total_speakers": 28,
-        "lep_count": 28,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -8309,7 +8204,7 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (94)",
+        "name": "Other/Unspecified",
         "total_speakers": 30,
         "lep_count": 30,
         "lep_pct_of_area": 0.0,
@@ -8919,7 +8814,7 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (94)",
+        "name": "Other/Unspecified",
         "total_speakers": 35,
         "lep_count": 35,
         "lep_pct_of_area": 0.0,
@@ -9232,7 +9127,7 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (94)",
+        "name": "Other/Unspecified",
         "total_speakers": 11,
         "lep_count": 11,
         "lep_pct_of_area": 0.0,
@@ -9683,6 +9578,13 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
+        "name": "Other/Unspecified",
+        "total_speakers": 113,
+        "lep_count": 113,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS ACS 2019-2023"
+      },
+      {
         "name": "Armenian",
         "total_speakers": 108,
         "lep_count": 108,
@@ -9700,13 +9602,6 @@
         "name": "Tagalog/Filipino",
         "total_speakers": 80,
         "lep_count": 80,
-        "lep_pct_of_area": 0.1,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other/Unspecified",
-        "total_speakers": 78,
-        "lep_count": 78,
         "lep_pct_of_area": 0.1,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -9767,13 +9662,6 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (62)",
-        "total_speakers": 24,
-        "lep_count": 24,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
         "name": "Czech",
         "total_speakers": 19,
         "lep_count": 19,
@@ -9791,13 +9679,6 @@
         "name": "German",
         "total_speakers": 13,
         "lep_count": 13,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (94)",
-        "total_speakers": 11,
-        "lep_count": 11,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -10302,6 +10183,13 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
+        "name": "Other/Unspecified",
+        "total_speakers": 52,
+        "lep_count": 52,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2019-2023"
+      },
+      {
         "name": "Swahili",
         "total_speakers": 47,
         "lep_count": 47,
@@ -10319,13 +10207,6 @@
         "name": "Lithuanian",
         "total_speakers": 37,
         "lep_count": 37,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (96)",
-        "total_speakers": 36,
-        "lep_count": 36,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -10352,13 +10233,6 @@
       },
       {
         "name": "Polish",
-        "total_speakers": 16,
-        "lep_count": 16,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (72)",
         "total_speakers": 16,
         "lep_count": 16,
         "lep_pct_of_area": 0.0,
@@ -10524,7 +10398,7 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (94)",
+        "name": "Other/Unspecified",
         "total_speakers": 70,
         "lep_count": 70,
         "lep_pct_of_area": 0.1,
@@ -10774,7 +10648,7 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (94)",
+        "name": "Other/Unspecified",
         "total_speakers": 19,
         "lep_count": 19,
         "lep_pct_of_area": 0.0,
@@ -10927,8 +10801,8 @@
       },
       {
         "name": "Other/Unspecified",
-        "total_speakers": 805,
-        "lep_count": 805,
+        "total_speakers": 819,
+        "lep_count": 819,
         "lep_pct_of_area": 0.5,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -11041,13 +10915,6 @@
         "name": "Romanian",
         "total_speakers": 15,
         "lep_count": 15,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (62)",
-        "total_speakers": 14,
-        "lep_count": 14,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -11274,6 +11141,13 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
+        "name": "Other/Unspecified",
+        "total_speakers": 53,
+        "lep_count": 53,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2019-2023"
+      },
+      {
         "name": "German",
         "total_speakers": 43,
         "lep_count": 43,
@@ -11298,20 +11172,6 @@
         "name": "Other African",
         "total_speakers": 29,
         "lep_count": 29,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other/Unspecified",
-        "total_speakers": 29,
-        "lep_count": 29,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (94)",
-        "total_speakers": 24,
-        "lep_count": 24,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -11844,7 +11704,7 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (94)",
+        "name": "Other/Unspecified",
         "total_speakers": 8,
         "lep_count": 8,
         "lep_pct_of_area": 0.0,
@@ -12447,6 +12307,13 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
+        "name": "Other/Unspecified",
+        "total_speakers": 124,
+        "lep_count": 124,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS ACS 2019-2023"
+      },
+      {
         "name": "Polish",
         "total_speakers": 116,
         "lep_count": 116,
@@ -12482,13 +12349,6 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (96)",
-        "total_speakers": 84,
-        "lep_count": 84,
-        "lep_pct_of_area": 0.1,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
         "name": "Punjabi",
         "total_speakers": 72,
         "lep_count": 72,
@@ -12507,13 +12367,6 @@
         "total_speakers": 52,
         "lep_count": 52,
         "lep_pct_of_area": 0.1,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other/Unspecified",
-        "total_speakers": 40,
-        "lep_count": 40,
-        "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
       {
@@ -12655,6 +12508,13 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
+        "name": "Other/Unspecified",
+        "total_speakers": 165,
+        "lep_count": 165,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS ACS 2019-2023"
+      },
+      {
         "name": "Ilocano",
         "total_speakers": 149,
         "lep_count": 149,
@@ -12697,13 +12557,6 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other/Unspecified",
-        "total_speakers": 71,
-        "lep_count": 71,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
         "name": "Malayalam/Kannada",
         "total_speakers": 70,
         "lep_count": 70,
@@ -12725,13 +12578,6 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other language (72)",
-        "total_speakers": 54,
-        "lep_count": 54,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
         "name": "Korean",
         "total_speakers": 41,
         "lep_count": 41,
@@ -12742,13 +12588,6 @@
         "name": "French (incl. Cajun)",
         "total_speakers": 35,
         "lep_count": 35,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (75)",
-        "total_speakers": 29,
-        "lep_count": 29,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -12791,13 +12630,6 @@
         "name": "Other African",
         "total_speakers": 17,
         "lep_count": 17,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (94)",
-        "total_speakers": 11,
-        "lep_count": 11,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -12905,16 +12737,16 @@
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "French (incl. Cajun)",
-        "total_speakers": 353,
-        "lep_count": 353,
+        "name": "Other/Unspecified",
+        "total_speakers": 368,
+        "lep_count": 368,
         "lep_pct_of_area": 0.4,
         "source": "IPUMS ACS 2019-2023"
       },
       {
-        "name": "Other/Unspecified",
-        "total_speakers": 346,
-        "lep_count": 346,
+        "name": "French (incl. Cajun)",
+        "total_speakers": 353,
+        "lep_count": 353,
         "lep_pct_of_area": 0.4,
         "source": "IPUMS ACS 2019-2023"
       },
@@ -13020,13 +12852,6 @@
         "name": "Hmong",
         "total_speakers": 23,
         "lep_count": 23,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2019-2023"
-      },
-      {
-        "name": "Other language (96)",
-        "total_speakers": 22,
-        "lep_count": 22,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2019-2023"
       },
