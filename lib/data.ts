@@ -2,7 +2,7 @@ import { GeoArea, GeoType } from './types';
 
 export async function fetchGeographyData(type: GeoType): Promise<GeoArea[]> {
   const fileMap: Record<GeoType, string> = {
-    county: '/data/county_ipums.json',
+    county: '/data/counties_ipums.json',
     puma: '/data/pumas_ipums.json',
     city: '/data/cities_ipums.json',
     zip: '/data/zips.json',

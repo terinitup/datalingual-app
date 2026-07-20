@@ -17,7 +17,7 @@ export interface MapPanelProps {
 const GEO_PATHS: Record<GeoType, string> = {
   puma: '/geo/pumas.geojson',
   city: '/geo/cities.geojson',
-  county: '/geo/county.geojson',
+  county: '/geo/counties_la_oc.geojson',
   zip: '/geo/zips.geojson',
 };
 
@@ -32,7 +32,7 @@ const LEP_LEGEND = [
 function getNativeGeoId(type: GeoType, props: Record<string, unknown>): string {
   switch (type) {
     case 'county':
-      return props.GEOID != null ? String(props.GEOID) : '';
+  return props.GEOID != null ? String(props.GEOID) : '';
     case 'puma':
       return props.GEOID10 != null ? String(props.GEOID10) : '';
     case 'city':
