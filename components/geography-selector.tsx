@@ -9,7 +9,7 @@ interface GeographySelectorProps {
   onChange: (type: GeoType) => void;
 }
 
-const GEOGRAPHY_TYPES: GeoType[] = ['county', 'puma', 'city', 'zip'];
+const GEOGRAPHY_TYPES: GeoType[] = ['county', 'puma', 'city'];
 
 export function GeographySelector({ selected, onChange }: GeographySelectorProps) {
   return (
