@@ -50,10 +50,7 @@ export function Header() {
             <Download className="h-4 w-4" />
             Export
           </Button>
-          <Button variant="ghost" size="icon" className="h-8 w-8">
-            <Info className="h-4 w-4" />
-            <span className="sr-only">About</span>
-          </Button>
+          
         </div>
       </div>
     </header>

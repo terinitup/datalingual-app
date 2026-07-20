@@ -250,6 +250,26 @@ export function LeafletMapView({
                 ))}
               </div>
             )}
+            {colorMetric === 'median_hh_income' && (
+              <div className="flex flex-col gap-1">
+                {[{label:'> $100k',color:'#1D9E75'},{label:'$75k–$100k',color:'#8BC34A'},{label:'$50k–$75k',color:'#FFC107'},{label:'$30k–$50k',color:'#FF7043'},{label:'< $30k',color:'#C4501A'}].map(({label,color}) => (
+                  <div key={label} className="flex items-center gap-2 text-xs text-muted-foreground">
+                    <span className="h-3 w-6 shrink-0 rounded-sm border border-border" style={{backgroundColor:color}} />
+                    <span>{label}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+            {colorMetric === 'population' && (
+              <div className="flex flex-col gap-1">
+                {[{label:'> 200k',color:'#C4501A'},{label:'150k–200k',color:'#FF7043'},{label:'100k–150k',color:'#FFC107'},{label:'50k–100k',color:'#8BC34A'},{label:'< 50k',color:'#1D9E75'}].map(({label,color}) => (
+                  <div key={label} className="flex items-center gap-2 text-xs text-muted-foreground">
+                    <span className="h-3 w-6 shrink-0 rounded-sm border border-border" style={{backgroundColor:color}} />
+                    <span>{label}</span>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       );
