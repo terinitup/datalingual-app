@@ -80,12 +80,7 @@ export function Explorer() {
           <div className="text-sm text-muted-foreground">
             {data.length} {getGeographyLabel(geographyType)}{data.length !== 1 ? 's' : ''} available
           </div>
-          <button
-  onClick={() => setShowAbout(true)}
-  className="flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold bg-[#2E8B9A] text-white hover:bg-[#267a88] shadow-md transition-colors"
->
-  About
-</button>
+  
         </div>
       </div>
 
