@@ -44,7 +44,7 @@ export function Explorer() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Controls Bar */}
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 p-4 border-b border-border bg-card">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 px-6 py-4 border-b border-border bg-card">
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
           <GeographySelector selected={geographyType} onChange={setGeographyType} />
           
