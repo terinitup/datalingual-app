@@ -194,7 +194,7 @@ export function LeafletMapView({
           />
           {merged && (
             <GeoJSON
-            key={`${geographyType}-${colorMetric}`}
+            key={`${geographyType}-${colorMetric}-${Date.now()}`}
               data={merged}
               ref={geoJsonRef as unknown as React.Ref<LeafletGeoJSON>}
               style={(feature) => {
