@@ -121,6 +121,7 @@ export function LeafletMapView({
   colorMetric,
 }: MapPanelProps) {
   const [merged, setMerged] = useState<FeatureCollection | null>(null);
+  const [mergeVersion, setMergeVersion] = useState(0);
   const [clientReady, setClientReady] = useState(false);
   const [mapReady, setMapReady] = useState(false);
   const mapRef = useRef<LeafletMap | null>(null);
@@ -145,7 +146,7 @@ export function LeafletMapView({
       }
       if (cancelled) return;
       setMerged(mergeGeojsonWithLep(rawGeoRef.current[path], data, geographyType, colorMetric));
-    }
+      setMergeVersion(v => v + 1);    }
 
     load().catch((err) => console.error('GeoJSON load failed:', err));
 
@@ -199,7 +200,7 @@ export function LeafletMapView({
           />
           {merged && (
             <GeoJSON
-            key={`${geographyType}-${colorMetric}`}
+            key={`${geographyType}-${colorMetric}-${mergeVersion}`}
               data={merged}
               ref={geoJsonRef as unknown as React.Ref<LeafletGeoJSON>}
               style={(feature) => {
