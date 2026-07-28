@@ -131,15 +131,20 @@ export function LeafletMapView({
     setClientReady(true);
   }, []);
 
+  const rawGeoRef = useRef<Record<string, FeatureCollection>>({});
+
   useEffect(() => {
     let cancelled = false;
 
     async function load() {
-      const res = await fetch(GEO_PATHS[geographyType]);
-      if (!res.ok || cancelled) return;
-      const raw = (await res.json()) as FeatureCollection;
+      const path = GEO_PATHS[geographyType];
+      if (!rawGeoRef.current[path]) {
+        const res = await fetch(path);
+        if (!res.ok || cancelled) return;
+        rawGeoRef.current[path] = (await res.json()) as FeatureCollection;
+      }
       if (cancelled) return;
-      setMerged(mergeGeojsonWithLep(raw, data, geographyType, colorMetric));
+      setMerged(mergeGeojsonWithLep(rawGeoRef.current[path], data, geographyType, colorMetric));
     }
 
     load().catch((err) => console.error('GeoJSON load failed:', err));
@@ -194,7 +199,7 @@ export function LeafletMapView({
           />
           {merged && (
             <GeoJSON
-            key={`${geographyType}-${colorMetric}-${Date.now()}`}
+            key={`${geographyType}-${colorMetric}`}
               data={merged}
               ref={geoJsonRef as unknown as React.Ref<LeafletGeoJSON>}
               style={(feature) => {
