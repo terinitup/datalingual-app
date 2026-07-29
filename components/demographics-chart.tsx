@@ -102,7 +102,7 @@ export function DemographicsChart({ data, compareData }: DemographicsChartProps)
         {/* Donut Chart */}
         <Card>
           <CardHeader className="pb-2">
-            <CardTitle className="text-base font-sans">LEP Population by Language</CardTitle>
+            <CardTitle className="text-base font-sans">Population with LEP by Language</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="h-64">
