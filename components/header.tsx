@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
-import { MapPin, BarChart3, GitCompare, Download, X } from 'lucide-react';
+import { MapPin, BarChart3, GitCompare, Download, X, Clock } from 'lucide-react';
 
 export function Header() {
   const pathname = usePathname();
@@ -45,6 +45,16 @@ export function Header() {
                   Compare
                 </Button>
               </Link>
+              <Link href="/historical">
+  <Button
+    variant={pathname === '/historical' ? 'secondary' : 'ghost'}
+    size="sm"
+    className="gap-2"
+  >
+    <Clock className="h-4 w-4" />
+    Historical
+  </Button>
+</Link>
             </nav>
           </div>
 
