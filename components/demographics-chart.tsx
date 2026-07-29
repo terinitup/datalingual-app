@@ -151,7 +151,7 @@ export function DemographicsChart({ data, compareData }: DemographicsChartProps)
         <Card>
           <CardHeader className="pb-2">
             <CardTitle className="text-base font-sans">
-            All Languages — {new Intl.NumberFormat('en-US').format(totalLep)} speakers with LEP            </CardTitle>
+            All Languages — {new Intl.NumberFormat('en-US').format(totalLep)} Speakers with LEP            </CardTitle>
           </CardHeader>
           <CardContent>
             <div className="h-72 overflow-y-auto pr-1">
