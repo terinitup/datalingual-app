@@ -90,8 +90,9 @@ function mergeGeojsonWithLep(
     const gid = getNativeGeoId(geographyType, props);
     props.geo_id = gid;
     const row = gid ? byId.get(gid) : undefined;
-    const value = row ? (row[colorMetric as keyof GeoArea] as number ?? 0) : 0;
-    props._fillColor = getMetricColor(value, colorMetric);
+    const value = row ? (row[colorMetric as keyof GeoArea] as number ?? 0) : null;
+props._fillColor = value !== null ? getMetricColor(value, colorMetric) : '#cbd5e1';
+props._hasData = row != null;
     return { ...f, properties: props };
   });
 
