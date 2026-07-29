@@ -1,6 +1,6 @@
 [
   {
-    "geo_id": "063742",
+    "geo_id": "0603742",
     "geo_type": "puma",
     "name": "Long Beach South",
     "population": 118993,
@@ -411,7 +411,7 @@
     "puma_code": "3742"
   },
   {
-    "geo_id": "063733",
+    "geo_id": "0603733",
     "geo_type": "puma",
     "name": "Monrovia/Arcadia/Temple City",
     "population": 105733,
@@ -1022,7 +1022,7 @@
     "puma_code": "3733"
   },
   {
-    "geo_id": "063745",
+    "geo_id": "0603745",
     "geo_type": "puma",
     "name": "Culver City/Santa Monica",
     "population": 114929,
@@ -1358,7 +1358,7 @@
     "puma_code": "3745"
   },
   {
-    "geo_id": "063737",
+    "geo_id": "0603737",
     "geo_type": "puma",
     "name": "West Covina/Covina",
     "population": 118734,
@@ -2019,7 +2019,7 @@
     "puma_code": "3737"
   },
   {
-    "geo_id": "063741",
+    "geo_id": "0603741",
     "geo_type": "puma",
     "name": "Long Beach North",
     "population": 122349,
@@ -2305,7 +2305,7 @@
     "puma_code": "3741"
   },
   {
-    "geo_id": "063751",
+    "geo_id": "0603751",
     "geo_type": "puma",
     "name": "Huntington Park/Bell",
     "population": 142869,
@@ -2741,7 +2741,7 @@
     "puma_code": "3751"
   },
   {
-    "geo_id": "063738",
+    "geo_id": "0603738",
     "geo_type": "puma",
     "name": "Whittier/Santa Fe Springs",
     "population": 117276,
@@ -3252,7 +3252,7 @@
     "puma_code": "3738"
   },
   {
-    "geo_id": "063714",
+    "geo_id": "0603714",
     "geo_type": "puma",
     "name": "LA City (South Central",
     "population": 99929,
@@ -3838,7 +3838,7 @@
     "puma_code": "3714"
   },
   {
-    "geo_id": "063743",
+    "geo_id": "0603743",
     "geo_type": "puma",
     "name": "Torrance/Redondo Beach",
     "population": 106393,
@@ -4199,7 +4199,7 @@
     "puma_code": "3743"
   },
   {
-    "geo_id": "063719",
+    "geo_id": "0603719",
     "geo_type": "puma",
     "name": "LA City (Van Nuys/North Sherman Oaks",
     "population": 182516,
@@ -4960,7 +4960,7 @@
     "puma_code": "3719"
   },
   {
-    "geo_id": "063746",
+    "geo_id": "0603746",
     "geo_type": "puma",
     "name": "Beverly Hills/West Hollywood",
     "population": 101569,
@@ -5571,7 +5571,7 @@
     "puma_code": "3746"
   },
   {
-    "geo_id": "063752",
+    "geo_id": "0603752",
     "geo_type": "puma",
     "name": "San Gabriel/Rosemead",
     "population": 155014,
@@ -5882,7 +5882,7 @@
     "puma_code": "3752"
   },
   {
-    "geo_id": "063723",
+    "geo_id": "0603723",
     "geo_type": "puma",
     "name": "LA City (Granada Hills/North Hills",
     "population": 130894,
@@ -6668,7 +6668,7 @@
     "puma_code": "3723"
   },
   {
-    "geo_id": "063750",
+    "geo_id": "0603750",
     "geo_type": "puma",
     "name": "South Gate/Lynwood",
     "population": 171435,
@@ -7179,7 +7179,7 @@
     "puma_code": "3750"
   },
   {
-    "geo_id": "063707",
+    "geo_id": "0603707",
     "geo_type": "puma",
     "name": "LA City (Hollywood Hills/Griffith Park",
     "population": 137073,
@@ -7765,7 +7765,7 @@
     "puma_code": "3707"
   },
   {
-    "geo_id": "063717",
+    "geo_id": "0603717",
     "geo_type": "puma",
     "name": "LA City (Westwood/Century City",
     "population": 179406,
@@ -8526,7 +8526,7 @@
     "puma_code": "3717"
   },
   {
-    "geo_id": "063708",
+    "geo_id": "0603708",
     "geo_type": "puma",
     "name": "LA City (Hollywood",
     "population": 127499,
@@ -9212,7 +9212,7 @@
     "puma_code": "3708"
   },
   {
-    "geo_id": "063716",
+    "geo_id": "0603716",
     "geo_type": "puma",
     "name": "LA City (Palms/Mar Vista",
     "population": 97858,
@@ -9723,7 +9723,7 @@
     "puma_code": "3716"
   },
   {
-    "geo_id": "063744",
+    "geo_id": "0603744",
     "geo_type": "puma",
     "name": "Inglewood/Hawthorne",
     "population": 179178,
@@ -10384,7 +10384,7 @@
     "puma_code": "3744"
   },
   {
-    "geo_id": "063722",
+    "geo_id": "0603722",
     "geo_type": "puma",
     "name": "LA City (Chatsworth/Porter Ranch",
     "population": 156025,
@@ -11220,7 +11220,7 @@
     "puma_code": "3722"
   },
   {
-    "geo_id": "063736",
+    "geo_id": "0603736",
     "geo_type": "puma",
     "name": "Pomona/Diamond Bar",
     "population": 108693,
@@ -11806,7 +11806,7 @@
     "puma_code": "3736"
   },
   {
-    "geo_id": "063734",
+    "geo_id": "0603734",
     "geo_type": "puma",
     "name": "El Monte/South El Monte",
     "population": 186247,
@@ -12567,7 +12567,7 @@
     "puma_code": "3734"
   },
   {
-    "geo_id": "063732",
+    "geo_id": "0603732",
     "geo_type": "puma",
     "name": "Pasadena",
     "population": 165634,
@@ -13478,7 +13478,7 @@
     "puma_code": "3732"
   },
   {
-    "geo_id": "063758",
+    "geo_id": "0603758",
     "geo_type": "puma",
     "name": "Lancaster North",
     "population": 146331,
@@ -14164,7 +14164,7 @@
     "puma_code": "3758"
   },
   {
-    "geo_id": "063766",
+    "geo_id": "0603766",
     "geo_type": "puma",
     "name": "Sherman Oaks/Studio City",
     "population": 90988,
@@ -14750,7 +14750,7 @@
     "puma_code": "3766"
   },
   {
-    "geo_id": "063759",
+    "geo_id": "0603759",
     "geo_type": "puma",
     "name": "Lancaster South/Palmdale West",
     "population": 105569,
@@ -15336,7 +15336,7 @@
     "puma_code": "3759"
   },
   {
-    "geo_id": "063735",
+    "geo_id": "0603735",
     "geo_type": "puma",
     "name": "Baldwin Park/Azusa",
     "population": 174268,
@@ -16147,7 +16147,7 @@
     "puma_code": "3735"
   },
   {
-    "geo_id": "063740",
+    "geo_id": "0603740",
     "geo_type": "puma",
     "name": "Compton/Carson North",
     "population": 118691,
@@ -16733,7 +16733,7 @@
     "puma_code": "3740"
   },
   {
-    "geo_id": "063710",
+    "geo_id": "0603710",
     "geo_type": "puma",
     "name": "LA City (Mid-Wilshire",
     "population": 168853,
@@ -17444,7 +17444,7 @@
     "puma_code": "3710"
   },
   {
-    "geo_id": "063715",
+    "geo_id": "0603715",
     "geo_type": "puma",
     "name": "LA City (Crenshaw/Baldwin Hills",
     "population": 110826,
@@ -18030,7 +18030,7 @@
     "puma_code": "3715"
   },
   {
-    "geo_id": "063721",
+    "geo_id": "0603721",
     "geo_type": "puma",
     "name": "LA City (Canoga Park/Woodland Hills",
     "population": 126453,
@@ -18816,7 +18816,7 @@
     "puma_code": "3721"
   },
   {
-    "geo_id": "063767",
+    "geo_id": "0603767",
     "geo_type": "puma",
     "name": "San Fernando/Sylmar West",
     "population": 171414,
@@ -19602,7 +19602,7 @@
     "puma_code": "3767"
   },
   {
-    "geo_id": "063724",
+    "geo_id": "0603724",
     "geo_type": "puma",
     "name": "LA City (Panorama City/North Hollywood North",
     "population": 162611,
@@ -20413,7 +20413,7 @@
     "puma_code": "3724"
   },
   {
-    "geo_id": "063781",
+    "geo_id": "0603781",
     "geo_type": "puma",
     "name": "LA County PUMA 3781",
     "population": 95546,
@@ -20960,7 +20960,7 @@
     "puma_code": "3781"
   },
   {
-    "geo_id": "063778",
+    "geo_id": "0603778",
     "geo_type": "puma",
     "name": "LA County PUMA 3778",
     "population": 103522,
@@ -21432,7 +21432,7 @@
     "puma_code": "3778"
   },
   {
-    "geo_id": "063712",
+    "geo_id": "0603712",
     "geo_type": "puma",
     "name": "LA City (West Adams/Leimert Park",
     "population": 139321,
@@ -22043,7 +22043,7 @@
     "puma_code": "3712"
   },
   {
-    "geo_id": "063706",
+    "geo_id": "0603706",
     "geo_type": "puma",
     "name": "LA City (Eagle Rock/Glassell Park",
     "population": 133131,
@@ -22854,7 +22854,7 @@
     "puma_code": "3706"
   },
   {
-    "geo_id": "063713",
+    "geo_id": "0603713",
     "geo_type": "puma",
     "name": "LA City (Watts/Willowbrook",
     "population": 105582,
@@ -23440,7 +23440,7 @@
     "puma_code": "3713"
   },
   {
-    "geo_id": "063762",
+    "geo_id": "0603762",
     "geo_type": "puma",
     "name": "Malibu/Topanga",
     "population": 110999,
@@ -23976,7 +23976,7 @@
     "puma_code": "3762"
   },
   {
-    "geo_id": "063782",
+    "geo_id": "0603782",
     "geo_type": "puma",
     "name": "LA County PUMA 3782",
     "population": 122817,
@@ -24548,7 +24548,7 @@
     "puma_code": "3782"
   },
   {
-    "geo_id": "063753",
+    "geo_id": "0603753",
     "geo_type": "puma",
     "name": "Gardena/Lawndale",
     "population": 105082,
@@ -25134,7 +25134,7 @@
     "puma_code": "3753"
   },
   {
-    "geo_id": "063757",
+    "geo_id": "0603757",
     "geo_type": "puma",
     "name": "Palos Verdes/Rolling Hills",
     "population": 141793,
@@ -25470,7 +25470,7 @@
     "puma_code": "3757"
   },
   {
-    "geo_id": "063704",
+    "geo_id": "0603704",
     "geo_type": "puma",
     "name": "LA City (Boyle Heights",
     "population": 171144,
@@ -26106,7 +26106,7 @@
     "puma_code": "3704"
   },
   {
-    "geo_id": "063761",
+    "geo_id": "0603761",
     "geo_type": "puma",
     "name": "Santa Clarita Valley",
     "population": 118767,
@@ -26942,7 +26942,7 @@
     "puma_code": "3761"
   },
   {
-    "geo_id": "063763",
+    "geo_id": "0603763",
     "geo_type": "puma",
     "name": "Agoura Hills/Calabasas",
     "population": 136139,
@@ -27703,7 +27703,7 @@
     "puma_code": "3763"
   },
   {
-    "geo_id": "063725",
+    "geo_id": "0603725",
     "geo_type": "puma",
     "name": "LA City (North Hollywood/Valley Village",
     "population": 174817,
@@ -28539,7 +28539,7 @@
     "puma_code": "3725"
   },
   {
-    "geo_id": "063730",
+    "geo_id": "0603730",
     "geo_type": "puma",
     "name": "Glendale",
     "population": 153680,
@@ -29400,7 +29400,7 @@
     "puma_code": "3730"
   },
   {
-    "geo_id": "063764",
+    "geo_id": "0603764",
     "geo_type": "puma",
     "name": "West Hills/Chatsworth West",
     "population": 150426,
@@ -30111,7 +30111,7 @@
     "puma_code": "3764"
   },
   {
-    "geo_id": "063705",
+    "geo_id": "0603705",
     "geo_type": "puma",
     "name": "LA City (El Sereno/Alhambra",
     "population": 172709,
@@ -31097,7 +31097,7 @@
     "puma_code": "3705"
   },
   {
-    "geo_id": "063754",
+    "geo_id": "0603754",
     "geo_type": "puma",
     "name": "Hawthorne/Lawndale",
     "population": 126970,
@@ -31658,7 +31658,7 @@
     "puma_code": "3754"
   },
   {
-    "geo_id": "063780",
+    "geo_id": "0603780",
     "geo_type": "puma",
     "name": "LA County PUMA 3780",
     "population": 105541,
@@ -32305,7 +32305,7 @@
     "puma_code": "3780"
   },
   {
-    "geo_id": "063739",
+    "geo_id": "0603739",
     "geo_type": "puma",
     "name": "Downey/Norwalk",
     "population": 161531,
@@ -33041,7 +33041,7 @@
     "puma_code": "3739"
   },
   {
-    "geo_id": "063747",
+    "geo_id": "0603747",
     "geo_type": "puma",
     "name": "Monterey Park/Alhambra",
     "population": 152752,
@@ -33727,7 +33727,7 @@
     "puma_code": "3747"
   },
   {
-    "geo_id": "063718",
+    "geo_id": "0603718",
     "geo_type": "puma",
     "name": "LA City (Brentwood/Pacific Palisades",
     "population": 127667,
@@ -34488,7 +34488,7 @@
     "puma_code": "3718"
   },
   {
-    "geo_id": "063720",
+    "geo_id": "0603720",
     "geo_type": "puma",
     "name": "LA City (Reseda/West Van Nuys",
     "population": 113516,
@@ -35149,7 +35149,7 @@
     "puma_code": "3720"
   },
   {
-    "geo_id": "063771",
+    "geo_id": "0603771",
     "geo_type": "puma",
     "name": "LA County PUMA 3771",
     "population": 101565,
@@ -35796,7 +35796,7 @@
     "puma_code": "3771"
   },
   {
-    "geo_id": "063768",
+    "geo_id": "0603768",
     "geo_type": "puma",
     "name": "Antelope Valley Northeast",
     "population": 104225,
@@ -36682,7 +36682,7 @@
     "puma_code": "3768"
   },
   {
-    "geo_id": "063703",
+    "geo_id": "0603703",
     "geo_type": "puma",
     "name": "LA City (Southeast/East Vernon",
     "population": 164877,
@@ -37218,7 +37218,7 @@
     "puma_code": "3703"
   },
   {
-    "geo_id": "063770",
+    "geo_id": "0603770",
     "geo_type": "puma",
     "name": "LA County PUMA 3770",
     "population": 99149,
@@ -37890,7 +37890,7 @@
     "puma_code": "3770"
   },
   {
-    "geo_id": "063709",
+    "geo_id": "0603709",
     "geo_type": "puma",
     "name": "LA City (Silver Lake/Echo Park",
     "population": 103709,
@@ -38551,7 +38551,7 @@
     "puma_code": "3709"
   },
   {
-    "geo_id": "063731",
+    "geo_id": "0603731",
     "geo_type": "puma",
     "name": "Burbank",
     "population": 103104,
@@ -39212,7 +39212,7 @@
     "puma_code": "3731"
   },
   {
-    "geo_id": "063776",
+    "geo_id": "0603776",
     "geo_type": "puma",
     "name": "LA County PUMA 3776",
     "population": 95907,
@@ -39934,7 +39934,7 @@
     "puma_code": "3776"
   },
   {
-    "geo_id": "063773",
+    "geo_id": "0603773",
     "geo_type": "puma",
     "name": "LA County PUMA 3773",
     "population": 116766,
@@ -40656,7 +40656,7 @@
     "puma_code": "3773"
   },
   {
-    "geo_id": "063772",
+    "geo_id": "0603772",
     "geo_type": "puma",
     "name": "LA County PUMA 3772",
     "population": 96108,
@@ -41303,7 +41303,7 @@
     "puma_code": "3772"
   },
   {
-    "geo_id": "063711",
+    "geo_id": "0603711",
     "geo_type": "puma",
     "name": "LA City (Koreatown/Westlake North",
     "population": 154051,
@@ -42089,7 +42089,7 @@
     "puma_code": "3711"
   },
   {
-    "geo_id": "063728",
+    "geo_id": "0603728",
     "geo_type": "puma",
     "name": "LA City (Pacoima/Arleta",
     "population": 98457,
@@ -42825,7 +42825,7 @@
     "puma_code": "3728"
   },
   {
-    "geo_id": "063748",
+    "geo_id": "0603748",
     "geo_type": "puma",
     "name": "La Puente/Hacienda Heights",
     "population": 174293,
@@ -43661,7 +43661,7 @@
     "puma_code": "3748"
   },
   {
-    "geo_id": "063775",
+    "geo_id": "0603775",
     "geo_type": "puma",
     "name": "LA County PUMA 3775",
     "population": 109170,
@@ -44308,7 +44308,7 @@
     "puma_code": "3775"
   },
   {
-    "geo_id": "063774",
+    "geo_id": "0603774",
     "geo_type": "puma",
     "name": "LA County PUMA 3774",
     "population": 134194,
@@ -45030,7 +45030,7 @@
     "puma_code": "3774"
   },
   {
-    "geo_id": "063760",
+    "geo_id": "0603760",
     "geo_type": "puma",
     "name": "Palmdale East/Quartz Hill",
     "population": 132672,
@@ -45891,7 +45891,7 @@
     "puma_code": "3760"
   },
   {
-    "geo_id": "063779",
+    "geo_id": "0603779",
     "geo_type": "puma",
     "name": "LA County PUMA 3779",
     "population": 114415,
