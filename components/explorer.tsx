@@ -113,9 +113,9 @@ export function Explorer() {
             <Card className="m-4">
               <CardContent className="py-8 text-center text-muted-foreground">
                 <p>Select an area on the map to view details</p>
-                {geographyType === 'puma' && (
-                  <p className="text-xs mt-2 px-4">Some areas shown in grey fall outside LA County and are not included in this dataset.</p>
-                )}
+                {(geographyType === 'puma' || geographyType === 'city') && (
+  <p className="text-xs mt-2 px-4">Areas shown in grey are not included in this dataset. City-level data is available for 11 major LA County cities.</p>
+)}
               </CardContent>
             </Card>
           )}
