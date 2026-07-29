@@ -33,8 +33,9 @@ function getNativeGeoId(type: GeoType, props: Record<string, unknown>): string {
   switch (type) {
     case 'county':
   return props.GEOID != null ? String(props.GEOID) : '';
-    case 'puma':
-      return props.GEOID10 != null ? String(props.GEOID10) : '';
+  case 'puma':
+    return props.GEOID10 != null ? String(props.GEOID10) :
+           props.GEOID20 != null ? String(props.GEOID20) : '';
     case 'city':
       return props.GEOID != null ? String(props.GEOID) : '';
     case 'zip':
