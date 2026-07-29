@@ -105,9 +105,13 @@ export function ProfileCard({ data, onCompare, isComparing }: ProfileCardProps) 
                 </div>
               ))}
             </div>
+            {data.languages.length > 5 && (
+              <p className="text-xs text-muted-foreground mt-2 italic">
+                See Language & Demographics tab below for all {data.languages.length} languages.
+              </p>
+            )}
           </section>
         )}
-
         <section>
           <h3 className="font-sans text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-3 flex items-center gap-2">
             <DollarSign className="h-4 w-4" />
