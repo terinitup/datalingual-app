@@ -111,21 +111,7 @@ const CITY_COORDS: Record<string, [number, number]> = {
   "Whittier": [33.9792, -118.0326],
 };
 
-function getColor(value: number, metric: string, allValues: number[]): string {
-  if (!allValues.length) return '#94a3b8';
-  const min = Math.min(...allValues);
-  const max = Math.max(...allValues);
-  const normalized = max === min ? 0.5 : (value - min) / (max - min);
 
-  // For metrics where higher is "worse" (poverty, no hs)
-  const inverseMetrics = ['edu_no_hs_pct', 'housing_renter_pct'];
-  const n = inverseMetrics.includes(metric) ? 1 - normalized : normalized;
-
-  // Green → Yellow → Red gradient
-  if (n > 0.66) return '#1D9E75';
-  if (n > 0.33) return '#FFC107';
-  return '#E57373';
-}
 
 function formatValue(val: number | undefined, format: string): string {
   if (val == null || isNaN(val)) return 'N/A';
@@ -168,7 +154,7 @@ export function HistoricalMapView({ data, selectedYear, selectedMetric, metricLa
             const value = yearData[selectedMetric];
             const pop = yearData.population ?? 0;
             const radius = Math.max(5, Math.sqrt(pop / maxPop) * 30);
-            const color = value != null ? getColor(value, selectedMetric, allValues) : '#94a3b8';
+            const color = '#2E8B9A';
             const isSelected = city.name === selectedCity;
 
             return (
