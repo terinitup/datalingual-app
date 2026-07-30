@@ -135,8 +135,9 @@ export default function HistoricalPage() {
           ))}
         </div>
 
-        {/* Year selector */}
-        <div className="flex items-center gap-2 flex-wrap">
+        {/* Year selector — not shown in graphs view */}
+{viewMode !== 'graphs' && (
+<div className="flex items-center gap-2 flex-wrap">
           <span className="text-sm text-muted-foreground font-medium">Year:</span>
           {YEARS.map(y => (
             <button key={y} onClick={() => setSelectedYear(y)}
@@ -190,8 +191,7 @@ export default function HistoricalPage() {
                   if (!hasData) return null;
                   return (
                     <div key={cat}>
-                      <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2">{cat}</h3>
-                      <div className="space-y-1.5">
+<h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2 bg-muted/50 px-2 py-1 rounded">{cat}</h3>                      <div className="space-y-1.5">
                         {metrics.map(m => {
                           const val = city.years[String(selectedYear)]?.[m.key];
                           if (val == null) return null;
@@ -248,7 +248,7 @@ export default function HistoricalPage() {
                     <ResponsiveContainer width="100%" height="100%">
                       <LineChart data={trendData} margin={{ left: 10, right: 10 }}>
                         <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
-                        <XAxis dataKey="year" tick={{ fontSize: 10 }} />
+                        <XAxis dataKey="year" tick={{ fontSize: 13, fontWeight: 600 }} />
                         <YAxis tick={{ fontSize: 10 }} tickFormatter={v =>
                           metrics[0]?.format === 'currency' ? `$${(v/1000).toFixed(0)}k` :
                           metrics[0]?.format === 'pct' ? `${v}%` :
@@ -260,7 +260,8 @@ export default function HistoricalPage() {
                         <Legend wrapperStyle={{ fontSize: 10 }} />
                         {metrics.map((m, i) => (
                           <Line key={m.key} type="monotone" dataKey={m.key} name={m.label}
-                            stroke={COLORS[i % COLORS.length]} strokeWidth={2} dot={{ r: 3 }} connectNulls />
+                          stroke={COLORS[i % COLORS.length]} strokeWidth={2} dot={{ r: 3 }} connectNulls
+                          label={{ position: 'top', formatter: (v: number) => { const m2 = ALL_METRICS.find(x => x.key === m.key); return formatValue(v, m2?.format ?? 'number'); }, fontSize: 9, fill: COLORS[i % COLORS.length] }} />
                         ))}
                       </LineChart>
                     </ResponsiveContainer>
