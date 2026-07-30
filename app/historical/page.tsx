@@ -1,9 +1,12 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import dynamic from 'next/dynamic';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, BarChart, Bar } from 'recharts';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Header } from '@/components/header';
+
+const HistoricalMapView = dynamic(() => import('@/components/historical-map-view').then(m => m.HistoricalMapView), { ssr: false, loading: () => <div className="h-[500px] w-full rounded-lg bg-muted animate-pulse" /> });
 
 const YEARS = [1950, 1960, 1970, 1980, 1990, 2000, 2010];
 
@@ -33,7 +36,6 @@ const METRICS = [
 ];
 
 const CATEGORIES = ['Population', 'Race & Ethnicity', 'Nativity', 'Economics', 'Education', 'Age', 'Housing'];
-
 const COLORS = ['#2E8B9A', '#F5B041', '#9B59B6', '#E57373', '#3498DB', '#1ABC9C', '#E67E22'];
 
 function formatValue(val: number | undefined, format: string): string {
@@ -50,19 +52,19 @@ interface CityData {
 
 export default function HistoricalPage() {
   const [data, setData] = useState<CityData[]>([]);
-  const [selectedCity, setSelectedCity] = useState<string>('');
+  const [selectedCity, setSelectedCity] = useState<string>('Burbank');
   const [selectedYear, setSelectedYear] = useState<number>(2010);
   const [selectedMetric, setSelectedMetric] = useState<string>('hispanic_pct');
   const [selectedCategory, setSelectedCategory] = useState<string>('Race & Ethnicity');
-  const [viewMode, setViewMode] = useState<'trends' | 'snapshot'>('trends');
+  const [viewMode, setViewMode] = useState<'map' | 'trends' | 'compare'>('map');
   const [showWelcome, setShowWelcome] = useState(true);
 
   useEffect(() => {
     fetch('/data/historical.json')
       .then(r => r.json())
       .then((d: CityData[]) => {
-        setData(d);
-        if (d.length > 0) setSelectedCity(d[0].name);
+        const cities = d.filter(c => c.name !== 'LA County');
+        setData(cities);
       })
       .catch(console.error);
   }, []);
@@ -71,7 +73,6 @@ export default function HistoricalPage() {
   const categoryMetrics = METRICS.filter(m => m.category === selectedCategory);
   const currentMetric = METRICS.find(m => m.key === selectedMetric);
 
-  // Build trend chart data for selected city
   const trendData = YEARS.map(year => {
     const yearData = city?.years[String(year)] ?? {};
     const point: Record<string, number | string> = { year: String(year) };
@@ -81,85 +82,77 @@ export default function HistoricalPage() {
     return point;
   });
 
-  // Build snapshot data — all cities for selected year + metric
-  const snapshotData = data
-    .map(c => ({
-      name: c.name,
-      value: c.years[String(selectedYear)]?.[selectedMetric],
-    }))
+  const compareData = data
+    .map(c => ({ name: c.name, value: c.years[String(selectedYear)]?.[selectedMetric] }))
     .filter(d => d.value != null)
     .sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
 
   return (
     <div className="min-h-screen bg-background">
-        <Header />
-      {/* Header */}
+
+      {/* Welcome Modal */}
+      {showWelcome && (
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4">
+          <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
+          <div className="relative bg-card rounded-2xl shadow-2xl border border-border max-w-md w-full p-8 z-10">
+            <h2 className="font-serif text-2xl font-bold text-foreground mb-1">Historical Demographics</h2>
+            <p className="text-sm text-muted-foreground italic mb-6">Los Angeles County 1950–2010</p>
+            <div className="space-y-3 text-sm text-foreground">
+              <p>
+                This section presents historical demographic data for 88 cities and communities across Los Angeles County, spanning seven decades of census data from 1950 to 2010.
+              </p>
+              <p>
+                Data includes population, race & ethnicity, nativity, education, occupation, income, age, and housing characteristics for each census year.
+              </p>
+              <div className="pt-3 border-t border-border">
+                <p className="text-xs font-semibold text-foreground mb-1">Data Source</p>
+                <p className="text-xs text-muted-foreground">
+                  Los Angeles County Demographic Data Project 1950–2010, USC Libraries Digital Collections. Compiled by Becky M. Nicolaides & U.S. Department of Commerce.
+                </p>
+              </div>
+            </div>
+            <button
+              onClick={() => setShowWelcome(false)}
+              className="mt-6 w-full py-2.5 rounded-full text-sm font-semibold bg-[#2E8B9A] text-white hover:bg-[#267a88] transition-colors"
+            >
+              Explore the Data →
+            </button>
+          </div>
+        </div>
+      )}
+
+      <Header />
+
       <div className="border-b border-border bg-card px-6 py-4">
         <h1 className="font-serif text-2xl font-bold text-foreground">Historical Demographics</h1>
-        <p className="text-sm text-muted-foreground mt-1">
-          Los Angeles County 1950–2010 · USC Digital Library
-        </p>
+        <p className="text-sm text-muted-foreground mt-1">Los Angeles County 1950–2010 · USC Digital Library</p>
       </div>
 
       {/* Controls */}
       <div className="border-b border-border bg-card px-6 py-3 flex flex-wrap items-center gap-4">
-        {/* View toggle */}
         <div className="flex rounded-lg border border-border overflow-hidden">
-          <button
-            onClick={() => setViewMode('trends')}
-            className={`px-4 py-1.5 text-sm font-medium transition-colors ${viewMode === 'trends' ? 'bg-primary text-primary-foreground' : 'text-muted-foreground hover:bg-muted'}`}
-          >
-            City Trends
-          </button>
-          <button
-            onClick={() => setViewMode('snapshot')}
-            className={`px-4 py-1.5 text-sm font-medium transition-colors ${viewMode === 'snapshot' ? 'bg-primary text-primary-foreground' : 'text-muted-foreground hover:bg-muted'}`}
-          >
-            Compare Cities
-          </button>
+          {(['map', 'trends', 'compare'] as const).map(mode => (
+            <button key={mode} onClick={() => setViewMode(mode)}
+              className={`px-4 py-1.5 text-sm font-medium capitalize transition-colors ${viewMode === mode ? 'bg-primary text-primary-foreground' : 'text-muted-foreground hover:bg-muted'}`}>
+              {mode === 'map' ? 'Map' : mode === 'trends' ? 'City Trends' : 'Compare Cities'}
+            </button>
+          ))}
         </div>
 
-        {/* City selector (trends mode) */}
-        {viewMode === 'trends' && (
-          <select
-            value={selectedCity}
-            onChange={e => setSelectedCity(e.target.value)}
-            className="border border-border rounded-lg px-3 py-1.5 text-sm bg-background text-foreground"
-          >
-            {data.map(c => (
-              <option key={c.name} value={c.name}>{c.name}</option>
-            ))}
-          </select>
-        )}
+        <div className="flex items-center gap-2 flex-wrap">
+          <span className="text-sm text-muted-foreground font-medium">Year:</span>
+          {YEARS.map(y => (
+            <button key={y} onClick={() => setSelectedYear(y)}
+              className={`px-3 py-1 text-sm rounded-full transition-colors ${selectedYear === y ? 'bg-[#2E8B9A] text-white' : 'border border-border text-muted-foreground hover:bg-muted'}`}>
+              {y}
+            </button>
+          ))}
+        </div>
 
-        {/* Year selector (snapshot mode) */}
-        {viewMode === 'snapshot' && (
-          <div className="flex items-center gap-2">
-            <span className="text-sm text-muted-foreground">Year:</span>
-            {YEARS.map(y => (
-              <button
-                key={y}
-                onClick={() => setSelectedYear(y)}
-                className={`px-3 py-1 text-sm rounded-full transition-colors ${selectedYear === y ? 'bg-primary text-primary-foreground' : 'border border-border text-muted-foreground hover:bg-muted'}`}
-              >
-                {y}
-              </button>
-            ))}
-          </div>
-        )}
-
-        {/* Category selector */}
         <div className="flex items-center gap-2 flex-wrap">
           {CATEGORIES.map(cat => (
-            <button
-              key={cat}
-              onClick={() => {
-                setSelectedCategory(cat);
-                const first = METRICS.find(m => m.category === cat);
-                if (first) setSelectedMetric(first.key);
-              }}
-              className={`px-3 py-1 text-xs rounded-full transition-colors ${selectedCategory === cat ? 'bg-[#2E8B9A] text-white' : 'border border-border text-muted-foreground hover:bg-muted'}`}
-            >
+            <button key={cat} onClick={() => { setSelectedCategory(cat); const first = METRICS.find(m => m.category === cat); if (first) setSelectedMetric(first.key); }}
+              className={`px-3 py-1 text-xs rounded-full transition-colors ${selectedCategory === cat ? 'bg-primary text-primary-foreground' : 'border border-border text-muted-foreground hover:bg-muted'}`}>
               {cat}
             </button>
           ))}
@@ -167,36 +160,59 @@ export default function HistoricalPage() {
       </div>
 
       <div className="p-6 space-y-6">
-        {viewMode === 'trends' && city && (
+        <div className="flex flex-wrap gap-2">
+          {categoryMetrics.map(m => (
+            <button key={m.key} onClick={() => setSelectedMetric(m.key)}
+              className={`px-3 py-1.5 text-sm rounded-full transition-colors ${selectedMetric === m.key ? 'bg-[#2E8B9A] text-white' : 'border border-border text-muted-foreground hover:bg-muted'}`}>
+              {m.label}
+            </button>
+          ))}
+        </div>
+
+        {viewMode === 'map' && (
           <>
-            {/* Summary stats for selected city */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {['population', 'hispanic_pct', 'foreign_born_pct', 'edu_college_pct'].map(key => {
-                const m = METRICS.find(x => x.key === key)!;
-                const val1950 = city.years['1950']?.[key];
-                const val2010 = city.years['2010']?.[key];
-                const change = val1950 != null && val2010 != null ? val2010 - val1950 : null;
-                return (
-                  <Card key={key}>
-                    <CardContent className="pt-4">
-                      <p className="text-xs text-muted-foreground">{m.label}</p>
-                      <p className="text-xl font-bold text-foreground mt-1">{formatValue(val2010, m.format)}</p>
-                      <p className="text-xs text-muted-foreground">2010</p>
-                      {change != null && (
-                        <p className={`text-xs mt-1 ${change > 0 ? 'text-blue-600' : 'text-red-600'}`}>
-                          {change > 0 ? '+' : ''}{m.format === 'pct' ? `${change.toFixed(1)}pp` : m.format === 'currency' ? formatValue(change, 'currency') : new Intl.NumberFormat('en-US').format(change)} since 1950
-                        </p>
-                      )}
-                    </CardContent>
-                  </Card>
-                );
-              })}
+            <HistoricalMapView
+              data={data}
+              selectedYear={selectedYear}
+              selectedMetric={selectedMetric}
+              metricLabel={currentMetric?.label ?? ''}
+              metricFormat={currentMetric?.format ?? 'number'}
+              selectedCity={selectedCity}
+              onSelectCity={setSelectedCity}
+            />
+            {city && (
+              <Card>
+                <CardHeader className="pb-2">
+                  <CardTitle className="text-base font-sans">{selectedCity} — {selectedYear}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    {categoryMetrics.map(m => (
+                      <div key={m.key} className={`p-3 rounded-lg ${selectedMetric === m.key ? 'bg-[#2E8B9A]/10 border border-[#2E8B9A]/30' : 'bg-muted/50'}`}>
+                        <p className="text-xs text-muted-foreground">{m.label}</p>
+                        <p className="text-lg font-bold text-foreground">{formatValue(city.years[String(selectedYear)]?.[m.key], m.format)}</p>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            )}
+          </>
+        )}
+
+        {viewMode === 'trends' && (
+          <>
+            <div className="flex items-center gap-3">
+              <span className="text-sm text-muted-foreground">City:</span>
+              <select value={selectedCity} onChange={e => setSelectedCity(e.target.value)}
+                className="border border-border rounded-lg px-3 py-1.5 text-sm bg-background text-foreground">
+                {data.map(c => <option key={c.name} value={c.name}>{c.name}</option>)}
+              </select>
             </div>
 
-            {/* Trend charts */}
             <Card>
               <CardHeader className="pb-2">
-                <CardTitle className="text-base font-sans">{selectedCategory} — {city.name} 1950–2010</CardTitle>
+                <CardTitle className="text-base font-sans">{selectedCategory} — {selectedCity} 1950–2010</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="h-72">
@@ -206,27 +222,16 @@ export default function HistoricalPage() {
                       <XAxis dataKey="year" tick={{ fontSize: 11 }} />
                       <YAxis tick={{ fontSize: 11 }} tickFormatter={v =>
                         currentMetric?.format === 'currency' ? `$${(v/1000).toFixed(0)}k` :
-                        currentMetric?.format === 'pct' ? `${v}%` : new Intl.NumberFormat('en-US', { notation: 'compact' }).format(v)
-                      } />
-                      <Tooltip
-                        formatter={(value: number, name: string) => {
-                          const m = METRICS.find(x => x.key === name);
-                          return [formatValue(value, m?.format ?? 'number'), m?.label ?? name];
-                        }}
-                        contentStyle={{ backgroundColor: 'hsl(var(--card))', border: '1px solid hsl(var(--border))', borderRadius: '8px', fontSize: 12 }}
-                      />
+                        currentMetric?.format === 'pct' ? `${v}%` :
+                        new Intl.NumberFormat('en-US', { notation: 'compact' }).format(v)} />
+                      <Tooltip formatter={(value: number, name: string) => {
+                        const m = METRICS.find(x => x.key === name);
+                        return [formatValue(value, m?.format ?? 'number'), m?.label ?? name];
+                      }} contentStyle={{ backgroundColor: 'hsl(var(--card))', border: '1px solid hsl(var(--border))', borderRadius: '8px', fontSize: 12 }} />
                       <Legend wrapperStyle={{ fontSize: 11 }} />
                       {categoryMetrics.map((m, i) => (
-                        <Line
-                          key={m.key}
-                          type="monotone"
-                          dataKey={m.key}
-                          name={m.label}
-                          stroke={COLORS[i % COLORS.length]}
-                          strokeWidth={2}
-                          dot={{ r: 4 }}
-                          connectNulls
-                        />
+                        <Line key={m.key} type="monotone" dataKey={m.key} name={m.label}
+                          stroke={COLORS[i % COLORS.length]} strokeWidth={2} dot={{ r: 4 }} connectNulls />
                       ))}
                     </LineChart>
                   </ResponsiveContainer>
@@ -234,10 +239,9 @@ export default function HistoricalPage() {
               </CardContent>
             </Card>
 
-            {/* Year-by-year table */}
             <Card>
               <CardHeader className="pb-2">
-                <CardTitle className="text-base font-sans">Full Data Table — {city.name}</CardTitle>
+                <CardTitle className="text-base font-sans">Full Data Table — {selectedCity}</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="overflow-x-auto">
@@ -245,9 +249,7 @@ export default function HistoricalPage() {
                     <thead>
                       <tr className="border-b border-border">
                         <th className="text-left py-2 pr-4 text-muted-foreground font-medium">Metric</th>
-                        {YEARS.map(y => (
-                          <th key={y} className="text-right py-2 px-2 text-muted-foreground font-medium">{y}</th>
-                        ))}
+                        {YEARS.map(y => <th key={y} className="text-right py-2 px-2 text-muted-foreground font-medium">{y}</th>)}
                       </tr>
                     </thead>
                     <tbody>
@@ -256,7 +258,7 @@ export default function HistoricalPage() {
                           <td className="py-2 pr-4 text-foreground">{m.label}</td>
                           {YEARS.map(y => (
                             <td key={y} className="text-right py-2 px-2 text-muted-foreground">
-                              {formatValue(city.years[String(y)]?.[m.key], m.format)}
+                              {formatValue(city?.years[String(y)]?.[m.key], m.format)}
                             </td>
                           ))}
                         </tr>
@@ -269,63 +271,34 @@ export default function HistoricalPage() {
           </>
         )}
 
-        {viewMode === 'snapshot' && (
-          <>
-            {/* Metric selector */}
-            <div className="flex flex-wrap gap-2">
-              {categoryMetrics.map(m => (
-                <button
-                  key={m.key}
-                  onClick={() => setSelectedMetric(m.key)}
-                  className={`px-3 py-1.5 text-sm rounded-full transition-colors ${selectedMetric === m.key ? 'bg-[#2E8B9A] text-white' : 'border border-border text-muted-foreground hover:bg-muted'}`}
-                >
-                  {m.label}
-                </button>
-              ))}
-            </div>
-
-            {/* Bar chart comparing all cities */}
-            <Card>
-              <CardHeader className="pb-2">
-                <CardTitle className="text-base font-sans">
-                  {currentMetric?.label} — All Cities, {selectedYear}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div style={{ height: Math.max(300, snapshotData.length * 28) }}>
-                  <ResponsiveContainer width="100%" height="100%">
-                    <BarChart data={snapshotData} layout="vertical" margin={{ left: 120, right: 60 }}>
-                      <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
-                      <XAxis type="number" tick={{ fontSize: 10 }}
-                        tickFormatter={v => currentMetric?.format === 'currency' ? `$${(v/1000).toFixed(0)}k` : currentMetric?.format === 'pct' ? `${v}%` : String(v)}
-                      />
-                      <YAxis type="category" dataKey="name" tick={{ fontSize: 11 }} width={115} />
-                      <Tooltip
-                        formatter={(value: number) => [formatValue(value, currentMetric?.format ?? 'number'), currentMetric?.label]}
-                        contentStyle={{ backgroundColor: 'hsl(var(--card))', border: '1px solid hsl(var(--border))', borderRadius: '8px', fontSize: 12 }}
-                      />
-                      <Bar dataKey="value" fill="#2E8B9A" radius={[0, 4, 4, 0]}
-                        label={{ position: 'right', formatter: (v: number) => formatValue(v, currentMetric?.format ?? 'number'), fontSize: 10, fill: 'hsl(var(--muted-foreground))' }}
-                      />
-                    </BarChart>
-                  </ResponsiveContainer>
-                </div>
-              </CardContent>
-            </Card>
-          </>
-        )}
-
-        {data.length === 0 && (
-          <div className="text-center py-16 text-muted-foreground">
-            <p className="text-lg">Loading historical data...</p>
-          </div>
+        {viewMode === 'compare' && (
+          <Card>
+            <CardHeader className="pb-2">
+              <CardTitle className="text-base font-sans">{currentMetric?.label} — All Cities, {selectedYear}</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div style={{ height: Math.max(400, compareData.length * 22) }}>
+                <ResponsiveContainer width="100%" height="100%">
+                  <BarChart data={compareData} layout="vertical" margin={{ left: 130, right: 80 }}>
+                    <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+                    <XAxis type="number" tick={{ fontSize: 10 }}
+                      tickFormatter={v => currentMetric?.format === 'currency' ? `$${(v/1000).toFixed(0)}k` : currentMetric?.format === 'pct' ? `${v}%` : String(v)} />
+                    <YAxis type="category" dataKey="name" tick={{ fontSize: 10 }} width={125} />
+                    <Tooltip formatter={(value: number) => [formatValue(value, currentMetric?.format ?? 'number'), currentMetric?.label]}
+                      contentStyle={{ backgroundColor: 'hsl(var(--card))', border: '1px solid hsl(var(--border))', borderRadius: '8px', fontSize: 12 }} />
+                    <Bar dataKey="value" fill="#2E8B9A" radius={[0, 4, 4, 0]}
+                      label={{ position: 'right', formatter: (v: number) => formatValue(v, currentMetric?.format ?? 'number'), fontSize: 10, fill: 'hsl(var(--muted-foreground))' }} />
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+            </CardContent>
+          </Card>
         )}
 
         <p className="text-xs text-muted-foreground text-center">
-          Source: Los Angeles County Demographic Data Project 1950–2010, USC Libraries Digital Collections
+          Source: Los Angeles County Demographic Data Project 1950–2010, USC Libraries Digital Collections · Nicolaides, Becky M. & U.S. Department of Commerce
         </p>
       </div>
-      
     </div>
   );
 }
