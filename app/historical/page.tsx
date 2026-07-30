@@ -73,16 +73,6 @@ export default function HistoricalPage() {
   const currentMetric = ALL_METRICS.find(m => m.key === selectedMetric);
   const categoryMetrics = ALL_METRICS.filter(m => m.category === selectedCategory);
 
-  // Build trend data for ALL metrics at once for the graphs view
-  const allTrendData = YEARS.map(year => {
-    const yearData = city?.years[String(year)] ?? {};
-    const point: Record<string, number | string> = { year: String(year) };
-    ALL_METRICS.forEach(m => {
-      if (yearData[m.key] != null) point[m.key] = yearData[m.key];
-    });
-    return point;
-  });
-
   const compareData = data
     .map(c => ({ name: c.name, value: c.years[String(selectedYear)]?.[selectedMetric] }))
     .filter(d => d.value != null)
@@ -91,7 +81,6 @@ export default function HistoricalPage() {
   return (
     <div className="min-h-screen bg-background">
 
-      {/* Welcome Modal */}
       {showWelcome && (
         <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4">
           <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
@@ -123,9 +112,7 @@ export default function HistoricalPage() {
         <p className="text-sm text-muted-foreground mt-1">Los Angeles County 1950–2010 · USC Digital Library</p>
       </div>
 
-      {/* Controls */}
       <div className="border-b border-border bg-card px-6 py-3 flex flex-wrap items-center gap-4">
-        {/* View toggle */}
         <div className="flex rounded-lg border border-border overflow-hidden">
           {(['map', 'graphs', 'compare'] as const).map(mode => (
             <button key={mode} onClick={() => setViewMode(mode)}
@@ -135,19 +122,18 @@ export default function HistoricalPage() {
           ))}
         </div>
 
-        {/* Year selector — not shown in graphs view */}
-{viewMode !== 'graphs' && (
-<div className="flex items-center gap-2 flex-wrap">
-          <span className="text-sm text-muted-foreground font-medium">Year:</span>
-          {YEARS.map(y => (
-            <button key={y} onClick={() => setSelectedYear(y)}
-              className={`px-3 py-1 text-sm rounded-full transition-colors ${selectedYear === y ? 'bg-[#2E8B9A] text-white' : 'border border-border text-muted-foreground hover:bg-muted'}`}>
-              {y}
-            </button>
-          ))}
-        </div>
+        {viewMode !== 'graphs' && (
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="text-sm text-muted-foreground font-medium">Year:</span>
+            {YEARS.map(y => (
+              <button key={y} onClick={() => setSelectedYear(y)}
+                className={`px-3 py-1 text-sm rounded-full transition-colors ${selectedYear === y ? 'bg-[#2E8B9A] text-white' : 'border border-border text-muted-foreground hover:bg-muted'}`}>
+                {y}
+              </button>
+            ))}
+          </div>
+        )}
 
-        {/* Category selector — only for Compare */}
         {viewMode === 'compare' && (
           <div className="flex items-center gap-2 flex-wrap">
             {CATEGORIES.map(cat => (
@@ -160,10 +146,8 @@ export default function HistoricalPage() {
         )}
       </div>
 
-      {/* MAP VIEW — map left, full data right */}
       {viewMode === 'map' && (
-        <div className="flex flex-col lg:flex-row h-[calc(100vh-200px)]">
-          {/* Map */}
+        <div className="flex flex-col lg:flex-row" style={{ height: 'calc(100vh - 200px)' }}>
           <div className="lg:flex-[3] p-4 h-[500px] lg:h-full">
             <HistoricalMapView
               data={data}
@@ -175,8 +159,6 @@ export default function HistoricalPage() {
               onSelectCity={setSelectedCity}
             />
           </div>
-
-          {/* Full data panel */}
           <div className="lg:w-96 lg:flex-none border-t lg:border-t-0 lg:border-l border-border overflow-y-auto">
             {city ? (
               <div className="p-4 space-y-4">
@@ -184,14 +166,14 @@ export default function HistoricalPage() {
                   <h2 className="font-serif text-lg font-bold text-foreground">{selectedCity}</h2>
                   <span className="text-sm text-[#2E8B9A] font-medium">{selectedYear}</span>
                 </div>
-
                 {CATEGORIES.map(cat => {
                   const metrics = ALL_METRICS.filter(m => m.category === cat);
                   const hasData = metrics.some(m => city.years[String(selectedYear)]?.[m.key] != null);
                   if (!hasData) return null;
                   return (
                     <div key={cat}>
-<h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2 bg-muted/50 px-2 py-1 rounded">{cat}</h3>                      <div className="space-y-1.5">
+                      <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2 bg-muted/60 px-2 py-1 rounded">{cat}</h3>
+                      <div className="space-y-1.5">
                         {metrics.map(m => {
                           const val = city.years[String(selectedYear)]?.[m.key];
                           if (val == null) return null;
@@ -216,7 +198,6 @@ export default function HistoricalPage() {
         </div>
       )}
 
-      {/* GRAPHS VIEW */}
       {viewMode === 'graphs' && (
         <div className="p-6 space-y-6">
           <div className="flex items-center gap-3">
@@ -244,9 +225,9 @@ export default function HistoricalPage() {
                   <CardTitle className="text-base font-sans">{cat} — {selectedCity} 1950–2010</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="h-56">
+                  <div className="h-64">
                     <ResponsiveContainer width="100%" height="100%">
-                      <LineChart data={trendData} margin={{ left: 10, right: 10 }}>
+                      <LineChart data={trendData} margin={{ left: 10, right: 20, top: 20 }}>
                         <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
                         <XAxis dataKey="year" tick={{ fontSize: 13, fontWeight: 600 }} />
                         <YAxis tick={{ fontSize: 10 }} tickFormatter={v =>
@@ -260,8 +241,8 @@ export default function HistoricalPage() {
                         <Legend wrapperStyle={{ fontSize: 10 }} />
                         {metrics.map((m, i) => (
                           <Line key={m.key} type="monotone" dataKey={m.key} name={m.label}
-                          stroke={COLORS[i % COLORS.length]} strokeWidth={2} dot={{ r: 3 }} connectNulls
-                          label={{ position: 'top', formatter: (v: number) => { const m2 = ALL_METRICS.find(x => x.key === m.key); return formatValue(v, m2?.format ?? 'number'); }, fontSize: 9, fill: COLORS[i % COLORS.length] }} />
+                            stroke={COLORS[i % COLORS.length]} strokeWidth={2} dot={{ r: 3 }} connectNulls
+                            label={{ position: 'top', formatter: (v: number) => formatValue(v, m.format), fontSize: 9, fill: COLORS[i % COLORS.length] }} />
                         ))}
                       </LineChart>
                     </ResponsiveContainer>
@@ -277,7 +258,6 @@ export default function HistoricalPage() {
         </div>
       )}
 
-      {/* COMPARE VIEW */}
       {viewMode === 'compare' && (
         <div className="p-6 space-y-4">
           <div className="flex flex-wrap gap-2">
@@ -288,7 +268,6 @@ export default function HistoricalPage() {
               </button>
             ))}
           </div>
-
           <Card>
             <CardHeader className="pb-2">
               <CardTitle className="text-base font-sans">{currentMetric?.label} — All Cities, {selectedYear}</CardTitle>
@@ -310,7 +289,6 @@ export default function HistoricalPage() {
               </div>
             </CardContent>
           </Card>
-
           <p className="text-xs text-muted-foreground text-center">
             Source: Los Angeles County Demographic Data Project 1950–2010, USC Libraries Digital Collections
           </p>
