@@ -15,23 +15,23 @@
       "total_pop_5plus": 117516
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 21.9,
+      "band_125_199_pct": 22.1,
+      "band_200_399_pct": 40.9,
+      "band_400plus_pct": 15.1,
+      "below_poverty_pct": 21.9
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 33.1,
+      "incomplete_hs_pct": 15.2,
+      "hs_some_college_pct": 43.0,
+      "ba_higher_pct": 8.7
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 6.8,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 24.8,
+      "linguistically_isolated_pct": 26.3
     },
     "top_language": "Spanish",
     "top_language_lep": 48749,
@@ -339,9 +339,9 @@
     ],
     "lep_total": 49044,
     "lep_pct": 41.7,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 21.9,
+    "no_internet_pct": 6.8,
+    "snap_pct": 24.8,
     "puma_code": "3742"
   },
   {
@@ -360,23 +360,23 @@
       "total_pop_5plus": 111519
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 29.7,
+      "band_125_199_pct": 24.7,
+      "band_200_399_pct": 33.9,
+      "band_400plus_pct": 11.6,
+      "below_poverty_pct": 29.7
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 37.8,
+      "incomplete_hs_pct": 15.7,
+      "hs_some_college_pct": 39.0,
+      "ba_higher_pct": 7.5
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 7.4,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 28.0,
+      "linguistically_isolated_pct": 27.0
     },
     "top_language": "Spanish",
     "top_language_lep": 43498,
@@ -634,9 +634,9 @@
     ],
     "lep_total": 44338,
     "lep_pct": 39.8,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 29.7,
+    "no_internet_pct": 7.4,
+    "snap_pct": 28.0,
     "puma_code": "3745"
   },
   {
@@ -655,23 +655,23 @@
       "total_pop_5plus": 106300
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 28.2,
+      "band_125_199_pct": 18.0,
+      "band_200_399_pct": 31.1,
+      "band_400plus_pct": 22.7,
+      "below_poverty_pct": 28.2
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 17.0,
+      "incomplete_hs_pct": 6.6,
+      "hs_some_college_pct": 40.4,
+      "ba_higher_pct": 36.1
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.6,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 20.9,
+      "linguistically_isolated_pct": 31.7
     },
     "top_language": "Spanish",
     "top_language_lep": 22219,
@@ -1229,9 +1229,9 @@
     ],
     "lep_total": 39852,
     "lep_pct": 37.5,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 28.2,
+    "no_internet_pct": 4.6,
+    "snap_pct": 20.9,
     "puma_code": "3733"
   },
   {
@@ -1250,23 +1250,23 @@
       "total_pop_5plus": 117892
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 18.8,
+      "band_125_199_pct": 17.2,
+      "band_200_399_pct": 30.2,
+      "band_400plus_pct": 33.8,
+      "below_poverty_pct": 18.8
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 18.4,
+      "incomplete_hs_pct": 8.3,
+      "hs_some_college_pct": 45.1,
+      "ba_higher_pct": 28.3
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.9,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 15.8,
+      "linguistically_isolated_pct": 24.3
     },
     "top_language": "Chinese (Mandarin/Cantonese)",
     "top_language_lep": 24246,
@@ -1899,9 +1899,9 @@
     ],
     "lep_total": 41600,
     "lep_pct": 35.3,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 18.8,
+    "no_internet_pct": 4.9,
+    "snap_pct": 15.8,
     "puma_code": "3737"
   },
   {
@@ -1920,23 +1920,23 @@
       "total_pop_5plus": 142187
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 30.5,
+      "band_125_199_pct": 20.9,
+      "band_200_399_pct": 37.2,
+      "band_400plus_pct": 11.3,
+      "below_poverty_pct": 30.5
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 27.8,
+      "incomplete_hs_pct": 16.6,
+      "hs_some_college_pct": 47.4,
+      "ba_higher_pct": 8.2
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 5.0,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 35.9,
+      "linguistically_isolated_pct": 20.7
     },
     "top_language": "Spanish",
     "top_language_lep": 47366,
@@ -2294,9 +2294,9 @@
     ],
     "lep_total": 48030,
     "lep_pct": 33.8,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 30.5,
+    "no_internet_pct": 5.0,
+    "snap_pct": 35.9,
     "puma_code": "3751"
   },
   {
@@ -2315,23 +2315,23 @@
       "total_pop_5plus": 121328
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 25.4,
+      "band_125_199_pct": 18.7,
+      "band_200_399_pct": 39.9,
+      "band_400plus_pct": 16.1,
+      "below_poverty_pct": 25.4
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 30.5,
+      "incomplete_hs_pct": 14.2,
+      "hs_some_college_pct": 46.7,
+      "ba_higher_pct": 8.6
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 3.7,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 25.1,
+      "linguistically_isolated_pct": 19.2
     },
     "top_language": "Spanish",
     "top_language_lep": 39864,
@@ -2564,9 +2564,9 @@
     ],
     "lep_total": 40812,
     "lep_pct": 33.6,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 25.4,
+    "no_internet_pct": 3.7,
+    "snap_pct": 25.1,
     "puma_code": "3741"
   },
   {
@@ -2585,23 +2585,23 @@
       "total_pop_5plus": 116492
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 22.0,
+      "band_125_199_pct": 18.1,
+      "band_200_399_pct": 35.8,
+      "band_400plus_pct": 24.2,
+      "below_poverty_pct": 22.0
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 23.7,
+      "incomplete_hs_pct": 12.4,
+      "hs_some_college_pct": 49.3,
+      "ba_higher_pct": 14.6
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 5.7,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 28.2,
+      "linguistically_isolated_pct": 19.5
     },
     "top_language": "Spanish",
     "top_language_lep": 21067,
@@ -3059,9 +3059,9 @@
     ],
     "lep_total": 36621,
     "lep_pct": 31.4,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 22.0,
+    "no_internet_pct": 5.7,
+    "snap_pct": 28.2,
     "puma_code": "3738"
   },
   {
@@ -3080,23 +3080,23 @@
       "total_pop_5plus": 99638
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 12.5,
+      "band_125_199_pct": 10.9,
+      "band_200_399_pct": 27.2,
+      "band_400plus_pct": 49.4,
+      "below_poverty_pct": 12.5
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 5.6,
+      "incomplete_hs_pct": 4.8,
+      "hs_some_college_pct": 43.4,
+      "ba_higher_pct": 46.2
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 2.2,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 9.6,
+      "linguistically_isolated_pct": 19.1
     },
     "top_language": "Chinese (Mandarin/Cantonese)",
     "top_language_lep": 18687,
@@ -3554,9 +3554,9 @@
     ],
     "lep_total": 30102,
     "lep_pct": 30.2,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 12.5,
+    "no_internet_pct": 2.2,
+    "snap_pct": 9.6,
     "puma_code": "3714"
   },
   {
@@ -3575,23 +3575,23 @@
       "total_pop_5plus": 102366
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 31.2,
+      "band_125_199_pct": 19.9,
+      "band_200_399_pct": 33.0,
+      "band_400plus_pct": 15.9,
+      "below_poverty_pct": 31.2
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 23.0,
+      "incomplete_hs_pct": 12.2,
+      "hs_some_college_pct": 44.4,
+      "ba_higher_pct": 20.4
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 5.6,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 26.3,
+      "linguistically_isolated_pct": 23.8
     },
     "top_language": "Spanish",
     "top_language_lep": 25086,
@@ -4149,9 +4149,9 @@
     ],
     "lep_total": 29553,
     "lep_pct": 28.9,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 31.2,
+    "no_internet_pct": 5.6,
+    "snap_pct": 26.3,
     "puma_code": "3746"
   },
   {
@@ -4170,23 +4170,23 @@
       "total_pop_5plus": 154774
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 18.5,
+      "band_125_199_pct": 20.5,
+      "band_200_399_pct": 38.5,
+      "band_400plus_pct": 22.6,
+      "below_poverty_pct": 18.5
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 26.4,
+      "incomplete_hs_pct": 15.0,
+      "hs_some_college_pct": 48.4,
+      "ba_higher_pct": 10.2
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.2,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 24.8,
+      "linguistically_isolated_pct": 13.4
     },
     "top_language": "Spanish",
     "top_language_lep": 42833,
@@ -4469,9 +4469,9 @@
     ],
     "lep_total": 43568,
     "lep_pct": 28.1,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 18.5,
+    "no_internet_pct": 4.2,
+    "snap_pct": 24.8,
     "puma_code": "3752"
   },
   {
@@ -4490,23 +4490,23 @@
       "total_pop_5plus": 180725
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 14.7,
+      "band_125_199_pct": 12.9,
+      "band_200_399_pct": 24.3,
+      "band_400plus_pct": 48.1,
+      "below_poverty_pct": 14.7
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 6.4,
+      "incomplete_hs_pct": 3.4,
+      "hs_some_college_pct": 42.8,
+      "ba_higher_pct": 47.4
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.0,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 21.6,
+      "linguistically_isolated_pct": 17.4
     },
     "top_language": "Armenian",
     "top_language_lep": 29372,
@@ -5289,9 +5289,9 @@
     ],
     "lep_total": 50307,
     "lep_pct": 27.8,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 14.7,
+    "no_internet_pct": 4.0,
+    "snap_pct": 21.6,
     "puma_code": "3719"
   },
   {
@@ -5310,23 +5310,23 @@
       "total_pop_5plus": 171473
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 25.4,
+      "band_125_199_pct": 16.2,
+      "band_200_399_pct": 36.6,
+      "band_400plus_pct": 21.8,
+      "below_poverty_pct": 25.4
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 21.3,
+      "incomplete_hs_pct": 13.1,
+      "hs_some_college_pct": 50.7,
+      "ba_higher_pct": 14.9
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 5.2,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 31.7,
+      "linguistically_isolated_pct": 17.5
     },
     "top_language": "Spanish",
     "top_language_lep": 45465,
@@ -5759,9 +5759,9 @@
     ],
     "lep_total": 47260,
     "lep_pct": 27.6,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 25.4,
+    "no_internet_pct": 5.2,
+    "snap_pct": 31.7,
     "puma_code": "3750"
   },
   {
@@ -5780,23 +5780,23 @@
       "total_pop_5plus": 103543
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 21.0,
+      "band_125_199_pct": 20.2,
+      "band_200_399_pct": 36.7,
+      "band_400plus_pct": 22.2,
+      "below_poverty_pct": 21.0
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 27.8,
+      "incomplete_hs_pct": 16.7,
+      "hs_some_college_pct": 44.5,
+      "ba_higher_pct": 11.0
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 5.9,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 23.6,
+      "linguistically_isolated_pct": 15.6
     },
     "top_language": "Spanish",
     "top_language_lep": 28071,
@@ -6104,9 +6104,9 @@
     ],
     "lep_total": 28526,
     "lep_pct": 27.5,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 21.0,
+    "no_internet_pct": 5.9,
+    "snap_pct": 23.6,
     "puma_code": "3743"
   },
   {
@@ -6125,23 +6125,23 @@
       "total_pop_5plus": 130048
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 24.3,
+      "band_125_199_pct": 16.5,
+      "band_200_399_pct": 31.8,
+      "band_400plus_pct": 27.4,
+      "below_poverty_pct": 24.3
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 17.3,
+      "incomplete_hs_pct": 11.7,
+      "hs_some_college_pct": 49.7,
+      "ba_higher_pct": 21.3
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.7,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 20.6,
+      "linguistically_isolated_pct": 14.4
     },
     "top_language": "Spanish",
     "top_language_lep": 26241,
@@ -6824,9 +6824,9 @@
     ],
     "lep_total": 34865,
     "lep_pct": 26.8,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 24.3,
+    "no_internet_pct": 4.7,
+    "snap_pct": 20.6,
     "puma_code": "3723"
   },
   {
@@ -6845,23 +6845,23 @@
       "total_pop_5plus": 178105
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 11.4,
+      "band_125_199_pct": 9.8,
+      "band_200_399_pct": 26.8,
+      "band_400plus_pct": 52.0,
+      "below_poverty_pct": 11.4
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 7.6,
+      "incomplete_hs_pct": 4.2,
+      "hs_some_college_pct": 39.3,
+      "ba_higher_pct": 48.9
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 2.7,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 9.4,
+      "linguistically_isolated_pct": 15.3
     },
     "top_language": "Chinese (Mandarin/Cantonese)",
     "top_language_lep": 29357,
@@ -7594,9 +7594,9 @@
     ],
     "lep_total": 44864,
     "lep_pct": 25.2,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 11.4,
+    "no_internet_pct": 2.7,
+    "snap_pct": 9.4,
     "puma_code": "3717"
   },
   {
@@ -7615,23 +7615,23 @@
       "total_pop_5plus": 136126
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 17.3,
+      "band_125_199_pct": 16.3,
+      "band_200_399_pct": 39.5,
+      "band_400plus_pct": 26.9,
+      "below_poverty_pct": 17.3
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 23.7,
+      "incomplete_hs_pct": 14.3,
+      "hs_some_college_pct": 48.7,
+      "ba_higher_pct": 13.2
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 3.0,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 22.2,
+      "linguistically_isolated_pct": 9.0
     },
     "top_language": "Spanish",
     "top_language_lep": 31726,
@@ -8114,9 +8114,9 @@
     ],
     "lep_total": 34320,
     "lep_pct": 25.2,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 17.3,
+    "no_internet_pct": 3.0,
+    "snap_pct": 22.2,
     "puma_code": "3707"
   },
   {
@@ -8135,23 +8135,23 @@
       "total_pop_5plus": 179365
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 26.5,
+      "band_125_199_pct": 18.3,
+      "band_200_399_pct": 27.7,
+      "band_400plus_pct": 27.5,
+      "below_poverty_pct": 26.5
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 17.9,
+      "incomplete_hs_pct": 12.9,
+      "hs_some_college_pct": 38.9,
+      "ba_higher_pct": 30.3
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 7.7,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 27.4,
+      "linguistically_isolated_pct": 16.6
     },
     "top_language": "Spanish",
     "top_language_lep": 31439,
@@ -8809,9 +8809,9 @@
     ],
     "lep_total": 44018,
     "lep_pct": 24.5,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 26.5,
+    "no_internet_pct": 7.7,
+    "snap_pct": 27.4,
     "puma_code": "3744"
   },
   {
@@ -8830,23 +8830,23 @@
       "total_pop_5plus": 97099
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 13.6,
+      "band_125_199_pct": 13.8,
+      "band_200_399_pct": 37.4,
+      "band_400plus_pct": 35.1,
+      "below_poverty_pct": 13.6
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 19.1,
+      "incomplete_hs_pct": 12.5,
+      "hs_some_college_pct": 53.3,
+      "ba_higher_pct": 15.1
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 3.5,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 14.8,
+      "linguistically_isolated_pct": 8.8
     },
     "top_language": "Spanish",
     "top_language_lep": 17249,
@@ -9279,9 +9279,9 @@
     ],
     "lep_total": 23579,
     "lep_pct": 24.3,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 13.6,
+    "no_internet_pct": 3.5,
+    "snap_pct": 14.8,
     "puma_code": "3716"
   },
   {
@@ -9300,23 +9300,23 @@
       "total_pop_5plus": 144904
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 16.6,
+      "band_125_199_pct": 15.8,
+      "band_200_399_pct": 32.4,
+      "band_400plus_pct": 35.1,
+      "below_poverty_pct": 16.6
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 12.4,
+      "incomplete_hs_pct": 8.8,
+      "hs_some_college_pct": 54.5,
+      "ba_higher_pct": 24.3
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 3.4,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 21.8,
+      "linguistically_isolated_pct": 14.2
     },
     "top_language": "Spanish",
     "top_language_lep": 27291,
@@ -9899,9 +9899,9 @@
     ],
     "lep_total": 35232,
     "lep_pct": 24.3,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 16.6,
+    "no_internet_pct": 3.4,
+    "snap_pct": 21.8,
     "puma_code": "3758"
   },
   {
@@ -9920,23 +9920,23 @@
       "total_pop_5plus": 126881
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 17.0,
+      "band_125_199_pct": 14.1,
+      "band_200_399_pct": 32.4,
+      "band_400plus_pct": 36.5,
+      "below_poverty_pct": 17.0
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 14.5,
+      "incomplete_hs_pct": 8.9,
+      "hs_some_college_pct": 51.5,
+      "ba_higher_pct": 25.1
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.0,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 21.4,
+      "linguistically_isolated_pct": 12.3
     },
     "top_language": "Spanish",
     "top_language_lep": 18163,
@@ -10544,9 +10544,9 @@
     ],
     "lep_total": 30693,
     "lep_pct": 24.2,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 17.0,
+    "no_internet_pct": 4.0,
+    "snap_pct": 21.4,
     "puma_code": "3708"
   },
   {
@@ -10565,23 +10565,23 @@
       "total_pop_5plus": 108243
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 12.3,
+      "band_125_199_pct": 8.7,
+      "band_200_399_pct": 27.9,
+      "band_400plus_pct": 51.0,
+      "below_poverty_pct": 12.3
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 7.9,
+      "incomplete_hs_pct": 5.1,
+      "hs_some_college_pct": 39.4,
+      "ba_higher_pct": 47.6
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 2.2,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 11.1,
+      "linguistically_isolated_pct": 15.2
     },
     "top_language": "Chinese (Mandarin/Cantonese)",
     "top_language_lep": 15400,
@@ -11114,9 +11114,9 @@
     ],
     "lep_total": 25886,
     "lep_pct": 23.9,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 12.3,
+    "no_internet_pct": 2.2,
+    "snap_pct": 11.1,
     "puma_code": "3736"
   },
   {
@@ -11135,23 +11135,23 @@
       "total_pop_5plus": 156045
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 19.7,
+      "band_125_199_pct": 16.3,
+      "band_200_399_pct": 29.7,
+      "band_400plus_pct": 34.4,
+      "below_poverty_pct": 19.7
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 12.5,
+      "incomplete_hs_pct": 7.5,
+      "hs_some_college_pct": 44.9,
+      "ba_higher_pct": 35.1
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 3.4,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 20.0,
+      "linguistically_isolated_pct": 13.2
     },
     "top_language": "Spanish",
     "top_language_lep": 26360,
@@ -11909,9 +11909,9 @@
     ],
     "lep_total": 37193,
     "lep_pct": 23.8,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 19.7,
+    "no_internet_pct": 3.4,
+    "snap_pct": 20.0,
     "puma_code": "3722"
   },
   {
@@ -11930,23 +11930,23 @@
       "total_pop_5plus": 187616
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 24.6,
+      "band_125_199_pct": 14.7,
+      "band_200_399_pct": 28.7,
+      "band_400plus_pct": 31.9,
+      "below_poverty_pct": 24.6
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 17.5,
+      "incomplete_hs_pct": 8.5,
+      "hs_some_college_pct": 35.0,
+      "ba_higher_pct": 39.0
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 8.5,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 24.0,
+      "linguistically_isolated_pct": 16.9
     },
     "top_language": "Spanish",
     "top_language_lep": 29323,
@@ -12629,9 +12629,9 @@
     ],
     "lep_total": 41819,
     "lep_pct": 22.3,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 24.6,
+    "no_internet_pct": 8.5,
+    "snap_pct": 24.0,
     "puma_code": "3734"
   },
   {
@@ -12650,23 +12650,23 @@
       "total_pop_5plus": 166763
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 19.3,
+      "band_125_199_pct": 12.7,
+      "band_200_399_pct": 27.3,
+      "band_400plus_pct": 40.6,
+      "below_poverty_pct": 19.3
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 9.3,
+      "incomplete_hs_pct": 6.2,
+      "hs_some_college_pct": 37.3,
+      "ba_higher_pct": 47.2
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.2,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 16.7,
+      "linguistically_isolated_pct": 15.7
     },
     "top_language": "Spanish",
     "top_language_lep": 22520,
@@ -13524,9 +13524,9 @@
     ],
     "lep_total": 36577,
     "lep_pct": 21.9,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 19.3,
+    "no_internet_pct": 4.2,
+    "snap_pct": 16.7,
     "puma_code": "3732"
   },
   {
@@ -13545,23 +13545,23 @@
       "total_pop_5plus": 118757
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 13.3,
+      "band_125_199_pct": 16.0,
+      "band_200_399_pct": 37.1,
+      "band_400plus_pct": 33.6,
+      "below_poverty_pct": 13.3
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 15.4,
+      "incomplete_hs_pct": 11.6,
+      "hs_some_college_pct": 53.3,
+      "ba_higher_pct": 19.6
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.6,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 19.6,
+      "linguistically_isolated_pct": 9.3
     },
     "top_language": "Spanish",
     "top_language_lep": 21023,
@@ -14094,9 +14094,9 @@
     ],
     "lep_total": 25902,
     "lep_pct": 21.8,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 13.3,
+    "no_internet_pct": 4.6,
+    "snap_pct": 19.6,
     "puma_code": "3740"
   },
   {
@@ -14115,23 +14115,23 @@
       "total_pop_5plus": 110740
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 12.8,
+      "band_125_199_pct": 10.1,
+      "band_200_399_pct": 38.2,
+      "band_400plus_pct": 38.8,
+      "below_poverty_pct": 12.8
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 11.8,
+      "incomplete_hs_pct": 7.6,
+      "hs_some_college_pct": 55.5,
+      "ba_higher_pct": 25.1
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 2.4,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 17.6,
+      "linguistically_isolated_pct": 8.1
     },
     "top_language": "Spanish",
     "top_language_lep": 12815,
@@ -14714,9 +14714,9 @@
     ],
     "lep_total": 23749,
     "lep_pct": 21.4,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 12.8,
+    "no_internet_pct": 2.4,
+    "snap_pct": 17.6,
     "puma_code": "3715"
   },
   {
@@ -14735,23 +14735,23 @@
       "total_pop_5plus": 91706
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 19.7,
+      "band_125_199_pct": 15.5,
+      "band_200_399_pct": 32.7,
+      "band_400plus_pct": 32.1,
+      "below_poverty_pct": 19.7
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 15.4,
+      "incomplete_hs_pct": 9.8,
+      "hs_some_college_pct": 47.1,
+      "ba_higher_pct": 27.7
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.4,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 22.3,
+      "linguistically_isolated_pct": 10.8
     },
     "top_language": "Spanish",
     "top_language_lep": 14257,
@@ -15284,9 +15284,9 @@
     ],
     "lep_total": 19398,
     "lep_pct": 21.2,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 19.7,
+    "no_internet_pct": 4.4,
+    "snap_pct": 22.3,
     "puma_code": "3766"
   },
   {
@@ -15305,23 +15305,23 @@
       "total_pop_5plus": 167990
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 13.2,
+      "band_125_199_pct": 16.3,
+      "band_200_399_pct": 34.5,
+      "band_400plus_pct": 36.0,
+      "below_poverty_pct": 13.2
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 14.3,
+      "incomplete_hs_pct": 8.8,
+      "hs_some_college_pct": 52.0,
+      "ba_higher_pct": 24.9
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.8,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 18.3,
+      "linguistically_isolated_pct": 9.8
     },
     "top_language": "Spanish",
     "top_language_lep": 23118,
@@ -15954,9 +15954,9 @@
     ],
     "lep_total": 35232,
     "lep_pct": 21.0,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 13.2,
+    "no_internet_pct": 4.8,
+    "snap_pct": 18.3,
     "puma_code": "3710"
   },
   {
@@ -15975,23 +15975,23 @@
       "total_pop_5plus": 95308
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 10.4,
+      "band_125_199_pct": 14.5,
+      "band_200_399_pct": 35.8,
+      "band_400plus_pct": 39.3,
+      "below_poverty_pct": 10.4
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 13.3,
+      "incomplete_hs_pct": 9.3,
+      "hs_some_college_pct": 55.9,
+      "ba_higher_pct": 21.5
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 3.3,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 17.3,
+      "linguistically_isolated_pct": 8.0
     },
     "top_language": "Spanish",
     "top_language_lep": 14870,
@@ -16474,9 +16474,9 @@
     ],
     "lep_total": 19944,
     "lep_pct": 20.9,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 10.4,
+    "no_internet_pct": 3.3,
+    "snap_pct": 17.3,
     "puma_code": "3781"
   },
   {
@@ -16495,23 +16495,23 @@
       "total_pop_5plus": 104619
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 18.8,
+      "band_125_199_pct": 13.6,
+      "band_200_399_pct": 36.6,
+      "band_400plus_pct": 31.0,
+      "below_poverty_pct": 18.8
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 14.0,
+      "incomplete_hs_pct": 9.7,
+      "hs_some_college_pct": 51.1,
+      "ba_higher_pct": 25.1
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.3,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 21.4,
+      "linguistically_isolated_pct": 9.7
     },
     "top_language": "Spanish",
     "top_language_lep": 18241,
@@ -17044,9 +17044,9 @@
     ],
     "lep_total": 21853,
     "lep_pct": 20.9,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 18.8,
+    "no_internet_pct": 4.3,
+    "snap_pct": 21.4,
     "puma_code": "3759"
   },
   {
@@ -17065,23 +17065,23 @@
       "total_pop_5plus": 102508
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 17.0,
+      "band_125_199_pct": 12.2,
+      "band_200_399_pct": 36.3,
+      "band_400plus_pct": 34.6,
+      "below_poverty_pct": 17.0
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 14.2,
+      "incomplete_hs_pct": 9.4,
+      "hs_some_college_pct": 51.3,
+      "ba_higher_pct": 25.1
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 2.8,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 22.8,
+      "linguistically_isolated_pct": 11.9
     },
     "top_language": "Spanish",
     "top_language_lep": 19361,
@@ -17539,9 +17539,9 @@
     ],
     "lep_total": 21336,
     "lep_pct": 20.8,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 17.0,
+    "no_internet_pct": 2.8,
+    "snap_pct": 22.8,
     "puma_code": "3778"
   },
   {
@@ -17560,23 +17560,23 @@
       "total_pop_5plus": 170976
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 19.0,
+      "band_125_199_pct": 15.4,
+      "band_200_399_pct": 31.0,
+      "band_400plus_pct": 34.6,
+      "below_poverty_pct": 19.0
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 12.4,
+      "incomplete_hs_pct": 10.9,
+      "hs_some_college_pct": 50.7,
+      "ba_higher_pct": 26.0
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 3.1,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 17.8,
+      "linguistically_isolated_pct": 9.6
     },
     "top_language": "Spanish",
     "top_language_lep": 27528,
@@ -18409,9 +18409,9 @@
     ],
     "lep_total": 35197,
     "lep_pct": 20.6,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 19.0,
+    "no_internet_pct": 3.1,
+    "snap_pct": 17.8,
     "puma_code": "3767"
   },
   {
@@ -18430,23 +18430,23 @@
       "total_pop_5plus": 162585
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 15.5,
+      "band_125_199_pct": 9.0,
+      "band_200_399_pct": 26.7,
+      "band_400plus_pct": 48.8,
+      "below_poverty_pct": 15.5
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 8.9,
+      "incomplete_hs_pct": 5.7,
+      "hs_some_college_pct": 42.4,
+      "ba_higher_pct": 43.1
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 2.1,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 14.1,
+      "linguistically_isolated_pct": 9.8
     },
     "top_language": "Spanish",
     "top_language_lep": 17702,
@@ -19229,9 +19229,9 @@
     ],
     "lep_total": 33026,
     "lep_pct": 20.3,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 15.5,
+    "no_internet_pct": 2.1,
+    "snap_pct": 14.1,
     "puma_code": "3724"
   },
   {
@@ -19250,23 +19250,23 @@
       "total_pop_5plus": 171510
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 14.8,
+      "band_125_199_pct": 12.3,
+      "band_200_399_pct": 28.9,
+      "band_400plus_pct": 44.0,
+      "below_poverty_pct": 14.8
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 12.9,
+      "incomplete_hs_pct": 8.0,
+      "hs_some_college_pct": 40.8,
+      "ba_higher_pct": 38.2
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 3.8,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 16.8,
+      "linguistically_isolated_pct": 9.9
     },
     "top_language": "Spanish",
     "top_language_lep": 24797,
@@ -19949,9 +19949,9 @@
     ],
     "lep_total": 34721,
     "lep_pct": 20.2,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 14.8,
+    "no_internet_pct": 3.8,
+    "snap_pct": 16.8,
     "puma_code": "3735"
   },
   {
@@ -19970,23 +19970,23 @@
       "total_pop_5plus": 132464
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 12.7,
+      "band_125_199_pct": 11.6,
+      "band_200_399_pct": 31.0,
+      "band_400plus_pct": 44.7,
+      "below_poverty_pct": 12.7
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 11.6,
+      "incomplete_hs_pct": 8.0,
+      "hs_some_college_pct": 51.3,
+      "ba_higher_pct": 29.1
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 2.5,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 15.9,
+      "linguistically_isolated_pct": 7.7
     },
     "top_language": "Spanish",
     "top_language_lep": 17528,
@@ -20694,9 +20694,9 @@
     ],
     "lep_total": 26564,
     "lep_pct": 20.1,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 12.7,
+    "no_internet_pct": 2.5,
+    "snap_pct": 15.9,
     "puma_code": "3706"
   },
   {
@@ -20715,23 +20715,23 @@
       "total_pop_5plus": 139557
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 16.9,
+      "band_125_199_pct": 18.8,
+      "band_200_399_pct": 33.5,
+      "band_400plus_pct": 30.8,
+      "below_poverty_pct": 16.9
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 15.1,
+      "incomplete_hs_pct": 11.6,
+      "hs_some_college_pct": 52.5,
+      "ba_higher_pct": 20.8
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 3.1,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 22.1,
+      "linguistically_isolated_pct": 9.5
     },
     "top_language": "Spanish",
     "top_language_lep": 21953,
@@ -21314,9 +21314,9 @@
     ],
     "lep_total": 28029,
     "lep_pct": 20.1,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 16.9,
+    "no_internet_pct": 3.1,
+    "snap_pct": 22.1,
     "puma_code": "3712"
   },
   {
@@ -21335,23 +21335,23 @@
       "total_pop_5plus": 126197
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 18.4,
+      "band_125_199_pct": 12.5,
+      "band_200_399_pct": 31.6,
+      "band_400plus_pct": 37.6,
+      "below_poverty_pct": 18.4
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 8.7,
+      "incomplete_hs_pct": 6.2,
+      "hs_some_college_pct": 45.7,
+      "ba_higher_pct": 39.3
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 2.7,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 18.4,
+      "linguistically_isolated_pct": 11.4
     },
     "top_language": "Spanish",
     "top_language_lep": 15734,
@@ -21984,9 +21984,9 @@
     ],
     "lep_total": 25039,
     "lep_pct": 19.8,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 18.4,
+    "no_internet_pct": 2.7,
+    "snap_pct": 18.4,
     "puma_code": "3721"
   },
   {
@@ -22005,23 +22005,23 @@
       "total_pop_5plus": 142125
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 19.2,
+      "band_125_199_pct": 17.2,
+      "band_200_399_pct": 38.0,
+      "band_400plus_pct": 25.6,
+      "below_poverty_pct": 19.2
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 23.1,
+      "incomplete_hs_pct": 12.5,
+      "hs_some_college_pct": 53.1,
+      "ba_higher_pct": 11.3
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.9,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 27.2,
+      "linguistically_isolated_pct": 8.2
     },
     "top_language": "Spanish",
     "top_language_lep": 26938,
@@ -22354,9 +22354,9 @@
     ],
     "lep_total": 27832,
     "lep_pct": 19.6,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 19.2,
+    "no_internet_pct": 4.9,
+    "snap_pct": 27.2,
     "puma_code": "3757"
   },
   {
@@ -22375,23 +22375,23 @@
       "total_pop_5plus": 105719
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 9.0,
+      "band_125_199_pct": 10.7,
+      "band_200_399_pct": 28.9,
+      "band_400plus_pct": 51.3,
+      "below_poverty_pct": 9.0
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 5.1,
+      "incomplete_hs_pct": 6.1,
+      "hs_some_college_pct": 50.9,
+      "ba_higher_pct": 37.8
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 3.2,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 13.5,
+      "linguistically_isolated_pct": 9.6
     },
     "top_language": "Chinese (Mandarin/Cantonese)",
     "top_language_lep": 8678,
@@ -22849,9 +22849,9 @@
     ],
     "lep_total": 20370,
     "lep_pct": 19.3,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 9.0,
+    "no_internet_pct": 3.2,
+    "snap_pct": 13.5,
     "puma_code": "3713"
   },
   {
@@ -22870,23 +22870,23 @@
       "total_pop_5plus": 104333
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 10.7,
+      "band_125_199_pct": 11.7,
+      "band_200_399_pct": 33.0,
+      "band_400plus_pct": 44.5,
+      "below_poverty_pct": 10.7
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 11.0,
+      "incomplete_hs_pct": 7.7,
+      "hs_some_college_pct": 55.2,
+      "ba_higher_pct": 26.1
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 2.3,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 16.2,
+      "linguistically_isolated_pct": 7.1
     },
     "top_language": "Spanish",
     "top_language_lep": 15781,
@@ -23469,9 +23469,9 @@
     ],
     "lep_total": 19752,
     "lep_pct": 18.9,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 10.7,
+    "no_internet_pct": 2.3,
+    "snap_pct": 16.2,
     "puma_code": "3753"
   },
   {
@@ -23490,23 +23490,23 @@
       "total_pop_5plus": 121632
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 17.0,
+      "band_125_199_pct": 18.2,
+      "band_200_399_pct": 34.4,
+      "band_400plus_pct": 30.4,
+      "below_poverty_pct": 17.0
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 15.7,
+      "incomplete_hs_pct": 8.5,
+      "hs_some_college_pct": 56.4,
+      "ba_higher_pct": 19.4
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.2,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 20.4,
+      "linguistically_isolated_pct": 6.8
     },
     "top_language": "Spanish",
     "top_language_lep": 18752,
@@ -24014,9 +24014,9 @@
     ],
     "lep_total": 22840,
     "lep_pct": 18.8,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 17.0,
+    "no_internet_pct": 4.2,
+    "snap_pct": 20.4,
     "puma_code": "3782"
   },
   {
@@ -24035,23 +24035,23 @@
       "total_pop_5plus": 170635
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 17.8,
+      "band_125_199_pct": 15.4,
+      "band_200_399_pct": 35.1,
+      "band_400plus_pct": 31.6,
+      "below_poverty_pct": 17.8
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 11.3,
+      "incomplete_hs_pct": 11.0,
+      "hs_some_college_pct": 60.3,
+      "ba_higher_pct": 17.3
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.0,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 25.0,
+      "linguistically_isolated_pct": 7.7
     },
     "top_language": "Spanish",
     "top_language_lep": 28171,
@@ -24559,9 +24559,9 @@
     ],
     "lep_total": 31251,
     "lep_pct": 18.3,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 17.8,
+    "no_internet_pct": 4.0,
+    "snap_pct": 25.0,
     "puma_code": "3704"
   },
   {
@@ -24580,23 +24580,23 @@
       "total_pop_5plus": 110621
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 10.1,
+      "band_125_199_pct": 11.6,
+      "band_200_399_pct": 32.7,
+      "band_400plus_pct": 45.6,
+      "below_poverty_pct": 10.1
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 8.0,
+      "incomplete_hs_pct": 7.9,
+      "hs_some_college_pct": 53.5,
+      "ba_higher_pct": 30.6
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 2.3,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 15.4,
+      "linguistically_isolated_pct": 6.1
     },
     "top_language": "Spanish",
     "top_language_lep": 9564,
@@ -25079,9 +25079,9 @@
     ],
     "lep_total": 19575,
     "lep_pct": 17.7,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 10.1,
+    "no_internet_pct": 2.3,
+    "snap_pct": 15.4,
     "puma_code": "3762"
   },
   {
@@ -25100,23 +25100,23 @@
       "total_pop_5plus": 117638
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 8.3,
+      "band_125_199_pct": 7.6,
+      "band_200_399_pct": 23.3,
+      "band_400plus_pct": 60.7,
+      "below_poverty_pct": 8.3
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 3.0,
+      "incomplete_hs_pct": 2.6,
+      "hs_some_college_pct": 42.3,
+      "ba_higher_pct": 52.0
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 1.6,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 7.6,
+      "linguistically_isolated_pct": 10.4
     },
     "top_language": "Korean",
     "top_language_lep": 4480,
@@ -25874,9 +25874,9 @@
     ],
     "lep_total": 20205,
     "lep_pct": 17.2,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 8.3,
+    "no_internet_pct": 1.6,
+    "snap_pct": 7.6,
     "puma_code": "3761"
   },
   {
@@ -25895,23 +25895,23 @@
       "total_pop_5plus": 149123
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 7.6,
+      "band_125_199_pct": 8.2,
+      "band_200_399_pct": 27.3,
+      "band_400plus_pct": 56.9,
+      "below_poverty_pct": 7.6
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 6.3,
+      "incomplete_hs_pct": 5.1,
+      "hs_some_college_pct": 49.2,
+      "ba_higher_pct": 39.5
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 2.1,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 12.6,
+      "linguistically_isolated_pct": 7.3
     },
     "top_language": "Spanish",
     "top_language_lep": 9074,
@@ -26569,9 +26569,9 @@
     ],
     "lep_total": 25294,
     "lep_pct": 17.0,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 7.6,
+    "no_internet_pct": 2.1,
+    "snap_pct": 12.6,
     "puma_code": "3764"
   },
   {
@@ -26590,23 +26590,23 @@
       "total_pop_5plus": 135872
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 18.0,
+      "band_125_199_pct": 11.5,
+      "band_200_399_pct": 33.9,
+      "band_400plus_pct": 36.6,
+      "below_poverty_pct": 18.0
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 12.5,
+      "incomplete_hs_pct": 9.2,
+      "hs_some_college_pct": 52.6,
+      "ba_higher_pct": 25.7
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.0,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 23.5,
+      "linguistically_isolated_pct": 6.2
     },
     "top_language": "Spanish",
     "top_language_lep": 16564,
@@ -27314,9 +27314,9 @@
     ],
     "lep_total": 23028,
     "lep_pct": 16.9,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 18.0,
+    "no_internet_pct": 4.0,
+    "snap_pct": 23.5,
     "puma_code": "3763"
   },
   {
@@ -27335,23 +27335,23 @@
       "total_pop_5plus": 174337
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 13.7,
+      "band_125_199_pct": 9.6,
+      "band_200_399_pct": 25.9,
+      "band_400plus_pct": 50.8,
+      "below_poverty_pct": 13.7
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 8.4,
+      "incomplete_hs_pct": 4.7,
+      "hs_some_college_pct": 42.5,
+      "ba_higher_pct": 44.4
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 2.5,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 13.2,
+      "linguistically_isolated_pct": 8.9
     },
     "top_language": "Spanish",
     "top_language_lep": 15620,
@@ -28159,9 +28159,9 @@
     ],
     "lep_total": 29293,
     "lep_pct": 16.8,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 13.7,
+    "no_internet_pct": 2.5,
+    "snap_pct": 13.2,
     "puma_code": "3725"
   },
   {
@@ -28180,23 +28180,23 @@
       "total_pop_5plus": 155828
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 14.4,
+      "band_125_199_pct": 10.8,
+      "band_200_399_pct": 21.9,
+      "band_400plus_pct": 52.8,
+      "below_poverty_pct": 14.4
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 6.6,
+      "incomplete_hs_pct": 3.0,
+      "hs_some_college_pct": 32.7,
+      "ba_higher_pct": 57.7
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 2.8,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 11.5,
+      "linguistically_isolated_pct": 11.3
     },
     "top_language": "Spanish",
     "top_language_lep": 11060,
@@ -29029,9 +29029,9 @@
     ],
     "lep_total": 25171,
     "lep_pct": 16.2,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 14.4,
+    "no_internet_pct": 2.8,
+    "snap_pct": 11.5,
     "puma_code": "3730"
   },
   {
@@ -29050,23 +29050,23 @@
       "total_pop_5plus": 174172
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 10.9,
+      "band_125_199_pct": 9.4,
+      "band_200_399_pct": 24.5,
+      "band_400plus_pct": 55.2,
+      "below_poverty_pct": 10.9
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 5.9,
+      "incomplete_hs_pct": 5.2,
+      "hs_some_college_pct": 44.5,
+      "ba_higher_pct": 44.5
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 1.8,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 11.6,
+      "linguistically_isolated_pct": 6.9
     },
     "top_language": "Spanish",
     "top_language_lep": 11785,
@@ -29949,9 +29949,9 @@
     ],
     "lep_total": 26729,
     "lep_pct": 15.3,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 10.9,
+    "no_internet_pct": 1.8,
+    "snap_pct": 11.6,
     "puma_code": "3705"
   },
   {
@@ -29970,23 +29970,23 @@
       "total_pop_5plus": 161703
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 11.8,
+      "band_125_199_pct": 10.5,
+      "band_200_399_pct": 28.6,
+      "band_400plus_pct": 49.1,
+      "below_poverty_pct": 11.8
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 7.7,
+      "incomplete_hs_pct": 6.2,
+      "hs_some_college_pct": 55.2,
+      "ba_higher_pct": 30.8
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 3.3,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 11.3,
+      "linguistically_isolated_pct": 7.2
     },
     "top_language": "Spanish",
     "top_language_lep": 13026,
@@ -30694,9 +30694,9 @@
     ],
     "lep_total": 24694,
     "lep_pct": 15.3,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 11.8,
+    "no_internet_pct": 3.3,
+    "snap_pct": 11.3,
     "puma_code": "3739"
   },
   {
@@ -30715,23 +30715,23 @@
       "total_pop_5plus": 104703
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 18.2,
+      "band_125_199_pct": 14.5,
+      "band_200_399_pct": 30.4,
+      "band_400plus_pct": 36.9,
+      "below_poverty_pct": 18.2
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 14.2,
+      "incomplete_hs_pct": 7.0,
+      "hs_some_college_pct": 46.1,
+      "ba_higher_pct": 32.7
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.0,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 17.4,
+      "linguistically_isolated_pct": 7.5
     },
     "top_language": "Spanish",
     "top_language_lep": 10564,
@@ -31414,9 +31414,9 @@
     ],
     "lep_total": 15360,
     "lep_pct": 14.7,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 18.2,
+    "no_internet_pct": 4.0,
+    "snap_pct": 17.4,
     "puma_code": "3780"
   },
   {
@@ -31435,23 +31435,23 @@
       "total_pop_5plus": 127135
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 10.9,
+      "band_125_199_pct": 9.7,
+      "band_200_399_pct": 34.5,
+      "band_400plus_pct": 44.8,
+      "below_poverty_pct": 10.9
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 8.2,
+      "incomplete_hs_pct": 6.4,
+      "hs_some_college_pct": 57.7,
+      "ba_higher_pct": 27.7
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 2.8,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 11.9,
+      "linguistically_isolated_pct": 5.0
     },
     "top_language": "Spanish",
     "top_language_lep": 13072,
@@ -31984,9 +31984,9 @@
     ],
     "lep_total": 18666,
     "lep_pct": 14.7,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 10.9,
+    "no_internet_pct": 2.8,
+    "snap_pct": 11.9,
     "puma_code": "3754"
   },
   {
@@ -32005,23 +32005,23 @@
       "total_pop_5plus": 152137
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 20.7,
+      "band_125_199_pct": 14.2,
+      "band_200_399_pct": 29.3,
+      "band_400plus_pct": 35.8,
+      "below_poverty_pct": 20.7
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 9.7,
+      "incomplete_hs_pct": 7.9,
+      "hs_some_college_pct": 49.8,
+      "ba_higher_pct": 32.7
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.8,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 23.1,
+      "linguistically_isolated_pct": 8.9
     },
     "top_language": "Spanish",
     "top_language_lep": 18989,
@@ -32604,9 +32604,9 @@
     ],
     "lep_total": 22351,
     "lep_pct": 14.7,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 20.7,
+    "no_internet_pct": 4.8,
+    "snap_pct": 23.1,
     "puma_code": "3747"
   },
   {
@@ -32625,23 +32625,23 @@
       "total_pop_5plus": 128859
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 13.9,
+      "band_125_199_pct": 9.1,
+      "band_200_399_pct": 20.9,
+      "band_400plus_pct": 56.1,
+      "below_poverty_pct": 13.9
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 6.4,
+      "incomplete_hs_pct": 3.2,
+      "hs_some_college_pct": 34.4,
+      "ba_higher_pct": 56.0
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 3.6,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 13.6,
+      "linguistically_isolated_pct": 7.6
     },
     "top_language": "Spanish",
     "top_language_lep": 9672,
@@ -33349,9 +33349,9 @@
     ],
     "lep_total": 17251,
     "lep_pct": 13.4,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 13.9,
+    "no_internet_pct": 3.6,
+    "snap_pct": 13.6,
     "puma_code": "3718"
   },
   {
@@ -33370,23 +33370,23 @@
       "total_pop_5plus": 113183
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 12.2,
+      "band_125_199_pct": 8.4,
+      "band_200_399_pct": 22.5,
+      "band_400plus_pct": 56.9,
+      "below_poverty_pct": 12.2
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 4.1,
+      "incomplete_hs_pct": 3.4,
+      "hs_some_college_pct": 44.2,
+      "ba_higher_pct": 48.3
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 2.4,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 11.4,
+      "linguistically_isolated_pct": 6.3
     },
     "top_language": "Spanish",
     "top_language_lep": 4927,
@@ -34019,9 +34019,9 @@
     ],
     "lep_total": 14813,
     "lep_pct": 13.1,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 12.2,
+    "no_internet_pct": 2.4,
+    "snap_pct": 11.4,
     "puma_code": "3720"
   },
   {
@@ -34040,23 +34040,23 @@
       "total_pop_5plus": 104031
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 12.0,
+      "band_125_199_pct": 7.9,
+      "band_200_399_pct": 26.9,
+      "band_400plus_pct": 53.2,
+      "below_poverty_pct": 12.0
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 5.6,
+      "incomplete_hs_pct": 5.3,
+      "hs_some_college_pct": 52.5,
+      "ba_higher_pct": 36.6
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 1.4,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 11.7,
+      "linguistically_isolated_pct": 3.5
     },
     "top_language": "Spanish",
     "top_language_lep": 7903,
@@ -34614,9 +34614,9 @@
     ],
     "lep_total": 12089,
     "lep_pct": 11.6,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 12.0,
+    "no_internet_pct": 1.4,
+    "snap_pct": 11.7,
     "puma_code": "3771"
   },
   {
@@ -34635,23 +34635,23 @@
       "total_pop_5plus": 103381
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 7.0,
+      "band_125_199_pct": 6.6,
+      "band_200_399_pct": 16.3,
+      "band_400plus_pct": 70.0,
+      "below_poverty_pct": 7.0
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 2.6,
+      "incomplete_hs_pct": 2.2,
+      "hs_some_college_pct": 33.0,
+      "ba_higher_pct": 62.1
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 1.7,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 4.5,
+      "linguistically_isolated_pct": 6.1
     },
     "top_language": "Chinese (Mandarin/Cantonese)",
     "top_language_lep": 2740,
@@ -35459,9 +35459,9 @@
     ],
     "lep_total": 11250,
     "lep_pct": 10.9,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 7.0,
+    "no_internet_pct": 1.7,
+    "snap_pct": 4.5,
     "puma_code": "3768"
   },
   {
@@ -35480,23 +35480,23 @@
       "total_pop_5plus": 164567
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 18.9,
+      "band_125_199_pct": 15.1,
+      "band_200_399_pct": 33.6,
+      "band_400plus_pct": 32.3,
+      "below_poverty_pct": 18.9
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 8.5,
+      "incomplete_hs_pct": 10.4,
+      "hs_some_college_pct": 61.0,
+      "ba_higher_pct": 20.1
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 4.2,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 22.3,
+      "linguistically_isolated_pct": 4.0
     },
     "top_language": "Spanish",
     "top_language_lep": 14925,
@@ -36029,9 +36029,9 @@
     ],
     "lep_total": 17444,
     "lep_pct": 10.6,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 18.9,
+    "no_internet_pct": 4.2,
+    "snap_pct": 22.3,
     "puma_code": "3703"
   },
   {
@@ -36050,23 +36050,23 @@
       "total_pop_5plus": 101476
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 9.4,
+      "band_125_199_pct": 7.3,
+      "band_200_399_pct": 19.3,
+      "band_400plus_pct": 64.0,
+      "below_poverty_pct": 9.4
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 3.4,
+      "incomplete_hs_pct": 2.2,
+      "hs_some_college_pct": 25.1,
+      "ba_higher_pct": 69.4
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 1.4,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 5.3,
+      "linguistically_isolated_pct": 4.8
     },
     "top_language": "Spanish",
     "top_language_lep": 3512,
@@ -36774,9 +36774,9 @@
     ],
     "lep_total": 9614,
     "lep_pct": 9.5,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 9.4,
+    "no_internet_pct": 1.4,
+    "snap_pct": 5.3,
     "puma_code": "3770"
   },
   {
@@ -36795,23 +36795,23 @@
       "total_pop_5plus": 99722
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 19.5,
+      "band_125_199_pct": 8.7,
+      "band_200_399_pct": 16.0,
+      "band_400plus_pct": 55.8,
+      "below_poverty_pct": 19.5
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 3.0,
+      "incomplete_hs_pct": 2.1,
+      "hs_some_college_pct": 24.8,
+      "ba_higher_pct": 70.1
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 2.4,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 7.6,
+      "linguistically_isolated_pct": 5.8
     },
     "top_language": "Spanish",
     "top_language_lep": 2920,
@@ -37469,9 +37469,9 @@
     ],
     "lep_total": 9489,
     "lep_pct": 9.5,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 19.5,
+    "no_internet_pct": 2.4,
+    "snap_pct": 7.6,
     "puma_code": "3776"
   },
   {
@@ -37490,23 +37490,23 @@
       "total_pop_5plus": 95508
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 10.6,
+      "band_125_199_pct": 11.9,
+      "band_200_399_pct": 22.7,
+      "band_400plus_pct": 54.8,
+      "below_poverty_pct": 10.6
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 6.5,
+      "incomplete_hs_pct": 7.0,
+      "hs_some_college_pct": 53.6,
+      "ba_higher_pct": 32.9
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 3.0,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 11.5,
+      "linguistically_isolated_pct": 3.5
     },
     "top_language": "Spanish",
     "top_language_lep": 6283,
@@ -38114,9 +38114,9 @@
     ],
     "lep_total": 8935,
     "lep_pct": 9.4,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 10.6,
+    "no_internet_pct": 3.0,
+    "snap_pct": 11.5,
     "puma_code": "3772"
   },
   {
@@ -38135,23 +38135,23 @@
       "total_pop_5plus": 115919
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 7.9,
+      "band_125_199_pct": 6.1,
+      "band_200_399_pct": 23.3,
+      "band_400plus_pct": 62.7,
+      "below_poverty_pct": 7.9
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 3.4,
+      "incomplete_hs_pct": 4.5,
+      "hs_some_college_pct": 50.7,
+      "ba_higher_pct": 41.3
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 1.8,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 8.6,
+      "linguistically_isolated_pct": 2.9
     },
     "top_language": "Spanish",
     "top_language_lep": 6374,
@@ -38784,9 +38784,9 @@
     ],
     "lep_total": 10617,
     "lep_pct": 9.2,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 7.9,
+    "no_internet_pct": 1.8,
+    "snap_pct": 8.6,
     "puma_code": "3773"
   },
   {
@@ -38805,23 +38805,23 @@
       "total_pop_5plus": 102376
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 6.8,
+      "band_125_199_pct": 4.4,
+      "band_200_399_pct": 16.4,
+      "band_400plus_pct": 72.4,
+      "below_poverty_pct": 6.8
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 3.2,
+      "incomplete_hs_pct": 2.0,
+      "hs_some_college_pct": 34.9,
+      "ba_higher_pct": 59.8
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 1.4,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 6.4,
+      "linguistically_isolated_pct": 3.9
     },
     "top_language": "Spanish",
     "top_language_lep": 3403,
@@ -39429,9 +39429,9 @@
     ],
     "lep_total": 9407,
     "lep_pct": 9.2,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 6.8,
+    "no_internet_pct": 1.4,
+    "snap_pct": 6.4,
     "puma_code": "3709"
   },
   {
@@ -39450,23 +39450,23 @@
       "total_pop_5plus": 103422
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 11.6,
+      "band_125_199_pct": 7.6,
+      "band_200_399_pct": 18.8,
+      "band_400plus_pct": 62.0,
+      "below_poverty_pct": 11.6
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 2.2,
+      "incomplete_hs_pct": 1.4,
+      "hs_some_college_pct": 29.1,
+      "ba_higher_pct": 67.4
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 2.0,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 8.7,
+      "linguistically_isolated_pct": 5.3
     },
     "top_language": "Russian",
     "top_language_lep": 2691,
@@ -40124,9 +40124,9 @@
     ],
     "lep_total": 9537,
     "lep_pct": 9.2,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 11.6,
+    "no_internet_pct": 2.0,
+    "snap_pct": 8.7,
     "puma_code": "3731"
   },
   {
@@ -40145,23 +40145,23 @@
       "total_pop_5plus": 152616
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 9.3,
+      "band_125_199_pct": 7.4,
+      "band_200_399_pct": 23.7,
+      "band_400plus_pct": 59.6,
+      "below_poverty_pct": 9.3
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 3.4,
+      "incomplete_hs_pct": 3.9,
+      "hs_some_college_pct": 49.7,
+      "ba_higher_pct": 43.0
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 3.2,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 8.8,
+      "linguistically_isolated_pct": 4.3
     },
     "top_language": "Spanish",
     "top_language_lep": 5271,
@@ -40919,9 +40919,9 @@
     ],
     "lep_total": 12782,
     "lep_pct": 8.4,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 9.3,
+    "no_internet_pct": 3.2,
+    "snap_pct": 8.8,
     "puma_code": "3711"
   },
   {
@@ -40940,23 +40940,23 @@
       "total_pop_5plus": 98718
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 11.7,
+      "band_125_199_pct": 7.2,
+      "band_200_399_pct": 17.8,
+      "band_400plus_pct": 63.2,
+      "below_poverty_pct": 11.7
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 2.9,
+      "incomplete_hs_pct": 1.9,
+      "hs_some_college_pct": 25.1,
+      "ba_higher_pct": 70.0
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 3.4,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 6.4,
+      "linguistically_isolated_pct": 3.6
     },
     "top_language": "Spanish",
     "top_language_lep": 2331,
@@ -41664,9 +41664,9 @@
     ],
     "lep_total": 6649,
     "lep_pct": 6.7,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 11.7,
+    "no_internet_pct": 3.4,
+    "snap_pct": 6.4,
     "puma_code": "3728"
   },
   {
@@ -41685,23 +41685,23 @@
       "total_pop_5plus": 173187
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 11.1,
+      "band_125_199_pct": 6.8,
+      "band_200_399_pct": 14.9,
+      "band_400plus_pct": 67.2,
+      "below_poverty_pct": 11.1
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 3.0,
+      "incomplete_hs_pct": 2.2,
+      "hs_some_college_pct": 30.6,
+      "ba_higher_pct": 64.2
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 1.5,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 7.8,
+      "linguistically_isolated_pct": 3.1
     },
     "top_language": "Spanish",
     "top_language_lep": 5144,
@@ -42509,9 +42509,9 @@
     ],
     "lep_total": 10927,
     "lep_pct": 6.3,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 11.1,
+    "no_internet_pct": 1.5,
+    "snap_pct": 7.8,
     "puma_code": "3748"
   },
   {
@@ -42530,23 +42530,23 @@
       "total_pop_5plus": 111852
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 8.0,
+      "band_125_199_pct": 5.2,
+      "band_200_399_pct": 15.2,
+      "band_400plus_pct": 71.6,
+      "below_poverty_pct": 8.0
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 0.9,
+      "incomplete_hs_pct": 1.5,
+      "hs_some_college_pct": 28.2,
+      "ba_higher_pct": 69.3
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 1.4,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 3.8,
+      "linguistically_isolated_pct": 3.4
     },
     "top_language": "Spanish",
     "top_language_lep": 1869,
@@ -43154,9 +43154,9 @@
     ],
     "lep_total": 6282,
     "lep_pct": 5.6,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 8.0,
+    "no_internet_pct": 1.4,
+    "snap_pct": 3.8,
     "puma_code": "3775"
   },
   {
@@ -43175,23 +43175,23 @@
       "total_pop_5plus": 113437
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 8.1,
+      "band_125_199_pct": 5.0,
+      "band_200_399_pct": 20.4,
+      "band_400plus_pct": 66.5,
+      "below_poverty_pct": 8.1
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 3.0,
+      "incomplete_hs_pct": 1.6,
+      "hs_some_college_pct": 39.8,
+      "ba_higher_pct": 55.6
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 1.8,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 5.0,
+      "linguistically_isolated_pct": 1.5
     },
     "top_language": "Spanish",
     "top_language_lep": 2649,
@@ -43874,9 +43874,9 @@
     ],
     "lep_total": 5436,
     "lep_pct": 4.8,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 8.1,
+    "no_internet_pct": 1.8,
+    "snap_pct": 5.0,
     "puma_code": "3779"
   },
   {
@@ -43895,23 +43895,23 @@
       "total_pop_5plus": 133039
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 8.3,
+      "band_125_199_pct": 5.0,
+      "band_200_399_pct": 11.7,
+      "band_400plus_pct": 75.0,
+      "below_poverty_pct": 8.3
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 0.9,
+      "incomplete_hs_pct": 1.1,
+      "hs_some_college_pct": 27.3,
+      "ba_higher_pct": 70.7
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 1.1,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 3.0,
+      "linguistically_isolated_pct": 1.8
     },
     "top_language": "Persian (Farsi/Dari)",
     "top_language_lep": 1406,
@@ -44569,9 +44569,9 @@
     ],
     "lep_total": 6232,
     "lep_pct": 4.7,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 8.3,
+    "no_internet_pct": 1.1,
+    "snap_pct": 3.0,
     "puma_code": "3774"
   },
   {
@@ -44590,23 +44590,23 @@
       "total_pop_5plus": 132223
     },
     "poverty": {
-      "band_1_124_pct": 0,
-      "band_125_199_pct": 0,
-      "band_200_399_pct": 0,
-      "band_400plus_pct": 0,
-      "below_poverty_pct": 0
+      "band_1_124_pct": 5.3,
+      "band_125_199_pct": 4.0,
+      "band_200_399_pct": 13.4,
+      "band_400plus_pct": 77.4,
+      "below_poverty_pct": 5.3
     },
     "education": {
-      "under_9th_pct": 0,
-      "incomplete_hs_pct": 0,
-      "hs_some_college_pct": 0,
-      "ba_higher_pct": 0
+      "under_9th_pct": 1.3,
+      "incomplete_hs_pct": 1.4,
+      "hs_some_college_pct": 28.0,
+      "ba_higher_pct": 69.3
     },
     "access": {
-      "no_internet_pct": 0,
+      "no_internet_pct": 1.2,
       "no_computer_pct": 0,
-      "snap_pct": 0,
-      "linguistically_isolated_pct": 0
+      "snap_pct": 4.5,
+      "linguistically_isolated_pct": 2.1
     },
     "top_language": "Spanish",
     "top_language_lep": 1513,
@@ -45364,9 +45364,9 @@
     ],
     "lep_total": 5964,
     "lep_pct": 4.5,
-    "poverty_pct": 0,
-    "no_internet_pct": 0,
-    "snap_pct": 0,
+    "poverty_pct": 5.3,
+    "no_internet_pct": 1.2,
+    "snap_pct": 4.5,
     "puma_code": "3760"
   }
 ]
