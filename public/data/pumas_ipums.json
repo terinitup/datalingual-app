@@ -432,28 +432,28 @@
         }
       },
       {
-        "name": "Other/Unspecified",
-        "total_speakers": 142,
-        "lep_count": 142,
+        "name": "South/Central American Indian",
+        "total_speakers": 128,
+        "lep_count": 128,
         "lep_pct_of_area": 0.1,
         "source": "IPUMS ACS 2020-2024",
         "poverty": {
-          "band_1_124_pct": 52.1,
-          "band_125_199_pct": 38.0,
-          "band_200_399_pct": 9.9,
+          "band_1_124_pct": 57.8,
+          "band_125_199_pct": 42.2,
+          "band_200_399_pct": 0.0,
           "band_400plus_pct": 0.0,
-          "below_poverty_pct": 52.1
+          "below_poverty_pct": 57.8
         },
         "education": {
-          "under_9th_pct": 71.1,
-          "incomplete_hs_pct": 18.4,
-          "hs_some_college_pct": 10.5,
+          "under_9th_pct": 87.1,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 12.9,
           "ba_higher_pct": 0.0
         },
         "access": {
-          "no_internet_pct": 46.5,
-          "snap_pct": 9.9,
-          "linguistically_isolated_pct": 9.9
+          "no_internet_pct": 51.6,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 0.0
         }
       },
       {
@@ -554,6 +554,31 @@
           "no_internet_pct": 0.0,
           "snap_pct": 0.0,
           "linguistically_isolated_pct": 0.0
+        }
+      },
+      {
+        "name": "Aztecan/Nahua",
+        "total_speakers": 14,
+        "lep_count": 14,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 100.0,
+          "band_400plus_pct": 0.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 100.0,
+          "hs_some_college_pct": 0.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 100.0,
+          "linguistically_isolated_pct": 100.0
         }
       },
       {
@@ -1027,7 +1052,7 @@
         }
       },
       {
-        "name": "Other/Unspecified",
+        "name": "South/Central American Indian",
         "total_speakers": 38,
         "lep_count": 38,
         "lep_pct_of_area": 0.0,
@@ -1992,31 +2017,6 @@
         }
       },
       {
-        "name": "Other/Unspecified",
-        "total_speakers": 82,
-        "lep_count": 82,
-        "lep_pct_of_area": 0.1,
-        "source": "IPUMS ACS 2020-2024",
-        "poverty": {
-          "band_1_124_pct": 20.7,
-          "band_125_199_pct": 0.0,
-          "band_200_399_pct": 0.0,
-          "band_400plus_pct": 79.3,
-          "below_poverty_pct": 20.7
-        },
-        "education": {
-          "under_9th_pct": 0.0,
-          "incomplete_hs_pct": 29.3,
-          "hs_some_college_pct": 43.9,
-          "ba_higher_pct": 26.8
-        },
-        "access": {
-          "no_internet_pct": 0.0,
-          "snap_pct": 0.0,
-          "linguistically_isolated_pct": 76.8
-        }
-      },
-      {
         "name": "Tagalog/Filipino",
         "total_speakers": 77,
         "lep_count": 77,
@@ -2059,6 +2059,31 @@
           "incomplete_hs_pct": 0.0,
           "hs_some_college_pct": 100.0,
           "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 100.0
+        }
+      },
+      {
+        "name": "South/Central American Indian",
+        "total_speakers": 63,
+        "lep_count": 63,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 27.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 0.0,
+          "band_400plus_pct": 73.0,
+          "below_poverty_pct": 27.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 38.1,
+          "hs_some_college_pct": 27.0,
+          "ba_higher_pct": 34.9
         },
         "access": {
           "no_internet_pct": 0.0,
@@ -2238,6 +2263,31 @@
         "access": {
           "no_internet_pct": 0.0,
           "snap_pct": 100.0,
+          "linguistically_isolated_pct": 0.0
+        }
+      },
+      {
+        "name": "Other/Unspecified",
+        "total_speakers": 19,
+        "lep_count": 19,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 0.0,
+          "band_400plus_pct": 100.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 100.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
           "linguistically_isolated_pct": 0.0
         }
       },
@@ -2462,7 +2512,7 @@
         }
       },
       {
-        "name": "Other/Unspecified",
+        "name": "South/Central American Indian",
         "total_speakers": 38,
         "lep_count": 38,
         "lep_pct_of_area": 0.0,
@@ -2882,15 +2932,15 @@
         }
       },
       {
-        "name": "Other/Unspecified",
-        "total_speakers": 53,
-        "lep_count": 53,
+        "name": "South/Central American Indian",
+        "total_speakers": 41,
+        "lep_count": 41,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2020-2024",
         "poverty": {
           "band_1_124_pct": 0.0,
-          "band_125_199_pct": 77.4,
-          "band_200_399_pct": 22.6,
+          "band_125_199_pct": 100.0,
+          "band_200_399_pct": 0.0,
           "band_400plus_pct": 0.0,
           "below_poverty_pct": 0.0
         },
@@ -2903,7 +2953,7 @@
         "access": {
           "no_internet_pct": 0.0,
           "snap_pct": 0.0,
-          "linguistically_isolated_pct": 22.6
+          "linguistically_isolated_pct": 0.0
         }
       },
       {
@@ -3004,6 +3054,31 @@
           "no_internet_pct": 0.0,
           "snap_pct": 100.0,
           "linguistically_isolated_pct": 0.0
+        }
+      },
+      {
+        "name": "Other/Unspecified",
+        "total_speakers": 12,
+        "lep_count": 12,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 100.0,
+          "band_400plus_pct": 0.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 100.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 0.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 100.0
         }
       },
       {
@@ -5457,9 +5532,9 @@
         }
       },
       {
-        "name": "Other/Unspecified",
-        "total_speakers": 116,
-        "lep_count": 116,
+        "name": "South/Central American Indian",
+        "total_speakers": 104,
+        "lep_count": 104,
         "lep_pct_of_area": 0.1,
         "source": "IPUMS ACS 2020-2024",
         "poverty": {
@@ -5470,15 +5545,15 @@
           "below_poverty_pct": 0.0
         },
         "education": {
-          "under_9th_pct": 19.8,
+          "under_9th_pct": 22.1,
           "incomplete_hs_pct": 0.0,
-          "hs_some_college_pct": 10.3,
-          "ba_higher_pct": 69.8
+          "hs_some_college_pct": 0.0,
+          "ba_higher_pct": 77.9
         },
         "access": {
           "no_internet_pct": 0.0,
-          "snap_pct": 10.3,
-          "linguistically_isolated_pct": 89.7
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 100.0
         }
       },
       {
@@ -5707,6 +5782,31 @@
         }
       },
       {
+        "name": "Other/Unspecified",
+        "total_speakers": 12,
+        "lep_count": 12,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 100.0,
+          "band_400plus_pct": 0.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 100.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 100.0,
+          "linguistically_isolated_pct": 0.0
+        }
+      },
+      {
         "name": "Arabic",
         "total_speakers": 6,
         "lep_count": 6,
@@ -5902,31 +6002,6 @@
         }
       },
       {
-        "name": "Other/Unspecified",
-        "total_speakers": 41,
-        "lep_count": 41,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2020-2024",
-        "poverty": {
-          "band_1_124_pct": 0.0,
-          "band_125_199_pct": 0.0,
-          "band_200_399_pct": 100.0,
-          "band_400plus_pct": 0.0,
-          "below_poverty_pct": 0.0
-        },
-        "education": {
-          "under_9th_pct": 0.0,
-          "incomplete_hs_pct": 90.2,
-          "hs_some_college_pct": 9.8,
-          "ba_higher_pct": 0.0
-        },
-        "access": {
-          "no_internet_pct": 0.0,
-          "snap_pct": 0.0,
-          "linguistically_isolated_pct": 0.0
-        }
-      },
-      {
         "name": "Swahili/Bantu",
         "total_speakers": 40,
         "lep_count": 40,
@@ -5943,6 +6018,31 @@
           "under_9th_pct": 0.0,
           "incomplete_hs_pct": 0.0,
           "hs_some_college_pct": 100.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 0.0
+        }
+      },
+      {
+        "name": "South/Central American Indian",
+        "total_speakers": 37,
+        "lep_count": 37,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 100.0,
+          "band_400plus_pct": 0.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 100.0,
+          "hs_some_college_pct": 0.0,
           "ba_higher_pct": 0.0
         },
         "access": {
@@ -6043,6 +6143,31 @@
           "under_9th_pct": 0.0,
           "incomplete_hs_pct": 43.8,
           "hs_some_college_pct": 56.2,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 0.0
+        }
+      },
+      {
+        "name": "Other/Unspecified",
+        "total_speakers": 4,
+        "lep_count": 4,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 0.0,
+          "band_400plus_pct": 0.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 100.0,
           "ba_higher_pct": 0.0
         },
         "access": {
@@ -7142,31 +7267,6 @@
         }
       },
       {
-        "name": "Other/Unspecified",
-        "total_speakers": 186,
-        "lep_count": 186,
-        "lep_pct_of_area": 0.1,
-        "source": "IPUMS ACS 2020-2024",
-        "poverty": {
-          "band_1_124_pct": 0.0,
-          "band_125_199_pct": 0.0,
-          "band_200_399_pct": 36.6,
-          "band_400plus_pct": 63.4,
-          "below_poverty_pct": 0.0
-        },
-        "education": {
-          "under_9th_pct": 45.2,
-          "incomplete_hs_pct": 0.0,
-          "hs_some_college_pct": 54.8,
-          "ba_higher_pct": 0.0
-        },
-        "access": {
-          "no_internet_pct": 0.0,
-          "snap_pct": 0.0,
-          "linguistically_isolated_pct": 0.0
-        }
-      },
-      {
         "name": "Armenian",
         "total_speakers": 184,
         "lep_count": 184,
@@ -7267,6 +7367,31 @@
         }
       },
       {
+        "name": "South/Central American Indian",
+        "total_speakers": 118,
+        "lep_count": 118,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 0.0,
+          "band_400plus_pct": 100.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 100.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 0.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 0.0
+        }
+      },
+      {
         "name": "Persian (Farsi/Dari)",
         "total_speakers": 99,
         "lep_count": 99,
@@ -7339,6 +7464,31 @@
           "no_internet_pct": 0.0,
           "snap_pct": 56.8,
           "linguistically_isolated_pct": 84.5
+        }
+      },
+      {
+        "name": "Other/Unspecified",
+        "total_speakers": 68,
+        "lep_count": 68,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 100.0,
+          "band_400plus_pct": 0.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 100.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 0.0
         }
       },
       {
@@ -9747,31 +9897,6 @@
         }
       },
       {
-        "name": "Other/Unspecified",
-        "total_speakers": 20,
-        "lep_count": 20,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2020-2024",
-        "poverty": {
-          "band_1_124_pct": 0.0,
-          "band_125_199_pct": 0.0,
-          "band_200_399_pct": 40.0,
-          "band_400plus_pct": 60.0,
-          "below_poverty_pct": 0.0
-        },
-        "education": {
-          "under_9th_pct": 40.0,
-          "incomplete_hs_pct": 0.0,
-          "hs_some_college_pct": 60.0,
-          "ba_higher_pct": 0.0
-        },
-        "access": {
-          "no_internet_pct": 60.0,
-          "snap_pct": 0.0,
-          "linguistically_isolated_pct": 100.0
-        }
-      },
-      {
         "name": "Polish",
         "total_speakers": 20,
         "lep_count": 20,
@@ -9817,6 +9942,31 @@
         },
         "access": {
           "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 100.0
+        }
+      },
+      {
+        "name": "Other/Unspecified",
+        "total_speakers": 12,
+        "lep_count": 12,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 0.0,
+          "band_400plus_pct": 100.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 100.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 100.0,
           "snap_pct": 0.0,
           "linguistically_isolated_pct": 100.0
         }
@@ -9869,6 +10019,31 @@
           "no_internet_pct": 0.0,
           "snap_pct": 0.0,
           "linguistically_isolated_pct": 0.0
+        }
+      },
+      {
+        "name": "South/Central American Indian",
+        "total_speakers": 8,
+        "lep_count": 8,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 100.0,
+          "band_400plus_pct": 0.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 100.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 0.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 100.0
         }
       },
       {
@@ -11658,22 +11833,22 @@
       },
       {
         "name": "Other/Unspecified",
-        "total_speakers": 59,
-        "lep_count": 59,
+        "total_speakers": 49,
+        "lep_count": 49,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2020-2024",
         "poverty": {
           "band_1_124_pct": 0.0,
           "band_125_199_pct": 0.0,
-          "band_200_399_pct": 83.1,
-          "band_400plus_pct": 16.9,
+          "band_200_399_pct": 100.0,
+          "band_400plus_pct": 0.0,
           "below_poverty_pct": 0.0
         },
         "education": {
           "under_9th_pct": 0.0,
           "incomplete_hs_pct": 0.0,
-          "hs_some_college_pct": 16.9,
-          "ba_higher_pct": 83.1
+          "hs_some_college_pct": 0.0,
+          "ba_higher_pct": 100.0
         },
         "access": {
           "no_internet_pct": 0.0,
@@ -11882,6 +12057,31 @@
         }
       },
       {
+        "name": "South/Central American Indian",
+        "total_speakers": 10,
+        "lep_count": 10,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 0.0,
+          "band_400plus_pct": 100.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 100.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 0.0
+        }
+      },
+      {
         "name": "Ilocano",
         "total_speakers": 9,
         "lep_count": 9,
@@ -12077,7 +12277,7 @@
         }
       },
       {
-        "name": "Other/Unspecified",
+        "name": "South/Central American Indian",
         "total_speakers": 515,
         "lep_count": 515,
         "lep_pct_of_area": 0.3,
@@ -13147,31 +13347,6 @@
         }
       },
       {
-        "name": "Other/Unspecified",
-        "total_speakers": 42,
-        "lep_count": 42,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2020-2024",
-        "poverty": {
-          "band_1_124_pct": 0.0,
-          "band_125_199_pct": 0.0,
-          "band_200_399_pct": 100.0,
-          "band_400plus_pct": 0.0,
-          "below_poverty_pct": 0.0
-        },
-        "education": {
-          "under_9th_pct": 61.5,
-          "incomplete_hs_pct": 0.0,
-          "hs_some_college_pct": 38.5,
-          "ba_higher_pct": 0.0
-        },
-        "access": {
-          "no_internet_pct": 0.0,
-          "snap_pct": 64.3,
-          "linguistically_isolated_pct": 100.0
-        }
-      },
-      {
         "name": "Khmer/Cambodian",
         "total_speakers": 41,
         "lep_count": 41,
@@ -13347,6 +13522,31 @@
         }
       },
       {
+        "name": "South/Central American Indian",
+        "total_speakers": 24,
+        "lep_count": 24,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 100.0,
+          "band_400plus_pct": 0.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 100.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 0.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 100.0,
+          "linguistically_isolated_pct": 100.0
+        }
+      },
+      {
         "name": "German",
         "total_speakers": 20,
         "lep_count": 20,
@@ -13368,6 +13568,31 @@
         "access": {
           "no_internet_pct": 0.0,
           "snap_pct": 0.0,
+          "linguistically_isolated_pct": 0.0
+        }
+      },
+      {
+        "name": "Other/Unspecified",
+        "total_speakers": 18,
+        "lep_count": 18,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 0.0,
+          "band_400plus_pct": 0.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 100.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 16.7,
           "linguistically_isolated_pct": 0.0
         }
       },
@@ -13817,31 +14042,6 @@
         }
       },
       {
-        "name": "Other/Unspecified",
-        "total_speakers": 38,
-        "lep_count": 38,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2020-2024",
-        "poverty": {
-          "band_1_124_pct": 0.0,
-          "band_125_199_pct": 0.0,
-          "band_200_399_pct": 28.9,
-          "band_400plus_pct": 71.1,
-          "below_poverty_pct": 0.0
-        },
-        "education": {
-          "under_9th_pct": 0.0,
-          "incomplete_hs_pct": 0.0,
-          "hs_some_college_pct": 100.0,
-          "ba_higher_pct": 0.0
-        },
-        "access": {
-          "no_internet_pct": 0.0,
-          "snap_pct": 0.0,
-          "linguistically_isolated_pct": 71.1
-        }
-      },
-      {
         "name": "Arabic",
         "total_speakers": 36,
         "lep_count": 36,
@@ -13939,6 +14139,31 @@
           "no_internet_pct": 0.0,
           "snap_pct": 0.0,
           "linguistically_isolated_pct": 0.0
+        }
+      },
+      {
+        "name": "South/Central American Indian",
+        "total_speakers": 27,
+        "lep_count": 27,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 0.0,
+          "band_400plus_pct": 100.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 100.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 100.0
         }
       },
       {
@@ -14059,6 +14284,31 @@
           "incomplete_hs_pct": 0.0,
           "hs_some_college_pct": 0.0,
           "ba_higher_pct": 100.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 0.0
+        }
+      },
+      {
+        "name": "Other/Unspecified",
+        "total_speakers": 11,
+        "lep_count": 11,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 100.0,
+          "band_400plus_pct": 0.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 100.0,
+          "ba_higher_pct": 0.0
         },
         "access": {
           "no_internet_pct": 0.0,
@@ -15477,31 +15727,6 @@
         }
       },
       {
-        "name": "Other/Unspecified",
-        "total_speakers": 278,
-        "lep_count": 278,
-        "lep_pct_of_area": 0.2,
-        "source": "IPUMS ACS 2020-2024",
-        "poverty": {
-          "band_1_124_pct": 0.0,
-          "band_125_199_pct": 0.0,
-          "band_200_399_pct": 76.3,
-          "band_400plus_pct": 23.7,
-          "below_poverty_pct": 0.0
-        },
-        "education": {
-          "under_9th_pct": 0.0,
-          "incomplete_hs_pct": 51.8,
-          "hs_some_college_pct": 48.2,
-          "ba_higher_pct": 0.0
-        },
-        "access": {
-          "no_internet_pct": 0.0,
-          "snap_pct": 0.0,
-          "linguistically_isolated_pct": 76.3
-        }
-      },
-      {
         "name": "Burmese",
         "total_speakers": 231,
         "lep_count": 231,
@@ -15524,6 +15749,31 @@
           "no_internet_pct": 0.0,
           "snap_pct": 26.0,
           "linguistically_isolated_pct": 51.5
+        }
+      },
+      {
+        "name": "South/Central American Indian",
+        "total_speakers": 212,
+        "lep_count": 212,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 100.0,
+          "band_400plus_pct": 0.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 100.0,
+          "hs_some_college_pct": 0.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 100.0
         }
       },
       {
@@ -15699,6 +15949,31 @@
           "no_internet_pct": 0.0,
           "snap_pct": 10.3,
           "linguistically_isolated_pct": 10.3
+        }
+      },
+      {
+        "name": "Other/Unspecified",
+        "total_speakers": 66,
+        "lep_count": 66,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 0.0,
+          "band_400plus_pct": 100.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 100.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 0.0
         }
       },
       {
@@ -18082,31 +18357,6 @@
         }
       },
       {
-        "name": "Other/Unspecified",
-        "total_speakers": 55,
-        "lep_count": 55,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2020-2024",
-        "poverty": {
-          "band_1_124_pct": 25.5,
-          "band_125_199_pct": 0.0,
-          "band_200_399_pct": 0.0,
-          "band_400plus_pct": 74.5,
-          "below_poverty_pct": 25.5
-        },
-        "education": {
-          "under_9th_pct": 74.5,
-          "incomplete_hs_pct": 0.0,
-          "hs_some_college_pct": 25.5,
-          "ba_higher_pct": 0.0
-        },
-        "access": {
-          "no_internet_pct": 0.0,
-          "snap_pct": 0.0,
-          "linguistically_isolated_pct": 0.0
-        }
-      },
-      {
         "name": "Bulgarian/Macedonian",
         "total_speakers": 52,
         "lep_count": 52,
@@ -18154,6 +18404,31 @@
           "no_internet_pct": 0.0,
           "snap_pct": 40.9,
           "linguistically_isolated_pct": 29.3
+        }
+      },
+      {
+        "name": "South/Central American Indian",
+        "total_speakers": 41,
+        "lep_count": 41,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 0.0,
+          "band_400plus_pct": 100.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 100.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 0.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 0.0
         }
       },
       {
@@ -18279,6 +18554,31 @@
           "no_internet_pct": 0.0,
           "snap_pct": 0.0,
           "linguistically_isolated_pct": 100.0
+        }
+      },
+      {
+        "name": "Other/Unspecified",
+        "total_speakers": 14,
+        "lep_count": 14,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 100.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 0.0,
+          "band_400plus_pct": 0.0,
+          "below_poverty_pct": 100.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 100.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 0.0
         }
       },
       {
@@ -21112,7 +21412,7 @@
         }
       },
       {
-        "name": "Other/Unspecified",
+        "name": "South/Central American Indian",
         "total_speakers": 29,
         "lep_count": 29,
         "lep_pct_of_area": 0.0,
@@ -25647,7 +25947,7 @@
         }
       },
       {
-        "name": "Other/Unspecified",
+        "name": "South/Central American Indian",
         "total_speakers": 33,
         "lep_count": 33,
         "lep_pct_of_area": 0.0,
@@ -27212,7 +27512,7 @@
         }
       },
       {
-        "name": "Other/Unspecified",
+        "name": "South/Central American Indian",
         "total_speakers": 11,
         "lep_count": 11,
         "lep_pct_of_area": 0.0,
@@ -28678,26 +28978,26 @@
       },
       {
         "name": "Other/Unspecified",
-        "total_speakers": 47,
-        "lep_count": 47,
+        "total_speakers": 37,
+        "lep_count": 37,
         "lep_pct_of_area": 0.0,
         "source": "IPUMS ACS 2020-2024",
         "poverty": {
           "band_1_124_pct": 0.0,
           "band_125_199_pct": 0.0,
-          "band_200_399_pct": 53.2,
-          "band_400plus_pct": 46.8,
+          "band_200_399_pct": 40.5,
+          "band_400plus_pct": 59.5,
           "below_poverty_pct": 0.0
         },
         "education": {
-          "under_9th_pct": 31.9,
+          "under_9th_pct": 40.5,
           "incomplete_hs_pct": 0.0,
-          "hs_some_college_pct": 68.1,
+          "hs_some_college_pct": 59.5,
           "ba_higher_pct": 0.0
         },
         "access": {
           "no_internet_pct": 0.0,
-          "snap_pct": 31.9,
+          "snap_pct": 40.5,
           "linguistically_isolated_pct": 0.0
         }
       },
@@ -29018,6 +29318,31 @@
           "under_9th_pct": 0.0,
           "incomplete_hs_pct": 100.0,
           "hs_some_college_pct": 0.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 0.0
+        }
+      },
+      {
+        "name": "South/Central American Indian",
+        "total_speakers": 10,
+        "lep_count": 10,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 100.0,
+          "band_400plus_pct": 0.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 100.0,
           "ba_higher_pct": 0.0
         },
         "access": {
@@ -30467,7 +30792,7 @@
         }
       },
       {
-        "name": "Other/Unspecified",
+        "name": "South/Central American Indian",
         "total_speakers": 17,
         "lep_count": 17,
         "lep_pct_of_area": 0.0,
@@ -33147,7 +33472,7 @@
         }
       },
       {
-        "name": "Other/Unspecified",
+        "name": "South/Central American Indian",
         "total_speakers": 23,
         "lep_count": 23,
         "lep_pct_of_area": 0.0,
@@ -35332,31 +35657,6 @@
         }
       },
       {
-        "name": "Other/Unspecified",
-        "total_speakers": 9,
-        "lep_count": 9,
-        "lep_pct_of_area": 0.0,
-        "source": "IPUMS ACS 2020-2024",
-        "poverty": {
-          "band_1_124_pct": 0.0,
-          "band_125_199_pct": 100.0,
-          "band_200_399_pct": 0.0,
-          "band_400plus_pct": 0.0,
-          "below_poverty_pct": 0.0
-        },
-        "education": {
-          "under_9th_pct": 0.0,
-          "incomplete_hs_pct": 88.9,
-          "hs_some_college_pct": 11.1,
-          "ba_higher_pct": 0.0
-        },
-        "access": {
-          "no_internet_pct": 0.0,
-          "snap_pct": 11.1,
-          "linguistically_isolated_pct": 100.0
-        }
-      },
-      {
         "name": "Hmong",
         "total_speakers": 8,
         "lep_count": 8,
@@ -35379,6 +35679,31 @@
           "no_internet_pct": 0.0,
           "snap_pct": 100.0,
           "linguistically_isolated_pct": 0.0
+        }
+      },
+      {
+        "name": "South/Central American Indian",
+        "total_speakers": 8,
+        "lep_count": 8,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 100.0,
+          "band_200_399_pct": 0.0,
+          "band_400plus_pct": 0.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 100.0,
+          "hs_some_college_pct": 0.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 100.0
         }
       },
       {
@@ -35453,6 +35778,31 @@
         "access": {
           "no_internet_pct": 0.0,
           "snap_pct": 0.0,
+          "linguistically_isolated_pct": 0.0
+        }
+      },
+      {
+        "name": "Other/Unspecified",
+        "total_speakers": 1,
+        "lep_count": 1,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 0.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 0.0,
+          "band_400plus_pct": 0.0,
+          "below_poverty_pct": 0.0
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 100.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 100.0,
           "linguistically_isolated_pct": 0.0
         }
       }
@@ -37092,31 +37442,6 @@
         }
       },
       {
-        "name": "Other/Unspecified",
-        "total_speakers": 114,
-        "lep_count": 114,
-        "lep_pct_of_area": 0.1,
-        "source": "IPUMS ACS 2020-2024",
-        "poverty": {
-          "band_1_124_pct": 90.1,
-          "band_125_199_pct": 9.9,
-          "band_200_399_pct": 0.0,
-          "band_400plus_pct": 0.0,
-          "below_poverty_pct": 90.1
-        },
-        "education": {
-          "under_9th_pct": 33.7,
-          "incomplete_hs_pct": 0.0,
-          "hs_some_college_pct": 66.3,
-          "ba_higher_pct": 0.0
-        },
-        "access": {
-          "no_internet_pct": 0.0,
-          "snap_pct": 0.0,
-          "linguistically_isolated_pct": 90.1
-        }
-      },
-      {
         "name": "Hebrew",
         "total_speakers": 113,
         "lep_count": 113,
@@ -37139,6 +37464,31 @@
           "no_internet_pct": 9.7,
           "snap_pct": 9.7,
           "linguistically_isolated_pct": 14.2
+        }
+      },
+      {
+        "name": "Other/Unspecified",
+        "total_speakers": 80,
+        "lep_count": 80,
+        "lep_pct_of_area": 0.1,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 85.1,
+          "band_125_199_pct": 14.9,
+          "band_200_399_pct": 0.0,
+          "band_400plus_pct": 0.0,
+          "below_poverty_pct": 85.1
+        },
+        "education": {
+          "under_9th_pct": 0.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 100.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 85.1
         }
       },
       {
@@ -37289,6 +37639,31 @@
           "no_internet_pct": 0.0,
           "snap_pct": 0.0,
           "linguistically_isolated_pct": 0.0
+        }
+      },
+      {
+        "name": "South/Central American Indian",
+        "total_speakers": 34,
+        "lep_count": 34,
+        "lep_pct_of_area": 0.0,
+        "source": "IPUMS ACS 2020-2024",
+        "poverty": {
+          "band_1_124_pct": 100.0,
+          "band_125_199_pct": 0.0,
+          "band_200_399_pct": 0.0,
+          "band_400plus_pct": 0.0,
+          "below_poverty_pct": 100.0
+        },
+        "education": {
+          "under_9th_pct": 100.0,
+          "incomplete_hs_pct": 0.0,
+          "hs_some_college_pct": 0.0,
+          "ba_higher_pct": 0.0
+        },
+        "access": {
+          "no_internet_pct": 0.0,
+          "snap_pct": 0.0,
+          "linguistically_isolated_pct": 100.0
         }
       },
       {
@@ -40867,7 +41242,7 @@
         }
       },
       {
-        "name": "Other/Unspecified",
+        "name": "South/Central American Indian",
         "total_speakers": 10,
         "lep_count": 10,
         "lep_pct_of_area": 0.0,
