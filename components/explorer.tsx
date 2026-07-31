@@ -19,8 +19,7 @@ export function Explorer() {
   const [data, setData] = useState<GeoArea[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
-  const [colorMetric, setColorMetric] = useState<'population' | 'median_hh_income' | 'lep_pct'>('lep_pct');
-
+  const [colorMetric, setColorMetric] = useState<'population' | 'lep_pct'>('lep_pct');
   useEffect(() => {
     async function loadData() {
       setLoading(true);
@@ -59,12 +58,7 @@ export function Explorer() {
                   Population
                 </span>
               </SelectItem>
-              <SelectItem value="median_hh_income">
-                <span className="flex items-center gap-2">
-                  <DollarSign className="h-4 w-4" />
-                  Median Income
-                </span>
-              </SelectItem>
+              
               <SelectItem value="lep_pct">
                 <span className="flex items-center gap-2">
                   <Globe className="h-4 w-4" />
