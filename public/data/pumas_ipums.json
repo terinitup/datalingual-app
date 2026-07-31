@@ -2,7 +2,7 @@
   {
     "geo_id": "0603742",
     "geo_type": "puma",
-    "name": "Huntington Park City, Florence-Graham & Walnut Park",
+    "name": "Huntington Park City, Florence-Graham & Walnut Park (PUMA 3742)",
     "population": 117516,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -347,7 +347,7 @@
   {
     "geo_id": "0603745",
     "geo_type": "puma",
-    "name": "LA City (Southeast/East Vernon)",
+    "name": "LA City (Southeast/East Vernon) (PUMA 3745)",
     "population": 111519,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -667,7 +667,7 @@
   {
     "geo_id": "0603733",
     "geo_type": "puma",
-    "name": "LA City (Central/Koreatown)",
+    "name": "LA City (Central/Koreatown) (PUMA 3733)",
     "population": 106300,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -1262,7 +1262,7 @@
   {
     "geo_id": "0603737",
     "geo_type": "puma",
-    "name": "Monterey Park & Rosemead Cities",
+    "name": "Monterey Park & Rosemead Cities (PUMA 3737)",
     "population": 117892,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -1932,7 +1932,7 @@
   {
     "geo_id": "0603751",
     "geo_type": "puma",
-    "name": "LA City (South Central/Watts)",
+    "name": "LA City (South Central/Watts) (PUMA 3751)",
     "population": 142187,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -2352,7 +2352,7 @@
   {
     "geo_id": "0603741",
     "geo_type": "puma",
-    "name": "Bell Gardens, Bell, Maywood, Cudahy & Commerce Cities",
+    "name": "Bell Gardens, Bell, Maywood, Cudahy & Commerce Cities (PUMA 3741)",
     "population": 121328,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -2622,7 +2622,7 @@
   {
     "geo_id": "0603738",
     "geo_type": "puma",
-    "name": "El Monte & South El Monte Cities",
+    "name": "El Monte & South El Monte Cities (PUMA 3738)",
     "population": 116492,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -3142,7 +3142,7 @@
   {
     "geo_id": "0603714",
     "geo_type": "puma",
-    "name": "Diamond Bar, La Habra Heights (East) Cities & Rowland Heights",
+    "name": "Diamond Bar, La Habra Heights (East) Cities & Rowland Heights (PUMA 3714)",
     "population": 99638,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -3637,7 +3637,7 @@
   {
     "geo_id": "0603746",
     "geo_type": "puma",
-    "name": "LA City (Central/Univ. of Southern California & Exposition Park)",
+    "name": "LA City (Central/Univ. of Southern California & Exposition Park) (PUMA 3746)",
     "population": 102366,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -4232,7 +4232,7 @@
   {
     "geo_id": "0603752",
     "geo_type": "puma",
-    "name": "South Gate & Lynwood Cities",
+    "name": "South Gate & Lynwood Cities (PUMA 3752)",
     "population": 154774,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -4552,7 +4552,7 @@
   {
     "geo_id": "0603719",
     "geo_type": "puma",
-    "name": "Glendale City",
+    "name": "Glendale City (PUMA 3719)",
     "population": 180725,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -5372,7 +5372,7 @@
   {
     "geo_id": "0603750",
     "geo_type": "puma",
-    "name": "LA City (South Central/Westmont)",
+    "name": "LA City (South Central/Westmont) (PUMA 3750)",
     "population": 171473,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -5867,7 +5867,7 @@
   {
     "geo_id": "0603743",
     "geo_type": "puma",
-    "name": "East Los Angeles",
+    "name": "East Los Angeles (PUMA 3743)",
     "population": 103543,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -6237,7 +6237,7 @@
   {
     "geo_id": "0603723",
     "geo_type": "puma",
-    "name": "LA City (North Central/Mission Hills & Panorama City)",
+    "name": "LA City (North Central/Mission Hills & Panorama City) (PUMA 3723)",
     "population": 130048,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -6957,7 +6957,7 @@
   {
     "geo_id": "0603717",
     "geo_type": "puma",
-    "name": "Arcadia, San Gabriel & Temple City Cities",
+    "name": "Arcadia, San Gabriel & Temple City Cities (PUMA 3717)",
     "population": 178105,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -7752,7 +7752,7 @@
   {
     "geo_id": "0603707",
     "geo_type": "puma",
-    "name": "LA (North Central/Arleta & Pacoima) & San Fernando Cities",
+    "name": "LA (North Central/Arleta & Pacoima) & San Fernando Cities (PUMA 3707)",
     "population": 136126,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -8272,7 +8272,7 @@
   {
     "geo_id": "0603744",
     "geo_type": "puma",
-    "name": "LA City (East Central/Central City & Boyle Heights)",
+    "name": "LA City (East Central/Central City & Boyle Heights) (PUMA 3744)",
     "population": 179365,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -8967,7 +8967,7 @@
   {
     "geo_id": "0603716",
     "geo_type": "puma",
-    "name": "La Puente & Industry Cities",
+    "name": "La Puente & Industry Cities (PUMA 3716)",
     "population": 97099,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -9437,7 +9437,7 @@
   {
     "geo_id": "0603758",
     "geo_type": "puma",
-    "name": "Gardena, Lawndale Cities & West Athens",
+    "name": "Gardena, Lawndale Cities & West Athens (PUMA 3758)",
     "population": 144904,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -10082,7 +10082,7 @@
   {
     "geo_id": "0603708",
     "geo_type": "puma",
-    "name": "LA City (Northeast/Sunland, Sun Valley & Tujunga)",
+    "name": "LA City (Northeast/Sunland, Sun Valley & Tujunga) (PUMA 3708)",
     "population": 126881,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -10727,7 +10727,7 @@
   {
     "geo_id": "0603736",
     "geo_type": "puma",
-    "name": "Alhambra & South Pasadena Cities",
+    "name": "Alhambra & South Pasadena Cities (PUMA 3736)",
     "population": 108243,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -11297,7 +11297,7 @@
   {
     "geo_id": "0603722",
     "geo_type": "puma",
-    "name": "LA City (North Central/Van Nuys & North Sherman Oaks)",
+    "name": "LA City (North Central/Van Nuys & North Sherman Oaks) (PUMA 3722)",
     "population": 156045,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -12117,7 +12117,7 @@
   {
     "geo_id": "0603734",
     "geo_type": "puma",
-    "name": "LA City (East Central/Silver Lake, Echo Park & Westlake)",
+    "name": "LA City (East Central/Silver Lake, Echo Park & Westlake) (PUMA 3734)",
     "population": 187616,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -12837,7 +12837,7 @@
   {
     "geo_id": "0603732",
     "geo_type": "puma",
-    "name": "LA City (East Central & Hollywood)",
+    "name": "LA City (East Central & Hollywood) (PUMA 3732)",
     "population": 166763,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -13757,7 +13757,7 @@
   {
     "geo_id": "0603740",
     "geo_type": "puma",
-    "name": "Pico Rivera & Montebello Cities",
+    "name": "Pico Rivera & Montebello Cities (PUMA 3740)",
     "population": 118757,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -14352,7 +14352,7 @@
   {
     "geo_id": "0603715",
     "geo_type": "puma",
-    "name": "West Covina City",
+    "name": "West Covina City (PUMA 3715)",
     "population": 110740,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -14972,7 +14972,7 @@
   {
     "geo_id": "0603766",
     "geo_type": "puma",
-    "name": "Long Beach City (Southwest & Port)",
+    "name": "Long Beach City (Southwest & Port) (PUMA 3766)",
     "population": 91706,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -15542,7 +15542,7 @@
   {
     "geo_id": "0603710",
     "geo_type": "puma",
-    "name": "Baldwin Park, Azusa, Duarte & Irwindale Cities",
+    "name": "Baldwin Park, Azusa, Duarte & Irwindale Cities (PUMA 3710)",
     "population": 167990,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -16237,7 +16237,7 @@
   {
     "geo_id": "0603781",
     "geo_type": "puma",
-    "name": "Norwalk City",
+    "name": "Norwalk City (PUMA 3781)",
     "population": 95308,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -16757,7 +16757,7 @@
   {
     "geo_id": "0603759",
     "geo_type": "puma",
-    "name": "Hawthorne City",
+    "name": "Hawthorne City (PUMA 3759)",
     "population": 104619,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -17327,7 +17327,7 @@
   {
     "geo_id": "0603778",
     "geo_type": "puma",
-    "name": "Inglewood City",
+    "name": "Inglewood City (PUMA 3778)",
     "population": 102508,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -17822,7 +17822,7 @@
   {
     "geo_id": "0603767",
     "geo_type": "puma",
-    "name": "LA City (South/San Pedro)",
+    "name": "LA City (South/San Pedro) (PUMA 3767)",
     "population": 170976,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -18717,7 +18717,7 @@
   {
     "geo_id": "0603724",
     "geo_type": "puma",
-    "name": "LA City (Northwest/Encino & Tarzana)",
+    "name": "LA City (Northwest/Encino & Tarzana) (PUMA 3724)",
     "population": 162585,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -19537,7 +19537,7 @@
   {
     "geo_id": "0603735",
     "geo_type": "puma",
-    "name": "LA City (Mount Washington, Highland Park & Glassell Park)",
+    "name": "LA City (Mount Washington, Highland Park & Glassell Park) (PUMA 3735)",
     "population": 171510,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -20257,7 +20257,7 @@
   {
     "geo_id": "0603706",
     "geo_type": "puma",
-    "name": "LA City (North Central/Granada Hills & Sylmar)",
+    "name": "LA City (North Central/Granada Hills & Sylmar) (PUMA 3706)",
     "population": 132464,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -21002,7 +21002,7 @@
   {
     "geo_id": "0603712",
     "geo_type": "puma",
-    "name": "Pomona City",
+    "name": "Pomona City (PUMA 3712)",
     "population": 139557,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -21622,7 +21622,7 @@
   {
     "geo_id": "0603721",
     "geo_type": "puma",
-    "name": "LA City (Northeast/North Hollywood & Valley Village)",
+    "name": "LA City (Northeast/North Hollywood & Valley Village) (PUMA 3721)",
     "population": 126197,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -22292,7 +22292,7 @@
   {
     "geo_id": "0603757",
     "geo_type": "puma",
-    "name": "Compton City & West Rancho Dominquez",
+    "name": "Compton City & West Rancho Dominquez (PUMA 3757)",
     "population": 142125,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -22662,7 +22662,7 @@
   {
     "geo_id": "0603713",
     "geo_type": "puma",
-    "name": "Covina & Walnut Cities",
+    "name": "Covina & Walnut Cities (PUMA 3713)",
     "population": 105719,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -23157,7 +23157,7 @@
   {
     "geo_id": "0603753",
     "geo_type": "puma",
-    "name": "Downey City",
+    "name": "Downey City (PUMA 3753)",
     "population": 104333,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -23777,7 +23777,7 @@
   {
     "geo_id": "0603782",
     "geo_type": "puma",
-    "name": "Bellflower & Paramount Cities",
+    "name": "Bellflower & Paramount Cities (PUMA 3782)",
     "population": 121632,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -24322,7 +24322,7 @@
   {
     "geo_id": "0603704",
     "geo_type": "puma",
-    "name": "Palmdale City",
+    "name": "Palmdale City (PUMA 3704)",
     "population": 170635,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -24867,7 +24867,7 @@
   {
     "geo_id": "0603762",
     "geo_type": "puma",
-    "name": "Carson City",
+    "name": "Carson City (PUMA 3762)",
     "population": 110621,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -25387,7 +25387,7 @@
   {
     "geo_id": "0603761",
     "geo_type": "puma",
-    "name": "Torrance City",
+    "name": "Torrance City (PUMA 3761)",
     "population": 117638,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -26182,7 +26182,7 @@
   {
     "geo_id": "0603764",
     "geo_type": "puma",
-    "name": "Lakewood, Cerritos, Artesia & Hawaiian Gardens Cities",
+    "name": "Lakewood, Cerritos, Artesia & Hawaiian Gardens Cities (PUMA 3764)",
     "population": 149123,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -26877,7 +26877,7 @@
   {
     "geo_id": "0603763",
     "geo_type": "puma",
-    "name": "Long Beach City (North)",
+    "name": "Long Beach City (North) (PUMA 3763)",
     "population": 135872,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -27622,7 +27622,7 @@
   {
     "geo_id": "0603725",
     "geo_type": "puma",
-    "name": "LA City (Northwest/Canoga Park, Winnetka & Woodland Hills)",
+    "name": "LA City (Northwest/Canoga Park, Winnetka & Woodland Hills) (PUMA 3725)",
     "population": 174337,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -28467,7 +28467,7 @@
   {
     "geo_id": "0603730",
     "geo_type": "puma",
-    "name": "LA City (Central/Hancock Park & Mid-Wilshire)",
+    "name": "LA City (Central/Hancock Park & Mid-Wilshire) (PUMA 3730)",
     "population": 155828,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -29362,7 +29362,7 @@
   {
     "geo_id": "0603705",
     "geo_type": "puma",
-    "name": "LA City (Northwest/Chatsworth & Porter Ranch)",
+    "name": "LA City (Northwest/Chatsworth & Porter Ranch) (PUMA 3705)",
     "population": 174172,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -30282,7 +30282,7 @@
   {
     "geo_id": "0603739",
     "geo_type": "puma",
-    "name": "Whittier City & Hacienda Heights",
+    "name": "Whittier City & Hacienda Heights (PUMA 3739)",
     "population": 161703,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -31027,7 +31027,7 @@
   {
     "geo_id": "0603780",
     "geo_type": "puma",
-    "name": "Long Beach (Central) & Signal Hill Cities",
+    "name": "Long Beach (Central) & Signal Hill Cities (PUMA 3780)",
     "population": 104703,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -31747,7 +31747,7 @@
   {
     "geo_id": "0603754",
     "geo_type": "puma",
-    "name": "La Mirada & Santa Fe Springs Cities",
+    "name": "La Mirada & Santa Fe Springs Cities (PUMA 3754)",
     "population": 127135,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -32317,7 +32317,7 @@
   {
     "geo_id": "0603747",
     "geo_type": "puma",
-    "name": "LA City (Central/West Adams & Baldwin Hills)",
+    "name": "LA City (Central/West Adams & Baldwin Hills) (PUMA 3747)",
     "population": 152137,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -32937,7 +32937,7 @@
   {
     "geo_id": "0603718",
     "geo_type": "puma",
-    "name": "Pasadena City",
+    "name": "Pasadena City (PUMA 3718)",
     "population": 128859,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -33682,7 +33682,7 @@
   {
     "geo_id": "0603720",
     "geo_type": "puma",
-    "name": "Burbank City",
+    "name": "Burbank City (PUMA 3720)",
     "population": 113183,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -34352,7 +34352,7 @@
   {
     "geo_id": "0603771",
     "geo_type": "puma",
-    "name": "Santa Clarita City (South)",
+    "name": "Santa Clarita City (South) (PUMA 3771)",
     "population": 104031,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -34947,7 +34947,7 @@
   {
     "geo_id": "0603768",
     "geo_type": "puma",
-    "name": "Palos Verdes Peninsula",
+    "name": "Palos Verdes Peninsula (PUMA 3768)",
     "population": 103381,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -35817,7 +35817,7 @@
   {
     "geo_id": "0603703",
     "geo_type": "puma",
-    "name": "Lancaster City",
+    "name": "Lancaster City (PUMA 3703)",
     "population": 164567,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -36387,7 +36387,7 @@
   {
     "geo_id": "0603770",
     "geo_type": "puma",
-    "name": "LA City (West Los Angeles, Century City & Palms)",
+    "name": "LA City (West Los Angeles, Century City & Palms) (PUMA 3770)",
     "population": 101476,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -37132,7 +37132,7 @@
   {
     "geo_id": "0603776",
     "geo_type": "puma",
-    "name": "LA City (Central/Westwood & West Los Angeles)",
+    "name": "LA City (Central/Westwood & West Los Angeles) (PUMA 3776)",
     "population": 99722,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -37852,7 +37852,7 @@
   {
     "geo_id": "0603772",
     "geo_type": "puma",
-    "name": "Castaic",
+    "name": "Castaic (PUMA 3772)",
     "population": 95508,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -38497,7 +38497,7 @@
   {
     "geo_id": "0603773",
     "geo_type": "puma",
-    "name": "Santa Clarita City (North)",
+    "name": "Santa Clarita City (North) (PUMA 3773)",
     "population": 115919,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -39167,7 +39167,7 @@
   {
     "geo_id": "0603709",
     "geo_type": "puma",
-    "name": "San Gabriel Valley Region (North)",
+    "name": "San Gabriel Valley Region (North) (PUMA 3709)",
     "population": 102376,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -39812,7 +39812,7 @@
   {
     "geo_id": "0603731",
     "geo_type": "puma",
-    "name": "West Hollywood & Beverly Hills Cities",
+    "name": "West Hollywood & Beverly Hills Cities (PUMA 3731)",
     "population": 103422,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -40507,7 +40507,7 @@
   {
     "geo_id": "0603711",
     "geo_type": "puma",
-    "name": "Glendora, Claremont, San Dimas & La Verne Cities",
+    "name": "Glendora, Claremont, San Dimas & La Verne Cities (PUMA 3711)",
     "population": 152616,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -41302,7 +41302,7 @@
   {
     "geo_id": "0603728",
     "geo_type": "puma",
-    "name": "Santa Monica City",
+    "name": "Santa Monica City (PUMA 3728)",
     "population": 98718,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -42047,7 +42047,7 @@
   {
     "geo_id": "0603748",
     "geo_type": "puma",
-    "name": "LA (Southwest/Marina del Rey & Westchester) & Culver City Cities",
+    "name": "LA (Southwest/Marina del Rey & Westchester) & Culver City Cities (PUMA 3748)",
     "population": 173187,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -42892,7 +42892,7 @@
   {
     "geo_id": "0603775",
     "geo_type": "puma",
-    "name": "LA City (Central)",
+    "name": "LA City (Central) (PUMA 3775)",
     "population": 111852,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -43537,7 +43537,7 @@
   {
     "geo_id": "0603779",
     "geo_type": "puma",
-    "name": "Long Beach City (East)",
+    "name": "Long Beach City (East) (PUMA 3779)",
     "population": 113437,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -44257,7 +44257,7 @@
   {
     "geo_id": "0603774",
     "geo_type": "puma",
-    "name": "Calabasas, Agoura Hills, Malibu & Westlake Village Cities",
+    "name": "Calabasas, Agoura Hills, Malibu & Westlake Village Cities (PUMA 3774)",
     "population": 133039,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
@@ -44952,7 +44952,7 @@
   {
     "geo_id": "0603760",
     "geo_type": "puma",
-    "name": "Redondo Beach, Manhattan Beach & Hermosa Beach Cities",
+    "name": "Redondo Beach, Manhattan Beach & Hermosa Beach Cities (PUMA 3760)",
     "population": 132223,
     "language_source": "IPUMS ACS 2020-2024",
     "proficiency": {
