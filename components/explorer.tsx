@@ -114,8 +114,7 @@ export function Explorer() {
               <CardContent className="py-8 text-center text-muted-foreground">
                 <p>Select an area on the map to view details</p>
                 {(geographyType === 'puma' || geographyType === 'city') && (
-  <p className="text-xs mt-2 px-4">Areas shown in grey are not included in this dataset. City-level data is available for 11 major LA County cities.</p>
-)}
+                  <p className="text-xs mt-2 px-4">Some areas shown in grey are not matched in this dataset. PUMA boundaries are based on 2010 Census definitions. Data reflects ACS 2019–2023 5-year estimates.</p>)}
               </CardContent>
             </Card>
           )}
