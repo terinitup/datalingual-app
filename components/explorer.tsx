@@ -70,7 +70,7 @@ export function Explorer() {
         </div>
 
         <div className="text-sm text-muted-foreground">
-          {data.length} {getGeographyLabel(geographyType)}{data.length !== 1 ? 's' : ''} available
+        {data.length} {data.length !== 1 ? getGeographyPluralLabel(geographyType) : getGeographyLabel(geographyType)} available
         </div>
       </div>
 
