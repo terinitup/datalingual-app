@@ -2,8 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { GeoArea, GeoType } from '@/lib/types';
-import { fetchGeographyData, getGeographyLabel } from '@/lib/data';
-import { MapPanel } from './map-panel';
+import { fetchGeographyData, getGeographyLabel, getGeographyPluralLabel } from '@/lib/data';import { MapPanel } from './map-panel';
 import { ProfileCard } from './profile-card';
 import { DemographicsChart } from './demographics-chart';
 import { EconomicsChart } from './economics-chart';
