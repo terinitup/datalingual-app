@@ -173,8 +173,7 @@ export function HistoricalMapView({ data, selectedYear, selectedMetric, metricLa
                 center={coords}
                 radius={isSelected ? radius + 4 : radius}
                 pathOptions={{
-                  fillColor: value != null ? getColor(value, selectedMetric, allValues) : '#2E8B9A',                  fillOpacity: 0.75,
-                  color: isSelected ? '#1a56a0' : '#ffffff',
+                  fillColor: '#2E8B9A',                  color: isSelected ? '#1a56a0' : '#ffffff',
                   weight: isSelected ? 3 : 1,
                 }}
                 eventHandlers={{
@@ -194,16 +193,7 @@ export function HistoricalMapView({ data, selectedYear, selectedMetric, metricLa
         </MapContainer>
       )}
 
-      {/* Legend */}
-      <div className="absolute bottom-4 left-4 bg-white/95 backdrop-blur-sm rounded-lg p-3 shadow-lg border border-border z-[1000] pointer-events-none text-xs">
-  <p className="font-medium text-gray-700 mb-2">{metricLabel}</p>
-  <div className="space-y-1">
-    <div className="flex items-center gap-2"><span className="w-4 h-4 rounded-full inline-block" style={{backgroundColor:'#1D9E75'}}></span><span>Higher</span></div>
-    <div className="flex items-center gap-2"><span className="w-4 h-4 rounded-full inline-block" style={{backgroundColor:'#FFC107'}}></span><span>Middle</span></div>
-    <div className="flex items-center gap-2"><span className="w-4 h-4 rounded-full inline-block" style={{backgroundColor:'#E57373'}}></span><span>Lower</span></div>
-  </div>
-  <p className="text-gray-500 mt-2">Click a city to view data</p>
-</div>
+      
 </div>
   );
 }
