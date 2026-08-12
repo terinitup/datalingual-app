@@ -88,14 +88,30 @@ export default function HistoricalPage() {
             <h2 className="font-serif text-2xl font-bold text-foreground mb-1">Historical Demographics</h2>
             <p className="text-sm text-muted-foreground italic mb-6">Los Angeles County 1950–2010</p>
             <div className="space-y-3 text-sm text-foreground">
-              <p>This section presents historical demographic data for 88 cities and communities across Los Angeles County, spanning seven decades of census data from 1950 to 2010.</p>
-              <p>Data includes population, race & ethnicity, nativity, education, occupation, income, age, and housing characteristics for each census year.</p>
-              <div className="pt-3 border-t border-border">
-                <p className="text-xs font-semibold text-foreground mb-1">Data Source</p>
-                <p className="text-xs text-muted-foreground">Los Angeles County Demographic Data Project 1950–2010, USC Libraries Digital Collections. Compiled by Becky M. Nicolaides & U.S. Department of Commerce.</p>
-              </div>
-            </div>
-            <button
+  <p>
+    The Los Angeles County Demographic Data Project preserves and makes accessible a dataset tracing social changes in the City of Los Angeles, L.A. County, and 86 municipalities between 1950 and 2010.
+  </p>
+  <p>
+    This dataset includes over 90 discrete data files and represents the culmination of more than a decade of work by historian Becky Nicolaides and her team while completing research for her book{' '}
+    <a href="https://global.oup.com/us/companion.websites/9780197578308/" target="_blank" rel="noreferrer" className="underline hover:text-[#2E8B9A]">
+      The New Suburbia: How Diversity Remade Suburban Life in Los Angeles After 1945 (Oxford, 2024)
+    </a>.
+    Research was supported by grants from NEH, the American Council of Learned Societies, the John Randolph Haynes & Dora Haynes Foundation, and other organizations.
+  </p>
+  <p>
+    The dataset traces demographic change across 54 variables — race and ethnicity, country of origin, class, occupation, education, age, family status, and housing — for seven decennial years (1950–2010).
+  </p>
+  <div className="pt-3 border-t border-border">
+    <p className="text-xs font-semibold text-foreground mb-1">Data Citation</p>
+    <p className="text-xs text-muted-foreground">
+      Nicolaides, Becky M. et al. <em>Los Angeles County Demographic Data Project 1950–2010.</em> USC Libraries Digital Collections.{' '}
+      <a href="https://doi.org/10.25549/lademo-ouc1sto1757543" target="_blank" rel="noreferrer" className="underline hover:text-foreground">
+        doi.org/10.25549/lademo-ouc1sto1757543
+      </a>
+    </p>
+  </div>
+</div>
+<button
               onClick={() => setShowWelcome(false)}
               className="mt-6 w-full py-2.5 rounded-full text-sm font-semibold bg-[#2E8B9A] text-white hover:bg-[#267a88] transition-colors"
             >
