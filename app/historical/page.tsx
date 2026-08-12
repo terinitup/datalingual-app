@@ -89,16 +89,6 @@ export default function HistoricalPage() {
             <p className="text-sm text-muted-foreground italic mb-6">Los Angeles County 1950–2010</p>
             <div className="space-y-3 text-sm text-foreground">
   <p>
-    The Los Angeles County Demographic Data Project preserves and makes accessible a dataset tracing social changes in the City of Los Angeles, L.A. County, and 86 municipalities between 1950 and 2010.
-  </p>
-  <p>
-    This dataset includes over 90 discrete data files and represents the culmination of more than a decade of work by historian Becky Nicolaides and her team while completing research for her book{' '}
-    <a href="https://global.oup.com/us/companion.websites/9780197578308/" target="_blank" rel="noreferrer" className="underline hover:text-[#2E8B9A]">
-      The New Suburbia: How Diversity Remade Suburban Life in Los Angeles After 1945 (Oxford, 2024)
-    </a>.
-    Research was supported by grants from NEH, the American Council of Learned Societies, the John Randolph Haynes & Dora Haynes Foundation, and other organizations.
-    <div className="space-y-3 text-sm text-foreground">
-  <p>
     This section displays historical demographic data for 88 cities and communities across Los Angeles County from 1950 to 2010, drawn from the Los Angeles County Demographic Data Project.
   </p>
   <p>
