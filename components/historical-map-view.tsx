@@ -162,8 +162,7 @@ export function HistoricalMapView({ data, selectedYear, selectedMetric, metricLa
                 center={coords}
                 radius={isSelected ? radius + 4 : radius}
                 pathOptions={{
-                  fillColor: color,
-                  fillOpacity: 0.75,
+                  fillColor: '#2E8B9A',                  fillOpacity: 0.75,
                   color: isSelected ? '#1a56a0' : '#ffffff',
                   weight: isSelected ? 3 : 1,
                 }}
