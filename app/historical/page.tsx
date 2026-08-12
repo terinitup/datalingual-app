@@ -241,8 +241,7 @@ export default function HistoricalPage() {
                         <Legend wrapperStyle={{ fontSize: 10 }} />
                         {metrics.map((m, i) => (
                           <Line key={m.key} type="monotone" dataKey={m.key} name={m.label}
-                            stroke={COLORS[i % COLORS.length]} strokeWidth={2} dot={{ r: 3 }} connectNulls
-                            label={{ position: 'top', formatter: (v: number) => formatValue(v, m.format), fontSize: 9, fill: COLORS[i % COLORS.length] }} />
+                          stroke={COLORS[i % COLORS.length]} strokeWidth={2} dot={{ r: 3 }} connectNulls />
                         ))}
                       </LineChart>
                     </ResponsiveContainer>
