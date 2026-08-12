@@ -120,6 +120,17 @@ function formatValue(val: number | undefined, format: string): string {
   return new Intl.NumberFormat('en-US').format(val);
 }
 
+function getColor(value: number, metric: string, allValues: number[]): string {
+  if (!allValues.length) return '#2E8B9A';
+  const min = Math.min(...allValues);
+  const max = Math.max(...allValues);
+  const normalized = max === min ? 0.5 : (value - min) / (max - min);
+  if (normalized > 0.66) return '#1D9E75';
+  if (normalized > 0.33) return '#FFC107';
+  return '#E57373';
+}
+
+
 export function HistoricalMapView({ data, selectedYear, selectedMetric, metricLabel, metricFormat, selectedCity, onSelectCity }: HistoricalMapViewProps) {
   const [clientReady, setClientReady] = useState(false);
   const mapRef = useRef<LeafletMap | null>(null);
@@ -162,7 +173,7 @@ export function HistoricalMapView({ data, selectedYear, selectedMetric, metricLa
                 center={coords}
                 radius={isSelected ? radius + 4 : radius}
                 pathOptions={{
-                  fillColor: '#2E8B9A',                  fillOpacity: 0.75,
+                  fillColor: value != null ? getColor(value, selectedMetric, allValues) : '#2E8B9A',                  fillOpacity: 0.75,
                   color: isSelected ? '#1a56a0' : '#ffffff',
                   weight: isSelected ? 3 : 1,
                 }}
