@@ -97,9 +97,18 @@ export default function HistoricalPage() {
       The New Suburbia: How Diversity Remade Suburban Life in Los Angeles After 1945 (Oxford, 2024)
     </a>.
     Research was supported by grants from NEH, the American Council of Learned Societies, the John Randolph Haynes & Dora Haynes Foundation, and other organizations.
+    <div className="space-y-3 text-sm text-foreground">
+  <p>
+    This section displays historical demographic data for 88 cities and communities across Los Angeles County from 1950 to 2010, drawn from the Los Angeles County Demographic Data Project.
   </p>
   <p>
-    The dataset traces demographic change across 54 variables — race and ethnicity, country of origin, class, occupation, education, age, family status, and housing — for seven decennial years (1950–2010).
+    The dataset covers 54 variables across race and ethnicity, country of origin, class, occupation, education, age, family status, and housing — enabling granular comparisons across seven census decades.
+  </p>
+  <p>
+    Data was compiled by historian Becky Nicolaides and her team as part of research for{' '}
+    <a href="https://global.oup.com/us/companion.websites/9780197578308/" target="_blank" rel="noreferrer" className="underline hover:text-[#2E8B9A]">
+      The New Suburbia: How Diversity Remade Suburban Life in Los Angeles After 1945 (Oxford, 2024)
+    </a>, with support from NEH, the American Council of Learned Societies, and the John Randolph Haynes & Dora Haynes Foundation.
   </p>
   <div className="pt-3 border-t border-border">
     <p className="text-xs font-semibold text-foreground mb-1">Data Citation</p>
