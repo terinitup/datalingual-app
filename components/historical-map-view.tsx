@@ -153,7 +153,7 @@ export function HistoricalMapView({ data, selectedYear, selectedMetric, metricLa
             const yearData = city.years[String(selectedYear)] ?? {};
             const value = yearData[selectedMetric];
             const pop = yearData.population ?? 0;
-            const radius = Math.max(5, Math.sqrt(pop / maxPop) * 20);            const color = '#2E8B9A';
+            const radius = 8;
             const isSelected = city.name === selectedCity;
 
             return (
@@ -186,8 +186,13 @@ export function HistoricalMapView({ data, selectedYear, selectedMetric, metricLa
 
       {/* Legend */}
       <div className="absolute bottom-4 left-4 bg-white/95 backdrop-blur-sm rounded-lg p-3 shadow-lg border border-border z-[1000] pointer-events-none text-xs">
-  <p className="font-medium text-gray-700 mb-1">Click a city to view data</p>
-  <p className="text-gray-500">Circle size = population</p>
+  <p className="font-medium text-gray-700 mb-2">{metricLabel}</p>
+  <div className="space-y-1">
+    <div className="flex items-center gap-2"><span className="w-4 h-4 rounded-full inline-block" style={{backgroundColor:'#1D9E75'}}></span><span>Higher</span></div>
+    <div className="flex items-center gap-2"><span className="w-4 h-4 rounded-full inline-block" style={{backgroundColor:'#FFC107'}}></span><span>Middle</span></div>
+    <div className="flex items-center gap-2"><span className="w-4 h-4 rounded-full inline-block" style={{backgroundColor:'#E57373'}}></span><span>Lower</span></div>
+  </div>
+  <p className="text-gray-500 mt-2">Click a city to view data</p>
 </div>
 </div>
   );
