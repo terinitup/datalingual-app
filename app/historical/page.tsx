@@ -38,24 +38,78 @@ const ALL_METRICS = [
 // Extra metrics that appear only in the Data Graphs sub-charts —
 // kept out of ALL_METRICS so the Map sidebar and Compare view stay unchanged.
 const GRAPH_ONLY_METRICS = [
+  { key: 'persons_per_household', label: 'Persons per Household', format: 'number', category: 'Population' },
+  { key: 'adult_population', label: 'Total Adult Population', format: 'number', category: 'Population' },
+  { key: 'native_born_pct', label: '% Native Born', format: 'pct', category: 'Nativity' },
+  { key: 'born_central_america_pct', label: '% Born in Central America', format: 'pct', category: 'Nativity' },
+  { key: 'born_europe_canada_pct', label: '% Born in Europe/Canada', format: 'pct', category: 'Nativity' },
+  { key: 'born_ussr_pct', label: '% Born in USSR', format: 'pct', category: 'Nativity' },
   { key: 'median_family_income', label: 'Median Family Income', format: 'currency', category: 'Economics' },
   { key: 'occ_clerical_sales_pct', label: '% Clerical & Sales', format: 'pct', category: 'Economics' },
   { key: 'occ_service_pct', label: '% Service', format: 'pct', category: 'Economics' },
+  { key: 'occ_protective_service_pct', label: '% Protective Service', format: 'pct', category: 'Economics' },
+  { key: 'occ_domestics_pct', label: '% Domestics', format: 'pct', category: 'Economics' },
+  { key: 'occ_other_service_pct', label: '% Other Service', format: 'pct', category: 'Economics' },
+  { key: 'wives_mothers_labor_force', label: 'Wives/Mothers in Labor Force (count)', format: 'number', category: 'Economics' },
+  { key: 'wives_mothers_lf_adult_women_pct', label: '% Wives/Mothers in LF (of adult women)', format: 'pct', category: 'Economics' },
+  { key: 'wives_mothers_lf_pct', label: '% Wives/Mothers in LF (of wives/mothers)', format: 'pct', category: 'Economics' },
+  { key: 'stay_home_wives_mothers_pct', label: '% Stay-at-Home Wives/Mothers', format: 'pct', category: 'Economics' },
+  { key: 'median_school_years', label: 'Median School Years', format: 'number', category: 'Education' },
+  { key: 'children_private_school_pct', label: '% Children in Private Elementary', format: 'pct', category: 'Education' },
+  { key: 'age_0_4_pct', label: '% Age 0–4', format: 'pct', category: 'Age' },
+  { key: 'age_5_19_pct', label: '% Age 5–19', format: 'pct', category: 'Age' },
+  { key: 'age_20_64_pct', label: '% Age 20–64', format: 'pct', category: 'Age' },
+  { key: 'family_married_pct', label: '% Married', format: 'pct', category: 'Family Status' },
+  { key: 'family_single_pct', label: '% Single', format: 'pct', category: 'Family Status' },
+  { key: 'family_divorced_pct', label: '% Divorced', format: 'pct', category: 'Family Status' },
+  { key: 'family_widowed_pct', label: '% Widowed', format: 'pct', category: 'Family Status' },
   { key: 'housing_renter_pct', label: '% Renter-Occupied', format: 'pct', category: 'Housing' },
+  { key: 'housing_units', label: 'Total Housing Units', format: 'number', category: 'Housing' },
+  { key: 'housing_white_owner_pct', label: '% White Owner-Occupied', format: 'pct', category: 'Housing' },
+  { key: 'housing_nonwhite_owner_pct', label: '% Non-white Owner-Occupied', format: 'pct', category: 'Housing' },
+  { key: 'housing_white_renter_pct', label: '% White Renter', format: 'pct', category: 'Housing' },
+  { key: 'housing_nonwhite_renter_pct', label: '% Non-white Renter', format: 'pct', category: 'Housing' },
+  { key: 'housing_single_family_pct', label: '% Single-Family Detached', format: 'pct', category: 'Housing' },
+  { key: 'housing_multi_2_4_pct', label: '% Multi-Unit (2–4)', format: 'pct', category: 'Housing' },
+  { key: 'housing_multi_5plus_pct', label: '% Multi-Unit (5+)', format: 'pct', category: 'Housing' },
 ];
 
 const GRAPH_METRICS = [...ALL_METRICS, ...GRAPH_ONLY_METRICS];
 
+// Data Graphs view shows all categories, including graph-only ones.
+const GRAPH_CATEGORIES = ['Population', 'Race & Ethnicity', 'Nativity', 'Economics', 'Education', 'Age', 'Family Status', 'Housing'];
+
 // Categories whose metrics measure different things get split into toggleable
 // sub-charts instead of one crowded (or mixed-unit) chart.
 const SUBCHARTS: Record<string, { id: string; label: string; keys: string[] }[]> = {
+  Population: [
+    { id: 'total', label: 'Total Population', keys: ['population', 'adult_population'] },
+    { id: 'hh_size', label: 'Household Size', keys: ['persons_per_household'] },
+  ],
+  Nativity: [
+    { id: 'foreign_native', label: 'Foreign vs Native Born', keys: ['foreign_born_pct', 'native_born_pct'] },
+    { id: 'origin', label: 'Country of Origin', keys: ['born_mexico_pct', 'born_central_america_pct', 'born_asia_pct', 'born_middle_east_pct', 'born_europe_canada_pct', 'born_ussr_pct'] },
+  ],
   Economics: [
     { id: 'income', label: 'Income', keys: ['median_hh_income', 'median_family_income'] },
     { id: 'occupation', label: 'Occupation', keys: ['occ_white_collar_pct', 'occ_blue_collar_pct', 'occ_clerical_sales_pct', 'occ_service_pct'] },
-    { id: 'women', label: 'Women in Workforce', keys: ['females_labor_force_pct'] },
+    { id: 'service_detail', label: 'Service Detail', keys: ['occ_protective_service_pct', 'occ_domestics_pct', 'occ_other_service_pct'] },
+    { id: 'women', label: 'Women in Workforce', keys: ['females_labor_force_pct', 'wives_mothers_lf_adult_women_pct', 'wives_mothers_lf_pct', 'stay_home_wives_mothers_pct', 'wives_mothers_labor_force'] },
+  ],
+  Education: [
+    { id: 'attainment', label: 'Attainment', keys: ['edu_no_hs_pct', 'edu_hs_only_pct', 'edu_some_college_pct', 'edu_college_pct'] },
+    { id: 'school_years', label: 'Median School Years', keys: ['median_school_years'] },
+    { id: 'private_school', label: 'Private School', keys: ['children_private_school_pct'] },
+  ],
+  Age: [
+    { id: 'distribution', label: 'Age Distribution', keys: ['age_0_4_pct', 'age_5_19_pct', 'age_20_64_pct', 'age_65plus_pct'] },
+    { id: 'median', label: 'Median Age', keys: ['median_age'] },
   ],
   Housing: [
     { id: 'ownership', label: 'Ownership', keys: ['housing_owner_pct', 'housing_renter_pct'] },
+    { id: 'ownership_race', label: 'Ownership by Race', keys: ['housing_white_owner_pct', 'housing_nonwhite_owner_pct', 'housing_white_renter_pct', 'housing_nonwhite_renter_pct'] },
+    { id: 'types', label: 'Housing Types', keys: ['housing_single_family_pct', 'housing_multi_2_4_pct', 'housing_multi_5plus_pct'] },
+    { id: 'units', label: 'Total Units', keys: ['housing_units'] },
     { id: 'value', label: 'House Value', keys: ['median_house_value'] },
     { id: 'rent', label: 'Rent', keys: ['median_rent'] },
   ],
@@ -250,7 +304,7 @@ export default function HistoricalPage() {
             </select>
           </div>
 
-          {CATEGORIES.map(cat => {
+          {GRAPH_CATEGORIES.map(cat => {
             const allCatMetrics = GRAPH_METRICS.filter(m => m.category === cat);
             const subcharts = SUBCHARTS[cat]?.filter(sc =>
               sc.keys.some(k => YEARS.some(y => city?.years[String(y)]?.[k] != null))
