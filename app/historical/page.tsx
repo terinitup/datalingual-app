@@ -21,8 +21,11 @@ const ALL_METRICS = [
   { key: 'born_asia_pct', label: '% Born in Asia', format: 'pct', category: 'Nativity' },
   { key: 'born_middle_east_pct', label: '% Born in Middle East', format: 'pct', category: 'Nativity' },
   { key: 'median_hh_income', label: 'Median Household Income', format: 'currency', category: 'Economics' },
+  { key: 'median_family_income', label: 'Median Family Income', format: 'currency', category: 'Economics' },
   { key: 'occ_white_collar_pct', label: '% White Collar', format: 'pct', category: 'Economics' },
   { key: 'occ_blue_collar_pct', label: '% Blue Collar', format: 'pct', category: 'Economics' },
+  { key: 'occ_clerical_sales_pct', label: '% Clerical & Sales', format: 'pct', category: 'Economics' },
+  { key: 'occ_service_pct', label: '% Service', format: 'pct', category: 'Economics' },
   { key: 'females_labor_force_pct', label: '% Females in Labor Force', format: 'pct', category: 'Economics' },
   { key: 'edu_no_hs_pct', label: '% No HS Diploma', format: 'pct', category: 'Education' },
   { key: 'edu_hs_only_pct', label: '% HS Only', format: 'pct', category: 'Education' },
@@ -31,9 +34,25 @@ const ALL_METRICS = [
   { key: 'median_age', label: 'Median Age', format: 'number', category: 'Age' },
   { key: 'age_65plus_pct', label: '% Age 65+', format: 'pct', category: 'Age' },
   { key: 'housing_owner_pct', label: '% Owner-Occupied', format: 'pct', category: 'Housing' },
+  { key: 'housing_renter_pct', label: '% Renter-Occupied', format: 'pct', category: 'Housing' },
   { key: 'median_house_value', label: 'Median House Value', format: 'currency', category: 'Housing' },
   { key: 'median_rent', label: 'Median Rent', format: 'currency', category: 'Housing' },
 ];
+
+// Categories whose metrics measure different things get split into toggleable
+// sub-charts instead of one crowded (or mixed-unit) chart.
+const SUBCHARTS: Record<string, { id: string; label: string; keys: string[] }[]> = {
+  Economics: [
+    { id: 'income', label: 'Income', keys: ['median_hh_income', 'median_family_income'] },
+    { id: 'occupation', label: 'Occupation', keys: ['occ_white_collar_pct', 'occ_blue_collar_pct', 'occ_clerical_sales_pct', 'occ_service_pct'] },
+    { id: 'women', label: 'Women in Workforce', keys: ['females_labor_force_pct'] },
+  ],
+  Housing: [
+    { id: 'ownership', label: 'Ownership', keys: ['housing_owner_pct', 'housing_renter_pct'] },
+    { id: 'value', label: 'House Value', keys: ['median_house_value'] },
+    { id: 'rent', label: 'Rent', keys: ['median_rent'] },
+  ],
+};
 
 const CATEGORIES = ['Population', 'Race & Ethnicity', 'Nativity', 'Economics', 'Education', 'Age', 'Housing'];
 const COLORS = ['#2E8B9A', '#F5B041', '#9B59B6', '#E57373', '#3498DB', '#1ABC9C', '#E67E22', '#FF5722', '#8BC34A'];
@@ -58,6 +77,7 @@ export default function HistoricalPage() {
   const [selectedCategory, setSelectedCategory] = useState<string>('Race & Ethnicity');
   const [viewMode, setViewMode] = useState<'map' | 'graphs' | 'compare'>('map');
   const [showWelcome, setShowWelcome] = useState(true);
+  const [selectedSubcharts, setSelectedSubcharts] = useState<Record<string, string>>({});
 
   useEffect(() => {
     fetch('/data/historical.json')
@@ -224,14 +244,23 @@ export default function HistoricalPage() {
           </div>
 
           {CATEGORIES.map(cat => {
-            const metrics = ALL_METRICS.filter(m => m.category === cat);
+            const allCatMetrics = ALL_METRICS.filter(m => m.category === cat);
+            const subcharts = SUBCHARTS[cat]?.filter(sc =>
+              sc.keys.some(k => YEARS.some(y => city?.years[String(y)]?.[k] != null))
+            );
+            const activeSubchart = subcharts?.length
+              ? (subcharts.find(sc => sc.id === selectedSubcharts[cat]) ?? subcharts[0])
+              : null;
+            const metrics = activeSubchart
+              ? activeSubchart.keys.map(k => allCatMetrics.find(m => m.key === k)).filter((m): m is typeof allCatMetrics[number] => m != null)
+              : allCatMetrics;
             const trendData = YEARS.map(year => {
               const yearData = city?.years[String(year)] ?? {};
               const point: Record<string, number | string> = { year: String(year) };
               metrics.forEach(m => { if (yearData[m.key] != null) point[m.key] = yearData[m.key]; });
               return point;
             });
-            const hasData = metrics.some(m => YEARS.some(y => city?.years[String(y)]?.[m.key] != null));
+            const hasData = allCatMetrics.some(m => YEARS.some(y => city?.years[String(y)]?.[m.key] != null));
             if (!hasData) return null;
 
             // One y-axis per unit type (pct / currency / number) so mixed-unit
@@ -246,7 +275,22 @@ export default function HistoricalPage() {
             return (
               <Card key={cat}>
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-base font-sans">{cat} — {selectedCity} 1950–2010</CardTitle>
+                  <div className="flex flex-wrap items-center justify-between gap-2">
+                    <CardTitle className="text-base font-sans">
+                      {cat}{activeSubchart ? `: ${activeSubchart.label}` : ''} — {selectedCity} 1950–2010
+                    </CardTitle>
+                    {subcharts && subcharts.length > 1 && (
+                      <div className="flex flex-wrap gap-1.5">
+                        {subcharts.map(sc => (
+                          <button key={sc.id}
+                            onClick={() => setSelectedSubcharts(prev => ({ ...prev, [cat]: sc.id }))}
+                            className={`px-3 py-1 text-xs rounded-full transition-colors ${activeSubchart?.id === sc.id ? 'bg-[#2E8B9A] text-white' : 'border border-border text-muted-foreground hover:bg-muted'}`}>
+                            {sc.label}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 </CardHeader>
                 <CardContent>
                   <div className="h-64">
