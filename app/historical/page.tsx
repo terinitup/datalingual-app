@@ -21,11 +21,8 @@ const ALL_METRICS = [
   { key: 'born_asia_pct', label: '% Born in Asia', format: 'pct', category: 'Nativity' },
   { key: 'born_middle_east_pct', label: '% Born in Middle East', format: 'pct', category: 'Nativity' },
   { key: 'median_hh_income', label: 'Median Household Income', format: 'currency', category: 'Economics' },
-  { key: 'median_family_income', label: 'Median Family Income', format: 'currency', category: 'Economics' },
   { key: 'occ_white_collar_pct', label: '% White Collar', format: 'pct', category: 'Economics' },
   { key: 'occ_blue_collar_pct', label: '% Blue Collar', format: 'pct', category: 'Economics' },
-  { key: 'occ_clerical_sales_pct', label: '% Clerical & Sales', format: 'pct', category: 'Economics' },
-  { key: 'occ_service_pct', label: '% Service', format: 'pct', category: 'Economics' },
   { key: 'females_labor_force_pct', label: '% Females in Labor Force', format: 'pct', category: 'Economics' },
   { key: 'edu_no_hs_pct', label: '% No HS Diploma', format: 'pct', category: 'Education' },
   { key: 'edu_hs_only_pct', label: '% HS Only', format: 'pct', category: 'Education' },
@@ -34,10 +31,20 @@ const ALL_METRICS = [
   { key: 'median_age', label: 'Median Age', format: 'number', category: 'Age' },
   { key: 'age_65plus_pct', label: '% Age 65+', format: 'pct', category: 'Age' },
   { key: 'housing_owner_pct', label: '% Owner-Occupied', format: 'pct', category: 'Housing' },
-  { key: 'housing_renter_pct', label: '% Renter-Occupied', format: 'pct', category: 'Housing' },
   { key: 'median_house_value', label: 'Median House Value', format: 'currency', category: 'Housing' },
   { key: 'median_rent', label: 'Median Rent', format: 'currency', category: 'Housing' },
 ];
+
+// Extra metrics that appear only in the Data Graphs sub-charts —
+// kept out of ALL_METRICS so the Map sidebar and Compare view stay unchanged.
+const GRAPH_ONLY_METRICS = [
+  { key: 'median_family_income', label: 'Median Family Income', format: 'currency', category: 'Economics' },
+  { key: 'occ_clerical_sales_pct', label: '% Clerical & Sales', format: 'pct', category: 'Economics' },
+  { key: 'occ_service_pct', label: '% Service', format: 'pct', category: 'Economics' },
+  { key: 'housing_renter_pct', label: '% Renter-Occupied', format: 'pct', category: 'Housing' },
+];
+
+const GRAPH_METRICS = [...ALL_METRICS, ...GRAPH_ONLY_METRICS];
 
 // Categories whose metrics measure different things get split into toggleable
 // sub-charts instead of one crowded (or mixed-unit) chart.
@@ -244,7 +251,7 @@ export default function HistoricalPage() {
           </div>
 
           {CATEGORIES.map(cat => {
-            const allCatMetrics = ALL_METRICS.filter(m => m.category === cat);
+            const allCatMetrics = GRAPH_METRICS.filter(m => m.category === cat);
             const subcharts = SUBCHARTS[cat]?.filter(sc =>
               sc.keys.some(k => YEARS.some(y => city?.years[String(y)]?.[k] != null))
             );
@@ -303,7 +310,7 @@ export default function HistoricalPage() {
                           <YAxis yAxisId="right" orientation="right" tick={{ fontSize: 10 }} tickFormatter={tickFormatterFor(formats[1])} />
                         )}
                         <Tooltip formatter={(value: number, name: string) => {
-                          const m = ALL_METRICS.find(x => x.key === name);
+                          const m = GRAPH_METRICS.find(x => x.key === name);
                           return [formatValue(value, m?.format ?? 'number'), m?.label ?? name];
                         }} contentStyle={{ backgroundColor: 'hsl(var(--card))', border: '1px solid hsl(var(--border))', borderRadius: '8px', fontSize: 11 }} />
                         <Legend wrapperStyle={{ fontSize: 10 }} />
