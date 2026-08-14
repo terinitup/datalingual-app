@@ -234,6 +234,15 @@ export default function HistoricalPage() {
             const hasData = metrics.some(m => YEARS.some(y => city?.years[String(y)]?.[m.key] != null));
             if (!hasData) return null;
 
+            // One y-axis per unit type (pct / currency / number) so mixed-unit
+            // categories like Housing don't squash small-scale lines to zero.
+            const formats = Array.from(new Set(metrics.map(m => m.format)));
+            const axisIdForFormat = (fmt: string) => (formats.indexOf(fmt) === 0 ? 'left' : 'right');
+            const tickFormatterFor = (fmt: string) => (v: number) =>
+              fmt === 'currency' ? `$${(v / 1000).toFixed(0)}k` :
+              fmt === 'pct' ? `${v}%` :
+              new Intl.NumberFormat('en-US', { notation: 'compact' }).format(v);
+
             return (
               <Card key={cat}>
                 <CardHeader className="pb-2">
@@ -245,17 +254,17 @@ export default function HistoricalPage() {
                       <LineChart data={trendData} margin={{ left: 10, right: 20, top: 20 }}>
                         <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
                         <XAxis dataKey="year" tick={{ fontSize: 13, fontWeight: 600 }} />
-                        <YAxis tick={{ fontSize: 10 }} tickFormatter={v =>
-                          metrics[0]?.format === 'currency' ? `$${(v/1000).toFixed(0)}k` :
-                          metrics[0]?.format === 'pct' ? `${v}%` :
-                          new Intl.NumberFormat('en-US', { notation: 'compact' }).format(v)} />
+                        <YAxis yAxisId="left" tick={{ fontSize: 10 }} tickFormatter={tickFormatterFor(formats[0])} />
+                        {formats.length > 1 && (
+                          <YAxis yAxisId="right" orientation="right" tick={{ fontSize: 10 }} tickFormatter={tickFormatterFor(formats[1])} />
+                        )}
                         <Tooltip formatter={(value: number, name: string) => {
                           const m = ALL_METRICS.find(x => x.key === name);
                           return [formatValue(value, m?.format ?? 'number'), m?.label ?? name];
                         }} contentStyle={{ backgroundColor: 'hsl(var(--card))', border: '1px solid hsl(var(--border))', borderRadius: '8px', fontSize: 11 }} />
                         <Legend wrapperStyle={{ fontSize: 10 }} />
                         {metrics.map((m, i) => (
-                          <Line key={m.key} type="monotone" dataKey={m.key} name={m.label}
+                          <Line key={m.key} yAxisId={axisIdForFormat(m.format)} type="monotone" dataKey={m.key} name={m.label}
                           stroke={COLORS[i % COLORS.length]} strokeWidth={2} dot={{ r: 3 }} connectNulls />
                         ))}
                       </LineChart>
