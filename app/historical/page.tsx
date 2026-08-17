@@ -164,7 +164,7 @@ export default function HistoricalPage() {
         <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4">
           <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
           <div className="relative bg-card rounded-2xl shadow-2xl border border-border max-w-md w-full p-8 z-10">
-            <h2 className="font-serif text-2xl font-bold text-foreground mb-1">Historical Demographics</h2>
+            <h2 className="font-serif text-2xl font-bold text-foreground mb-1">Los Angeles County Demographic Data Project 1950-2010</h2>
             <p className="text-sm text-muted-foreground italic mb-6">Los Angeles County 1950–2010</p>
             <div className="space-y-3 text-sm text-foreground">
   <p>
@@ -202,7 +202,7 @@ export default function HistoricalPage() {
       <Header />
 
       <div className="border-b border-border bg-card px-6 py-4">
-        <h1 className="font-serif text-2xl font-bold text-foreground">Los Angeles County Demographic Data Project 1950-2010 · USC Digital Library</h1>
+        <h1 className="font-serif text-2xl font-bold text-foreground">Los Angeles County Demographic Data Project 1950-2010</h1>
         <p className="text-sm text-muted-foreground mt-1">USC Digital Library</p>
       </div>
 
