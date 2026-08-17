@@ -179,16 +179,16 @@ export default function HistoricalPage() {
             <p className="text-sm text-muted-foreground italic mb-6">USC Digital Library</p>
             <div className="space-y-3 text-sm text-foreground">
   <p>
-    This section displays historical demographic data for 88 cities and communities across Los Angeles County from 1950 to 2010, drawn from the Los Angeles County Demographic Data Project.
+    This section displays data from the Los Angeles County Demographic Data Project, which traces social changes in the City of Los Angeles, L.A. County, and 86 municipalities between 1950 and 2010.
   </p>
   <p>
-    The dataset covers 54 variables across race and ethnicity, country of origin, class, occupation, education, age, family status, and housing — enabling granular comparisons across seven census decades.
-  </p>
-  <p>
-    Data was compiled by historian Becky Nicolaides and her team as part of research for{' '}
+    The dataset — comprising over 90 data files — was compiled by historian Becky Nicolaides and her team over more than a decade of research for{' '}
     <a href="https://global.oup.com/us/companion.websites/9780197578308/" target="_blank" rel="noreferrer" className="underline hover:text-[#2E8B9A]">
       The New Suburbia: How Diversity Remade Suburban Life in Los Angeles After 1945 (Oxford, 2024)
-    </a>, with support from NEH, the American Council of Learned Societies, and the John Randolph Haynes & Dora Haynes Foundation.
+    </a>, with support from NEH, the American Council of Learned Societies, the John Randolph Haynes & Dora Haynes Foundation, and other organizations.
+  </p>
+  <p>
+    It covers 54 variables — race and ethnicity, country of origin, class, occupation, education, age, family status, and housing — drawn from the U.S. Census and California Secretary of State voter registration data, enabling granular comparisons across seven decennial years (1950–2010).
   </p>
   <div className="pt-3 border-t border-border">
     <p className="text-xs font-semibold text-foreground mb-1">Data Citation</p>
