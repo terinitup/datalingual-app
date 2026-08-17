@@ -145,14 +145,14 @@ export function HistoricalMapView({ data, selectedYear, selectedMetric, metricLa
   const maxPop = Math.max(...data.map(c => c.years[String(selectedYear)]?.population ?? 0));
 
   return (
-    <div className="relative w-full rounded-lg overflow-hidden border border-border" style={{ height: 500 }}>
+    <div className="relative w-full h-full min-h-[300px] rounded-lg overflow-hidden border border-border">
       {clientReady && (
         <MapContainer
           ref={mapRef}
           center={LA_CENTER}
           zoom={10}
           style={{ width: '100%', height: '100%', zIndex: 0 }}
-          scrollWheelZoom
+          scrollWheelZoom={false}
         >
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
