@@ -52,7 +52,7 @@ export function Header() {
     className="gap-2"
   >
     <Clock className="h-4 w-4" />
-    Historical
+    Demographic Data Project
   </Button>
 </Link>
             </nav>
