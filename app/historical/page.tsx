@@ -241,8 +241,8 @@ export default function HistoricalPage() {
       </div>
 
       {viewMode === 'map' && (
-        <div className="flex flex-col lg:flex-row" style={{ height: 'calc(100vh - 200px)' }}>
-          <div className="lg:flex-[3] p-4 h-[500px] lg:h-full">
+        <div className="flex flex-col lg:flex-row lg:h-[calc(100vh-200px)]">
+          <div className="lg:flex-[3] p-4 h-[45vh] min-h-[300px] lg:h-full">
             <HistoricalMapView
               data={data}
               selectedYear={selectedYear}
@@ -253,7 +253,7 @@ export default function HistoricalPage() {
               onSelectCity={setSelectedCity}
             />
           </div>
-          <div className="lg:w-96 lg:flex-none border-t lg:border-t-0 lg:border-l border-border overflow-y-auto">
+          <div className="lg:w-96 lg:flex-none border-t lg:border-t-0 lg:border-l border-border lg:overflow-y-auto">
             {city ? (
               <div className="p-4 space-y-4">
                 <div className="flex items-center justify-between">
