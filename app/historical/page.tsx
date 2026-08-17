@@ -116,6 +116,17 @@ const SUBCHARTS: Record<string, { id: string; label: string; keys: string[] }[]>
 const CATEGORIES = GRAPH_CATEGORIES;
 const COLORS = ['#2E8B9A', '#F5B041', '#9B59B6', '#E57373', '#3498DB', '#1ABC9C', '#E67E22', '#FF5722', '#8BC34A'];
 
+// Custom bold dropdown chevron (native select arrows can't be styled).
+const SELECT_ARROW_STYLE: React.CSSProperties = {
+  appearance: 'none',
+  WebkitAppearance: 'none',
+  backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23374151' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E")`,
+  backgroundRepeat: 'no-repeat',
+  backgroundPosition: 'right 0.6rem center',
+  backgroundSize: '0.85em',
+  paddingRight: '2rem',
+};
+
 function formatValue(val: number | undefined, format: string): string {
   if (val == null || isNaN(val)) return 'N/A';
   if (format === 'currency') return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(val);
@@ -257,7 +268,7 @@ export default function HistoricalPage() {
             {city ? (
               <div className="p-4 space-y-4">
                 <div className="flex items-center justify-between gap-2">
-                  <select value={selectedCity} onChange={e => setSelectedCity(e.target.value)}
+                  <select value={selectedCity} onChange={e => setSelectedCity(e.target.value)} style={SELECT_ARROW_STYLE}
                     className="font-serif text-lg font-bold text-foreground bg-background border border-border rounded-lg px-2 py-1 flex-1 min-w-0">
                     {data.filter(c => c.name !== 'LA County').map(c => <option key={c.name} value={c.name}>{c.name}</option>)}
                   </select>
@@ -299,7 +310,7 @@ export default function HistoricalPage() {
         <div className="p-6 space-y-6">
           <div className="flex items-center gap-3">
             <span className="text-sm text-muted-foreground">City:</span>
-            <select value={selectedCity} onChange={e => setSelectedCity(e.target.value)}
+            <select value={selectedCity} onChange={e => setSelectedCity(e.target.value)} style={SELECT_ARROW_STYLE}
               className="border border-border rounded-lg px-3 py-1.5 text-sm bg-background text-foreground">
               {data.map(c => <option key={c.name} value={c.name}>{c.name}</option>)}
             </select>
