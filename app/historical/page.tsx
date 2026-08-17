@@ -130,7 +130,7 @@ const SELECT_ARROW_STYLE: React.CSSProperties = {
 function formatValue(val: number | undefined, format: string): string {
   if (val == null || isNaN(val)) return 'N/A';
   if (format === 'currency') return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(val);
-  if (format === 'pct') return `${val.toFixed(1)}%`;
+  if (format === 'pct') return `${val.toFixed(2)}%`;
   return new Intl.NumberFormat('en-US').format(val);
 }
 
