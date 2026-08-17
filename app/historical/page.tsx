@@ -165,7 +165,7 @@ export default function HistoricalPage() {
           <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
           <div className="relative bg-card rounded-2xl shadow-2xl border border-border max-w-md w-full p-8 z-10">
             <h2 className="font-serif text-2xl font-bold text-foreground mb-1">Los Angeles County Demographic Data Project 1950-2010</h2>
-            <p className="text-sm text-muted-foreground italic mb-6">Los Angeles County 1950–2010</p>
+            <p className="text-sm text-muted-foreground italic mb-6">USC Digital Library</p>
             <div className="space-y-3 text-sm text-foreground">
   <p>
     This section displays historical demographic data for 88 cities and communities across Los Angeles County from 1950 to 2010, drawn from the Los Angeles County Demographic Data Project.
