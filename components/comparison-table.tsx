@@ -3,8 +3,6 @@
 import { GeoArea } from '@/lib/types';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
-import { Badge } from '@/components/ui/badge';
-import { ArrowUp, ArrowDown, Minus } from 'lucide-react';
 
 interface ComparisonTableProps {
   data: GeoArea[];
@@ -130,22 +128,6 @@ export function ComparisonTable({ data }: ComparisonTableProps) {
     );
   }
 
-  const getComparisonIndicator = (value: number | null, values: (number | null)[], higherIsBetter: boolean) => {
-    const validValues = values.filter((v): v is number => v !== null);
-    if (value === null || validValues.length < 2) return null;
-
-    const best = higherIsBetter ? Math.max(...validValues) : Math.min(...validValues);
-    const worst = higherIsBetter ? Math.min(...validValues) : Math.max(...validValues);
-
-    if (value === best) {
-      return <Badge variant="default" className="bg-green-600"><ArrowUp className="h-3 w-3 mr-1" />Best</Badge>;
-    }
-    if (value === worst && validValues.length > 1) {
-      return <Badge variant="destructive"><ArrowDown className="h-3 w-3 mr-1" />Lowest</Badge>;
-    }
-    return <Badge variant="secondary"><Minus className="h-3 w-3 mr-1" />Mid</Badge>;
-  };
-
   let currentCategory = '';
 
   return (
@@ -187,10 +169,7 @@ export function ComparisonTable({ data }: ComparisonTableProps) {
                         const value = row.getValue(d);
                         return (
                           <TableCell key={d.geo_id} className="text-center">
-                            <div className="flex flex-col items-center gap-1">
-                              <span className="font-semibold">{row.format(value)}</span>
-                              {data.length > 1 && getComparisonIndicator(value, values, row.higherIsBetter)}
-                            </div>
+                            <span className="font-semibold">{row.format(value)}</span>
                           </TableCell>
                         );
                       })}
