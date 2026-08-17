@@ -134,6 +134,17 @@ function getColor(value: number, metric: string, allValues: number[]): string {
 export function HistoricalMapView({ data, selectedYear, selectedMetric, metricLabel, metricFormat, selectedCity, onSelectCity }: HistoricalMapViewProps) {
   const [clientReady, setClientReady] = useState(false);
   const mapRef = useRef<LeafletMap | null>(null);
+  const containerRef = useRef<HTMLDivElement | null>(null);
+
+  // Re-measure the map whenever its container resizes (split-screen, window
+  // drags) — otherwise Leaflet's hit-testing goes stale and marker clicks miss.
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el || !clientReady) return;
+    const ro = new ResizeObserver(() => mapRef.current?.invalidateSize());
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [clientReady]);
 
   useEffect(() => { setClientReady(true); }, []);
 
@@ -145,7 +156,7 @@ export function HistoricalMapView({ data, selectedYear, selectedMetric, metricLa
   const maxPop = Math.max(...data.map(c => c.years[String(selectedYear)]?.population ?? 0));
 
   return (
-    <div className="relative w-full h-full min-h-[300px] rounded-lg overflow-hidden border border-border">
+    <div ref={containerRef} className="relative w-full h-full min-h-[300px] rounded-lg overflow-hidden border border-border">
       {clientReady && (
         <MapContainer
           ref={mapRef}

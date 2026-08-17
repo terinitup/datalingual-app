@@ -256,9 +256,12 @@ export default function HistoricalPage() {
           <div className="lg:w-96 lg:flex-none border-t lg:border-t-0 lg:border-l border-border lg:overflow-y-auto">
             {city ? (
               <div className="p-4 space-y-4">
-                <div className="flex items-center justify-between">
-                  <h2 className="font-serif text-lg font-bold text-foreground">{selectedCity}</h2>
-                  <span className="text-sm text-[#2E8B9A] font-medium">{selectedYear}</span>
+                <div className="flex items-center justify-between gap-2">
+                  <select value={selectedCity} onChange={e => setSelectedCity(e.target.value)}
+                    className="font-serif text-lg font-bold text-foreground bg-background border border-border rounded-lg px-2 py-1 flex-1 min-w-0">
+                    {data.filter(c => c.name !== 'LA County').map(c => <option key={c.name} value={c.name}>{c.name}</option>)}
+                  </select>
+                  <span className="text-sm text-[#2E8B9A] font-medium shrink-0">{selectedYear}</span>
                 </div>
                 {CATEGORIES.map(cat => {
                   const metrics = ALL_METRICS.filter(m => m.category === cat);
