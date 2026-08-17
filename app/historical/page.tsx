@@ -202,8 +202,8 @@ export default function HistoricalPage() {
       <Header />
 
       <div className="border-b border-border bg-card px-6 py-4">
-        <h1 className="font-serif text-2xl font-bold text-foreground">Historical Demographics</h1>
-        <p className="text-sm text-muted-foreground mt-1">Los Angeles County 1950–2010 · USC Digital Library</p>
+        <h1 className="font-serif text-2xl font-bold text-foreground">Los Angeles County Demographic Data Project 1950-2010 · USC Digital Library</h1>
+        <p className="text-sm text-muted-foreground mt-1">USC Digital Library</p>
       </div>
 
       <div className="border-b border-border bg-card px-6 py-3 flex flex-wrap items-center gap-4">
