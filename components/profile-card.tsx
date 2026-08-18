@@ -1,6 +1,6 @@
 'use client';
 
-import { GeoArea, LA_COUNTY_BENCHMARK } from '@/lib/types';
+import { GeoArea } from '@/lib/types';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Users, DollarSign, GraduationCap, Globe, Wifi, Languages } from 'lucide-react';
@@ -72,8 +72,6 @@ export function ProfileCard({ data, onCompare, isComparing }: ProfileCardProps) 
             <StatItem 
               label="LEP Rate" 
               value={formatPercent(data.lep_pct)} 
-              highlight={data.lep_pct != null && data.lep_pct > LA_COUNTY_BENCHMARK.lep_pct}
-              benchmark={`County: ${formatPercent(LA_COUNTY_BENCHMARK.lep_pct)}`}
             />
           </div>
         </section>
@@ -122,13 +120,10 @@ export function ProfileCard({ data, onCompare, isComparing }: ProfileCardProps) 
             <StatItem 
               label="Poverty Rate" 
               value={formatPercent(data.poverty_pct)} 
-              highlight={data.poverty_pct != null && data.poverty_pct > LA_COUNTY_BENCHMARK.poverty_pct}
-              benchmark={`County: ${formatPercent(LA_COUNTY_BENCHMARK.poverty_pct)}`}
             />
             <StatItem 
               label="SNAP Recipients" 
               value={formatPercent(data.snap_pct)} 
-              highlight={data.snap_pct != null && data.snap_pct > LA_COUNTY_BENCHMARK.snap_pct}
             />
           </div>
           
@@ -169,7 +164,6 @@ export function ProfileCard({ data, onCompare, isComparing }: ProfileCardProps) 
             <StatItem 
               label="No Internet" 
               value={formatPercent(data.no_internet_pct)} 
-              highlight={data.no_internet_pct != null && data.no_internet_pct > LA_COUNTY_BENCHMARK.no_internet_pct}
             />
             {data.access && (
               <>
@@ -177,7 +171,6 @@ export function ProfileCard({ data, onCompare, isComparing }: ProfileCardProps) 
                 <StatItem 
                   label="Linguistically Isolated" 
                   value={formatPercent(data.access.linguistically_isolated_pct)}
-                  highlight={data.access.linguistically_isolated_pct != null && data.access.linguistically_isolated_pct > LA_COUNTY_BENCHMARK.linguistically_isolated_pct}
                 />
               </>
             )}

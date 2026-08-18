@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { GeoArea, LA_COUNTY_BENCHMARK, LanguageData } from '@/lib/types';
+import { GeoArea, LanguageData } from '@/lib/types';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import {
   BarChart,
@@ -68,10 +68,10 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
   const housingSource = selectedLangData?.housing ?? data.housing;
 
   const accessMetrics = [
-    { label: 'Linguistically Isolated', value: safe(accessSource?.linguistically_isolated_pct), benchmark: safe(LA_COUNTY_BENCHMARK.linguistically_isolated_pct) },
-    { label: 'No Internet Access', value: safe(accessSource?.no_internet_pct ?? data.no_internet_pct), benchmark: safe(LA_COUNTY_BENCHMARK.no_internet_pct) },
-    { label: 'No Computer Access', value: safe(accessSource?.no_computer_pct), benchmark: 0 },
-    { label: 'SNAP Recipients', value: safe(accessSource?.snap_pct ?? data.snap_pct), benchmark: safe(LA_COUNTY_BENCHMARK.snap_pct) },
+    { label: 'Linguistically Isolated', value: safe(accessSource?.linguistically_isolated_pct) },
+    { label: 'No Internet Access', value: safe(accessSource?.no_internet_pct ?? data.no_internet_pct) },
+    { label: 'No Computer Access', value: safe(accessSource?.no_computer_pct) },
+    { label: 'SNAP Recipients', value: safe(accessSource?.snap_pct ?? data.snap_pct) },
   ];
 
   const housingMetrics = housingSource ? [
@@ -200,15 +200,10 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {accessMetrics.map(({ label, value, benchmark }) => (
+            {accessMetrics.map(({ label, value }) => (
               <div key={label} className="p-3 rounded-lg bg-muted/50">
                 <p className="text-xs text-muted-foreground mb-1">{label}</p>
-                <p className={`text-lg font-semibold ${benchmark && value > benchmark ? 'text-destructive' : 'text-foreground'}`}>
-                  {formatPercent(value)}
-                </p>
-                {benchmark > 0 && (
-                  <p className="text-xs text-muted-foreground">County: {formatPercent(benchmark)}</p>
-                )}
+                <p className="text-lg font-semibold text-foreground">{formatPercent(value)}</p>
               </div>
             ))}
           </div>
