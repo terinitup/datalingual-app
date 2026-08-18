@@ -178,7 +178,7 @@ export default function HistoricalPage() {
             <h2 className="font-serif text-2xl font-bold text-foreground mb-1">Los Angeles County Demographic Data Project 1950-2010</h2>
             <p className="text-sm text-muted-foreground italic mb-6">USC Digital Library</p>
             <div className="space-y-3 text-sm text-foreground">
-  <p>
+            <p>
   This section displays data from the Los Angeles County Demographic Data Project. The description below is excerpted from the USC Digital Library.
   </p>
   <p>
@@ -186,6 +186,9 @@ export default function HistoricalPage() {
     <a href="https://global.oup.com/us/companion.websites/9780197578308/" target="_blank" rel="noreferrer" className="underline hover:text-[#2E8B9A]">
       The New Suburbia: How Diversity Remade Suburban Life in Los Angeles After 1945 (Oxford, 2024)
     </a>, Nicolaides’ research for The New Suburbia was supported by grants from NEH, the American Council of Learned Societies the John Randolph Haynes & Dora Haynes Foundation, and other organizations. The dataset traces many facets of demographic change in Los Angeles and 86 nearby municipalities along with poverty rates and voter registration data. Nicolaides and her team painstakingly collected data for each municipality for 54 variables relating to race and ethnicity, country of origin, class, occupation, education, age, family status, and housing from the U.S. Census and voter registration data from the California Secretary of State. Nicolaides and her team carefully documented their methodology and accounted for many changes in definitions used by the U.S. Census. The resulting dataset allows for meaningful, granular comparisons among municipal data for seven decennial years (1950, 1960, 1970, 1980, 1990, 2000, and 2010).
+  </p>
+  <p>
+    It covers 54 variables — race and ethnicity, country of origin, class, occupation, education, age, family status, and housing — drawn from the U.S. Census and California Secretary of State voter registration data, enabling granular comparisons across seven decennial years (1950–2010).
   </p>
   <div className="pt-3 border-t border-border">
     <p className="text-xs font-semibold text-foreground mb-1">Data Citation</p>
@@ -198,6 +201,7 @@ export default function HistoricalPage() {
   </div>
 </div>
 <button
+
               onClick={() => setShowWelcome(false)}
               className="mt-6 w-full py-2.5 rounded-full text-sm font-semibold bg-[#2E8B9A] text-white hover:bg-[#267a88] transition-colors"
             >
