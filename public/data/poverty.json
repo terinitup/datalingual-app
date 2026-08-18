@@ -1,0 +1,3291 @@
+[
+ {
+  "name": "LA County",
+  "years": {
+   "1959": {
+    "all_families": 1565603,
+    "poor_families": 196890,
+    "poverty_pct": 12.58
+   },
+   "1969": {
+    "all_families": 1769331,
+    "poor_families": 144580,
+    "poverty_pct": 8.17
+   },
+   "1979": {
+    "all_families": 1824119,
+    "poor_families": 191590,
+    "poverty_pct": 10.5
+   },
+   "1989": {
+    "all_families": 2036104,
+    "poor_families": 237153,
+    "poverty_pct": 11.65
+   },
+   "1999": {
+    "all_families": 2154311,
+    "poor_families": 311226,
+    "poverty_pct": 14.45
+   },
+   "2010": {
+    "all_families": 2170227,
+    "poor_families": 273449,
+    "poverty_pct": 12.6
+   },
+   "2020": {
+    "all_families": 2211342,
+    "poor_families": 232191,
+    "poverty_pct": 10.5
+   }
+  }
+ },
+ {
+  "name": "Los Angeles City",
+  "years": {
+   "1959": {
+    "all_families": 636522,
+    "poor_families": 91513,
+    "poverty_pct": 14.38
+   },
+   "1969": {
+    "all_families": 694719,
+    "poor_families": 68501,
+    "poverty_pct": 9.86
+   },
+   "1979": {
+    "all_families": 699277,
+    "poor_families": 90604,
+    "poverty_pct": 12.96
+   },
+   "1989": {
+    "all_families": 769078,
+    "poor_families": 114643,
+    "poverty_pct": 14.91
+   },
+   "1999": {
+    "all_families": 807039,
+    "poor_families": 2734,
+    "poverty_pct": 0.34
+   },
+   "2010": {
+    "all_families": 804185,
+    "poor_families": 128670,
+    "poverty_pct": 16.0
+   },
+   "2020": {
+    "all_families": 830131,
+    "poor_families": 103766,
+    "poverty_pct": 12.5
+   }
+  }
+ },
+ {
+  "name": "Agoura Hills",
+  "years": {
+   "1989": {
+    "all_families": 5476,
+    "poor_families": 137,
+    "poverty_pct": 2.5
+   },
+   "1999": {
+    "all_families": 5542,
+    "poor_families": 155,
+    "poverty_pct": 2.8
+   },
+   "2010": {
+    "all_families": 5676,
+    "poor_families": 176,
+    "poverty_pct": 3.1
+   },
+   "2020": {
+    "all_families": 5471,
+    "poor_families": 181,
+    "poverty_pct": 3.3
+   }
+  }
+ },
+ {
+  "name": "Alhambra",
+  "years": {
+   "1959": {
+    "all_families": 15972,
+    "poor_families": 1826,
+    "poverty_pct": 11.43
+   },
+   "1969": {
+    "all_families": 17233,
+    "poor_families": 926,
+    "poverty_pct": 5.37
+   },
+   "1979": {
+    "all_families": 16352,
+    "poor_families": 1460,
+    "poverty_pct": 8.93
+   },
+   "1989": {
+    "all_families": 19610,
+    "poor_families": 2263,
+    "poverty_pct": 11.54
+   },
+   "1999": {
+    "all_families": 20848,
+    "poor_families": 2393,
+    "poverty_pct": 11.48
+   },
+   "2010": {
+    "all_families": 20774,
+    "poverty_pct": 10.8
+   },
+   "2020": {
+    "all_families": 20844,
+    "poor_families": 1959,
+    "poverty_pct": 9.4
+   }
+  }
+ },
+ {
+  "name": "Arcadia",
+  "years": {
+   "1959": {
+    "all_families": 11760,
+    "poor_families": 968,
+    "poverty_pct": 8.23
+   },
+   "1969": {
+    "all_families": 12566,
+    "poor_families": 447,
+    "poverty_pct": 3.56
+   },
+   "1979": {
+    "all_families": 12802,
+    "poor_families": 352,
+    "poverty_pct": 2.75
+   },
+   "1989": {
+    "all_families": 13053,
+    "poor_families": 457,
+    "poverty_pct": 3.5
+   },
+   "1999": {
+    "all_families": 14170,
+    "poor_families": 950,
+    "poverty_pct": 6.7
+   },
+   "2010": {
+    "all_families": 14452,
+    "poor_families": 1113,
+    "poverty_pct": 7.7
+   },
+   "2020": {
+    "all_families": 15273,
+    "poor_families": 1008,
+    "poverty_pct": 6.6
+   }
+  }
+ },
+ {
+  "name": "Artesia",
+  "years": {
+   "1959": {
+    "all_families": 2358,
+    "poor_families": 346,
+    "poverty_pct": 14.67
+   },
+   "1969": {
+    "all_families": 3341,
+    "poor_families": 363,
+    "poverty_pct": 10.87
+   },
+   "1979": {
+    "all_families": 3443,
+    "poor_families": 309,
+    "poverty_pct": 8.97
+   },
+   "1989": {
+    "all_families": 3454,
+    "poor_families": 235,
+    "poverty_pct": 6.8
+   },
+   "1999": {
+    "all_families": 3619,
+    "poor_families": 316,
+    "poverty_pct": 8.73
+   },
+   "2010": {
+    "all_families": 3944,
+    "poor_families": 319,
+    "poverty_pct": 8.1
+   },
+   "2020": {
+    "all_families": 3781,
+    "poor_families": 140,
+    "poverty_pct": 3.7
+   }
+  }
+ },
+ {
+  "name": "Azusa",
+  "years": {
+   "1959": {
+    "all_families": 4903,
+    "poor_families": 596,
+    "poverty_pct": 12.16
+   },
+   "1969": {
+    "all_families": 6318,
+    "poor_families": 632,
+    "poverty_pct": 10.0
+   },
+   "1979": {
+    "all_families": 7238,
+    "poor_families": 675,
+    "poverty_pct": 9.33
+   },
+   "1989": {
+    "all_families": 9021,
+    "poor_families": 986,
+    "poverty_pct": 10.93
+   },
+   "1999": {
+    "all_families": 9349,
+    "poor_families": 1408,
+    "poverty_pct": 15.06
+   },
+   "2010": {
+    "all_families": 9174,
+    "poor_families": 1101,
+    "poverty_pct": 12.0
+   },
+   "2020": {
+    "all_families": 9808,
+    "poor_families": 1000,
+    "poverty_pct": 10.2
+   }
+  }
+ },
+ {
+  "name": "Baldwin Park",
+  "years": {
+   "1959": {
+    "all_families": 8621,
+    "poor_families": 1315,
+    "poverty_pct": 15.25
+   },
+   "1969": {
+    "all_families": 11435,
+    "poor_families": 1108,
+    "poverty_pct": 9.69
+   },
+   "1979": {
+    "all_families": 11676,
+    "poor_families": 1545,
+    "poverty_pct": 13.23
+   },
+   "1989": {
+    "all_families": 14447,
+    "poor_families": 1850,
+    "poverty_pct": 12.81
+   },
+   "1999": {
+    "all_families": 15110,
+    "poor_families": 2323,
+    "poverty_pct": 15.37
+   },
+   "2010": {
+    "all_families": 15560,
+    "poor_families": 2178,
+    "poverty_pct": 14.0
+   },
+   "2020": {
+    "all_families": 15231,
+    "poor_families": 1599,
+    "poverty_pct": 10.5
+   }
+  }
+ },
+ {
+  "name": "Bell",
+  "years": {
+   "1959": {
+    "all_families": 5824,
+    "poor_families": 732,
+    "poverty_pct": 12.57
+   },
+   "1969": {
+    "all_families": 6077,
+    "poor_families": 607,
+    "poverty_pct": 9.99
+   },
+   "1979": {
+    "all_families": 6140,
+    "poor_families": 1046,
+    "poverty_pct": 17.04
+   },
+   "1989": {
+    "all_families": 7174,
+    "poor_families": 1644,
+    "poverty_pct": 22.92
+   },
+   "1999": {
+    "all_families": 7757,
+    "poor_families": 1647,
+    "poverty_pct": 21.23
+   },
+   "2010": {
+    "all_families": 7704,
+    "poor_families": 1579,
+    "poverty_pct": 20.5
+   },
+   "2020": {
+    "all_families": 7430,
+    "poor_families": 1412,
+    "poverty_pct": 19.0
+   }
+  }
+ },
+ {
+  "name": "Bell Gardens",
+  "years": {
+   "1959": {
+    "all_families": 6886,
+    "poor_families": 1178,
+    "poverty_pct": 17.11
+   },
+   "1969": {
+    "all_families": 7252,
+    "poor_families": 1123,
+    "poverty_pct": 15.49
+   },
+   "1979": {
+    "all_families": 7656,
+    "poor_families": 1766,
+    "poverty_pct": 23.07
+   },
+   "1989": {
+    "all_families": 8203,
+    "poor_families": 1950,
+    "poverty_pct": 23.77
+   },
+   "1999": {
+    "all_families": 8607,
+    "poor_families": 2174,
+    "poverty_pct": 25.26
+   },
+   "2010": {
+    "all_families": 8534,
+    "poor_families": 1877,
+    "poverty_pct": 22.0
+   },
+   "2020": {
+    "all_families": 8326,
+    "poor_families": 2090,
+    "poverty_pct": 25.1
+   }
+  }
+ },
+ {
+  "name": "Bellflower",
+  "years": {
+   "1959": {
+    "all_families": 12266,
+    "poor_families": 1392,
+    "poverty_pct": 11.35
+   },
+   "1969": {
+    "all_families": 14082,
+    "poor_families": 902,
+    "poverty_pct": 6.41
+   },
+   "1979": {
+    "all_families": 14393,
+    "poor_families": 1167,
+    "poverty_pct": 8.11
+   },
+   "1989": {
+    "all_families": 15520,
+    "poor_families": 1144,
+    "poverty_pct": 7.37
+   },
+   "1999": {
+    "all_families": 17270,
+    "poor_families": 2209,
+    "poverty_pct": 12.79
+   },
+   "2010": {
+    "all_families": 17902,
+    "poor_families": 1880,
+    "poverty_pct": 10.5
+   },
+   "2020": {
+    "all_families": 17167,
+    "poor_families": 1717,
+    "poverty_pct": 10.0
+   }
+  }
+ },
+ {
+  "name": "Beverly Hills",
+  "years": {
+   "1959": {
+    "all_families": 8544,
+    "poor_families": 784,
+    "poverty_pct": 9.18
+   },
+   "1969": {
+    "all_families": 9252,
+    "poor_families": 415,
+    "poverty_pct": 4.49
+   },
+   "1979": {
+    "all_families": 8740,
+    "poor_families": 555,
+    "poverty_pct": 6.35
+   },
+   "1989": {
+    "all_families": 7955,
+    "poor_families": 338,
+    "poverty_pct": 4.25
+   },
+   "1999": {
+    "all_families": 8351,
+    "poor_families": 658,
+    "poverty_pct": 7.88
+   },
+   "2010": {
+    "all_families": 8295,
+    "poor_families": 481,
+    "poverty_pct": 5.8
+   },
+   "2020": {
+    "all_families": 8310,
+    "poor_families": 548,
+    "poverty_pct": 6.6
+   }
+  }
+ },
+ {
+  "name": "Bradbury",
+  "years": {
+   "1989": {
+    "all_families": 222,
+    "poor_families": 0,
+    "poverty_pct": 0.0
+   },
+   "1999": {
+    "all_families": 242,
+    "poor_families": 0,
+    "poverty_pct": 0.0
+   },
+   "2010": {
+    "all_families": 243,
+    "poor_families": 9,
+    "poverty_pct": 3.7
+   },
+   "2020": {
+    "all_families": 240,
+    "poor_families": 13,
+    "poverty_pct": 5.4
+   }
+  }
+ },
+ {
+  "name": "Burbank",
+  "years": {
+   "1959": {
+    "all_families": 25862,
+    "poor_families": 2170,
+    "poverty_pct": 8.39
+   },
+   "1969": {
+    "all_families": 25245,
+    "poor_families": 1159,
+    "poverty_pct": 4.59
+   },
+   "1979": {
+    "all_families": 22776,
+    "poor_families": 1335,
+    "poverty_pct": 5.86
+   },
+   "1989": {
+    "all_families": 23610,
+    "poor_families": 1389,
+    "poverty_pct": 5.88
+   },
+   "1999": {
+    "all_families": 24556,
+    "poor_families": 1998,
+    "poverty_pct": 8.14
+   },
+   "2010": {
+    "all_families": 25050,
+    "poor_families": 1578,
+    "poverty_pct": 6.3
+   },
+   "2020": {
+    "all_families": 24710,
+    "poor_families": 1656,
+    "poverty_pct": 6.7
+   }
+  }
+ },
+ {
+  "name": "Calabasas",
+  "years": {
+   "1999": {
+    "all_families": 5731,
+    "poor_families": 118,
+    "poverty_pct": 2.06
+   },
+   "2010": {
+    "all_families": 6371,
+    "poor_families": 217,
+    "poverty_pct": 3.4
+   },
+   "2020": {
+    "all_families": 6550,
+    "poor_families": 386,
+    "poverty_pct": 5.9
+   }
+  }
+ },
+ {
+  "name": "Carson",
+  "years": {
+   "1959": {
+    "all_families": 8835,
+    "poor_families": 837,
+    "poverty_pct": 9.47
+   },
+   "1969": {
+    "all_families": 16299,
+    "poor_families": 942,
+    "poverty_pct": 5.78
+   },
+   "1979": {
+    "all_families": 19424,
+    "poor_families": 1237,
+    "poverty_pct": 6.37
+   },
+   "1989": {
+    "all_families": 19575,
+    "poor_families": 972,
+    "poverty_pct": 4.97
+   },
+   "1999": {
+    "all_families": 20271,
+    "poor_families": 1463,
+    "poverty_pct": 7.22
+   },
+   "2010": {
+    "all_families": 20200,
+    "poor_families": 1212,
+    "poverty_pct": 6.0
+   },
+   "2020": {
+    "all_families": 20549,
+    "poor_families": 1397,
+    "poverty_pct": 6.8
+   }
+  }
+ },
+ {
+  "name": "Cerritos",
+  "years": {
+   "1969": {
+    "all_families": 4088,
+    "poor_families": 96,
+    "poverty_pct": 2.35
+   },
+   "1979": {
+    "all_families": 13427,
+    "poor_families": 377,
+    "poverty_pct": 2.81
+   },
+   "1989": {
+    "all_families": 13586,
+    "poor_families": 409,
+    "poverty_pct": 3.01
+   },
+   "1999": {
+    "all_families": 13639,
+    "poor_families": 549,
+    "poverty_pct": 4.03
+   },
+   "2010": {
+    "all_families": 12965,
+    "poor_families": 752,
+    "poverty_pct": 5.8
+   },
+   "2020": {
+    "all_families": 13068,
+    "poor_families": 470,
+    "poverty_pct": 3.6
+   }
+  }
+ },
+ {
+  "name": "Claremont",
+  "years": {
+   "1959": {
+    "all_families": 2681,
+    "poor_families": 293,
+    "poverty_pct": 10.93
+   },
+   "1969": {
+    "all_families": 5169,
+    "poor_families": 166,
+    "poverty_pct": 3.21
+   },
+   "1979": {
+    "all_families": 7193,
+    "poor_families": 239,
+    "poverty_pct": 3.32
+   },
+   "1989": {
+    "all_families": 7624,
+    "poor_families": 170,
+    "poverty_pct": 2.23
+   },
+   "1999": {
+    "all_families": 7872,
+    "poor_families": 472,
+    "poverty_pct": 6.0
+   },
+   "2010": {
+    "all_families": 7585,
+    "poor_families": 303,
+    "poverty_pct": 4.0
+   },
+   "2020": {
+    "all_families": 8478,
+    "poor_families": 212,
+    "poverty_pct": 2.5
+   }
+  }
+ },
+ {
+  "name": "Commerce",
+  "years": {
+   "1959": {
+    "all_families": 2351,
+    "poor_families": 256,
+    "poverty_pct": 10.89
+   },
+   "1969": {
+    "all_families": 2531,
+    "poor_families": 249,
+    "poverty_pct": 9.84
+   },
+   "1979": {
+    "all_families": 2403,
+    "poor_families": 280,
+    "poverty_pct": 11.65
+   },
+   "1989": {
+    "all_families": 2570,
+    "poor_families": 369,
+    "poverty_pct": 14.36
+   },
+   "1999": {
+    "all_families": 2770,
+    "poor_families": 426,
+    "poverty_pct": 15.38
+   },
+   "2010": {
+    "all_families": 2563,
+    "poor_families": 343,
+    "poverty_pct": 13.4
+   },
+   "2020": {
+    "all_families": 2680,
+    "poor_families": 276,
+    "poverty_pct": 10.3
+   }
+  }
+ },
+ {
+  "name": "Compton",
+  "years": {
+   "1959": {
+    "all_families": 17439,
+    "poor_families": 2295,
+    "poverty_pct": 13.16
+   },
+   "1969": {
+    "all_families": 17182,
+    "poor_families": 2934,
+    "poverty_pct": 17.08
+   },
+   "1979": {
+    "all_families": 18380,
+    "poor_families": 4378,
+    "poverty_pct": 23.82
+   },
+   "1989": {
+    "all_families": 18668,
+    "poor_families": 4518,
+    "poverty_pct": 24.2
+   },
+   "1999": {
+    "all_families": 18675,
+    "poor_families": 4762,
+    "poverty_pct": 25.5
+   },
+   "2010": {
+    "all_families": 19297,
+    "poor_families": 3879,
+    "poverty_pct": 20.1
+   },
+   "2020": {
+    "all_families": 19699,
+    "poor_families": 3290,
+    "poverty_pct": 16.7
+   }
+  }
+ },
+ {
+  "name": "Covina",
+  "years": {
+   "1959": {
+    "all_families": 5289,
+    "poor_families": 444,
+    "poverty_pct": 8.39
+   },
+   "1969": {
+    "all_families": 7794,
+    "poor_families": 324,
+    "poverty_pct": 4.16
+   },
+   "1979": {
+    "all_families": 8994,
+    "poor_families": 414,
+    "poverty_pct": 4.6
+   },
+   "1989": {
+    "all_families": 11108,
+    "poor_families": 585,
+    "poverty_pct": 5.27
+   },
+   "1999": {
+    "all_families": 11897,
+    "poor_families": 1055,
+    "poverty_pct": 8.87
+   },
+   "2010": {
+    "all_families": 11517,
+    "poor_families": 921,
+    "poverty_pct": 8.0
+   },
+   "2020": {
+    "all_families": 11119,
+    "poor_families": 700,
+    "poverty_pct": 6.3
+   }
+  }
+ },
+ {
+  "name": "Cudahy",
+  "years": {
+   "1969": {
+    "all_families": 4198,
+    "poor_families": 690,
+    "poverty_pct": 16.44
+   },
+   "1979": {
+    "all_families": 4119,
+    "poor_families": 1133,
+    "poverty_pct": 27.51
+   },
+   "1989": {
+    "all_families": 4570,
+    "poor_families": 1134,
+    "poverty_pct": 24.81
+   },
+   "1999": {
+    "all_families": 4871,
+    "poor_families": 1284,
+    "poverty_pct": 26.36
+   },
+   "2010": {
+    "all_families": 5118,
+    "poor_families": 1239,
+    "poverty_pct": 24.2
+   },
+   "2020": {
+    "all_families": 4933,
+    "poor_families": 1243,
+    "poverty_pct": 25.2
+   }
+  }
+ },
+ {
+  "name": "Culver City",
+  "years": {
+   "1959": {
+    "all_families": 8790,
+    "poor_families": 659,
+    "poverty_pct": 7.5
+   },
+   "1969": {
+    "all_families": 8647,
+    "poor_families": 500,
+    "poverty_pct": 5.78
+   },
+   "1979": {
+    "all_families": 10019,
+    "poor_families": 451,
+    "poverty_pct": 4.5
+   },
+   "1989": {
+    "all_families": 9687,
+    "poor_families": 444,
+    "poverty_pct": 4.58
+   },
+   "1999": {
+    "all_families": 9529,
+    "poor_families": 528,
+    "poverty_pct": 5.54
+   },
+   "2010": {
+    "all_families": 9360,
+    "poor_families": 421,
+    "poverty_pct": 4.5
+   },
+   "2020": {
+    "all_families": 9379,
+    "poor_families": 281,
+    "poverty_pct": 3.0
+   }
+  }
+ },
+ {
+  "name": "Diamond Bar",
+  "years": {
+   "1969": {
+    "all_families": 2746,
+    "poor_families": 33,
+    "poverty_pct": 1.2
+   },
+   "1979": {
+    "all_families": 7445,
+    "poor_families": 208,
+    "poverty_pct": 2.79
+   },
+   "1989": {
+    "all_families": 14116,
+    "poor_families": 332,
+    "poverty_pct": 2.35
+   },
+   "1999": {
+    "all_families": 14901,
+    "poor_families": 752,
+    "poverty_pct": 5.05
+   },
+   "2010": {
+    "all_families": 14659,
+    "poor_families": 440,
+    "poverty_pct": 3.0
+   },
+   "2020": {
+    "all_families": 14424,
+    "poor_families": 736,
+    "poverty_pct": 5.1
+   }
+  }
+ },
+ {
+  "name": "Downey",
+  "years": {
+   "1959": {
+    "all_families": 21446,
+    "poor_families": 1320,
+    "poverty_pct": 6.15
+   },
+   "1969": {
+    "all_families": 24565,
+    "poor_families": 1104,
+    "poverty_pct": 4.49
+   },
+   "1979": {
+    "all_families": 22714,
+    "poor_families": 1204,
+    "poverty_pct": 5.3
+   },
+   "1989": {
+    "all_families": 23700,
+    "poor_families": 1362,
+    "poverty_pct": 5.75
+   },
+   "1999": {
+    "all_families": 26120,
+    "poor_families": 2429,
+    "poverty_pct": 9.3
+   },
+   "2010": {
+    "all_families": 26128,
+    "poor_families": 2064,
+    "poverty_pct": 7.9
+   },
+   "2020": {
+    "all_families": 26756,
+    "poor_families": 1846,
+    "poverty_pct": 6.9
+   }
+  }
+ },
+ {
+  "name": "Duarte",
+  "years": {
+   "1959": {
+    "all_families": 3404,
+    "poor_families": 333,
+    "poverty_pct": 9.78
+   },
+   "1969": {
+    "all_families": 3589,
+    "poor_families": 257,
+    "poverty_pct": 7.16
+   },
+   "1979": {
+    "all_families": 4169,
+    "poor_families": 308,
+    "poverty_pct": 7.39
+   },
+   "1989": {
+    "all_families": 4812,
+    "poor_families": 309,
+    "poverty_pct": 6.42
+   },
+   "1999": {
+    "all_families": 4916,
+    "poor_families": 412,
+    "poverty_pct": 8.38
+   },
+   "2010": {
+    "all_families": 4631,
+    "poor_families": 338,
+    "poverty_pct": 7.3
+   },
+   "2020": {
+    "all_families": 5057,
+    "poor_families": 288,
+    "poverty_pct": 5.7
+   }
+  }
+ },
+ {
+  "name": "El Monte",
+  "years": {
+   "1959": {
+    "all_families": 3411,
+    "poor_families": 508,
+    "poverty_pct": 14.89
+   },
+   "1969": {
+    "all_families": 17746,
+    "poor_families": 1941,
+    "poverty_pct": 10.94
+   },
+   "1979": {
+    "all_families": 18663,
+    "poor_families": 3096,
+    "poverty_pct": 16.59
+   },
+   "1989": {
+    "all_families": 21586,
+    "poor_families": 3989,
+    "poverty_pct": 18.48
+   },
+   "1999": {
+    "all_families": 23215,
+    "poor_families": 5221,
+    "poverty_pct": 22.49
+   },
+   "2010": {
+    "all_families": 23459,
+    "poor_families": 4293,
+    "poverty_pct": 18.3
+   },
+   "2020": {
+    "all_families": 23689,
+    "poor_families": 3293,
+    "poverty_pct": 13.9
+   }
+  }
+ },
+ {
+  "name": "El Segundo",
+  "years": {
+   "1959": {
+    "all_families": 3841,
+    "poor_families": 263,
+    "poverty_pct": 6.85
+   },
+   "1969": {
+    "all_families": 4147,
+    "poor_families": 173,
+    "poverty_pct": 4.17
+   },
+   "1979": {
+    "all_families": 3544,
+    "poor_families": 98,
+    "poverty_pct": 2.77
+   },
+   "1989": {
+    "all_families": 3843,
+    "poor_families": 103,
+    "poverty_pct": 2.68
+   },
+   "1999": {
+    "all_families": 3936,
+    "poor_families": 122,
+    "poverty_pct": 3.1
+   },
+   "2010": {
+    "all_families": 3829,
+    "poor_families": 31,
+    "poverty_pct": 0.8
+   },
+   "2020": {
+    "all_families": 4141,
+    "poor_families": 149,
+    "poverty_pct": 3.6
+   }
+  }
+ },
+ {
+  "name": "Gardena",
+  "years": {
+   "1959": {
+    "all_families": 9415,
+    "poor_families": 693,
+    "poverty_pct": 7.36
+   },
+   "1969": {
+    "all_families": 11021,
+    "poor_families": 570,
+    "poverty_pct": 5.17
+   },
+   "1979": {
+    "all_families": 11599,
+    "poor_families": 819,
+    "poverty_pct": 7.06
+   },
+   "1989": {
+    "all_families": 12422,
+    "poor_families": 1013,
+    "poverty_pct": 8.15
+   },
+   "1999": {
+    "all_families": 14191,
+    "poor_families": 1746,
+    "poverty_pct": 12.3
+   },
+   "2010": {
+    "all_families": 13631,
+    "poor_families": 1922,
+    "poverty_pct": 14.1
+   },
+   "2020": {
+    "all_families": 13724,
+    "poor_families": 1386,
+    "poverty_pct": 10.1
+   }
+  }
+ },
+ {
+  "name": "Glendale",
+  "years": {
+   "1959": {
+    "all_families": 34550,
+    "poor_families": 3864,
+    "poverty_pct": 11.18
+   },
+   "1969": {
+    "all_families": 36620,
+    "poor_families": 1934,
+    "poverty_pct": 5.28
+   },
+   "1979": {
+    "all_families": 36299,
+    "poor_families": 2899,
+    "poverty_pct": 7.99
+   },
+   "1989": {
+    "all_families": 45260,
+    "poor_families": 5558,
+    "poverty_pct": 12.28
+   },
+   "1999": {
+    "all_families": 49858,
+    "poor_families": 6802,
+    "poverty_pct": 13.64
+   },
+   "2010": {
+    "all_families": 48516,
+    "poor_families": 5385,
+    "poverty_pct": 11.1
+   },
+   "2020": {
+    "all_families": 49361,
+    "poor_families": 5035,
+    "poverty_pct": 10.2
+   }
+  }
+ },
+ {
+  "name": "Glendora",
+  "years": {
+   "1959": {
+    "all_families": 5399,
+    "poor_families": 457,
+    "poverty_pct": 8.46
+   },
+   "1969": {
+    "all_families": 7945,
+    "poor_families": 365,
+    "poverty_pct": 4.59
+   },
+   "1979": {
+    "all_families": 10447,
+    "poor_families": 422,
+    "poverty_pct": 4.04
+   },
+   "1989": {
+    "all_families": 12798,
+    "poor_families": 468,
+    "poverty_pct": 3.66
+   },
+   "1999": {
+    "all_families": 12985,
+    "poor_families": 509,
+    "poverty_pct": 3.92
+   },
+   "2010": {
+    "all_families": 12374,
+    "poor_families": 433,
+    "poverty_pct": 3.5
+   },
+   "2020": {
+    "all_families": 12716,
+    "poor_families": 585,
+    "poverty_pct": 4.6
+   }
+  }
+ },
+ {
+  "name": "Hawaiian Gardens",
+  "years": {
+   "1969": {
+    "all_families": 2095,
+    "poor_families": 375,
+    "poverty_pct": 17.9
+   },
+   "1979": {
+    "all_families": 2397,
+    "poor_families": 466,
+    "poverty_pct": 19.44
+   },
+   "1989": {
+    "all_families": 2813,
+    "poor_families": 496,
+    "poverty_pct": 17.63
+   },
+   "1999": {
+    "all_families": 3019,
+    "poor_families": 599,
+    "poverty_pct": 19.84
+   },
+   "2010": {
+    "all_families": 2978,
+    "poor_families": 411,
+    "poverty_pct": 13.8
+   },
+   "2020": {
+    "all_families": 3126,
+    "poor_families": 556,
+    "poverty_pct": 17.8
+   }
+  }
+ },
+ {
+  "name": "Hawthorne",
+  "years": {
+   "1959": {
+    "all_families": 8729,
+    "poor_families": 694,
+    "poverty_pct": 7.95
+   },
+   "1969": {
+    "all_families": 14199,
+    "poor_families": 648,
+    "poverty_pct": 4.56
+   },
+   "1979": {
+    "all_families": 13804,
+    "poor_families": 1015,
+    "poverty_pct": 7.35
+   },
+   "1989": {
+    "all_families": 17046,
+    "poor_families": 2015,
+    "poverty_pct": 11.82
+   },
+   "1999": {
+    "all_families": 19817,
+    "poor_families": 3653,
+    "poverty_pct": 18.43
+   },
+   "2010": {
+    "all_families": 19269,
+    "poor_families": 2833,
+    "poverty_pct": 14.7
+   },
+   "2020": {
+    "all_families": 18721,
+    "poor_families": 2434,
+    "poverty_pct": 13.0
+   }
+  }
+ },
+ {
+  "name": "Hermosa Beach",
+  "years": {
+   "1959": {
+    "all_families": 4326,
+    "poor_families": 613,
+    "poverty_pct": 14.17
+   },
+   "1969": {
+    "all_families": 4146,
+    "poor_families": 259,
+    "poverty_pct": 6.25
+   },
+   "1979": {
+    "all_families": 3629,
+    "poor_families": 113,
+    "poverty_pct": 3.11
+   },
+   "1989": {
+    "all_families": 3605,
+    "poor_families": 149,
+    "poverty_pct": 4.13
+   },
+   "1999": {
+    "all_families": 3630,
+    "poor_families": 61,
+    "poverty_pct": 1.68
+   },
+   "2010": {
+    "all_families": 3807,
+    "poor_families": 95,
+    "poverty_pct": 2.5
+   },
+   "2020": {
+    "all_families": 4287,
+    "poor_families": 86,
+    "poverty_pct": 2.0
+   }
+  }
+ },
+ {
+  "name": "Hidden Hills",
+  "years": {
+   "1989": {
+    "all_families": 468,
+    "poor_families": 9,
+    "poverty_pct": 1.92
+   },
+   "1999": {
+    "all_families": 509,
+    "poor_families": 9,
+    "poverty_pct": 1.77
+   },
+   "2010": {
+    "all_families": 691,
+    "poor_families": 14,
+    "poverty_pct": 2.0
+   },
+   "2020": {
+    "all_families": 634,
+    "poor_families": 29,
+    "poverty_pct": 4.6
+   }
+  }
+ },
+ {
+  "name": "Huntington Park",
+  "years": {
+   "1959": {
+    "all_families": 8824,
+    "poor_families": 1265,
+    "poverty_pct": 14.34
+   },
+   "1969": {
+    "all_families": 8957,
+    "poor_families": 999,
+    "poverty_pct": 11.15
+   },
+   "1979": {
+    "all_families": 10685,
+    "poor_families": 2181,
+    "poverty_pct": 20.41
+   },
+   "1989": {
+    "all_families": 11637,
+    "poor_families": 2526,
+    "poverty_pct": 21.71
+   },
+   "1999": {
+    "all_families": 12729,
+    "poor_families": 2965,
+    "poverty_pct": 23.29
+   },
+   "2010": {
+    "all_families": 12070,
+    "poor_families": 2752,
+    "poverty_pct": 22.8
+   },
+   "2020": {
+    "all_families": 12211,
+    "poor_families": 2406,
+    "poverty_pct": 19.7
+   }
+  }
+ },
+ {
+  "name": "Industry",
+  "years": {
+   "1989": {
+    "all_families": 76,
+    "poor_families": 5,
+    "poverty_pct": 6.58
+   },
+   "1999": {
+    "all_families": 115,
+    "poor_families": 20,
+    "poverty_pct": 17.39
+   },
+   "2010": {
+    "all_families": 37,
+    "poor_families": 9,
+    "poverty_pct": 24.3
+   },
+   "2020": {
+    "all_families": 47,
+    "poor_families": 4,
+    "poverty_pct": 8.5
+   }
+  }
+ },
+ {
+  "name": "Inglewood",
+  "years": {
+   "1959": {
+    "all_families": 18880,
+    "poor_families": 1781,
+    "poverty_pct": 9.43
+   },
+   "1969": {
+    "all_families": 24400,
+    "poor_families": 1303,
+    "poverty_pct": 5.34
+   },
+   "1979": {
+    "all_families": 23080,
+    "poor_families": 3000,
+    "poverty_pct": 13.0
+   },
+   "1989": {
+    "all_families": 24907,
+    "poor_families": 3508,
+    "poverty_pct": 14.08
+   },
+   "1999": {
+    "all_families": 25922,
+    "poor_families": 5036,
+    "poverty_pct": 19.43
+   },
+   "2010": {
+    "all_families": 24716,
+    "poor_families": 4325,
+    "poverty_pct": 17.5
+   },
+   "2020": {
+    "all_families": 24447,
+    "poor_families": 3007,
+    "poverty_pct": 12.3
+   }
+  }
+ },
+ {
+  "name": "Irwindale",
+  "years": {
+   "1989": {
+    "all_families": 231,
+    "poor_families": 21,
+    "poverty_pct": 9.09
+   },
+   "1999": {
+    "all_families": 339,
+    "poor_families": 60,
+    "poverty_pct": 17.7
+   },
+   "2010": {
+    "all_families": 305,
+    "poor_families": 26,
+    "poverty_pct": 8.5
+   },
+   "2020": {
+    "all_families": 276,
+    "poor_families": 13,
+    "poverty_pct": 4.7
+   }
+  }
+ },
+ {
+  "name": "La Canada Flintridge",
+  "years": {
+   "1959": {
+    "all_families": 4981,
+    "poor_families": 236,
+    "poverty_pct": 4.74
+   },
+   "1969": {
+    "all_families": 5577,
+    "poor_families": 109,
+    "poverty_pct": 1.95
+   },
+   "1979": {
+    "all_families": 5773,
+    "poor_families": 112,
+    "poverty_pct": 1.94
+   },
+   "1989": {
+    "all_families": 5626,
+    "poor_families": 99,
+    "poverty_pct": 1.76
+   },
+   "1999": {
+    "all_families": 5801,
+    "poor_families": 208,
+    "poverty_pct": 3.59
+   },
+   "2010": {
+    "all_families": 5918,
+    "poor_families": 166,
+    "poverty_pct": 2.8
+   },
+   "2020": {
+    "all_families": 5397,
+    "poor_families": 97,
+    "poverty_pct": 1.8
+   }
+  }
+ },
+ {
+  "name": "La Habra Heights",
+  "years": {
+   "1979": {
+    "all_families": 1294,
+    "poor_families": 70,
+    "poverty_pct": 5.41
+   },
+   "1989": {
+    "all_families": 1830,
+    "poor_families": 17,
+    "poverty_pct": 0.93
+   },
+   "1999": {
+    "all_families": 1488,
+    "poor_families": 30,
+    "poverty_pct": 2.02
+   },
+   "2010": {
+    "all_families": 1358,
+    "poor_families": 14,
+    "poverty_pct": 1.0
+   },
+   "2020": {
+    "all_families": 1492,
+    "poor_families": 0,
+    "poverty_pct": 0.0
+   }
+  }
+ },
+ {
+  "name": "La Mirada",
+  "years": {
+   "1969": {
+    "all_families": 7364,
+    "poor_families": 225,
+    "poverty_pct": 3.06
+   },
+   "1979": {
+    "all_families": 10639,
+    "poor_families": 481,
+    "poverty_pct": 4.52
+   },
+   "1989": {
+    "all_families": 10510,
+    "poor_families": 254,
+    "poverty_pct": 2.42
+   },
+   "1999": {
+    "all_families": 11593,
+    "poor_families": 432,
+    "poverty_pct": 3.73
+   },
+   "2010": {
+    "all_families": 11703,
+    "poor_families": 351,
+    "poverty_pct": 3.0
+   },
+   "2020": {
+    "all_families": 11677,
+    "poor_families": 304,
+    "poverty_pct": 2.6
+   }
+  }
+ },
+ {
+  "name": "La Puente",
+  "years": {
+   "1959": {
+    "all_families": 5304,
+    "poor_families": 321,
+    "poverty_pct": 6.05
+   },
+   "1969": {
+    "all_families": 6713,
+    "poor_families": 499,
+    "poverty_pct": 7.43
+   },
+   "1979": {
+    "all_families": 7039,
+    "poor_families": 697,
+    "poverty_pct": 9.9
+   },
+   "1989": {
+    "all_families": 7812,
+    "poor_families": 969,
+    "poverty_pct": 12.4
+   },
+   "1999": {
+    "all_families": 8264,
+    "poor_families": 1343,
+    "poverty_pct": 16.25
+   },
+   "2010": {
+    "all_families": 8208,
+    "poor_families": 845,
+    "poverty_pct": 10.3
+   },
+   "2020": {
+    "all_families": 8426,
+    "poor_families": 1003,
+    "poverty_pct": 11.9
+   }
+  }
+ },
+ {
+  "name": "La Verne",
+  "years": {
+   "1959": {
+    "all_families": 1596,
+    "poor_families": 271,
+    "poverty_pct": 16.98
+   },
+   "1969": {
+    "all_families": 3274,
+    "poor_families": 202,
+    "poverty_pct": 6.17
+   },
+   "1979": {
+    "all_families": 6374,
+    "poor_families": 285,
+    "poverty_pct": 4.47
+   },
+   "1989": {
+    "all_families": 8345,
+    "poor_families": 261,
+    "poverty_pct": 3.13
+   },
+   "1999": {
+    "all_families": 8450,
+    "poor_families": 209,
+    "poverty_pct": 2.47
+   },
+   "2010": {
+    "all_families": 8091,
+    "poor_families": 429,
+    "poverty_pct": 5.3
+   },
+   "2020": {
+    "all_families": 8443,
+    "poor_families": 515,
+    "poverty_pct": 6.1
+   }
+  }
+ },
+ {
+  "name": "Lakewood",
+  "years": {
+   "1959": {
+    "all_families": 17121,
+    "poor_families": 1024,
+    "poverty_pct": 5.98
+   },
+   "1969": {
+    "all_families": 22035,
+    "poor_families": 905,
+    "poverty_pct": 4.11
+   },
+   "1979": {
+    "all_families": 20903,
+    "poor_families": 872,
+    "poverty_pct": 4.17
+   },
+   "1989": {
+    "all_families": 20181,
+    "poor_families": 636,
+    "poverty_pct": 3.15
+   },
+   "1999": {
+    "all_families": 20694,
+    "poor_families": 1154,
+    "poverty_pct": 5.58
+   },
+   "2010": {
+    "all_families": 19913,
+    "poor_families": 777,
+    "poverty_pct": 3.9
+   },
+   "2020": {
+    "all_families": 19659,
+    "poor_families": 826,
+    "poverty_pct": 4.2
+   }
+  }
+ },
+ {
+  "name": "Lancaster",
+  "years": {
+   "1959": {
+    "all_families": 6561,
+    "poor_families": 614,
+    "poverty_pct": 9.36
+   },
+   "1969": {
+    "all_families": 8231,
+    "poor_families": 601,
+    "poverty_pct": 7.3
+   },
+   "1979": {
+    "all_families": 12844,
+    "poor_families": 953,
+    "poverty_pct": 7.42
+   },
+   "1989": {
+    "all_families": 24445,
+    "poor_families": 1883,
+    "poverty_pct": 7.7
+   },
+   "1999": {
+    "all_families": 27954,
+    "poor_families": 3847,
+    "poverty_pct": 13.76
+   },
+   "2010": {
+    "all_families": 33585,
+    "poor_families": 6012,
+    "poverty_pct": 17.9
+   },
+   "2020": {
+    "all_families": 35264,
+    "poor_families": 5607,
+    "poverty_pct": 15.9
+   }
+  }
+ },
+ {
+  "name": "Lawndale",
+  "years": {
+   "1959": {
+    "all_families": 5430,
+    "poor_families": 657,
+    "poverty_pct": 12.1
+   },
+   "1969": {
+    "all_families": 6237,
+    "poor_families": 586,
+    "poverty_pct": 9.4
+   },
+   "1979": {
+    "all_families": 5785,
+    "poor_families": 633,
+    "poverty_pct": 10.94
+   },
+   "1989": {
+    "all_families": 6438,
+    "poor_families": 671,
+    "poverty_pct": 10.42
+   },
+   "1999": {
+    "all_families": 7139,
+    "poor_families": 1023,
+    "poverty_pct": 14.33
+   },
+   "2010": {
+    "all_families": 7138,
+    "poor_families": 842,
+    "poverty_pct": 11.8
+   },
+   "2020": {
+    "all_families": 7167,
+    "poor_families": 573,
+    "poverty_pct": 8.0
+   }
+  }
+ },
+ {
+  "name": "Lomita",
+  "years": {
+   "1959": {
+    "all_families": 4158,
+    "poor_families": 703,
+    "poverty_pct": 16.91
+   },
+   "1969": {
+    "all_families": 5534,
+    "poor_families": 457,
+    "poverty_pct": 8.26
+   },
+   "1979": {
+    "all_families": 5090,
+    "poor_families": 415,
+    "poverty_pct": 8.15
+   },
+   "1989": {
+    "all_families": 4911,
+    "poor_families": 426,
+    "poverty_pct": 8.67
+   },
+   "1999": {
+    "all_families": 5087,
+    "poor_families": 472,
+    "poverty_pct": 9.28
+   },
+   "2010": {
+    "all_families": 5105,
+    "poor_families": 362,
+    "poverty_pct": 7.1
+   },
+   "2020": {
+    "all_families": 5057,
+    "poor_families": 384,
+    "poverty_pct": 7.6
+   }
+  }
+ },
+ {
+  "name": "Long Beach",
+  "years": {
+   "1959": {
+    "all_families": 90928,
+    "poor_families": 15118,
+    "poverty_pct": 16.63
+   },
+   "1969": {
+    "all_families": 92893,
+    "poor_families": 7620,
+    "poverty_pct": 8.2
+   },
+   "1979": {
+    "all_families": 87533,
+    "poor_families": 9393,
+    "poverty_pct": 10.73
+   },
+   "1989": {
+    "all_families": 94905,
+    "poor_families": 12818,
+    "poverty_pct": 13.51
+   },
+   "1999": {
+    "all_families": 100866,
+    "poor_families": 19512,
+    "poverty_pct": 19.34
+   },
+   "2010": {
+    "all_families": 98003,
+    "poor_families": 15092,
+    "poverty_pct": 15.4
+   },
+   "2020": {
+    "all_families": 99417,
+    "poor_families": 11532,
+    "poverty_pct": 11.6
+   }
+  }
+ },
+ {
+  "name": "Lynwood",
+  "years": {
+   "1959": {
+    "all_families": 9178,
+    "poor_families": 883,
+    "poverty_pct": 9.62
+   },
+   "1969": {
+    "all_families": 11722,
+    "poor_families": 951,
+    "poverty_pct": 8.11
+   },
+   "1979": {
+    "all_families": 11138,
+    "poor_families": 2041,
+    "poverty_pct": 18.32
+   },
+   "1989": {
+    "all_families": 12261,
+    "poor_families": 2467,
+    "poverty_pct": 20.12
+   },
+   "1999": {
+    "all_families": 13045,
+    "poor_families": 2734,
+    "poverty_pct": 20.96
+   },
+   "2010": {
+    "all_families": 12921,
+    "poor_families": 2377,
+    "poverty_pct": 18.4
+   },
+   "2020": {
+    "all_families": 13393,
+    "poor_families": 1915,
+    "poverty_pct": 14.3
+   }
+  }
+ },
+ {
+  "name": "Malibu",
+  "years": {
+   "1999": {
+    "all_families": 3249,
+    "poor_families": 103,
+    "poverty_pct": 3.17
+   },
+   "2010": {
+    "all_families": 3080,
+    "poor_families": 68,
+    "poverty_pct": 2.2
+   },
+   "2020": {
+    "all_families": 3229,
+    "poor_families": 236,
+    "poverty_pct": 7.3
+   }
+  }
+ },
+ {
+  "name": "Manhattan Beach",
+  "years": {
+   "1959": {
+    "all_families": 8951,
+    "poor_families": 543,
+    "poverty_pct": 6.07
+   },
+   "1969": {
+    "all_families": 8696,
+    "poor_families": 232,
+    "poverty_pct": 2.67
+   },
+   "1979": {
+    "all_families": 7843,
+    "poor_families": 191,
+    "poverty_pct": 2.44
+   },
+   "1989": {
+    "all_families": 7973,
+    "poor_families": 116,
+    "poverty_pct": 1.45
+   },
+   "1999": {
+    "all_families": 8485,
+    "poor_families": 173,
+    "poverty_pct": 2.04
+   },
+   "2010": {
+    "all_families": 8804,
+    "poor_families": 176,
+    "poverty_pct": 2.0
+   },
+   "2020": {
+    "all_families": 9216,
+    "poor_families": 240,
+    "poverty_pct": 2.6
+   }
+  }
+ },
+ {
+  "name": "Maywood",
+  "years": {
+   "1959": {
+    "all_families": 4263,
+    "poor_families": 666,
+    "poverty_pct": 15.62
+   },
+   "1969": {
+    "all_families": 4454,
+    "poor_families": 430,
+    "poverty_pct": 9.65
+   },
+   "1979": {
+    "all_families": 4992,
+    "poor_families": 970,
+    "poverty_pct": 19.43
+   },
+   "1989": {
+    "all_families": 5641,
+    "poor_families": 1080,
+    "poverty_pct": 19.15
+   },
+   "1999": {
+    "all_families": 5803,
+    "poor_families": 1343,
+    "poverty_pct": 23.14
+   },
+   "2010": {
+    "all_families": 5718,
+    "poor_families": 1212,
+    "poverty_pct": 21.2
+   },
+   "2020": {
+    "all_families": 5728,
+    "poor_families": 1100,
+    "poverty_pct": 19.2
+   }
+  }
+ },
+ {
+  "name": "Monrovia",
+  "years": {
+   "1959": {
+    "all_families": 7423,
+    "poor_families": 1259,
+    "poverty_pct": 16.96
+   },
+   "1969": {
+    "all_families": 8044,
+    "poor_families": 753,
+    "poverty_pct": 9.36
+   },
+   "1979": {
+    "all_families": 7953,
+    "poor_families": 612,
+    "poverty_pct": 7.7
+   },
+   "1989": {
+    "all_families": 8770,
+    "poor_families": 717,
+    "poverty_pct": 8.18
+   },
+   "1999": {
+    "all_families": 9130,
+    "poor_families": 886,
+    "poverty_pct": 9.7
+   },
+   "2010": {
+    "all_families": 9057,
+    "poor_families": 661,
+    "poverty_pct": 7.3
+   },
+   "2020": {
+    "all_families": 9079,
+    "poor_families": 554,
+    "poverty_pct": 6.1
+   }
+  }
+ },
+ {
+  "name": "Montebello",
+  "years": {
+   "1959": {
+    "all_families": 8897,
+    "poor_families": 756,
+    "poverty_pct": 8.5
+   },
+   "1969": {
+    "all_families": 11643,
+    "poor_families": 715,
+    "poverty_pct": 6.14
+   },
+   "1979": {
+    "all_families": 13469,
+    "poor_families": 1392,
+    "poverty_pct": 10.33
+   },
+   "1989": {
+    "all_families": 14516,
+    "poor_families": 1687,
+    "poverty_pct": 11.62
+   },
+   "1999": {
+    "all_families": 14856,
+    "poor_families": 2116,
+    "poverty_pct": 14.24
+   },
+   "2010": {
+    "all_families": 14475,
+    "poor_families": 1809,
+    "poverty_pct": 12.5
+   },
+   "2020": {
+    "all_families": 14706,
+    "poor_families": 1412,
+    "poverty_pct": 9.6
+   }
+  }
+ },
+ {
+  "name": "Monterey Park",
+  "years": {
+   "1959": {
+    "all_families": 10591,
+    "poor_families": 861,
+    "poverty_pct": 8.13
+   },
+   "1969": {
+    "all_families": 13117,
+    "poor_families": 509,
+    "poverty_pct": 3.88
+   },
+   "1979": {
+    "all_families": 14100,
+    "poor_families": 1080,
+    "poverty_pct": 7.66
+   },
+   "1989": {
+    "all_families": 15422,
+    "poor_families": 2070,
+    "poverty_pct": 13.42
+   },
+   "1999": {
+    "all_families": 15378,
+    "poor_families": 1903,
+    "poverty_pct": 12.37
+   },
+   "2010": {
+    "all_families": 15037,
+    "poor_families": 1353,
+    "poverty_pct": 9.0
+   },
+   "2020": {
+    "all_families": 15277,
+    "poor_families": 1390,
+    "poverty_pct": 9.1
+   }
+  }
+ },
+ {
+  "name": "Norwalk",
+  "years": {
+   "1959": {
+    "all_families": 19914,
+    "poor_families": 1202,
+    "poverty_pct": 6.04
+   },
+   "1969": {
+    "all_families": 21602,
+    "poor_families": 1306,
+    "poverty_pct": 6.05
+   },
+   "1979": {
+    "all_families": 21023,
+    "poor_families": 1741,
+    "poverty_pct": 8.28
+   },
+   "1989": {
+    "all_families": 21520,
+    "poor_families": 1557,
+    "poverty_pct": 7.24
+   },
+   "1999": {
+    "all_families": 22618,
+    "poor_families": 2154,
+    "poverty_pct": 9.52
+   },
+   "2010": {
+    "all_families": 22707,
+    "poor_families": 2066,
+    "poverty_pct": 9.1
+   },
+   "2020": {
+    "all_families": 21728,
+    "poor_families": 1499,
+    "poverty_pct": 6.9
+   }
+  }
+ },
+ {
+  "name": "Palmdale",
+  "years": {
+   "1959": {
+    "all_families": 2858,
+    "poor_families": 261,
+    "poverty_pct": 9.13
+   },
+   "1969": {
+    "all_families": 2161,
+    "poor_families": 154,
+    "poverty_pct": 7.13
+   },
+   "1979": {
+    "all_families": 3417,
+    "poor_families": 296,
+    "poverty_pct": 8.66
+   },
+   "1989": {
+    "all_families": 17694,
+    "poor_families": 1354,
+    "poverty_pct": 7.65
+   },
+   "1999": {
+    "all_families": 28225,
+    "poor_families": 3642,
+    "poverty_pct": 12.9
+   },
+   "2010": {
+    "all_families": 33599,
+    "poor_families": 4838,
+    "poverty_pct": 14.4
+   },
+   "2020": {
+    "all_families": 34048,
+    "poor_families": 4528,
+    "poverty_pct": 13.3
+   }
+  }
+ },
+ {
+  "name": "Palos Verdes Estates",
+  "years": {
+   "1959": {
+    "all_families": 2516,
+    "poor_families": 125,
+    "poverty_pct": 4.97
+   },
+   "1969": {
+    "all_families": 3666,
+    "poor_families": 37,
+    "poverty_pct": 1.01
+   },
+   "1979": {
+    "all_families": 4234,
+    "poor_families": 63,
+    "poverty_pct": 1.49
+   },
+   "1989": {
+    "all_families": 4162,
+    "poor_families": 64,
+    "poverty_pct": 1.54
+   },
+   "1999": {
+    "all_families": 4112,
+    "poor_families": 44,
+    "poverty_pct": 1.07
+   },
+   "2010": {
+    "all_families": 4058,
+    "poor_families": 45,
+    "poverty_pct": 1.1
+   },
+   "2020": {
+    "all_families": 3910,
+    "poor_families": 211,
+    "poverty_pct": 5.4
+   }
+  }
+ },
+ {
+  "name": "Paramount",
+  "years": {
+   "1959": {
+    "all_families": 7070,
+    "poor_families": 951,
+    "poverty_pct": 13.45
+   },
+   "1969": {
+    "all_families": 9174,
+    "poor_families": 961,
+    "poverty_pct": 10.48
+   },
+   "1979": {
+    "all_families": 8588,
+    "poor_families": 1376,
+    "poverty_pct": 16.02
+   },
+   "1989": {
+    "all_families": 10165,
+    "poor_families": 1526,
+    "poverty_pct": 15.01
+   },
+   "1999": {
+    "all_families": 11359,
+    "poor_families": 2164,
+    "poverty_pct": 19.05
+   },
+   "2010": {
+    "all_families": 11588,
+    "poor_families": 2086,
+    "poverty_pct": 18.0
+   },
+   "2020": {
+    "all_families": 11577,
+    "poor_families": 1505,
+    "poverty_pct": 13.0
+   }
+  }
+ },
+ {
+  "name": "Pasadena",
+  "years": {
+   "1959": {
+    "all_families": 30200,
+    "poor_families": 4592,
+    "poverty_pct": 15.21
+   },
+   "1969": {
+    "all_families": 28479,
+    "poor_families": 2199,
+    "poverty_pct": 7.72
+   },
+   "1979": {
+    "all_families": 28100,
+    "poor_families": 3010,
+    "poverty_pct": 10.71
+   },
+   "1989": {
+    "all_families": 30443,
+    "poor_families": 3386,
+    "poverty_pct": 11.12
+   },
+   "1999": {
+    "all_families": 29807,
+    "poor_families": 3444,
+    "poverty_pct": 11.55
+   },
+   "2010": {
+    "all_families": 29836,
+    "poor_families": 2834,
+    "poverty_pct": 9.5
+   },
+   "2020": {
+    "all_families": 31264,
+    "poor_families": 2564,
+    "poverty_pct": 8.2
+   }
+  }
+ },
+ {
+  "name": "Pico Rivera",
+  "years": {
+   "1959": {
+    "all_families": 12166,
+    "poor_families": 868,
+    "poverty_pct": 7.13
+   },
+   "1969": {
+    "all_families": 12755,
+    "poor_families": 874,
+    "poverty_pct": 6.85
+   },
+   "1979": {
+    "all_families": 12813,
+    "poor_families": 1142,
+    "poverty_pct": 8.91
+   },
+   "1989": {
+    "all_families": 13358,
+    "poor_families": 1246,
+    "poverty_pct": 9.33
+   },
+   "1999": {
+    "all_families": 14038,
+    "poor_families": 1632,
+    "poverty_pct": 11.63
+   },
+   "2010": {
+    "all_families": 13323,
+    "poor_families": 1346,
+    "poverty_pct": 10.1
+   },
+   "2020": {
+    "all_families": 13580,
+    "poor_families": 1168,
+    "poverty_pct": 8.6
+   }
+  }
+ },
+ {
+  "name": "Pomona",
+  "years": {
+   "1959": {
+    "all_families": 17354,
+    "poor_families": 2452,
+    "poverty_pct": 14.13
+   },
+   "1969": {
+    "all_families": 21003,
+    "poor_families": 1965,
+    "poverty_pct": 9.36
+   },
+   "1979": {
+    "all_families": 21729,
+    "poor_families": 2932,
+    "poverty_pct": 13.49
+   },
+   "1989": {
+    "all_families": 27755,
+    "poor_families": 3881,
+    "poverty_pct": 13.98
+   },
+   "1999": {
+    "all_families": 30075,
+    "poor_families": 5148,
+    "poverty_pct": 17.12
+   },
+   "2010": {
+    "all_families": 30550,
+    "poor_families": 4369,
+    "poverty_pct": 14.3
+   },
+   "2020": {
+    "all_families": 30536,
+    "poor_families": 4061,
+    "poverty_pct": 13.3
+   }
+  }
+ },
+ {
+  "name": "Rancho Palos Verdes",
+  "years": {
+   "1979": {
+    "all_families": 10225,
+    "poor_families": 223,
+    "poverty_pct": 2.18
+   },
+   "1989": {
+    "all_families": 12320,
+    "poor_families": 252,
+    "poverty_pct": 2.05
+   },
+   "1999": {
+    "all_families": 12246,
+    "poor_families": 248,
+    "poverty_pct": 2.03
+   },
+   "2010": {
+    "all_families": 12114,
+    "poor_families": 351,
+    "poverty_pct": 2.9
+   },
+   "2020": {
+    "all_families": 11876,
+    "poor_families": 297,
+    "poverty_pct": 2.5
+   }
+  }
+ },
+ {
+  "name": "Redondo Beach",
+  "years": {
+   "1959": {
+    "all_families": 12057,
+    "poor_families": 1280,
+    "poverty_pct": 10.62
+   },
+   "1969": {
+    "all_families": 14436,
+    "poor_families": 905,
+    "poverty_pct": 6.27
+   },
+   "1979": {
+    "all_families": 13848,
+    "poor_families": 782,
+    "poverty_pct": 5.65
+   },
+   "1989": {
+    "all_families": 14342,
+    "poor_families": 513,
+    "poverty_pct": 3.58
+   },
+   "1999": {
+    "all_families": 15330,
+    "poor_families": 616,
+    "poverty_pct": 4.02
+   },
+   "2010": {
+    "all_families": 16014,
+    "poor_families": 512,
+    "poverty_pct": 3.2
+   },
+   "2020": {
+    "all_families": 16188,
+    "poor_families": 389,
+    "poverty_pct": 2.4
+   }
+  }
+ },
+ {
+  "name": "Rolling Hills",
+  "years": {
+   "1989": {
+    "all_families": 552,
+    "poor_families": 6,
+    "poverty_pct": 1.09
+   },
+   "1999": {
+    "all_families": 550,
+    "poor_families": 0,
+    "poverty_pct": 0.0
+   },
+   "2010": {
+    "all_families": 498,
+    "poor_families": 5,
+    "poverty_pct": 1.0
+   },
+   "2020": {
+    "all_families": 433,
+    "poor_families": 4,
+    "poverty_pct": 0.9
+   }
+  }
+ },
+ {
+  "name": "Rolling Hills Estates",
+  "years": {
+   "1959": {
+    "all_families": 941,
+    "poor_families": 22,
+    "poverty_pct": 2.34
+   },
+   "1969": {
+    "all_families": 1506,
+    "poor_families": 32,
+    "poverty_pct": 2.12
+   },
+   "1979": {
+    "all_families": 2305,
+    "poor_families": 27,
+    "poverty_pct": 1.17
+   },
+   "1989": {
+    "all_families": 2367,
+    "poor_families": 22,
+    "poverty_pct": 0.93
+   },
+   "1999": {
+    "all_families": 2380,
+    "poor_families": 27,
+    "poverty_pct": 1.13
+   },
+   "2010": {
+    "all_families": 2303,
+    "poor_families": 32,
+    "poverty_pct": 1.4
+   },
+   "2020": {
+    "all_families": 2275,
+    "poor_families": 25,
+    "poverty_pct": 1.1
+   }
+  }
+ },
+ {
+  "name": "Rosemead",
+  "years": {
+   "1959": {
+    "all_families": 4327,
+    "poor_families": 566,
+    "poverty_pct": 13.08
+   },
+   "1969": {
+    "all_families": 10361,
+    "poor_families": 1026,
+    "poverty_pct": 9.9
+   },
+   "1979": {
+    "all_families": 10278,
+    "poor_families": 1191,
+    "poverty_pct": 11.59
+   },
+   "1989": {
+    "all_families": 11494,
+    "poor_families": 1860,
+    "poverty_pct": 16.18
+   },
+   "1999": {
+    "all_families": 11713,
+    "poor_families": 2275,
+    "poverty_pct": 19.42
+   },
+   "2010": {
+    "all_families": 11828,
+    "poor_families": 1467,
+    "poverty_pct": 12.4
+   },
+   "2020": {
+    "all_families": 11928,
+    "poor_families": 1384,
+    "poverty_pct": 11.6
+   }
+  }
+ },
+ {
+  "name": "San Dimas",
+  "years": {
+   "1969": {
+    "all_families": 3784,
+    "poor_families": 222,
+    "poverty_pct": 5.87
+   },
+   "1979": {
+    "all_families": 6380,
+    "poor_families": 256,
+    "poverty_pct": 4.01
+   },
+   "1989": {
+    "all_families": 8512,
+    "poor_families": 319,
+    "poverty_pct": 3.75
+   },
+   "1999": {
+    "all_families": 9040,
+    "poor_families": 329,
+    "poverty_pct": 3.64
+   },
+   "2010": {
+    "all_families": 8437,
+    "poor_families": 295,
+    "poverty_pct": 3.5
+   },
+   "2020": {
+    "all_families": 8330,
+    "poor_families": 475,
+    "poverty_pct": 5.7
+   }
+  }
+ },
+ {
+  "name": "San Fernando",
+  "years": {
+   "1959": {
+    "all_families": 4132,
+    "poor_families": 608,
+    "poverty_pct": 14.71
+   },
+   "1969": {
+    "all_families": 4099,
+    "poor_families": 503,
+    "poverty_pct": 13.29
+   },
+   "1979": {
+    "all_families": 4199,
+    "poor_families": 456,
+    "poverty_pct": 10.86
+   },
+   "1989": {
+    "all_families": 4607,
+    "poor_families": 634,
+    "poverty_pct": 13.76
+   },
+   "1999": {
+    "all_families": 4896,
+    "poor_families": 749,
+    "poverty_pct": 15.3
+   },
+   "2010": {
+    "all_families": 5011,
+    "poor_families": 626,
+    "poverty_pct": 12.5
+   },
+   "2020": {
+    "all_families": 5241,
+    "poor_families": 440,
+    "poverty_pct": 8.4
+   }
+  }
+ },
+ {
+  "name": "San Gabriel",
+  "years": {
+   "1959": {
+    "all_families": 6436,
+    "poor_families": 601,
+    "poverty_pct": 9.34
+   },
+   "1969": {
+    "all_families": 8007,
+    "poor_families": 443,
+    "poverty_pct": 5.53
+   },
+   "1979": {
+    "all_families": 7813,
+    "poor_families": 687,
+    "poverty_pct": 8.79
+   },
+   "1989": {
+    "all_families": 9121,
+    "poor_families": 1145,
+    "poverty_pct": 12.55
+   },
+   "1999": {
+    "all_families": 9632,
+    "poor_families": 1200,
+    "poverty_pct": 12.46
+   },
+   "2010": {
+    "all_families": 9680,
+    "poor_families": 1113,
+    "poverty_pct": 11.5
+   },
+   "2020": {
+    "all_families": 9400,
+    "poor_families": 912,
+    "poverty_pct": 9.7
+   }
+  }
+ },
+ {
+  "name": "San Marino",
+  "years": {
+   "1959": {
+    "all_families": 3889,
+    "poor_families": 144,
+    "poverty_pct": 3.7
+   },
+   "1969": {
+    "all_families": 3965,
+    "poor_families": 76,
+    "poverty_pct": 1.92
+   },
+   "1979": {
+    "all_families": 3902,
+    "poor_families": 40,
+    "poverty_pct": 1.03
+   },
+   "1989": {
+    "all_families": 3733,
+    "poor_families": 80,
+    "poverty_pct": 2.14
+   },
+   "1999": {
+    "all_families": 3684,
+    "poor_families": 136,
+    "poverty_pct": 3.69
+   },
+   "2010": {
+    "all_families": 3777,
+    "poor_families": 91,
+    "poverty_pct": 2.4
+   },
+   "2020": {
+    "all_families": 3466,
+    "poor_families": 153,
+    "poverty_pct": 4.4
+   }
+  }
+ },
+ {
+  "name": "Santa Clarita",
+  "years": {
+   "1989": {
+    "all_families": 28958,
+    "poor_families": 639,
+    "poverty_pct": 2.21
+   },
+   "1999": {
+    "all_families": 38289,
+    "poor_families": 1782,
+    "poverty_pct": 4.65
+   },
+   "2010": {
+    "all_families": 42455,
+    "poor_families": 2038,
+    "poverty_pct": 4.8
+   },
+   "2020": {
+    "all_families": 51962,
+    "poor_families": 3066,
+    "poverty_pct": 5.9
+   }
+  }
+ },
+ {
+  "name": "Santa Fe Springs",
+  "years": {
+   "1959": {
+    "all_families": 3781,
+    "poor_families": 244,
+    "poverty_pct": 6.45
+   },
+   "1969": {
+    "all_families": 3336,
+    "poor_families": 120,
+    "poverty_pct": 3.6
+   },
+   "1979": {
+    "all_families": 3572,
+    "poor_families": 320,
+    "poverty_pct": 8.96
+   },
+   "1989": {
+    "all_families": 3762,
+    "poor_families": 321,
+    "poverty_pct": 8.53
+   },
+   "1999": {
+    "all_families": 3824,
+    "poor_families": 307,
+    "poverty_pct": 8.03
+   },
+   "2010": {
+    "all_families": 3437,
+    "poor_families": 192,
+    "poverty_pct": 5.6
+   },
+   "2020": {
+    "all_families": 4022,
+    "poor_families": 338,
+    "poverty_pct": 8.4
+   }
+  }
+ },
+ {
+  "name": "Santa Monica",
+  "years": {
+   "1959": {
+    "all_families": 22834,
+    "poor_families": 3116,
+    "poverty_pct": 13.65
+   },
+   "1969": {
+    "all_families": 22734,
+    "poor_families": 1652,
+    "poverty_pct": 7.27
+   },
+   "1979": {
+    "all_families": 19639,
+    "poor_families": 1289,
+    "poverty_pct": 6.56
+   },
+   "1989": {
+    "all_families": 18340,
+    "poor_families": 1049,
+    "poverty_pct": 5.72
+   },
+   "1999": {
+    "all_families": 16934,
+    "poor_families": 911,
+    "poverty_pct": 5.38
+   },
+   "2010": {
+    "all_families": 17226,
+    "poor_families": 1068,
+    "poverty_pct": 6.2
+   },
+   "2020": {
+    "all_families": 19114,
+    "poor_families": 1032,
+    "poverty_pct": 5.4
+   }
+  }
+ },
+ {
+  "name": "Sierra Madre",
+  "years": {
+   "1959": {
+    "all_families": 2593,
+    "poor_families": 266,
+    "poverty_pct": 10.26
+   },
+   "1969": {
+    "all_families": 3132,
+    "poor_families": 104,
+    "poverty_pct": 3.32
+   },
+   "1979": {
+    "all_families": 2831,
+    "poor_families": 69,
+    "poverty_pct": 2.44
+   },
+   "1989": {
+    "all_families": 2845,
+    "poor_families": 86,
+    "poverty_pct": 3.02
+   },
+   "1999": {
+    "all_families": 2722,
+    "poor_families": 51,
+    "poverty_pct": 1.87
+   },
+   "2010": {
+    "all_families": 2808,
+    "poor_families": 79,
+    "poverty_pct": 2.8
+   },
+   "2020": {
+    "all_families": 2738,
+    "poor_families": 120,
+    "poverty_pct": 4.4
+   }
+  }
+ },
+ {
+  "name": "Signal Hill",
+  "years": {
+   "1959": {
+    "all_families": 1290,
+    "poor_families": 318,
+    "poverty_pct": 24.65
+   },
+   "1969": {
+    "all_families": 1413,
+    "poor_families": 105,
+    "poverty_pct": 7.43
+   },
+   "1979": {
+    "all_families": 2470,
+    "poor_families": 101,
+    "poverty_pct": 4.09
+   },
+   "1989": {
+    "all_families": 1880,
+    "poor_families": 156,
+    "poverty_pct": 8.3
+   },
+   "1999": {
+    "all_families": 2121,
+    "poor_families": 289,
+    "poverty_pct": 13.63
+   },
+   "2010": {
+    "all_families": 2294,
+    "poor_families": 53,
+    "poverty_pct": 2.3
+   },
+   "2020": {
+    "all_families": 2459,
+    "poor_families": 231,
+    "poverty_pct": 9.4
+   }
+  }
+ },
+ {
+  "name": "South El Monte",
+  "years": {
+   "1959": {
+    "all_families": 1275,
+    "poor_families": 295,
+    "poverty_pct": 23.14
+   },
+   "1969": {
+    "all_families": 3124,
+    "poor_families": 397,
+    "poverty_pct": 12.71
+   },
+   "1979": {
+    "all_families": 3690,
+    "poor_families": 667,
+    "poverty_pct": 18.08
+   },
+   "1989": {
+    "all_families": 4165,
+    "poor_families": 718,
+    "poverty_pct": 17.24
+   },
+   "1999": {
+    "all_families": 3976,
+    "poor_families": 644,
+    "poverty_pct": 16.2
+   },
+   "2010": {
+    "all_families": 4084,
+    "poor_families": 515,
+    "poverty_pct": 12.6
+   },
+   "2020": {
+    "all_families": 4175,
+    "poor_families": 706,
+    "poverty_pct": 16.9
+   }
+  }
+ },
+ {
+  "name": "South Gate",
+  "years": {
+   "1959": {
+    "all_families": 16248,
+    "poor_families": 1853,
+    "poverty_pct": 11.4
+   },
+   "1969": {
+    "all_families": 16576,
+    "poor_families": 1233,
+    "poverty_pct": 7.44
+   },
+   "1979": {
+    "all_families": 16735,
+    "poor_families": 2037,
+    "poverty_pct": 12.17
+   },
+   "1989": {
+    "all_families": 18187,
+    "poor_families": 2763,
+    "poverty_pct": 15.19
+   },
+   "1999": {
+    "all_families": 20256,
+    "poor_families": 3532,
+    "poverty_pct": 17.44
+   },
+   "2010": {
+    "all_families": 20833,
+    "poor_families": 3708,
+    "poverty_pct": 17.8
+   },
+   "2020": {
+    "all_families": 20173,
+    "poor_families": 2824,
+    "poverty_pct": 14.0
+   }
+  }
+ },
+ {
+  "name": "South Pasadena",
+  "years": {
+   "1959": {
+    "all_families": 5449,
+    "poor_families": 461,
+    "poverty_pct": 8.46
+   },
+   "1969": {
+    "all_families": 5938,
+    "poor_families": 213,
+    "poverty_pct": 3.59
+   },
+   "1979": {
+    "all_families": 5623,
+    "poor_families": 219,
+    "poverty_pct": 3.89
+   },
+   "1989": {
+    "all_families": 5965,
+    "poor_families": 203,
+    "poverty_pct": 3.4
+   },
+   "1999": {
+    "all_families": 6027,
+    "poor_families": 215,
+    "poverty_pct": 3.57
+   },
+   "2010": {
+    "all_families": 6477,
+    "poor_families": 330,
+    "poverty_pct": 5.1
+   },
+   "2020": {
+    "all_families": 6368,
+    "poor_families": 312,
+    "poverty_pct": 4.9
+   }
+  }
+ },
+ {
+  "name": "Temple City",
+  "years": {
+   "1959": {
+    "all_families": 9322,
+    "poor_families": 850,
+    "poverty_pct": 9.12
+   },
+   "1969": {
+    "all_families": 8295,
+    "poor_families": 288,
+    "poverty_pct": 3.47
+   },
+   "1979": {
+    "all_families": 7988,
+    "poor_families": 271,
+    "poverty_pct": 3.39
+   },
+   "1989": {
+    "all_families": 8254,
+    "poor_families": 317,
+    "poverty_pct": 3.84
+   },
+   "1999": {
+    "all_families": 8673,
+    "poor_families": 624,
+    "poverty_pct": 7.19
+   },
+   "2010": {
+    "all_families": 8925,
+    "poor_families": 616,
+    "poverty_pct": 6.9
+   },
+   "2020": {
+    "all_families": 8885,
+    "poor_families": 746,
+    "poverty_pct": 8.4
+   }
+  }
+ },
+ {
+  "name": "Torrance",
+  "years": {
+   "1959": {
+    "all_families": 25267,
+    "poor_families": 1384,
+    "poverty_pct": 5.48
+   },
+   "1969": {
+    "all_families": 35212,
+    "poor_families": 1163,
+    "poverty_pct": 3.3
+   },
+   "1979": {
+    "all_families": 34895,
+    "poor_families": 1240,
+    "poverty_pct": 3.55
+   },
+   "1989": {
+    "all_families": 35696,
+    "poor_families": 1298,
+    "poverty_pct": 3.64
+   },
+   "1999": {
+    "all_families": 36335,
+    "poor_families": 1642,
+    "poverty_pct": 4.52
+   },
+   "2010": {
+    "all_families": 37610,
+    "poor_families": 1655,
+    "poverty_pct": 4.4
+   },
+   "2020": {
+    "all_families": 36758,
+    "poor_families": 1801,
+    "poverty_pct": 4.9
+   }
+  }
+ },
+ {
+  "name": "Vernon",
+  "years": {
+   "1989": {
+    "all_families": 52,
+    "poor_families": 22,
+    "poverty_pct": 42.31
+   },
+   "1999": {
+    "all_families": 22,
+    "poor_families": 0,
+    "poverty_pct": 0.0
+   },
+   "2010": {
+    "all_families": 28,
+    "poor_families": 0,
+    "poverty_pct": 0.0
+   },
+   "2020": {
+    "all_families": 60,
+    "poor_families": 0,
+    "poverty_pct": 0.0
+   }
+  }
+ },
+ {
+  "name": "Walnut",
+  "years": {
+   "1969": {
+    "all_families": 1411,
+    "poor_families": 80,
+    "poverty_pct": 5.67
+   },
+   "1979": {
+    "all_families": 3147,
+    "poor_families": 98,
+    "poverty_pct": 3.11
+   },
+   "1989": {
+    "all_families": 7228,
+    "poor_families": 228,
+    "poverty_pct": 3.15
+   },
+   "1999": {
+    "all_families": 7640,
+    "poor_families": 446,
+    "poverty_pct": 5.84
+   },
+   "2010": {
+    "all_families": 7505,
+    "poor_families": 308,
+    "poverty_pct": 4.1
+   },
+   "2020": {
+    "all_families": 7960,
+    "poor_families": 398,
+    "poverty_pct": 5.0
+   }
+  }
+ },
+ {
+  "name": "West Covina",
+  "years": {
+   "1959": {
+    "all_families": 12668,
+    "poor_families": 635,
+    "poverty_pct": 5.01
+   },
+   "1969": {
+    "all_families": 16841,
+    "poor_families": 684,
+    "poverty_pct": 4.06
+   },
+   "1979": {
+    "all_families": 21428,
+    "poor_families": 894,
+    "poverty_pct": 4.17
+   },
+   "1989": {
+    "all_families": 24255,
+    "poor_families": 1391,
+    "poverty_pct": 5.73
+   },
+   "1999": {
+    "all_families": 25311,
+    "poor_families": 1720,
+    "poverty_pct": 6.8
+   },
+   "2010": {
+    "all_families": 24875,
+    "poor_families": 1517,
+    "poverty_pct": 6.1
+   },
+   "2020": {
+    "all_families": 24117,
+    "poor_families": 1471,
+    "poverty_pct": 6.1
+   }
+  }
+ },
+ {
+  "name": "West Hollywood",
+  "years": {
+   "1959": {
+    "all_families": 8132,
+    "poor_families": 1265,
+    "poverty_pct": 15.56
+   },
+   "1969": {
+    "all_families": 7703,
+    "poor_families": 518,
+    "poverty_pct": 6.72
+   },
+   "1979": {
+    "all_families": 7030,
+    "poor_families": 767,
+    "poverty_pct": 10.91
+   },
+   "1989": {
+    "all_families": 5715,
+    "poor_families": 628,
+    "poverty_pct": 10.99
+   },
+   "1999": {
+    "all_families": 5245,
+    "poor_families": 384,
+    "poverty_pct": 7.32
+   },
+   "2010": {
+    "all_families": 4315,
+    "poor_families": 332,
+    "poverty_pct": 7.7
+   },
+   "2020": {
+    "all_families": 4825,
+    "poor_families": 106,
+    "poverty_pct": 2.2
+   }
+  }
+ },
+ {
+  "name": "Westlake Village",
+  "years": {
+   "1989": {
+    "all_families": 2302,
+    "poor_families": 35,
+    "poverty_pct": 1.52
+   },
+   "1999": {
+    "all_families": 2631,
+    "poor_families": 67,
+    "poverty_pct": 2.55
+   },
+   "2010": {
+    "all_families": 2242,
+    "poor_families": 81,
+    "poverty_pct": 3.6
+   },
+   "2020": {
+    "all_families": 2363,
+    "poor_families": 47,
+    "poverty_pct": 2.0
+   }
+  }
+ },
+ {
+  "name": "Whittier",
+  "years": {
+   "1959": {
+    "all_families": 9400,
+    "poor_families": 1168,
+    "poverty_pct": 12.43
+   },
+   "1969": {
+    "all_families": 19643,
+    "poor_families": 846,
+    "poverty_pct": 4.31
+   },
+   "1979": {
+    "all_families": 18798,
+    "poor_families": 987,
+    "poverty_pct": 5.25
+   },
+   "1989": {
+    "all_families": 19920,
+    "poor_families": 1094,
+    "poverty_pct": 5.49
+   },
+   "1999": {
+    "all_families": 20650,
+    "poor_families": 1609,
+    "poverty_pct": 7.79
+   },
+   "2010": {
+    "all_families": 20155,
+    "poor_families": 1411,
+    "poverty_pct": 7.0
+   },
+   "2020": {
+    "all_families": 19200,
+    "poor_families": 1229,
+    "poverty_pct": 6.4
+   }
+  }
+ }
+]
