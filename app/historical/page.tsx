@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, BarChart, Bar } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, BarChart, Bar, Cell } from 'recharts';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Header } from '@/components/header';
 
@@ -208,11 +208,10 @@ export default function HistoricalPage() {
 
   const compareData = selectedCategory === 'Poverty'
     ? povertyData
-        .filter(p => p.name !== 'LA County')
         .map(c => ({ name: c.name, value: c.years[String(selectedPovertyYear)]?.[selectedMetric] }))
         .filter(d => d.value != null)
         .sort((a, b) => (b.value ?? 0) - (a.value ?? 0))
-    : data
+    : [...(county ? [county] : []), ...data]
         .map(c => ({ name: c.name, value: c.years[String(selectedYear)]?.[selectedMetric] }))
         .filter(d => d.value != null)
         .sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
@@ -269,7 +268,7 @@ export default function HistoricalPage() {
       <div className="border-b border-border bg-card px-6 py-3 flex flex-wrap items-center gap-4">
         <div className="flex rounded-lg border border-border overflow-hidden">
           {(['map', 'graphs', 'compare'] as const).map(mode => (
-            <button key={mode} onClick={() => { setViewMode(mode); if (mode === 'map' && county && selectedCity === county.name) setSelectedCity('Burbank'); }}
+            <button key={mode} onClick={() => setViewMode(mode)}
               className={`px-4 py-1.5 text-sm font-medium transition-colors ${viewMode === mode ? 'bg-primary text-primary-foreground' : 'text-muted-foreground hover:bg-muted'}`}>
               {mode === 'map' ? 'Map' : mode === 'graphs' ? 'Data Graphs' : 'Compare Cities'}
             </button>
@@ -331,6 +330,7 @@ export default function HistoricalPage() {
                 <div className="flex items-center justify-between gap-2">
                   <select value={selectedCity} onChange={e => setSelectedCity(e.target.value)} style={SELECT_ARROW_STYLE}
                     className="font-serif text-lg font-bold text-foreground bg-background border border-border rounded-lg px-2 py-1 flex-1 min-w-0">
+                    {county && <option value={county.name}>{county.name}</option>}
                     {data.filter(c => c.name !== 'LA County').map(c => <option key={c.name} value={c.name}>{c.name}</option>)}
                   </select>
                   <span className="text-sm text-[#2E8B9A] font-medium shrink-0">{selectedYear}</span>
@@ -543,7 +543,11 @@ export default function HistoricalPage() {
                     <Tooltip formatter={(value: number) => [formatValue(value, currentMetric?.format ?? 'number'), currentMetric?.label]}
                       contentStyle={{ backgroundColor: 'hsl(var(--card))', border: '1px solid hsl(var(--border))', borderRadius: '8px', fontSize: 12 }} />
                     <Bar dataKey="value" fill="#2E8B9A" radius={[0, 4, 4, 0]}
-                      label={{ position: 'right', formatter: (v: number) => formatValue(v, currentMetric?.format ?? 'number'), fontSize: 10, fill: 'hsl(var(--muted-foreground))' }} />
+                      label={{ position: 'right', formatter: (v: number) => formatValue(v, currentMetric?.format ?? 'number'), fontSize: 10, fill: 'hsl(var(--muted-foreground))' }}>
+                      {compareData.map(entry => (
+                        <Cell key={entry.name} fill={entry.name === 'LA County' ? '#1A56A0' : '#2E8B9A'} />
+                      ))}
+                    </Bar>
                   </BarChart>
                 </ResponsiveContainer>
               </div>
