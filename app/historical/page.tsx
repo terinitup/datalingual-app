@@ -182,7 +182,7 @@ export default function HistoricalPage() {
     This section displays data from the Los Angeles County Demographic Data Project. The description below is excerpted from the USC Digital Library.
   </p>
   <p>
-  The Los Angeles County Demographic Data Project preserves and makes accessible a dataset tracing social changes in the City of Los Angeles, L.A. County, and 86 municipalities between 1950 and 2010. The Los Angeles County demographic dataset includes over 90 discrete data files and represents the culmination of more than a decade of work by historian Becky Nicolaides and her team while completing research for her book{‘ '}
+    The Los Angeles County Demographic Data Project preserves and makes accessible a dataset tracing social changes in the City of Los Angeles, L.A. County, and 86 municipalities between 1950 and 2010. The Los Angeles County demographic dataset includes over 90 discrete data files and represents the culmination of more than a decade of work by historian Becky Nicolaides and her team while completing research for her book {' '}
     <a href="https://global.oup.com/us/companion.websites/9780197578308/" target="_blank" rel="noreferrer" className="underline hover:text-[#2E8B9A]">
       The New Suburbia: How Diversity Remade Suburban Life in Los Angeles After 1945 (Oxford, 2024)
     </a>. Nicolaides’ research for The New Suburbia was supported by grants from NEH, the American Council of Learned Societies the John Randolph Haynes & Dora Haynes Foundation, and other organizations. The dataset traces many facets of demographic change in Los Angeles and 86 nearby municipalities along with poverty rates and voter registration data.
@@ -197,6 +197,8 @@ export default function HistoricalPage() {
     </p>
   </div>
 </div>
+
+
 <button
 
               onClick={() => setShowWelcome(false)}
