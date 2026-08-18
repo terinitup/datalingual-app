@@ -206,15 +206,14 @@ export default function HistoricalPage() {
   const povertyCounty = povertyData.find(p => p.name === 'LA County');
   const povertyCity = findPoverty(selectedCity);
 
-  const compareData = selectedCategory === 'Poverty'
-    ? povertyData
-        .map(c => ({ name: c.name, value: c.years[String(selectedPovertyYear)]?.[selectedMetric] }))
-        .filter(d => d.value != null)
-        .sort((a, b) => (b.value ?? 0) - (a.value ?? 0))
-    : [...(county ? [county] : []), ...data]
-        .map(c => ({ name: c.name, value: c.years[String(selectedYear)]?.[selectedMetric] }))
-        .filter(d => d.value != null)
-        .sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
+  // LA County always renders as the first (top) bar; cities rank below it.
+  const compareRows = (selectedCategory === 'Poverty' ? povertyData : [...(county ? [county] : []), ...data])
+    .map(c => ({ name: c.name, value: c.years[String(selectedCategory === 'Poverty' ? selectedPovertyYear : selectedYear)]?.[selectedMetric] }))
+    .filter(d => d.value != null);
+  const compareData = [
+    ...compareRows.filter(d => d.name === 'LA County'),
+    ...compareRows.filter(d => d.name !== 'LA County').sort((a, b) => (b.value ?? 0) - (a.value ?? 0)),
+  ];
 
   return (
     <div className="min-h-screen bg-background">
