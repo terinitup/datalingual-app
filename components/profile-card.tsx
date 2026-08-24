@@ -82,8 +82,9 @@ export function ProfileCard({ data, onCompare, isComparing }: ProfileCardProps) 
             Language Proficiency
           </h3>
           <div className="space-y-2">
-          <ProgressItem label="English Proficient" value={(data.proficiency?.english_only_pct ?? 0) + (data.proficiency?.bilingual_pct ?? 0)} />
-          <ProgressItem label="Limited English" value={data.proficiency?.lep_pct} color="destructive" />
+          <ProgressItem label="English Only" value={data.proficiency?.english_only_pct} />
+<ProgressItem label="Bilingual" value={data.proficiency?.bilingual_pct} />
+<ProgressItem label="Limited English Proficient" value={data.proficiency?.lep_pct} color="destructive" />
           </div>
         </section>
 
