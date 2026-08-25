@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { GeoArea, LA_COUNTY_BENCHMARK, LanguageData } from '@/lib/types';
+import { GeoArea, LanguageData } from '@/lib/types';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import {
   BarChart,
@@ -32,21 +32,32 @@ const COLORS = [
   '#1ABC9C', '#E67E22', '#E91E63', '#00BCD4', '#8BC34A',
 ];
 
+const PROFICIENCY_GROUPS = [
+  { key: 'total', label: 'Total Population' },
+  { key: 'english_only', label: 'English Only' },
+  { key: 'bilingual', label: 'Bilingual' },
+  { key: 'lep', label: 'Limited English Proficient' },
+];
+
 export function EconomicsChart({ data }: EconomicsChartProps) {
   if (!data) return null;
 
-  // Languages with full demographic data (IPUMS) or just lep_count
   const languages = data.languages ?? [];
   const hasDetailedLangData = languages.length > 0 && languages[0].poverty != null;
+  const hasProficiencyGroups = !!(data as any).proficiency_groups?.english_only;
 
-  // Selected language for drill-down (null = show overall)
   const [selectedLang, setSelectedLang] = useState<string | null>(null);
+  const [selectedGroup, setSelectedGroup] = useState<string>('total');
 
   const selectedLangData: LanguageData | null =
     selectedLang ? languages.find(l => l.name === selectedLang) ?? null : null;
 
-  // Education chart data
-  const eduSource = selectedLangData?.education ?? data.education;
+  // Get proficiency group data if available and no language selected
+  const profGroups = (data as any).proficiency_groups;
+  const activeGroup = hasProficiencyGroups && !selectedLang ? profGroups?.[selectedGroup] : null;
+
+  // Education source — language overrides proficiency group overrides overall
+  const eduSource = selectedLangData?.education ?? activeGroup?.education ?? data.education;
   const educationData = eduSource ? [
     { name: 'Under 9th Grade', value: safe(eduSource.under_9th_pct) },
     { name: 'Incomplete HS', value: safe(eduSource.incomplete_hs_pct) },
@@ -54,8 +65,8 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
     { name: "Bachelor's+", value: safe(eduSource.ba_higher_pct) },
   ] : [];
 
-  // Poverty chart data
-  const povSource = selectedLangData?.poverty ?? data.poverty;
+  // Poverty source
+  const povSource = selectedLangData?.poverty ?? activeGroup?.poverty ?? data.poverty;
   const povertyData = povSource ? [
     { name: '1–124% FPL', value: safe(povSource.band_1_124_pct) },
     { name: '125–199% FPL', value: safe(povSource.band_125_199_pct) },
@@ -63,15 +74,15 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
     { name: '400%+ FPL', value: safe(povSource.band_400plus_pct) },
   ] : [];
 
-  // Access metrics
-  const accessSource = selectedLangData?.access ?? data.access;
-  const housingSource = selectedLangData?.housing ?? data.housing;
+  // Access source
+  const accessSource = selectedLangData?.access ?? activeGroup?.access ?? data.access;
+  const housingSource = selectedLangData?.housing ?? activeGroup?.housing ?? data.housing;
 
   const accessMetrics = [
-    { label: 'Linguistically Isolated', value: safe(accessSource?.linguistically_isolated_pct), benchmark: safe(LA_COUNTY_BENCHMARK.linguistically_isolated_pct) },
-    { label: 'No Internet Access', value: safe(accessSource?.no_internet_pct ?? data.no_internet_pct), benchmark: safe(LA_COUNTY_BENCHMARK.no_internet_pct) },
-    { label: 'No Computer Access', value: safe(accessSource?.no_computer_pct), benchmark: 0 },
-    { label: 'SNAP Recipients', value: safe(accessSource?.snap_pct ?? data.snap_pct), benchmark: safe(LA_COUNTY_BENCHMARK.snap_pct) },
+    { label: 'In a Linguistically Isolated Household', value: safe(accessSource?.linguistically_isolated_pct) },
+    { label: 'No Internet Access', value: safe(accessSource?.no_internet_pct ?? data.no_internet_pct) },
+    { label: 'No Computer Access', value: safe(accessSource?.no_computer_pct) },
+    { label: 'SNAP Recipients', value: safe(accessSource?.snap_pct ?? data.snap_pct) },
   ];
 
   const housingMetrics = housingSource ? [
@@ -81,10 +92,42 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
     { label: 'Rent Burdened (>30%)', value: safe(housingSource.rent_burdened_pct), highlight: true },
   ] : [];
 
+  const activeLabel = selectedLang
+    ? `${selectedLang} LEP speakers`
+    : hasProficiencyGroups
+    ? PROFICIENCY_GROUPS.find(g => g.key === selectedGroup)?.label ?? ''
+    : '';
+
   return (
     <div className="space-y-4">
 
-      {/* Language Selector — only show if detailed data exists */}
+      {/* Proficiency Group Toggle — county/city only */}
+      {hasProficiencyGroups && !selectedLang && (
+        <Card>
+          <CardHeader className="pb-2">
+            <CardTitle className="text-base font-sans">View Data By Proficiency Group</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="flex flex-wrap gap-2">
+              {PROFICIENCY_GROUPS.map(g => (
+                <button
+                  key={g.key}
+                  onClick={() => setSelectedGroup(g.key)}
+                  className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+                    selectedGroup === g.key
+                      ? 'bg-[#2E8B9A] text-white'
+                      : 'border border-border text-muted-foreground hover:bg-muted'
+                  }`}
+                >
+                  {g.label}
+                </button>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+      )}
+
+      {/* Language Selector */}
       {hasDetailedLangData && (
         <Card>
           <CardHeader className="pb-2">
@@ -107,9 +150,7 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
                   key={lang.name}
                   onClick={() => setSelectedLang(lang.name === selectedLang ? null : lang.name)}
                   className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors border-2 ${
-                    selectedLang === lang.name
-                      ? 'text-white'
-                      : 'bg-muted text-muted-foreground hover:bg-muted/80'
+                    selectedLang === lang.name ? 'text-white' : 'bg-muted text-muted-foreground hover:bg-muted/80'
                   }`}
                   style={selectedLang === lang.name ? {
                     backgroundColor: COLORS[i % COLORS.length],
@@ -140,7 +181,7 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
           <Card>
             <CardHeader className="pb-2">
               <CardTitle className="text-base font-sans">
-                Education Attainment {selectedLang ? `— ${selectedLang}` : ''}
+                Education Attainment {activeLabel ? `— ${activeLabel}` : ''}
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -150,11 +191,10 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
                     <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
                     <XAxis dataKey="name" tick={{ fontSize: 9 }} />
                     <YAxis tickFormatter={(v) => `${v}%`} tick={{ fontSize: 10 }} />
-                    <Tooltip
-                      formatter={(value: number) => [`${value.toFixed(1)}%`, '']}
-                      contentStyle={{ backgroundColor: 'hsl(var(--card))', border: '1px solid hsl(var(--border))', borderRadius: '8px' }}
+                    <Tooltip content={() => <></>} />
+                    <Bar dataKey="value" fill="#2E8B9A" radius={[4, 4, 0, 0]}
+                      label={{ position: 'top', formatter: (v: number) => `${v.toFixed(1)}%`, fontSize: 13, fill: 'hsl(var(--foreground))' }}
                     />
-                    <Bar dataKey="value" fill="#2E8B9A" radius={[4, 4, 0, 0]} />
                   </BarChart>
                 </ResponsiveContainer>
               </div>
@@ -167,7 +207,7 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
           <Card>
             <CardHeader className="pb-2">
               <CardTitle className="text-base font-sans">
-                Poverty Level {selectedLang ? `— ${selectedLang}` : ''}
+                Poverty Level {activeLabel ? `— ${activeLabel}` : ''}
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -177,11 +217,10 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
                     <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
                     <XAxis dataKey="name" tick={{ fontSize: 9 }} />
                     <YAxis tickFormatter={(v) => `${v}%`} tick={{ fontSize: 10 }} />
-                    <Tooltip
-                      formatter={(value: number) => [`${value.toFixed(1)}%`, '']}
-                      contentStyle={{ backgroundColor: 'hsl(var(--card))', border: '1px solid hsl(var(--border))', borderRadius: '8px' }}
+                    <Tooltip content={() => <></>} />
+                    <Bar dataKey="value" fill="#E57373" radius={[4, 4, 0, 0]}
+                      label={{ position: 'top', formatter: (v: number) => `${v.toFixed(1)}%`, fontSize: 13, fill: 'hsl(var(--foreground))' }}
                     />
-                    <Bar dataKey="value" fill="#E57373" radius={[4, 4, 0, 0]} />
                   </BarChart>
                 </ResponsiveContainer>
               </div>
@@ -194,20 +233,15 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
       <Card>
         <CardHeader className="pb-2">
           <CardTitle className="text-base font-sans">
-            Digital & Resource Access {selectedLang ? `— ${selectedLang}` : ''}
+            Digital & Resource Access {activeLabel ? `— ${activeLabel}` : ''}
           </CardTitle>
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {accessMetrics.map(({ label, value, benchmark }) => (
+            {accessMetrics.map(({ label, value }) => (
               <div key={label} className="p-3 rounded-lg bg-muted/50">
                 <p className="text-xs text-muted-foreground mb-1">{label}</p>
-                <p className={`text-lg font-semibold ${benchmark && value > benchmark ? 'text-destructive' : 'text-foreground'}`}>
-                  {formatPercent(value)}
-                </p>
-                {benchmark > 0 && (
-                  <p className="text-xs text-muted-foreground">County: {formatPercent(benchmark)}</p>
-                )}
+                <p className="text-lg font-semibold text-foreground">{formatPercent(value)}</p>
               </div>
             ))}
           </div>
@@ -219,7 +253,7 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
         <Card>
           <CardHeader className="pb-2">
             <CardTitle className="text-base font-sans">
-              Housing {selectedLang ? `— ${selectedLang}` : ''}
+              Housing {activeLabel ? `— ${activeLabel}` : ''}
             </CardTitle>
           </CardHeader>
           <CardContent>
