@@ -158,14 +158,14 @@ export function ProfileCard({ data, onCompare, isComparing }: ProfileCardProps) 
           </h3>
           <div className="grid grid-cols-2 gap-3">
             <StatItem 
-              label="No Internet" 
+              label="No Internet Access" 
               value={formatPercent(data.no_internet_pct)} 
             />
             {data.access && (
               <>
-                <StatItem label="No Computer" value={formatPercent(data.access.no_computer_pct)} />
+                <StatItem label="No Computer Access" value={formatPercent(data.access.no_computer_pct)} />
                 <StatItem 
-                  label="Linguistically Isolated" 
+                  label="In a Linguistically Isolated Household" 
                   value={formatPercent(data.access.linguistically_isolated_pct)}
                 />
               </>
