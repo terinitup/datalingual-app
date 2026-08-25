@@ -109,7 +109,7 @@ export function ProfileCard({ data, onCompare, isComparing }: ProfileCardProps) 
                 See Language & Demographics tab below for all {data.languages.length} languages.
               </p>
             )}
-          </section>
+        </section>
         )}
         <section>
           <h3 className="font-sans text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-3 flex items-center gap-2">
@@ -117,11 +117,6 @@ export function ProfileCard({ data, onCompare, isComparing }: ProfileCardProps) 
             Economics
           </h3>
           <div className="grid grid-cols-2 gap-3">
-            <StatItem label="Median HH Income" value={formatCurrency(data.median_hh_income)} />
-            <StatItem 
-              label="Poverty Rate" 
-              value={formatPercent(data.poverty_pct)} 
-            />
             <StatItem 
               label="SNAP Recipients" 
               value={formatPercent(data.snap_pct)} 
