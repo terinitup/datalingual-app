@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { GeoArea, LanguageData } from '@/lib/types';
+import { GeoArea, LA_COUNTY_BENCHMARK, LanguageData } from '@/lib/types';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import {
   BarChart,
@@ -68,10 +68,10 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
   const housingSource = selectedLangData?.housing ?? data.housing;
 
   const accessMetrics = [
-    { label: 'In a Linguistically Isolated Household', value: safe(accessSource?.linguistically_isolated_pct) },
-    { label: 'No Internet Access', value: safe(accessSource?.no_internet_pct ?? data.no_internet_pct) },
-    { label: 'No Computer Access', value: safe(accessSource?.no_computer_pct) },
-    { label: 'SNAP Recipients', value: safe(accessSource?.snap_pct ?? data.snap_pct) },
+    { label: 'Linguistically Isolated', value: safe(accessSource?.linguistically_isolated_pct), benchmark: safe(LA_COUNTY_BENCHMARK.linguistically_isolated_pct) },
+    { label: 'No Internet Access', value: safe(accessSource?.no_internet_pct ?? data.no_internet_pct), benchmark: safe(LA_COUNTY_BENCHMARK.no_internet_pct) },
+    { label: 'No Computer Access', value: safe(accessSource?.no_computer_pct), benchmark: 0 },
+    { label: 'SNAP Recipients', value: safe(accessSource?.snap_pct ?? data.snap_pct), benchmark: safe(LA_COUNTY_BENCHMARK.snap_pct) },
   ];
 
   const housingMetrics = housingSource ? [
@@ -151,11 +151,11 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
                     <XAxis dataKey="name" tick={{ fontSize: 9 }} />
                     <YAxis tickFormatter={(v) => `${v}%`} tick={{ fontSize: 10 }} />
                     <Tooltip
-  content={() => <></>}
-/>
-<Bar dataKey="value" fill="#2E8B9A" radius={[4, 4, 0, 0]}
-  label={{ position: 'top', formatter: (v: number) => `${v.toFixed(1)}%`, fontSize: 13, fill: 'hsl(var(--foreground))' }}
-/>                  </BarChart>
+                      formatter={(value: number) => [`${value.toFixed(1)}%`, '']}
+                      contentStyle={{ backgroundColor: 'hsl(var(--card))', border: '1px solid hsl(var(--border))', borderRadius: '8px' }}
+                    />
+                    <Bar dataKey="value" fill="#2E8B9A" radius={[4, 4, 0, 0]} />
+                  </BarChart>
                 </ResponsiveContainer>
               </div>
             </CardContent>
@@ -178,11 +178,10 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
                     <XAxis dataKey="name" tick={{ fontSize: 9 }} />
                     <YAxis tickFormatter={(v) => `${v}%`} tick={{ fontSize: 10 }} />
                     <Tooltip
-  content={() => <></>}
-/>
-                    <Bar dataKey="value" fill="#E57373" radius={[4, 4, 0, 0]}
-  label={{ position: 'top', formatter: (v: number) => `${v.toFixed(1)}%`, fontSize: 13, fill: 'hsl(var(--foreground))' }}
-/>
+                      formatter={(value: number) => [`${value.toFixed(1)}%`, '']}
+                      contentStyle={{ backgroundColor: 'hsl(var(--card))', border: '1px solid hsl(var(--border))', borderRadius: '8px' }}
+                    />
+                    <Bar dataKey="value" fill="#E57373" radius={[4, 4, 0, 0]} />
                   </BarChart>
                 </ResponsiveContainer>
               </div>
@@ -200,10 +199,15 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {accessMetrics.map(({ label, value }) => (
+            {accessMetrics.map(({ label, value, benchmark }) => (
               <div key={label} className="p-3 rounded-lg bg-muted/50">
                 <p className="text-xs text-muted-foreground mb-1">{label}</p>
-                <p className="text-lg font-semibold text-foreground">{formatPercent(value)}</p>
+                <p className={`text-lg font-semibold ${benchmark && value > benchmark ? 'text-destructive' : 'text-foreground'}`}>
+                  {formatPercent(value)}
+                </p>
+                {benchmark > 0 && (
+                  <p className="text-xs text-muted-foreground">County: {formatPercent(benchmark)}</p>
+                )}
               </div>
             ))}
           </div>
