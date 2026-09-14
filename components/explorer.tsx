@@ -23,7 +23,7 @@ export function Explorer() {
   const GEO_INFO: Record<GeoType, string> = {
     county: 'Showing LA County and Orange County. County-level data offers the most detailed language breakdowns (39+ groups) from IPUMS ACS 2019–2023.',
     city: 'Showing 11 major LA County cities. Not all cities are included due to data availability at the city level.',
-    puma: 'Showing 71 Public Use Microdata Areas (PUMAs) covering LA County — the smallest geography available in Census microdata. Data from IPUMS ACS 2020–2024.',
+    puma: 'Showing 71 Public Use Microdata Areas (PUMAs) covering LA County. Data from IPUMS ACS 2020–2024.',
     zip: '',
   };
   useEffect(() => {
