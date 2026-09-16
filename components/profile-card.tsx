@@ -168,6 +168,10 @@ export function ProfileCard({ data, onCompare, isComparing }: ProfileCardProps) 
                   label="In a Linguistically Isolated Household" 
                   value={formatPercent(data.access.linguistically_isolated_pct)}
                 />
+                <StatItem 
+                  label="In a SNAP-receiving household" 
+                  value={formatPercent(data.access.snap_pct ?? data.snap_pct)}
+                />
               </>
             )}
           </div>
