@@ -86,10 +86,10 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
   ];
 
   const housingMetrics = housingSource ? [
-    { label: 'Owned Home', value: safe(housingSource.owned_home_pct) },
-    { label: 'Renting (Paying)', value: safe(housingSource.rented_paying_pct) },
-    { label: 'Renting (No Payment)', value: safe(housingSource.rented_no_payment_pct) },
-    { label: 'Rent Burdened (>30%)', value: safe(housingSource.rent_burdened_pct), highlight: true },
+    { label: 'In an owned home', value: safe(housingSource.owned_home_pct) },
+    { label: 'In a rented home: Paying rent', value: safe(housingSource.rented_paying_pct) },
+    { label: 'In a rented home: Occupied without payment of rent', value: safe(housingSource.rented_no_payment_pct) },
+    { label: 'Share of renters for whom rent is more than 30% of household income', value: safe(housingSource.rent_burdened_pct), highlight: true },
   ] : [];
 
   const activeLabel = selectedLang
