@@ -151,7 +151,7 @@ export function DemographicsChart({ data, compareData }: DemographicsChartProps)
         <Card>
           <CardHeader className="pb-2">
           <CardTitle className="text-base font-sans">
-  Breakdown of {allLanguages.length} languages spoken by people with LEP
+  Breakdown of {allLanguages.length} languages spoken by population with LEP
 </CardTitle>
           </CardHeader>
           <CardContent>
