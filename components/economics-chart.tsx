@@ -82,7 +82,7 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
     { label: 'In a Linguistically Isolated Household', value: safe(accessSource?.linguistically_isolated_pct) },
     { label: 'No Internet Access', value: safe(accessSource?.no_internet_pct ?? data.no_internet_pct) },
     { label: 'No Computer Access', value: safe(accessSource?.no_computer_pct) },
-    { label: 'SNAP Recipients', value: safe(accessSource?.snap_pct ?? data.snap_pct) },
+    { label: 'In a SNAP-receiving household', value: safe(accessSource?.snap_pct ?? data.snap_pct ?? data.access?.snap_pct) },
   ];
 
   const housingMetrics = housingSource ? [
