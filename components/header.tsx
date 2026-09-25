@@ -97,19 +97,29 @@ export function Header() {
                 By mapping LEP populations alongside poverty, education, housing, and digital access indicators, DataLingual empowers organizations to identify underserved communities and direct resources where they are needed most.
               </p>
               <p>
-                Data is sourced from the American Community Survey (ACS) 2019–2023 5-year estimates via IPUMS and the U.S. Census Bureau.
+              Data is sourced from the American Community Survey (ACS). County and city
+profiles come from the Migration Policy Institute&apos;s <em>Characteristics by
+Language among Individuals with LEP</em> (ACS 2019–2023). PUMA-level data comes
+from IPUMS USA (ACS 2020–2024).
               </p>
               <div className="pt-2 border-t border-border space-y-3">
                 <p className="text-muted-foreground">Built by <span className="text-foreground font-medium">Terin Lee</span></p>
                 <p className="text-muted-foreground text-xs italic">&ldquo;Interpreting data. Serving communities.&rdquo;</p>
                 <div className="pt-2 border-t border-border">
-                  <p className="text-xs font-semibold text-foreground mb-2">Data Citation</p>
-                  <p className="text-xs text-muted-foreground mb-2">
-                    Steven Ruggles, Sarah Flood, Matthew Sobek, Daniel Backman, Grace Cooper, Julia A. Rivera Drew, Stephanie Richards, Renae Rodgers, Jonathan Schroeder, and Kari C.W. Williams. <em>IPUMS USA: Version 16.0 [dataset].</em> Minneapolis, MN: IPUMS, 2025.{' '}
-                    <a href="https://doi.org/10.18128/D010.V16.0" target="_blank" rel="noreferrer" className="underline hover:text-foreground">doi.org/10.18128/D010.V16.0</a>
-                  </p>
-                  <p className="text-xs text-muted-foreground">
-                    IPUMS USA, University of Minnesota,{' '}
+                <p className="text-xs font-semibold text-foreground mb-2">Data Citation</p>
+
+<p className="text-xs font-medium text-foreground mb-1">County &amp; City data</p>
+<p className="text-xs text-muted-foreground mb-3">
+  Migration Policy Institute (MPI). <em>Characteristics by Language among Individuals with Limited English Proficiency.</em> MPI tabulation of the U.S. Census Bureau&apos;s pooled American Community Survey (ACS) 2019–2023.
+</p>
+
+<p className="text-xs font-medium text-foreground mb-1">PUMA data</p>
+<p className="text-xs text-muted-foreground mb-2">
+  Steven Ruggles, Sarah Flood, Matthew Sobek, Daniel Backman, Grace Cooper, Julia A. Rivera Drew, Stephanie Richards, Renae Rodgers, Jonathan Schroeder, and Kari C.W. Williams. <em>IPUMS USA: Version 16.0 [dataset].</em> Minneapolis, MN: IPUMS, 2025.{' '}
+  <a href="https://doi.org/10.18128/D010.V16.0" target="_blank" rel="noreferrer" className="underline hover:text-foreground">doi.org/10.18128/D010.V16.0</a>
+</p>
+<p className="text-xs text-muted-foreground">
+  IPUMS USA, University of Minnesota,{' '}
                     <a href="https://www.ipums.org" target="_blank" rel="noreferrer" className="underline hover:text-foreground">www.ipums.org</a>
                   </p>
                 </div>
