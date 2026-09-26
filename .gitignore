@@ -14,3 +14,5 @@ next.user-config.*
 node_modules
 .next/
 .DS_Storepublic/data/*.bak-*
+.DS_Store
+**/.DS_Store
