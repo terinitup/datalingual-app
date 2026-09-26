@@ -22,7 +22,7 @@ export function Explorer() {
   const [colorMetric, setColorMetric] = useState<'population' | 'lep_pct'>('lep_pct');
   const GEO_INFO: Record<GeoType, string> = {
     county: 'Showing LA County and Orange County. County-level data offers the most detailed language breakdowns (39+ groups). Data from Migration Policy Institute (MPI), Characteristics by Language among Individuals with LEP (ACS 2019–2023).',
-    city: 'Showing 11 major LA County cities. Not all cities are included due to data availability at the city level. Data from Migration Policy Institute (MPI), Characteristics by Language among Individuals with LEP (ACS 2019–2023).',
+    city: 'Showing 24 California cities, including 11 in LA County. Not all cities are included due to data availability at the city level. Data from Migration Policy Institute (MPI), Characteristics by Language among Individuals with LEP (ACS 2019–2023).',
     puma: 'Showing 71 Public Use Microdata Areas (PUMAs) covering LA County. Data from IPUMS ACS 2020–2024.',
     zip: '',
   };
@@ -80,7 +80,7 @@ export function Explorer() {
         </div>
 
         <div className="text-sm text-muted-foreground">
-        {geographyType === 'city' ? '11' : data.length} {data.length !== 1 ? getGeographyPluralLabel(geographyType) : getGeographyLabel(geographyType)} available
+        {data.length} {data.length !== 1 ? getGeographyPluralLabel(geographyType) : getGeographyLabel(geographyType)} available
         </div>
       </div>
 
