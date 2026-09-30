@@ -84,8 +84,7 @@ export function Header() {
             >
               <X className="h-4 w-4 text-muted-foreground" />
             </button>
-            <h2 className="font-serif text-2xl font-bold text-foreground mb-1">DataLingual</h2>
-            <p className="text-sm text-muted-foreground italic mb-6">Interpreting data. Serving communities.</p>
+            <h2 className="font-serif text-2xl font-bold text-foreground mb-6">DataLingual</h2>
             <div className="space-y-4 text-sm text-foreground">
               <p>
                 DataLingual is an interactive data dashboard designed to help nonprofits, service providers, and community organizations understand the language access needs of communities across Los Angeles.
@@ -104,7 +103,6 @@ from IPUMS USA (ACS 2020–2024).
               </p>
               <div className="pt-2 border-t border-border space-y-3">
                 <p className="text-muted-foreground">Built by <span className="text-foreground font-medium">Terin Lee</span></p>
-                <p className="text-muted-foreground text-xs italic">&ldquo;Interpreting data. Serving communities.&rdquo;</p>
                 <div className="pt-2 border-t border-border">
                 <p className="text-xs font-semibold text-foreground mb-2">Data Citation</p>
 
