@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
-import { MapPin, BarChart3, Download, X, Clock } from 'lucide-react';
+import { MapPin, BarChart3, X, Clock } from 'lucide-react';
 
 export function Header() {
   const pathname = usePathname();
@@ -50,10 +50,7 @@ export function Header() {
           </div>
 
           <div className="flex items-center gap-2">
-            <Button variant="outline" size="sm" className="hidden sm:flex gap-2">
-              <Download className="h-4 w-4" />
-              Export
-            </Button>
+            
             <button
               onClick={() => setShowAbout(true)}
               className="flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold bg-[#2E8B9A] text-white hover:bg-[#267a88] shadow-md transition-colors"
