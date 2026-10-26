@@ -139,7 +139,7 @@ export function Explorer() {
         <div className="border-t border-border p-4 bg-muted/30">
           <Tabs defaultValue="demographics" className="w-full">
             <TabsList className="mb-4">
-            <TabsTrigger value="demographics">Languages Spoken</TabsTrigger>
+            <TabsTrigger value="demographics">Language Breakdown</TabsTrigger>
               <TabsTrigger value="economics">Economics & Wellbeing</TabsTrigger>
             </TabsList>
             <TabsContent value="demographics">
