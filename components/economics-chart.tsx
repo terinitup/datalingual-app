@@ -70,7 +70,7 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
   const povertyData = povSource ? [
     { name: '1–124% FPL', value: safe(povSource.band_1_124_pct) },
     { name: '125–199% FPL', value: safe(povSource.band_125_199_pct) },
-    { name: '200%+ FPL', value: safe((povSource as any).band_200_399_pct ?? (povSource as any).band_200plus_pct) },
+    { name: (povSource as any).band_200_399_pct != null ? '200–399% FPL' : '200%+ FPL', value: safe((povSource as any).band_200_399_pct ?? (povSource as any).band_200plus_pct) },
     { name: '400%+ FPL', value: safe(povSource.band_400plus_pct) },
   ] : [];
 
@@ -191,7 +191,7 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
                     <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
                     <XAxis dataKey="name" tick={{ fontSize: 9 }} />
                     <YAxis tickFormatter={(v) => `${v}%`} tick={{ fontSize: 10 }} />
-                    <Tooltip content={() => <></>} />
+                    
                     <Bar dataKey="value" fill="#2E8B9A" radius={[4, 4, 0, 0]}
                       label={{ position: 'top', formatter: (v: number) => `${v.toFixed(1)}%`, fontSize: 13, fill: 'hsl(var(--foreground))' }}
                     />
@@ -217,7 +217,7 @@ export function EconomicsChart({ data }: EconomicsChartProps) {
                     <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
                     <XAxis dataKey="name" tick={{ fontSize: 9 }} />
                     <YAxis tickFormatter={(v) => `${v}%`} tick={{ fontSize: 10 }} />
-                    <Tooltip content={() => <></>} />
+                    
                     <Bar dataKey="value" fill="#E57373" radius={[4, 4, 0, 0]}
                       label={{ position: 'top', formatter: (v: number) => `${v.toFixed(1)}%`, fontSize: 13, fill: 'hsl(var(--foreground))' }}
                     />

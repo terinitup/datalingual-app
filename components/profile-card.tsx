@@ -3,7 +3,7 @@
 import { GeoArea } from '@/lib/types';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Users, DollarSign, GraduationCap, Globe, Wifi, Languages } from 'lucide-react';
+import { Users,  Globe, Languages } from 'lucide-react';
 
 interface ProfileCardProps {
   data: GeoArea;
@@ -105,77 +105,13 @@ export function ProfileCard({ data, onCompare, isComparing }: ProfileCardProps) 
               ))}
             </div>
             {data.languages.length > 5 && (
-              <p className="text-xs text-muted-foreground mt-2 italic">
-                See Language & Demographics tab below for all {data.languages.length} languages.
-              </p>
-            )}
+  <p className="text-xs text-muted-foreground mt-2 italic">
+    See the Languages Spoken tab below for all {data.languages.length} languages.
+  </p>
+)}
         </section>
         )}
-        <section>
-          <h3 className="font-sans text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-3 flex items-center gap-2">
-            <DollarSign className="h-4 w-4" />
-            Economics
-          </h3>
-          <div className="grid grid-cols-2 gap-3">
-            <StatItem 
-              label="SNAP Recipients" 
-              value={formatPercent(data.snap_pct)} 
-            />
-          </div>
-          
-          {data.poverty && (
-            <div className="mt-3">
-              <p className="text-xs text-muted-foreground mb-2">Poverty Level Distribution</p>
-              <div className="space-y-2">
-                <ProgressItem label="Below 125% FPL" value={data.poverty.band_1_124_pct} color="destructive" />
-                <ProgressItem label="125-199% FPL" value={data.poverty.band_125_199_pct} color="warning" />
-                <ProgressItem label="200-399% FPL" value={data.poverty.band_200_399_pct} />
-                <ProgressItem label="400%+ FPL" value={data.poverty.band_400plus_pct} color="success" />
-              </div>
-            </div>
-          )}
-        </section>
-
-        <section>
-          <h3 className="font-sans text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-3 flex items-center gap-2">
-            <GraduationCap className="h-4 w-4" />
-            Education
-          </h3>
-          {data.education && (
-            <div className="space-y-2">
-              <ProgressItem label="Under 9th Grade" value={data.education.under_9th_pct} color="destructive" />
-              <ProgressItem label="Incomplete HS" value={data.education.incomplete_hs_pct} color="warning" />
-              <ProgressItem label="HS / Some College" value={data.education.hs_some_college_pct} />
-              <ProgressItem label="Bachelor&apos;s or Higher" value={data.education.ba_higher_pct} color="success" />
-            </div>
-          )}
-        </section>
-
-        <section>
-          <h3 className="font-sans text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-3 flex items-center gap-2">
-            <Wifi className="h-4 w-4" />
-            Digital & Resource Access
-          </h3>
-          <div className="grid grid-cols-2 gap-3">
-            <StatItem 
-              label="No Internet Access" 
-              value={formatPercent(data.no_internet_pct)} 
-            />
-            {data.access && (
-              <>
-                <StatItem label="No Computer Access" value={formatPercent(data.access.no_computer_pct)} />
-                <StatItem 
-                  label="In a Linguistically Isolated Household" 
-                  value={formatPercent(data.access.linguistically_isolated_pct)}
-                />
-                <StatItem 
-                  label="In a SNAP-receiving household" 
-                  value={formatPercent(data.access.snap_pct ?? data.snap_pct)}
-                />
-              </>
-            )}
-          </div>
-        </section>
+        
       </CardContent>
     </Card>
   );
