@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
-import { MapPin, BarChart3, GitCompare, Download, X, Clock } from 'lucide-react';
+import { MapPin, BarChart3, Download, X, Clock } from 'lucide-react';
 
 export function Header() {
   const pathname = usePathname();
@@ -35,16 +35,7 @@ export function Header() {
                   Explorer
                 </Button>
               </Link>
-              <Link href="/compare">
-                <Button
-                  variant={pathname === '/compare' ? 'secondary' : 'ghost'}
-                  size="sm"
-                  className="gap-2"
-                >
-                  <GitCompare className="h-4 w-4" />
-                  Compare
-                </Button>
-              </Link>
+              
               <Link href="/historical">
   <Button
     variant={pathname === '/historical' ? 'secondary' : 'ghost'}
