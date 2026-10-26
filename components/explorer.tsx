@@ -8,10 +8,10 @@ import { DemographicsChart } from './demographics-chart';
 import { EconomicsChart } from './economics-chart';
 import { GeographySelector } from './geography-selector';
 import { Card, CardContent } from '@/components/ui/card';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Skeleton } from '@/components/ui/skeleton';
-import { Users, DollarSign, Globe } from 'lucide-react';
+
 
 export function Explorer() {
   const [geographyType, setGeographyType] = useState<GeoType>('puma');
@@ -19,7 +19,7 @@ export function Explorer() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [showGeoInfo, setShowGeoInfo] = useState(true);
-  const [colorMetric, setColorMetric] = useState<'population' | 'lep_pct'>('lep_pct');
+  const colorMetric = 'lep_pct' as const;
   const GEO_INFO: Record<GeoType, string> = {
     county: 'Showing LA County and Orange County. County-level data offers the most detailed language breakdowns (39+ groups). Data from Migration Policy Institute (MPI), Characteristics by Language among Individuals with LEP (ACS 2019–2023).',
     city: 'Showing 24 California cities, including 11 in LA County. Not all cities are included due to data availability at the city level. Data from Migration Policy Institute (MPI), Characteristics by Language among Individuals with LEP (ACS 2019–2023).',
@@ -57,26 +57,7 @@ export function Explorer() {
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
           <GeographySelector selected={geographyType} onChange={setGeographyType} />
           
-          <Select value={colorMetric} onValueChange={(v) => setColorMetric(v as typeof colorMetric)}>
-            <SelectTrigger className="w-48">
-              <SelectValue placeholder="Color by..." />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="population">
-                <span className="flex items-center gap-2">
-                  <Users className="h-4 w-4" />
-                  Population
-                </span>
-              </SelectItem>
-              
-              <SelectItem value="lep_pct">
-                <span className="flex items-center gap-2">
-                  <Globe className="h-4 w-4" />
-                  LEP Rate
-                </span>
-              </SelectItem>
-            </SelectContent>
-          </Select>
+          
         </div>
 
         <div className="text-sm text-muted-foreground">
