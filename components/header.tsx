@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
-import { MapPin, BarChart3, History, X } from 'lucide-react';
+import { X } from 'lucide-react';
 
 export function Header() {
   const pathname = usePathname();
@@ -15,12 +15,9 @@ export function Header() {
       <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between px-6 max-w-none">
           <div className="flex items-center gap-6">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-primary">
-                <MapPin className="h-4 w-4 text-primary-foreground" />
-              </div>
+            <Link href="/" className="flex items-center">
               <span className="font-serif text-xl font-bold text-foreground">
-                DataLingual LA
+                DataLingual
               </span>
             </Link>
 
@@ -31,7 +28,6 @@ export function Header() {
                   size="sm"
                   className="gap-2"
                 >
-                  <BarChart3 className="h-4 w-4" />
                   Explorer
                 </Button>
               </Link>
@@ -41,7 +37,6 @@ export function Header() {
                   size="sm"
                   className="gap-2"
                 >
-                  <History className="h-4 w-4" />
                   Historical Demographics
                 </Button>
               </Link>
